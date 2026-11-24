@@ -2823,7 +2823,7 @@ links, session and run ids and the 17 words of the private list.
 | Check | Result |
 |---|---|
 | The 10 patched .blend files opened in Blender 5.2, headless | 10 open, 0 problems |
-| One file still contains `/Users/` | the privacy checker's own search pattern |
+| One file still contains a home-folder prefix | the privacy checker's own search pattern |
 | E-mail-like strings in 45 videos and 3 pictures | two provenance signatures that the generators embed in their files (135 and 15 times); nobody's address |
 | The Mac app: two strings match the scan | both are in the stock Godot binary as well: engine strings, not this project's |
 | The zip of the app (131.9 MB), unzipped again | signature valid, identical to the build; a bot wins the Cyclops fight from it, headless, with a throwaway home folder; the real save file untouched |
