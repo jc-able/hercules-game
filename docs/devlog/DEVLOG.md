@@ -20,6 +20,7 @@
 | Second day | Mon Nov 23, 8:40 AM: JC answers "Polish them now" (P05), then at 8:46 AM asks for natural animations (P06). Chapters 11-12. At 11:26 AM the last fixes were running; the app rebuild and the lead's last look come after this devlog pass |
 | JC plays it | Mon Nov 23, 12:51 PM: "Go ahead and launch the game for me to play test" (P07); he plays the rebuilt app for 18 minutes, recording his screen and voice, and at 1:12 PM writes "Everything looks good" with six small points (P08). Chapter 13. At 2:23 PM the fixes had passed the final check; the app rebuild comes after this devlog pass |
 | Approved and public | Mon Nov 23, 7:20 PM: JC plays the build rebuilt at 2:50 PM and writes "Game looks good. Go ahead, come in and push." (P12). 7:21 PM: pushed to a private repo. 8:32 PM: the public repo <https://github.com/jc-able/hercules-game> (MIT for the code, CC BY 4.0 for the art) with release v0.1.0, the Mac app as a 132 MB download. Chapter 14 |
+| On the API (what-if) | Counted at 8:58 PM Nov 23 for JC's voiceover (P14): 28.43 h start to finish, 15.87 h active (13.12 h on the game itself); 2,936.57 M tokens; **1,192.55 USD at API list price** (the lead on Fable 5.2: 188.08; the 225 agents on Opus 5.5: 1,004.47). It ran on his subscription. Chapter 14, "The final count" |
 | Last updated | Mon Nov 23 2026, about 8:45 PM EST (Chapter 14). The time, agent and token rows below stop at 2:38 PM; Chapter 14 has the evening and the whole-project count at 8:37 PM |
 | Engine / tools | Godot 4.7.2 (GDScript), Blender 5.2.2 headless, Higgsfield (Meshy 7, Hunyuan3D v3, Seedance 2.5, Nano Banana Pro, Mirelo, ElevenLabs Music), Python |
 | What was made | 5 characters generated and rigged (Hercules, Four-Armed Cyclops, Medusa, nine-headed Hydra, Pegasus), 42 Seedance reference videos (33 on Nov 22, 9 from natural stances on Nov 23), 53 clips in the game files, 18 props, 72 sound generations (62 sounds in the game), 3 boss fights, a world with flight on Pegasus, a macOS app (232 MB, rebuilt 11:42 AM Nov 23 with the morning's work, the build JC played; rebuilt again at 2:50 PM with the Chapter 13 fixes: the build he approved at 7:20 PM and the one in the public release) |
@@ -33,7 +34,7 @@
 | Higgsfield credits | game: 2,018.29 (ledger 1,928.29 quoted over 163 jobs + 90 for three Meshy multi-image jobs the ledger did not price, at the catalogue price of 30 each). Of that, Nov 22: 1,748.29; Nov 23: 270 (nine Seedance videos, no retakes). Trailer before the game: 835 (Claude's reports). Total about 2,853 |
 | Workflows | Nov 22: 16 (props, foundation, rigs, modules, ride sheet, 3 animation waves, ride clip, integration 1, finalize, devlog 1, integration 2, QA, polish 1, devlog 2). Nov 23: polish 2, natural stance, natural re-base, natural animate (2 runs), natural integrate (2 runs, the second with final check 2), natural clip fix, last fixes, devlog 3; afternoon: feedback 2 (intake, 4 fixers, 4 reviewers, 4 re-fixers, final check 3, devlog 13) |
 | Weekly usage | all models 25 % before the build -> 35 % at 7:01 PM -> 40 % at 7:36 PM -> 45 % at 8:09 PM -> 58 % at 11:01 PM (before the play-test) -> 63 % at 1:33 AM (after the last fix); no reading recorded on Nov 23 |
-| JC's messages | 8 (P01-P08): 4 on Nov 22 (the last at 5:33 PM), 4 on Nov 23 (a reply button at 8:40 AM, a message typed while Claude worked at 8:46 AM, "launch the game" at 12:51 PM, his play-test feedback at 1:12 PM), plus 28 lines he spoke in his play-test recording (S01-S28). Claude asked 3 questions or offers (Q01 unanswered, Q02 answered by P05, Q03 never answered). Monday evening added five messages (P09-P13), one question (Q04, answered by P13) and the first multiple-choice card (AQ1) |
+| JC's messages | 8 (P01-P08): 4 on Nov 22 (the last at 5:33 PM), 4 on Nov 23 (a reply button at 8:40 AM, a message typed while Claude worked at 8:46 AM, "launch the game" at 12:51 PM, his play-test feedback at 1:12 PM), plus 28 lines he spoke in his play-test recording (S01-S28). Claude asked 3 questions or offers (Q01 unanswered, Q02 answered by P05, Q03 never answered). Monday evening added six messages (P09-P14), two questions (Q04, answered by P13; Q05) and the first multiple-choice card (AQ1) |
 
 Time and tokens: `session_stats.py` over the session transcript. "Nov 22" runs up to 1:40 AM (the hand-over; final count).
 "Nov 23" runs from 8:40 AM (P05) to 2:38 PM, while the Chapter 13 devlog agent was still writing (it is counted only up to
@@ -2893,3 +2894,70 @@ agent-hours, 2,931.34 M tokens in total, 14.73 M output (lead 336.24 M with 938.
 ### Show
 The public repo page and its release (to record, signed out); `git clone`, the one-time import and a bot fight in a
 terminal (to record); the explainer video itself. No new pictures in `media/` for this chapter.
+
+### The final count (P14, counted at 8:58 PM)
+At 8:54 PM JC asked for the steps, the time, the tokens and the API price in a form he can read in his voiceover:
+> Okay, that's good. Now just give me a simple bulletin point of the steps we took. And also provide me with how much time you worked and how many tokens it used or you used in total, and how much that would cost an API cost for Fable 5.2 running on max efforts, ultra code. Also differentiate between total time between start to finish and total time actually actively working on the game by your side. And then total tokens used along with the price. You can list them here simply in a bulletin point list, easy for me to read for the voiceover for the YouTube video I'm about to post. — P14
+
+The lead counted with a new script: the usage of every assistant message in the lead transcript and in the 225 agent
+transcripts, once per message id, with the cache writes split by lifetime. The totals equal the stats tool's to the
+token. The prices were read on the live pricing page at 8:57 PM. Before answering, one agent recounted from the raw
+transcripts with its own script and another checked the steps list against this devlog (D137).
+
+**The steps**
+1. A 15-second concept trailer on Higgsfield (Seedance 2.5) to set the look. JC liked the art but not the look: a
+   side-on fight with bosses about Hercules's size. It was remade as three short fights with the camera right behind
+   Hercules and the boss towering over him, and that became the reference for the game.
+2. One long request for the game, turned into a written contract and a plan that split the work between agents.
+3. Characters and props: his character sheets turned into 3D models on Higgsfield, two candidates per character from
+   two different generators, the better one kept. 5 characters and 18 props.
+4. Rigging: Hercules came auto-rigged from Meshy; the agents built the four creature rigs in Blender.
+5. His animation method: a front-and-side sheet of the rigged model, a Seedance 2.5 video at 480p, keyframes matched
+   to the video. 33 reference videos the first night, 42 in all.
+6. The game in Godot 4.7.2: combat, three boss fights (a four-armed Cyclops, Medusa, a nine-headed Hydra), the world
+   with flight on Pegasus, and bots that play the game to test it.
+7. Sound: 57 effects and 5 music tracks generated on Higgsfield.
+8. Every stage went through the same loop: one agent builds, a second one reviews it independently, then a fix.
+9. Integration and an AI play-test: six AI play-testers and the lead filed 54 findings (19 major, no blockers); every
+   major one was fixed, and the Mac app was built.
+10. The lead's last look before the hand-over: an item filed as minor meant Hercules ran side-on while circling a boss.
+    Fixed in code in about 11 minutes; first hand-over at 1:45 AM.
+11. Day two, morning: nine open items polished, and the stiff animations fixed. The cause was the first frame of the
+    method: the sheets showed the rest pose. Each character got a natural stance and 9 new videos, and 50 clips were
+    re-keyed or re-based.
+12. Day two, afternoon: JC played it himself for 18 minutes on a recording and gave six small points (the sword grip,
+    getting on and off the horse, flight, the creatures on their islands, hit effects, clipping). Five are fixed or
+    mostly fixed; the creatures show clearly for the Cyclops and small for the other two.
+13. Day two, evening: "Game looks good", the push, a clean public repo with the Mac app as a download, a 3-minute
+    explainer narrated by Claude (review cut done, the 4K master waits for his go), and this devlog of 14 chapters.
+
+**Time**
+| | |
+|---|---|
+| Start to finish | 28.43 h on the clock (28 h 26 min): Sun Nov 22, 4:31 PM to Mon Nov 23, 8:57 PM |
+| Actively working | 15.87 h (15 h 52 min). The other 12.56 h nothing ran: 6.9 h of night after the hand-over, 4.08 h on Monday afternoon and 1.3 h around his play-test waiting for JC, 0.27 h during the trailer |
+| Of the active time | the game itself 13.12 h (5:32 PM Nov 22 to 2:52 PM Nov 23); the trailer before it 0.57 h; the evening (explainer video, push, public release, this count) 2.00 h |
+| Parallel work | 225 agents, 59.63 agent-hours |
+
+**Tokens and the price at API list rates** (USD per million tokens. Fable 5.2: input 8, 5-minute cache write 10, 1-hour
+cache write 16, cache read 0.20, output 40. Opus 5.5: input 4, 5-minute cache write 5, 1-hour cache write 8, cache read
+0.20, output 20)
+
+| | Model | Messages | Cache write | Cache read | Output | Total tokens | List price (USD) |
+|---|---|---|---|---|---|---|---|
+| The lead | Claude Fable 5.2, Ultracode on, max effort (88 % of its requests; the rest at xhigh) | 604 | 5.085 M (1-hour) | 335.40 M | 0.991 M | 341.47 M | 188.08 |
+| 225 agents | Claude Opus 5.5, high effort | 14,219 | 44.241 M (5-minute) | 2,537.04 M | 13.787 M | 2,595.10 M | 1,004.47 |
+| **Total** | | 14,823 | 49.33 M | 2,872.44 M | 14.78 M | **2,936.57 M** | **1,192.55** |
+
+Uncached input is 29.8 thousand tokens in all (0.12 USD). By kind: cache reads 574.49, output 315.38, 5-minute cache
+writes 221.20, 1-hour cache writes 81.36. By phase: the trailer 11.89; the game 1,089.47 (first night 694.15, day two
+395.32); the evening 91.19. What-if, the same tokens with every agent on Fable 5.2 as well: 1,689.62.
+
+Not in the count: two context compactions of the lead (0.97 M tokens re-read each) leave no usage record; about 1 to
+2 USD more if they were cache reads, as is usual (an estimate). Every request ran at standard speed with global routing,
+and there are no web-search charges. Of the 2,936.57 M tokens, 2,872.44 M (97.8 %) are cached context read again; 64.13 M
+are new (input, cache writes and output). These are what-if prices: the build ran on JC's Claude subscription, not on API
+billing. Higgsfield credits are separate (2,018.29 for the game, 835 for the trailer).
+
+The independent recount (its own script, the prices fetched by itself) returned the same figures to the cent. The
+fact-check of the steps list found no wrong statement and six imprecise ones; the list above is the corrected wording.

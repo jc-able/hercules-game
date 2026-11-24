@@ -234,6 +234,10 @@ one's verdict -> private first, a fresh download compared byte for byte, then pu
 **Numbers on screen:** 64 minutes from "yes" to public; 4,150 files, 913 MB; 3 commits, no e-mail address in any of
 them; 0 private strings in the download; a 132 MB Mac app.
 
+**The bill, if this had run on the API** (Chapter 14, "The final count"): 28 hours 26 minutes start to finish, 15 hours
+52 minutes of it actively working; 2.94 billion tokens; 1,193 dollars at list price (188 for the lead on Fable 5.2,
+1,004 for the 225 agents on Opus 5.5). It ran on the subscription, so nobody paid that bill.
+
 **To record:** the public repo page and its release (signed out), then `git clone`, the one-time import and a bot fight
 in a terminal.
 

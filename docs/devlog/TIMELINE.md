@@ -191,6 +191,9 @@ workflow journals, the lead's raw log and git. P = prompt, D = decision (see PRO
 | 8:31 PM | Release v0.1.0 with the Mac app |
 | 8:32 PM | **The repo is switched to public.** Checked signed out: the page, the README, the release download (checksum equal). Third commit: GitHub now shows the licence as MIT (D136) |
 | 8:36 PM | The explainer workflow is done: review cut 2:59.5 at 1080p, 10 QA findings fixed, sent to JC |
+| 8:43 PM | The lead's report on the public repo and the explainer video; it asks Q05 (the 4K render) |
+| 8:54 PM | **P14**: JC asks for the steps, the time, the tokens and the API price, to read in his voiceover |
+| 8:58 PM | The count is fixed at this minute (D137): 28.43 h start to finish, 15.87 h active, 2,936.57 M tokens, 1,192.55 USD at API list price. An independent recount and a fact-check of the steps list run before the answer |
 
 ## Per phase: time, agents, tokens
 

@@ -292,6 +292,20 @@ pushed the whole history, 43 commits (D126). Its report at 7:23 PM ended with Q0
 privacy audit, a fix pass) and at 7:30 PM, while it ran, asked JC two multiple-choice questions (AQ1). The copy went
 public at 8:32 PM as <https://github.com/jc-able/hercules-game>, with the Mac app as a download. DEVLOG Chapter 14.
 
+### Q05 · Mon Nov 23 2026, 8:43 PM EST · end of the report on the public repo and the explainer video
+> "Is the explainer review cut approved for the 4K render, or do you want changes first?"
+
+**Answer:** P14 begins "Okay, that's good." and goes on to another request. The lead did not take that as the go for
+the 4K render and asked again at the end of its answer.
+
+### P14 · Mon Nov 23 2026, 8:54 PM EST
+> Okay, that's good. Now just give me a simple bulletin point of the steps we took. And also provide me with how much time you worked and how many tokens it used or you used in total, and how much that would cost an API cost for Fable 5.2 running on max efforts, ultra code. Also differentiate between total time between start to finish and total time actually actively working on the game by your side. And then total tokens used along with the price. You can list them here simply in a bulletin point list, easy for me to read for the voiceover for the YouTube video I'm about to post.
+
+**What happened next:** the lead counted every token again with a new script (cache writes split by lifetime), read the
+prices on the live pricing page, fixed the count at 8:58 PM and had it checked before answering: one agent recounted
+from the raw transcripts with its own script, another checked the steps list against this devlog (D137). The answer is
+in DEVLOG Chapter 14, "The final count".
+
 ## Multiple-choice questions (AQ)
 One. Until Monday evening Claude had not used a multiple-choice question tool in the build (checked at 2:30 PM Mon
 Nov 23: no such call in the transcript); Q02 was the only question that came with buttons.

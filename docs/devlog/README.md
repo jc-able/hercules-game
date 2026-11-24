@@ -24,8 +24,8 @@ for the art) with the Mac app as a download.
 |---|---|---|
 | [VIDEO_OUTLINE.md](VIDEO_OUTLINE.md) | Seven episodes (hooks, beats, media files, numbers on screen, clips to record yourself; episode 7 is built on your own recorded play-test), a single-video cut and 15 Shorts ideas. | Planning and editing. Start here. |
 | [DEVLOG.md](DEVLOG.md) | The story in fourteen chapters: what was asked (quotes), decisions, what was built, numbers, time and tokens, problems and fixes, talking points, media. Also the project-at-a-glance totals and the Higgsfield credits table (by model and by purpose). | The script source. |
-| [PROMPTS.md](PROMPTS.md) | Every message JC sent (P01-P13; the Monday-evening ones P09-P13 are in Part 5), word for word with typos: the pasted trailer prompt, the feedback on the first trailer, the game request, the reply button "Polish them now", the stiffness message typed while Claude worked, "launch the game" and his play-test feedback; the 28 lines he spoke in his play-test recording (S01-S28); the interrupt (X01); Claude's questions and offers (Q01-Q04) and the one multiple-choice card (AQ1: licence and how to publish). | Exact quotes for on-screen text. |
-| [DECISIONS.md](DECISIONS.md) | 136 decisions (D01-D136): time, options, choice, who decided (JC, the lead, or a named agent), why, chapter. | "Why did you do it that way?" moments. |
+| [PROMPTS.md](PROMPTS.md) | Every message JC sent (P01-P14; the Monday-evening ones P09-P14 are in Part 5), word for word with typos: the pasted trailer prompt, the feedback on the first trailer, the game request, the reply button "Polish them now", the stiffness message typed while Claude worked, "launch the game" and his play-test feedback; the 28 lines he spoke in his play-test recording (S01-S28); the interrupt (X01); Claude's questions and offers (Q01-Q05) and the one multiple-choice card (AQ1: licence and how to publish). | Exact quotes for on-screen text. |
+| [DECISIONS.md](DECISIONS.md) | 137 decisions (D01-D137): time, options, choice, who decided (JC, the lead, or a named agent), why, chapter. | "Why did you do it that way?" moments. |
 | [TIMELINE.md](TIMELINE.md) | One line per event with its time, and time/agents/tokens per phase and for the whole session. | Timestamps and "how long did it take". |
 | [MEDIA_INDEX.md](MEDIA_INDEX.md) | Captioned list of every image and clip in `media/`, by chapter, before/after pairs marked (kept by the media agent). | Finding the right picture fast. |
 | `media/` | JPEGs (≤ 1600 px) and MP4 clips (≤ 1080p) with posters, one folder per chapter (`01_trailer` ... `13_owner_feedback`; chapter 13 also has clips from your own play-test recording, with your voice). | B-roll, before/after wipes. |
@@ -73,6 +73,10 @@ for the art) with the Mac app as a download.
   with no e-mail address in them, and a 132 MB Mac app on the release page. No Higgsfield credits.
 - Whole project at 8:37 PM Nov 23: 13 messages from JC, 225 agents, 59.63 agent-hours, 2,931.34 M tokens (14.73 M
   output), 28.11 h wall clock (15.55 h active).
+- What it would cost on the API (list price, counted at 8:58 PM Nov 23): 1,192.55 USD for 2,936.57 M tokens: 188.08 for
+  the lead (Fable 5.2, max effort) and 1,004.47 for the 225 agents (Opus 5.5, high effort); 1,689.62 if every agent had
+  run on Fable 5.2 too. 28.43 h start to finish, 15.87 h active, 13.12 h of that on the game itself. It ran on JC's
+  subscription: these are what-if prices. Chapter 14, "The final count".
 
 ## Words used throughout
 - **JC:** the owner. **The lead:** the main Claude Code session (Fable 5.2). **Agents:** extra Claude sessions (Opus 5.5)
