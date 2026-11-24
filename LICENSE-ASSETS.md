@@ -13,4 +13,8 @@ You may share and adapt them for any purpose, including commercially, as long as
 
 How they were made: the models, reference videos, images, sound effects and music were generated with AI tools through
 Higgsfield (the devlog lists the model and the cost of every job) and then rigged, keyframed and edited for this game.
-The code is under the MIT licence: see `LICENSE`.
+
+## What each licence covers
+- **MIT (`LICENSE`)**: the code and tools: everything under `game/scripts`, `game/shaders` and `tools/`, and the scripts
+  under `art_src/` and `docs/`.
+- **CC BY 4.0 (this file)**: everything else: the art, animations, sound and devlog media listed above.
