@@ -1,0 +1,3 @@
+medusa_gaze_lunge_cut.jpg | real Medusa GLB: upright gaze windup (eyes glowing, fan), the lunge down the beam after fire_start, a side-of-the-neck cut on the real neck, death | beam = clip fire_start 2.00 -> fire_end 3.25 stretched to 1.0 s; lunge 83.8 deg puts the neck bone at 2.15 m; flank bot 6/6 neck cuts, 0 hits
+medusa_reflect_stun_floor.jpg | reflected gaze -> stun_start -> head on the floor, hero cuts the neck | stunned clip neck socket 0.95 m high, 4.55 m in front (sword box reaches 2.9 m); 2 cuts 0.25 s after the head lands
+medusa_death_tail_petrify.jpg | (before the death fix) death from the stunned pose rose first; tail swipe ring r 9.3 m; petrified hero in the beam | fix: death clip joined at 2.25 s with a 1.0 s blend, pelvis stays at 0.61-1.02 m

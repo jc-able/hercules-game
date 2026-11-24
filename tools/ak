@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+"""animkit launcher: `tools/ak <command> ...` (see docs/ANIM_PIPELINE.md). Every command ends with one line
+`###AK### {json}` and exits non-zero on failure. Video/image work runs here (numpy + Pillow + ffmpeg); rig work runs
+in headless Blender (tools/animkit/ak_blender.py)."""
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'animkit'))
+from ak_main import main
+main(sys.argv[1:])

@@ -1,0 +1,333 @@
+{
+ "_about": "Sound registry. sfx = Mirelo Text to Audio (duration seconds), music = ElevenLabs Music v2.5 instrumental. Game code calls Sfx.play(\"<name>\"); loops are marked loop=true.",
+ "sfx": [
+  {
+   "name": "sword_swing",
+   "dur": 1,
+   "prompt": "a short steel sword swinging fast through the air, sharp whoosh, no impact"
+  },
+  {
+   "name": "sword_hit",
+   "dur": 1,
+   "prompt": "a sword slicing into thick monster hide, sharp wet slash and a heavy thud, impact at the very start, short",
+   "take": 2
+  },
+  {
+   "name": "glance",
+   "dur": 1,
+   "prompt": "a single bright metallic clang of a bronze sword striking hard stone hide, high ringing ping and a short scrape, sparks, dry and close, impact at the very start, no low rumble",
+   "take": 2
+  },
+  {
+   "name": "roll",
+   "dur": 1,
+   "prompt": "a warrior doing a quick combat roll on packed dirt, cloth rustle and body tumble, short"
+  },
+  {
+   "name": "step_dirt",
+   "dur": 1,
+   "prompt": "a single leather sandal footstep on dry packed dirt, close, short"
+  },
+  {
+   "name": "step_stone",
+   "dur": 1,
+   "prompt": "a single leather sandal footstep on polished marble, crisp heel click and soft scuff, starts immediately, close, no rumble",
+   "take": 2
+  },
+  {
+   "name": "shield_up",
+   "dur": 1,
+   "prompt": "a bronze shield being raised quickly, leather strap creak and a light metal rattle"
+  },
+  {
+   "name": "block",
+   "dur": 1,
+   "prompt": "a huge wooden club smashing against a bronze shield, deep metallic gong-like clang and thud"
+  },
+  {
+   "name": "reflect",
+   "dur": 2,
+   "prompt": "a magical beam of light reflecting off a polished bronze shield, bright shimmering ring that rises in pitch"
+  },
+  {
+   "name": "hurt",
+   "dur": 1,
+   "prompt": "one short deep male grunt of pain as a warrior is struck, close microphone, loud and clear, starts immediately, no breathing after",
+   "take": 2
+  },
+  {
+   "name": "death",
+   "dur": 2,
+   "prompt": "a strong man's final pained groan and his body collapsing on the ground with armor rattle"
+  },
+  {
+   "name": "petrify",
+   "dur": 2,
+   "prompt": "a body turning into stone, fast crackling of rock spreading, gritty stone crunch, ending in a hard click"
+  },
+  {
+   "name": "cyclops_roar",
+   "dur": 3,
+   "prompt": "an enormous giant roaring, very deep monstrous bellow echoing across a stone quarry"
+  },
+  {
+   "name": "cyclops_step",
+   "dur": 1,
+   "prompt": "one single enormous footstep, a heavy deep boom on packed earth at the very start, a little gravel scatter, then silence",
+   "take": 2
+  },
+  {
+   "name": "cyclops_sweep_warn",
+   "dur": 1,
+   "prompt": "a giant grunting as he draws back a huge club, low growling inhale, wood creak"
+  },
+  {
+   "name": "cyclops_sweep",
+   "dur": 1,
+   "prompt": "a massive wooden club swinging horizontally through the air, huge low whoosh"
+  },
+  {
+   "name": "cyclops_slam_warn",
+   "dur": 2,
+   "prompt": "a giant heaving a massive club overhead with a long rising strained growl"
+  },
+  {
+   "name": "cyclops_slam",
+   "dur": 2,
+   "prompt": "a gigantic wooden club slamming into the ground, earth-shaking boom, cracking earth and falling debris"
+  },
+  {
+   "name": "cyclops_stuck",
+   "dur": 3,
+   "prompt": "a giant straining and grunting while tugging at a club stuck in the ground, frustrated growls, wood creaking"
+  },
+  {
+   "name": "cyclops_pull_free",
+   "dur": 2,
+   "prompt": "a huge club being wrenched out of cracked earth, rock crumble and a triumphant giant grunt"
+  },
+  {
+   "name": "cyclops_hurt",
+   "dur": 2,
+   "prompt": "an enormous giant howling in sudden pain, deep monstrous yelp"
+  },
+  {
+   "name": "cyclops_death",
+   "dur": 4,
+   "prompt": "an enormous giant's dying groan followed by his huge body crashing to the ground with a long rumble"
+  },
+  {
+   "name": "medusa_hiss",
+   "dur": 3,
+   "prompt": "many snakes hissing together, eerie layered serpent hisses with a soft rattle"
+  },
+  {
+   "name": "medusa_gaze_warn",
+   "dur": 2,
+   "prompt": "an eerie magical charge building up, rising shimmering hum with whispering hisses"
+  },
+  {
+   "name": "medusa_gaze",
+   "dur": 2,
+   "prompt": "a powerful petrifying beam firing, sharp magical crack then a sustained piercing hum"
+  },
+  {
+   "name": "medusa_stun",
+   "dur": 2,
+   "prompt": "a monstrous woman shrieking in pain and surprise, piercing echoing scream with thrashing snakes"
+  },
+  {
+   "name": "medusa_tail_swipe_warn",
+   "dur": 1,
+   "prompt": "a giant serpent coiling quickly, dry scales scraping on marble and a rattle"
+  },
+  {
+   "name": "medusa_tail_swipe",
+   "dur": 1,
+   "prompt": "a giant serpent tail whipping through the air and cracking like a huge whip"
+  },
+  {
+   "name": "medusa_hurt",
+   "dur": 2,
+   "prompt": "a monstrous woman screaming in pain, sharp shriek with angry snake hisses"
+  },
+  {
+   "name": "medusa_death",
+   "dur": 4,
+   "prompt": "a monstrous woman's long dying wail fading out while her heavy serpent body collapses on marble"
+  },
+  {
+   "name": "hydra_roar",
+   "dur": 3,
+   "prompt": "a many-headed dragon roaring, several deep reptilian roars overlapping, huge and terrifying"
+  },
+  {
+   "name": "hydra_fire_sweep_warn",
+   "dur": 2,
+   "prompt": "a huge dragon inhaling deeply without pause, continuous rumbling intake of air that rises steadily in pitch and loudness into a furnace roar, starts immediately",
+   "take": 2
+  },
+  {
+   "name": "hydra_fire",
+   "dur": 3,
+   "prompt": "a dragon breathing a continuous stream of fire, roaring flamethrower blast, steady",
+   "loop": true
+  },
+  {
+   "name": "hydra_head_down",
+   "dur": 2,
+   "prompt": "a huge dragon head dropping onto rock with a heavy thud, followed by tired panting breaths"
+  },
+  {
+   "name": "hydra_stomp_warn",
+   "dur": 1,
+   "prompt": "a huge beast lifting a heavy leg with a low threatening growl"
+  },
+  {
+   "name": "hydra_stomp",
+   "dur": 2,
+   "prompt": "a colossal beast stomping on volcanic rock, massive boom with cracking stone"
+  },
+  {
+   "name": "hydra_bite_warn",
+   "dur": 1,
+   "prompt": "a giant snake-like dragon head hissing sharply as it draws back to strike"
+  },
+  {
+   "name": "hydra_bite",
+   "dur": 1,
+   "prompt": "huge dragon jaws snapping shut, a loud sharp crack with a meaty bone crunch, impact at the very start",
+   "take": 2
+  },
+  {
+   "name": "hydra_hurt",
+   "dur": 2,
+   "prompt": "a many-headed dragon shrieking in pain, several reptilian screeches overlapping"
+  },
+  {
+   "name": "hydra_death",
+   "dur": 4,
+   "prompt": "a many-headed dragon's dying roars fading one after another, then a colossal body collapsing on rock"
+  },
+  {
+   "name": "wing_flap",
+   "dur": 1,
+   "prompt": "one powerful flap of very large feathered wings, deep airy whoosh"
+  },
+  {
+   "name": "neigh",
+   "dur": 2,
+   "prompt": "a proud horse neighing, clear and heroic"
+  },
+  {
+   "name": "mount",
+   "dur": 1,
+   "prompt": "a rider swinging onto a horse's back, leather creak, a small snort"
+  },
+  {
+   "name": "land",
+   "dur": 1,
+   "prompt": "four hooves landing on grass and dirt with a soft heavy thump and wing rustle"
+  },
+  {
+   "name": "wind_loop",
+   "dur": 6,
+   "prompt": "steady rushing wind while flying fast high in the air, smooth continuous wind noise",
+   "loop": true
+  },
+  {
+   "name": "sea_loop",
+   "dur": 6,
+   "prompt": "calm sea waves rolling against a rocky shore, gentle continuous surf with distant gulls",
+   "loop": true
+  },
+  {
+   "name": "lava_loop",
+   "dur": 6,
+   "prompt": "bubbling lava and deep volcanic rumble, thick molten bubbles popping, continuous",
+   "loop": true
+  },
+  {
+   "name": "fire_loop",
+   "dur": 4,
+   "prompt": "a close bronze brazier fire, dense steady crackling with a soft continuous roar of flames, even level, no pauses",
+   "loop": true,
+   "take": 2
+  },
+  {
+   "name": "beacon_loop",
+   "dur": 4,
+   "prompt": "a soft magical pillar of light humming, gentle shimmering choir-like drone, continuous",
+   "loop": true
+  },
+  {
+   "name": "thunder",
+   "dur": 3,
+   "prompt": "a crack of thunder inside a dark storm wall, sharp lightning strike then rolling rumble"
+  },
+  {
+   "name": "ui_move",
+   "dur": 1,
+   "prompt": "a soft short pluck of a lyre string, single note, menu cursor move"
+  },
+  {
+   "name": "ui_accept",
+   "dur": 1,
+   "prompt": "a short bright plucked lyre chord, three notes rolled quickly upward with a tiny bronze bell ping, clean and dry, starts immediately",
+   "take": 2
+  },
+  {
+   "name": "ui_back",
+   "dur": 1,
+   "prompt": "a soft low lyre note falling, menu back"
+  },
+  {
+   "name": "victory",
+   "dur": 4,
+   "prompt": "a triumphant ancient Greek victory fanfare, short brass horns and lyre flourish with a final drum hit"
+  },
+  {
+   "name": "defeat",
+   "dur": 3,
+   "prompt": "a dark low horn and a slow drum hit, somber defeat sting"
+  },
+  {
+   "name": "title_card",
+   "dur": 2,
+   "prompt": "a deep ominous drum hit with a low brass swell, boss introduction sting"
+  },
+  {
+   "name": "trophy",
+   "dur": 2,
+   "prompt": "a loud sparkling magical chime, quick rising arpeggio of small bright bells with a warm shimmering tail, clearly audible from the start",
+   "take": 2
+  }
+ ],
+ "music": [
+  {
+   "name": "music_title",
+   "dur": 75,
+   "prompt": "Instrumental ancient Greek heroic main theme for an adventure game: lyre and aulos melody over warm strings and soft hand drums, noble, bright, hopeful, loops smoothly"
+  },
+  {
+   "name": "music_flight",
+   "dur": 75,
+   "prompt": "Instrumental soaring flight theme for riding a winged horse over a sunny sea: sweeping strings, harp arpeggios, light percussion, uplifting and free, ancient Greek colour, loops smoothly"
+  },
+  {
+   "name": "music_cyclops",
+   "dur": 90,
+   "prompt": "Instrumental boss battle music against a giant in a sunlit quarry: pounding war drums, low brass stabs, driving strings, ancient Greek modal melody, heavy and relentless, loops smoothly"
+  },
+  {
+   "name": "music_medusa",
+   "dur": 90,
+   "prompt": "Instrumental boss battle music in a haunted marble sanctuary: eerie female choir pads, tense string ostinato, hissing shakers, sudden percussion hits, sinister and hypnotic, ancient Greek modal melody, loops smoothly"
+  },
+  {
+   "name": "music_hydra",
+   "dur": 90,
+   "prompt": "Instrumental final boss battle music on a volcano against a nine-headed dragon: massive epic orchestra, thunderous taiko drums, roaring brass, fast string runs, choir, apocalyptic and heroic, loops smoothly"
+  }
+ ]
+}

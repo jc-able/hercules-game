@@ -1,0 +1,164 @@
+{
+ "space": "absolute",
+ "_note": "animfix 2026-11-23 death t=1.042: arms re-posed as an asymmetric flail (left upper arm thrown up/back, club arm drops and drags the club, lower arms reach toward the knees, right 2 frames later and higher); root/hips/legs/spine = previous key",
+ "root": {
+  "loc": [
+   0.0,
+   -0.47766,
+   -1.97846
+  ],
+  "rot": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "hips": {
+   "rx": 0.0,
+   "ry": 0.0,
+   "rz": -0.0
+  },
+  "spine_01": {
+   "rx": 7.796,
+   "ry": 0.0,
+   "rz": -0.0
+  },
+  "spine_02": {
+   "rx": 3.979,
+   "ry": 0.0,
+   "rz": -0.0
+  },
+  "spine_03": {
+   "rx": 8.509,
+   "ry": 0.972,
+   "rz": -2.045
+  },
+  "neck": {
+   "rx": 9.831,
+   "ry": -0.0,
+   "rz": -0.0
+  },
+  "head": {
+   "rx": 9.831,
+   "ry": -0.0,
+   "rz": 0.0
+  },
+  "thigh_l": {
+   "rx": -37.129,
+   "ry": -14.097,
+   "rz": -0.041
+  },
+  "shin_l": {
+   "rx": 122.094,
+   "ry": -18.541,
+   "rz": -15.069
+  },
+  "foot_l": {
+   "rx": 96.566,
+   "ry": -6.688,
+   "rz": 13.405
+  },
+  "toe_l": {
+   "rx": 18.29,
+   "ry": -12.269,
+   "rz": -3.675
+  },
+  "thigh_r": {
+   "rx": -37.129,
+   "ry": 14.097,
+   "rz": 0.041
+  },
+  "shin_r": {
+   "rx": 122.094,
+   "ry": 18.541,
+   "rz": 15.069
+  },
+  "foot_r": {
+   "rx": 96.566,
+   "ry": 6.688,
+   "rz": -13.405
+  },
+  "toe_r": {
+   "rx": 18.29,
+   "ry": 12.269,
+   "rz": 3.675
+  },
+  "shoulder_u_l": {
+   "rx": -1.528,
+   "ry": 28.029,
+   "rz": -1.001
+  },
+  "upper_arm_u_l": {
+   "rx": -10.288,
+   "ry": 55.404,
+   "rz": -6.035
+  },
+  "forearm_u_l": {
+   "rx": -24.755,
+   "ry": 58.117,
+   "rz": -45.953
+  },
+  "hand_u_l": {
+   "rx": 78.257,
+   "ry": 67.626,
+   "rz": -53.656
+  },
+  "shoulder_u_r": {
+   "rx": 8.783,
+   "ry": -5.865,
+   "rz": -2.533
+  },
+  "upper_arm_u_r": {
+   "rx": 1.506,
+   "ry": -39.634,
+   "rz": -0.001
+  },
+  "forearm_u_r": {
+   "rx": 4.49,
+   "ry": -53.52,
+   "rz": -0.34
+  },
+  "hand_u_r": {
+   "rx": 171.666,
+   "ry": -73.78,
+   "rz": 179.104
+  },
+  "upper_arm_d_l": {
+   "rx": -20.774,
+   "ry": 24.689,
+   "rz": -27.314
+  },
+  "forearm_d_l": {
+   "rx": -28.892,
+   "ry": 26.966,
+   "rz": -32.497
+  },
+  "hand_d_l": {
+   "rx": -18.795,
+   "ry": 54.841,
+   "rz": 34.036
+  },
+  "upper_arm_d_r": {
+   "rx": -33.951,
+   "ry": -15.323,
+   "rz": 32.853
+  },
+  "forearm_d_r": {
+   "rx": -49.141,
+   "ry": -16.551,
+   "rz": 35.642
+  },
+  "hand_d_r": {
+   "rx": -55.897,
+   "ry": -58.88,
+   "rz": -6.086
+  }
+ },
+ "view_offset": [
+  0.08493,
+  -0.04996,
+  -0.09992
+ ]
+}

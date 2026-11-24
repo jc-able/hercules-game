@@ -1,0 +1,1 @@
+review_run_strip.jpg | independent tester's first clip with only ANIM_PIPELINE.md: 4 keys (2 fitted + 2 mirrored) of the Seedance run, 16-frame loop | key IoU 0.79/0.71/0.78, strip mean 0.60 in place (0.73 with the framing offset kept), 17 ak calls, ~70 s of tool time

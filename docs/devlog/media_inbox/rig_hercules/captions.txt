@@ -1,0 +1,9 @@
+hercules_01_raw_mesh.jpg | Higgsfield/Meshy raw mesh, 4 views | 31,025 tris, 2048 px texture, 24 Meshy bones, armature scale 0.01
+hercules_02_bones_over_mesh.jpg | renamed skeleton over the cleaned mesh (blue = left, green = right, red dots = joints) | 23 bones (22 deform + root), 1.90 m
+hercules_03_arms_up_before_after.jpg | arms overhead: tunic flaps torn up by upper-arm weights vs repaired armholes | max edge stretch x6.0 -> tunic wings gone; 3,538 vertices re-weighted
+hercules_04_block_pose_with_props.jpg | block test pose with sword (hand_r) and shield (forearm_l) sockets | sword 0.85 m 3,880 tris, shield 0.90 m 3,880 tris
+hercules_05_split_sheet.jpg | FRONT | SIDE rest reference sheet for the animation pipeline | 1280x720, 208 px/m, margins mw 2.2 mh 1.6
+hercules_06_fix_sprint_skirt_bones.jpg | review fix: sprint (thigh 70 fwd, shin 90) with the new driven skirt bones; skirt lies over the lifted thigh instead of tearing | run test: 63 stretched edges max x5.2 (was 86, max x11); 496 skirt-to-thigh glue faces removed
+hercules_07_fix_ride_on_pegasus.jpg | review fix: ride straddle (thighs 35 out, 85 fwd) checked on the pegasus mesh (wings cut away, grey) | ride test: 91 stretched edges max x6.1 (was 113, max x11.9); crotch seam skin max x4.4
+hercules_08_fix_split_sheet_wide.jpg | review fix: wider FRONT | SIDE sheet so death falls and forward rolls stay in frame; sword turned so it reads in both panels | 1280x720, 170.7 px/m, side panel +-2.1 m around the feet, front +-1.65 m, top 3.78 m
+hercules_09_fix_stretch_heatmap_sprint.jpg | edge-stretch heatmap of an intermediate sprint test (red = edge stretched > 2.5x), used to find the shear between skirt panels | intermediate state (side gain 0.85); final side gain 0.5 halved the red edges

@@ -1,0 +1,35 @@
+{
+ "width": 1280,
+ "height": 720,
+ "ppm": 114.28571428571428,
+ "front_w": 594,
+ "side_w": 686,
+ "centre_x": 0.0,
+ "centre_y": 0.10000000000000009,
+ "ground_z": 0.0,
+ "ground_frac": 0.08,
+ "bg": [
+  0.35,
+  0.72,
+  0.47
+ ],
+ "rest_size": [
+  2.2865796089172363,
+  2.9454784393310547,
+  2.99442742384244
+ ],
+ "note": "left panel = front view (camera at -Y looking +Y), right panel = side view (camera at -X looking +X, character faces screen-right)",
+ "bg_srgb8": [
+  160,
+  221,
+  182
+ ],
+ "bg_note": "bg = linear world colour given to Blender; bg_srgb8 = displayed 8-bit pixel in split_sheet.png (added by the pegasus rig fixer; render_split_sheet.py does not write it yet)",
+ "env": {
+  "half_width": 2.6,
+  "back": 3.1,
+  "front": 2.9,
+  "top": 4.3,
+  "why": "glide span 3.98 m + roll: >= 0.6 m free per side in the front panel; tallest tested pose z 3.71"
+ }
+}

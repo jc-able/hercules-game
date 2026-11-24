@@ -1,0 +1,1 @@
+cyclops_idle_n_strip.jpg | cyclops idle from the natural-stance video: reference row vs our row (club on shoulder, breath, weight shift, head turn, arm sway) | 6.0 s loop, 25/29 bones move (was 9/29), key IoU mean 0.90, feet planted within 5 mm

@@ -1,0 +1,123 @@
+{
+ "_note": "cyclops natural stance (copy of natural_pose.json), re-base 2026-11-23",
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0.0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "hips": {
+   "ry": -6
+  },
+  "spine_01": {
+   "rx": 4,
+   "ry": 2
+  },
+  "spine_02": {
+   "rx": 9,
+   "ry": 4
+  },
+  "spine_03": {
+   "rx": 13,
+   "ry": 6,
+   "rz": -4
+  },
+  "neck": {
+   "rx": 6,
+   "ry": 2,
+   "rz": 2
+  },
+  "head": {
+   "rx": -2,
+   "ry": 1,
+   "rz": 5
+  },
+  "thigh_l": {
+   "rx": -3,
+   "ry": 4
+  },
+  "shin_l": {
+   "rx": 3
+  },
+  "foot_l": {
+   "rx": 0
+  },
+  "thigh_r": {
+   "rx": -21,
+   "ry": 9
+  },
+  "shin_r": {
+   "rx": 14,
+   "ry": 2
+  },
+  "foot_r": {
+   "rx": 0,
+   "rz": -10
+  },
+  "shoulder_u_l": {
+   "front": -64,
+   "side": 4
+  },
+  "upper_arm_u_l": {
+   "front": -32,
+   "side": 14
+  },
+  "forearm_u_l": {
+   "front": -16,
+   "side": -22
+  },
+  "hand_u_l": {
+   "front": -8,
+   "side": -16,
+   "twist": 120
+  },
+  "shoulder_u_r": {
+   "front": 76,
+   "side": 0
+  },
+  "upper_arm_u_r": {
+   "front": 48,
+   "side": -40
+  },
+  "forearm_u_r": {
+   "front": 178,
+   "side": -165
+  },
+  "hand_u_r": {
+   "front": -150,
+   "side": -150,
+   "twist": 78
+  },
+  "upper_arm_d_l": {
+   "front": -26,
+   "side": -32
+  },
+  "forearm_d_l": {
+   "front": 30,
+   "side": -48
+  },
+  "hand_d_l": {
+   "front": 36,
+   "side": -28,
+   "twist": -40
+  },
+  "upper_arm_d_r": {
+   "front": 26,
+   "side": -16
+  },
+  "forearm_d_r": {
+   "front": -24,
+   "side": -40
+  },
+  "hand_d_r": {
+   "front": -28,
+   "side": -20,
+   "twist": 40
+  }
+ },
+ "_rebase": "re-base 2026-11-23 (slam t=0.0): replaced; acting cells verbatim, still/gap cells local_delta"
+}

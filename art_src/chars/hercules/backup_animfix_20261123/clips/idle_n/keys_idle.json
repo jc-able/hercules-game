@@ -1,0 +1,104 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 6.0,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_idle/k00.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_idle/k01.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_idle/k02.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_idle/k03.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_idle/k04.json"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_idle/k05.json"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_idle/k06.json"
+  },
+  {
+   "t": 1.75,
+   "pose_file": "poses_idle/k07.json"
+  },
+  {
+   "t": 2.0,
+   "pose_file": "poses_idle/k08.json"
+  },
+  {
+   "t": 2.25,
+   "pose_file": "poses_idle/k09.json"
+  },
+  {
+   "t": 2.5,
+   "pose_file": "poses_idle/k10.json"
+  },
+  {
+   "t": 2.75,
+   "pose_file": "poses_idle/k11.json"
+  },
+  {
+   "t": 3.0,
+   "pose_file": "poses_idle/k12.json"
+  },
+  {
+   "t": 3.25,
+   "pose_file": "poses_idle/k13.json"
+  },
+  {
+   "t": 3.5,
+   "pose_file": "poses_idle/k14.json"
+  },
+  {
+   "t": 3.75,
+   "pose_file": "poses_idle/k15.json"
+  },
+  {
+   "t": 4.0,
+   "pose_file": "poses_idle/k16.json"
+  },
+  {
+   "t": 4.25,
+   "pose_file": "poses_idle/k17.json"
+  },
+  {
+   "t": 4.5,
+   "pose_file": "poses_idle/k18.json"
+  },
+  {
+   "t": 4.75,
+   "pose_file": "poses_idle/k19.json"
+  },
+  {
+   "t": 5.0,
+   "pose_file": "poses_idle/k20.json"
+  },
+  {
+   "t": 5.25,
+   "pose_file": "poses_idle/k21.json"
+  },
+  {
+   "t": 5.5,
+   "pose_file": "poses_idle/k22.json"
+  },
+  {
+   "t": 5.75,
+   "pose_file": "poses_idle/k23.json"
+  }
+ ]
+}

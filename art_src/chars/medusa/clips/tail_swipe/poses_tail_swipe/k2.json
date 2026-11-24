@@ -1,0 +1,92 @@
+{
+ "bones": {
+  "spine_01": {
+   "space": "local_delta",
+   "rz": -15.0,
+   "rx": 5.0,
+   "ry": -3.3333333333333335
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rz": -15.0,
+   "rx": 5.0,
+   "ry": -3.3333333333333335
+  },
+  "spine_03": {
+   "space": "local_delta",
+   "rz": -15.0,
+   "rx": 5.0,
+   "ry": -3.3333333333333335
+  },
+  "upper_arm_l": {
+   "front": -85,
+   "side": -80
+  },
+  "forearm_l": {
+   "front": -85,
+   "side": -80
+  },
+  "upper_arm_r": {
+   "front": 85,
+   "side": 80
+  },
+  "forearm_r": {
+   "front": 85,
+   "side": 80
+  },
+  "tail_04": {
+   "rz": -49,
+   "rx": 15
+  },
+  "tail_05": {
+   "rz": -25,
+   "rx": 15
+  },
+  "tail_06": {
+   "rz": -18,
+   "rx": 24
+  },
+  "tail_07": {
+   "rz": -14,
+   "rx": 24
+  },
+  "tail_08": {
+   "rz": -14,
+   "rx": 24
+  },
+  "tail_09": {
+   "rz": -15,
+   "rx": 35
+  },
+  "tail_10": {
+   "rz": -16,
+   "rx": 49
+  },
+  "tail_11": {
+   "rz": -35,
+   "rx": 90
+  },
+  "tail_12": {
+   "rz": -62,
+   "rx": 133
+  },
+  "tail_13": {
+   "rz": -65,
+   "rx": 150
+  },
+  "tail_14": {
+   "rz": -65,
+   "rx": 155
+  }
+ },
+ "root": {
+  "ground": "lowest"
+ },
+ "view_offset": [
+  -0.34,
+  0.37,
+  -0.1
+ ],
+ "view_scale": 0.97,
+ "space": "absolute"
+}

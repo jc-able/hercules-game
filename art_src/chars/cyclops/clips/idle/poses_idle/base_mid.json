@@ -1,0 +1,64 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "neck": {
+   "rx": 6
+  },
+  "head": {
+   "rx": 4
+  },
+  "upper_arm_u_r": {
+   "rx": 0
+  },
+  "forearm_u_r": {
+   "rx": 0
+  },
+  "hand_u_r": {
+   "rx": 0
+  },
+  "upper_arm_u_l": {
+   "ry": 20.0,
+   "rx": -34.0
+  },
+  "forearm_u_l": {
+   "ry": -6.0,
+   "rx": -32.0
+  },
+  "hand_u_l": {
+   "ry": -6,
+   "rx": -32
+  },
+  "upper_arm_d_l": {
+   "ry": -10.0,
+   "rx": -24.0
+  },
+  "forearm_d_l": {
+   "ry": 13.0,
+   "rx": -26.0
+  },
+  "hand_d_l": {
+   "ry": 15,
+   "rx": -10
+  },
+  "upper_arm_d_r": {
+   "ry": 10.0,
+   "rx": -24.0
+  },
+  "forearm_d_r": {
+   "ry": -13.0,
+   "rx": -26.0
+  },
+  "hand_d_r": {
+   "ry": -15,
+   "rx": -10
+  }
+ }
+}

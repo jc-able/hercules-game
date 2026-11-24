@@ -1,0 +1,78 @@
+{
+ "space": "absolute",
+ "bones": {
+  "spine_01": {
+   "rx": 12.586,
+   "ry": -1.101,
+   "rz": -17.513
+  },
+  "upper_arm_l": {
+   "rx": -54.063,
+   "ry": -12.282,
+   "rz": -15.639
+  },
+  "forearm_l": {
+   "rx": 25.467,
+   "ry": 3.584,
+   "rz": -46.349
+  },
+  "upper_arm_r": {
+   "rx": 52.635,
+   "ry": 54.719,
+   "rz": 28.223
+  },
+  "forearm_r": {
+   "rx": 38.62,
+   "ry": 69.053,
+   "rz": 7.607
+  },
+  "hand_r": {
+   "rx": 161.469,
+   "ry": 20.288,
+   "rz": 60.469
+  },
+  "thigh_l": {
+   "rx": 14.675,
+   "ry": -5.44,
+   "rz": 4.533
+  },
+  "shin_l": {
+   "rx": 58.015,
+   "ry": 0.26,
+   "rz": 4.527
+  },
+  "thigh_r": {
+   "rx": -40.518,
+   "ry": 0.183,
+   "rz": 3.55
+  },
+  "shin_r": {
+   "rx": 1.34,
+   "ry": -9.472,
+   "rz": 0.24
+  },
+  "foot_r": {
+   "rx": 0.073,
+   "ry": -0.002,
+   "rz": 0.074
+  }
+ },
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "view_offset": [
+  -0.03,
+  -0.42,
+  -0.09
+ ],
+ "view_scale": 1.045,
+ "read_from": {
+  "source": "art_src/chars/hercules/clips/attack/action_attack_1.json",
+  "t": 1.0625
+ }
+}

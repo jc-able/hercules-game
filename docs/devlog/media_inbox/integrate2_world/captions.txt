@@ -1,0 +1,2 @@
+mount_hop_wings_open.jpg | mount beat at 5 fps: the hero hops 0.9 s from his walking pose onto Pegasus while only its wings open into the beat (legs stay planted), then take-off seen from a 45-deg camera swing | hop 0.55 -> 0.9 s, 12 wing bones overlaid, seated at 0.93 s
+home_landing_settle.jpg | arrival home from the sea at 5 fps: Pegasus glides in, flares with wing beats, its legs reach down and the wings fold into the new idle | 1.9 s touch-down beat, 4.5 m drop, 7 m run-in

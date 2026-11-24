@@ -1,0 +1,110 @@
+{
+ "sockets": {
+  "saddle": "saddle",
+  "head": "head"
+ },
+ "socket_offsets": {
+  "saddle": {
+   "loc": [
+    0.0,
+    0.2471,
+    -0.2
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "head": {
+   "loc": [
+    0.0,
+    0.2777,
+    -0.0131
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "clips": {
+  "fly": {
+   "length": 1.0417,
+   "loop": true,
+   "events": {},
+   "source": "art_src/chars/pegasus/ridden/fly (fly v2 from clips/fly/make_fly_v2.py + 25 deg forward wing sweep)"
+  },
+  "glide": {
+   "length": 3.0,
+   "loop": true,
+   "events": {},
+   "source": "art_src/chars/pegasus/clips/glide"
+  },
+  "idle": {
+   "length": 7.0,
+   "loop": true,
+   "events": {},
+   "source": "art_src/chars/pegasus/clips/idle"
+  }
+ },
+ "offset_space": "godot",
+ "socket_notes": {
+  "frame": "loc in metres in the Godot bone frame (= Blender bone frame), identity basis (\"offset_space\": \"godot\").",
+  "saddle": "the rider HIPS seat point: 0.20 m behind and 0.247 m above the saddle bone head (ride.json seated pose). Glue the hercules hips bone here (IslandProxy.seat_rider) or parent the hercules scene root to this node with rider.offset. Axes: +Y up along the saddle bone, +Z Pegasus forward.",
+  "head": "middle of the skull (rig.json head offset, converted from armature axes)."
+ },
+ "size": {
+  "height": 2.994,
+  "withers": 1.9,
+  "length": 2.945,
+  "width": 2.287,
+  "units": "m",
+  "note": "height = feet to the wing tops at rest; withers 1.9 m; length nose-tail; width across the wings at rest"
+ },
+ "rider": {
+  "socket": "saddle",
+  "offset": {
+   "position": [
+    0.0041,
+    -1.0836,
+    0.0299
+   ],
+   "rotation_degrees": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "relative_to": "the saddle socket node (hips seat point); hercules glb scene root, Godot axes"
+  },
+  "offset_from_saddle_bone_head": {
+   "position": [
+    0.0041,
+    -0.8365,
+    -0.1701
+   ],
+   "rotation_degrees": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "relative_to": "BoneAttachment3D on bone saddle (ride_game.json godot form)"
+  },
+  "hips_seat_from_saddle_bone_head": [
+   0.0,
+   0.2471,
+   -0.2
+  ],
+  "beat_period_s": 1.48,
+  "rider_clip": "ride",
+  "rider_clip_length_s": 1.5,
+  "fly_beat_s": 1.0417,
+  "rider_speed_on_fly": 1.44,
+  "rider_speed_on_glide": 0.4,
+  "phase": "fly t=0 and ride t=0 are both the wing TOP: start them together and re-sync each fly loop (rider_pos = fmod(fly_pos / fly_beat_s, 1) * rider_clip_length_s).",
+  "beat_note": "beat_period_s 1.48 is the ride reference video; the game fly clip beats once per fly_beat_s (1.042 s, from the fly reference video); scale the rider by rider_speed_on_fly.",
+  "clearance": "fly is the rider-safe version (both wings swept 25 deg forward); checked against the seated rider at 50 times per beat (fly), 36 (glide), 42 (idle): 0 wing/rider/sword/shield overlaps (fly v2 re-checked by the animation fixer, docs/notes/anim_pegasus_fix.md). See docs/notes/assemble_pegasus.md.",
+  "fly_bob": "fly v2 carries its own body bob and no body pitch: root height 0 at the wing top (t 0, lowest), +0.04 m at t 0.33, +0.08 m at t 0.625 (highest, end of the downstroke), +0.03 m at t 0.9. glide has root height 0 and no pitch too, so the fly<->glide crossfade neither jumps nor rocks. Drop any code bob on top of fly (or phase it to the AnimationPlayer position, peak at t 0.625)."
+ }
+}

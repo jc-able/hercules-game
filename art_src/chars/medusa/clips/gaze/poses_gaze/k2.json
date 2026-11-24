@@ -1,0 +1,186 @@
+{
+ "space": "absolute",
+ "bones": {
+  "root": {
+   "rx": -4.0,
+   "ry": -0.0,
+   "rz": 0.0
+  },
+  "spine_01": {
+   "rx": -8.0,
+   "ry": -0.0,
+   "rz": -0.0
+  },
+  "spine_02": {
+   "rx": -22.0,
+   "ry": 0.0,
+   "rz": -0.0
+  },
+  "spine_03": {
+   "rx": 2.0,
+   "ry": 0.0,
+   "rz": -0.0
+  },
+  "neck": {
+   "rx": -40.0,
+   "ry": 0.0,
+   "rz": -0.0
+  },
+  "head": {
+   "rx": -46.0,
+   "ry": 0.0,
+   "rz": -0.0
+  },
+  "hair_l_01": {
+   "rx": 70.35,
+   "ry": -37.28,
+   "rz": 7.85
+  },
+  "hair_l_02": {
+   "rx": 34.48,
+   "ry": -80.84,
+   "rz": 0.88
+  },
+  "hair_l_03": {
+   "rx": 30.36,
+   "ry": 4.17,
+   "rz": -2.18
+  },
+  "hair_r_01": {
+   "rx": 7.68,
+   "ry": 75.98,
+   "rz": -11.14
+  },
+  "hair_r_02": {
+   "rx": 37.51,
+   "ry": 16.18,
+   "rz": -3.31
+  },
+  "hair_r_03": {
+   "rx": 18.36,
+   "ry": 46.63,
+   "rz": 1.91
+  },
+  "upper_arm_l": {
+   "rx": 33.17,
+   "ry": -116.78,
+   "rz": -13.08
+  },
+  "forearm_l": {
+   "rx": 5.75,
+   "ry": -139.44,
+   "rz": -28.16
+  },
+  "upper_arm_r": {
+   "rx": -12.83,
+   "ry": 100.78,
+   "rz": 13.08
+  },
+  "forearm_r": {
+   "rx": -2.25,
+   "ry": 143.44,
+   "rz": 28.16
+  },
+  "tail_03": {
+   "rx": -0.0,
+   "ry": -0.0,
+   "rz": -0.0
+  },
+  "pelvis": {
+   "space": "local_delta",
+   "rx": 0.365,
+   "ry": -4.749
+  },
+  "shoulder_l": {
+   "space": "local_delta",
+   "ry": -1.863
+  },
+  "hand_l": {
+   "space": "local_delta",
+   "rx": 9.822,
+   "ry": -37.663,
+   "rz": 2.52
+  },
+  "shoulder_r": {
+   "space": "local_delta",
+   "ry": 3.39
+  },
+  "hand_r": {
+   "space": "local_delta",
+   "rx": 1.39,
+   "ry": 18.752,
+   "rz": 10.803
+  },
+  "tail_01": {
+   "space": "local_delta",
+   "ry": 1.481
+  },
+  "tail_02": {
+   "space": "local_delta",
+   "ry": 1.989
+  },
+  "tail_04": {
+   "space": "local_delta",
+   "rz": 1.496
+  },
+  "tail_05": {
+   "space": "local_delta",
+   "rz": -3.154
+  },
+  "tail_06": {
+   "space": "local_delta",
+   "rz": -1.62
+  },
+  "tail_07": {
+   "space": "local_delta",
+   "rz": 3.986
+  },
+  "tail_08": {
+   "space": "local_delta",
+   "rz": 6.923
+  },
+  "tail_09": {
+   "space": "local_delta",
+   "rz": 8.782
+  },
+  "tail_10": {
+   "space": "local_delta",
+   "rz": 10.313
+  },
+  "tail_11": {
+   "space": "local_delta",
+   "rz": 14.191
+  },
+  "tail_12": {
+   "space": "local_delta",
+   "rz": 29.774
+  },
+  "tail_13": {
+   "space": "local_delta",
+   "rz": 48.93
+  },
+  "tail_14": {
+   "space": "local_delta",
+   "rz": 65.014
+  }
+ },
+ "root": {
+  "loc": [
+   0.0,
+   -0.1154,
+   -0.0599
+  ],
+  "rot": [
+   0,
+   0,
+   0
+  ]
+ },
+ "view_offset": [
+  -0.07,
+  0.24,
+  0.0
+ ],
+ "view_scale": 1.045,
+ "_rebase": "re-base gaze t=1: 18 bones natural+life, 0 posed+life, acting kept"
+}

@@ -1,0 +1,2 @@
+medusa_death_strip.jpg | Medusa death: video (top) vs keyed rig (bottom), shriek, arch, fall, lying still | 8 keys, 3.5 s, mean key IoU 0.62; fall authored over a 1-frame jump cut in the video
+medusa_death_fit_compare.jpg | Fit + ground-tail anchor check (target / ours / diff); last row = a rejected fit that pushed the tail 4.6 m under the floor | fit raised k2 IoU 0.43->0.68 front; rejected lowest_z -4.58 m

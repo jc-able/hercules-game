@@ -1,0 +1,5 @@
+fc2_home_idle.jpg | home start, hero 6 s idle + Pegasus 8 s idle from the chase camera (0.5-6.5 s) | hero idle 23/29 joints move (6 this morning), Pegasus idle 39/43 (16)
+fc2_mount_hop.jpg | mount hop 1.60-2.40 s: wings open on the 12 wing bones while the legs stay planted, then the legs tuck | hop 0.9 s, seated 0.93 s after interact
+fc2_medusa.jpg | Medusa natural pass in the fight: stalk, gaze windup, stun, stunned, rise | medusa idle 33/35 joints (18), slither 34/35 (26), stunned 28/35 (13)
+fc2_hydra.jpg | Hydra natural pass in the fight: guard idle, inhale, fire, head_down/up, stomp, bite | hydra idle 43/76 joints (0 this morning), walk 67/76 (24)
+fc2_landing.jpg | free-flight landing at home: Pegasus glides in, flares and settles into the idle | glide-in 1.9 s; 0 frames over 50 ms on a fully cold cache in the flight

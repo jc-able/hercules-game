@@ -1,0 +1,71 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 0.833,
+ "events": {},
+ "stride_m": 0.6,
+ "natural_speed_mps": 0.72,
+ "note": "video window 2.50-3.33 s (t0=2.5), fix pass 2026-11-22. 10 keys every 2 frames, all leg poses solved by IK (work/anim/hercules_strafe_fix/gen_fix2.py). k00 narrow stance (ankles x +-0.25 m from the hips), k10 wide (+-0.55 m); left foot swings out in frames 0-10, right foot follows in frames 10-20, lift 4 cm. The planted foot slides toward the trailing side at a constant 0.72 m/s (0.30 m per stance phase, 0.6 m per cycle). The game must move the body at stride_m / length * speed_scale to avoid skating. Steps are wider than the video (+-0.455 / +-0.32) on purpose, see notes.md.",
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_strafe_l/k00.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.0417,
+   "pose_file": "poses_strafe_l/k01.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.0833,
+   "pose_file": "poses_strafe_l/k02.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.1667,
+   "pose_file": "poses_strafe_l/k04.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_strafe_l/k06.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.3333,
+   "pose_file": "poses_strafe_l/k08.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.4167,
+   "pose_file": "poses_strafe_l/k10.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.4583,
+   "pose_file": "poses_strafe_l/k11.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_strafe_l/k12.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.5833,
+   "pose_file": "poses_strafe_l/k14.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.6667,
+   "pose_file": "poses_strafe_l/k16.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_strafe_l/k18.json",
+   "interp": "linear"
+  }
+ ]
+}

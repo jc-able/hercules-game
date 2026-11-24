@@ -1,0 +1,391 @@
+{
+ "_about": "One Seedance 2.5 reference video (480p, 10 s, split screen FRONT | SIDE, first frame = the Blender split sheet) per entry. 'clips' = the game clips cut from that video. Prompt = base + motion. 'sheet' = which framing of art_src/chars/<id>/sheet_<name>.png + cam_<name>.json the video starts from (std = closer, wide = room for falls, slams and sweeps).",
+ "base": "Animation reference video for a 3D game {noun}, shown as a split screen. LEFT panel: FRONT view. RIGHT panel: SIDE view of the same {noun}, facing right. Both panels show the SAME motion at the SAME time, perfectly in sync. Fixed, locked-off orthographic cameras: no camera movement, no zoom, no reframing, no cuts. Plain {bg} background, no visual effects, no fire, no light beams, no dust, no extra objects. Keep the thin vertical divider line. The {noun} keeps exactly the same design, proportions, colors and size as in the first frame and stays in place in each panel (any travel happens on the spot, like on a treadmill).",
+ "characters": {
+  "hercules": {
+   "noun": "character",
+   "bg": "white",
+   "videos": [
+    {
+     "name": "idle",
+     "clips": [
+      "idle"
+     ],
+     "motion": "He settles into a relaxed combat-ready stance: feet shoulder-width apart, knees slightly bent, sword held low in his right hand, round shield held in front of his left side. He breathes calmly and shifts his weight a little, small natural movements only. He holds this ready stance for the whole clip.",
+     "sheet": "std"
+    },
+    {
+     "name": "run",
+     "clips": [
+      "run"
+     ],
+     "motion": "Starting from the standing pose, he runs in place on the spot, like on a treadmill, at a steady athletic jog for the whole clip: knees lifting, feet striking the ground, arms pumping with bent elbows while carrying the sword in his right hand and the shield on his left arm, torso leaning slightly forward, head steady. Constant rhythm, about two steps per second.",
+     "sheet": "std"
+    },
+    {
+     "name": "strafe",
+     "clips": [
+      "strafe_l"
+     ],
+     "motion": "He drops into a low guarded combat stance, shield up in front of him, sword ready, eyes forward, and side-steps continuously to HIS OWN LEFT in place on the spot: the left foot steps out to the side, the right foot follows, the feet never cross. Steady rhythm, about two side-steps per second, for the whole clip.",
+     "sheet": "std"
+    },
+    {
+     "name": "walk_back",
+     "clips": [
+      "walk_back"
+     ],
+     "motion": "He drops into a guarded combat stance, shield up, sword ready, eyes forward, and backpedals in place on the spot: careful alternating steps backward, knees bent, torso upright. Steady rhythm for the whole clip.",
+     "sheet": "std"
+    },
+    {
+     "name": "roll",
+     "clips": [
+      "roll"
+     ],
+     "motion": "0-2 s he drops into a low combat stance. 2-4 s he does one fast forward combat dodge roll on the ground: dives forward, tucks his head, rolls over his shoulder and back and comes up on his feet in the same spot of the frame. 4-6 s he holds the low stance. 6-8 s he does the same forward dodge roll again. 8-10 s he returns to the standing pose.",
+     "sheet": "wide"
+    },
+    {
+     "name": "attack",
+     "clips": [
+      "attack_1",
+      "attack_2"
+     ],
+     "motion": "0-1.5 s combat-ready stance with the sword in his right hand. 1.5-2.5 s a fast horizontal sword slash from his right to his left with a short step forward. 2.5-3.5 s immediately a second strike: he raises the sword overhead and chops straight down. 3.5-5 s he recovers to the ready stance. 5-8 s he repeats the same two-strike combo. 8-10 s ready stance.",
+     "sheet": "std"
+    },
+    {
+     "name": "block",
+     "clips": [
+      "block_start",
+      "block_idle"
+     ],
+     "motion": "0-1 s combat-ready stance. 1-2 s he raises the round shield in front of his chest and face and braces behind it, knees bent, sword arm drawn back. 2-6 s he holds the braced block steady with tiny adjustments. 6-7 s something heavy hits the shield: he absorbs the impact and slides back slightly, shield still up. 7-9 s he keeps holding the block. 9-10 s he lowers the shield back to the ready stance.",
+     "sheet": "std"
+    },
+    {
+     "name": "hit",
+     "clips": [
+      "hit"
+     ],
+     "motion": "0-1 s combat-ready stance. 1-2 s he is struck hard from the front: his torso jerks back, his head snaps back, he staggers one step backward with his arms flung slightly outward. 2-3.5 s he recovers to the ready stance. 3.5-5 s he holds the stance. 5-6 s he is struck again in the same way. 6-8 s he recovers. 8-10 s ready stance.",
+     "sheet": "std"
+    },
+    {
+     "name": "death",
+     "clips": [
+      "death"
+     ],
+     "motion": "0-1 s combat-ready stance. 1-2.5 s he is struck down: he staggers and drops to his knees. 2.5-4 s he collapses onto the ground and lies flat, the sword slipping from his hand. 4-10 s he lies completely motionless on the ground.",
+     "sheet": "wide"
+    },
+    {
+     "name": "idle_n",
+     "clips": [
+      "idle"
+     ],
+     "motion": "He stands at ease but ready on the spot, feet planted shoulder-width apart, weight mostly on his right leg, left knee soft. He breathes slowly, one breath every 3.5 seconds: chest rises, shoulders lift a little, then settle. Around 4 seconds he shifts his weight onto his left leg and back by 7 seconds, hips swaying. His head turns slowly to look left, then ahead with a small nod. His right hand flexes its grip, the sword swaying slightly beside his right leg, blade down. His bent left arm holds the round shield at his side, rising and falling with each breath. He stays in place and keeps his design.",
+     "sheet": "nat_std",
+     "pass": "natural 2026-11-23: starts from the natural stance sheet"
+    },
+    {
+     "name": "run_n",
+     "clips": [
+      "run"
+     ],
+     "motion": "Starting from the relaxed stance, he runs in place on the spot like on a treadmill at a steady athletic run, about two and a half steps per second. His knees lift and his feet strike the ground under his hips. His arms swing opposite to his legs with bent elbows: the right arm carries the sword low, blade angled back, swinging forward and back with each stride; the bent left arm pumps the round shield at his side. His torso leans slightly forward and twists against his hips, his chest heaving, and his head stays level, looking ahead and bobbing gently with each step. He keeps his design.",
+     "sheet": "nat_std",
+     "pass": "natural 2026-11-23: starts from the natural stance sheet"
+    }
+   ]
+  },
+  "cyclops": {
+   "noun": "giant creature",
+   "bg": "white",
+   "videos": [
+    {
+     "name": "idle",
+     "clips": [
+      "idle"
+     ],
+     "motion": "The four-armed giant stands menacingly and breathes heavily: shoulders and chest rising and falling, the big club resting in his upper right hand, the lower pair of arms flexing slowly, head turning slightly from side to side. He holds this for the whole clip.",
+     "sheet": "std"
+    },
+    {
+     "name": "walk",
+     "clips": [
+      "walk"
+     ],
+     "motion": "He walks in place on the spot with slow, heavy, stomping steps: torso swaying, the club swinging at his side, all four arms moving naturally with the steps. Steady rhythm, about one step per second, for the whole clip.",
+     "sheet": "std"
+    },
+    {
+     "name": "sweep",
+     "clips": [
+      "sweep"
+     ],
+     "motion": "0-1.5 s he stands ready. 1.5-2.5 s wind-up: he draws the club back low to his right side with both upper hands, twisting his torso. 2.5-3.2 s he sweeps the club fast and low in a wide horizontal backhand arc in front of him, from his right to his left. 3.2-5 s he follows through and recovers. 5-8 s he repeats the same sweep. 8-10 s he stands ready.",
+     "sheet": "wide"
+    },
+    {
+     "name": "slam",
+     "clips": [
+      "slam",
+      "stuck",
+      "pull_free"
+     ],
+     "motion": "0-1 s he stands ready. 1-2.5 s wind-up: he grips the club with both upper hands and raises it high above his head, leaning back. 2.5-3 s he smashes it straight down into the ground in front of him, bending deep forward. 3-6 s the club is stuck in the ground: he stays bent over, straining and tugging at it with both upper arms, forearms low near the ground. 6-7.5 s he wrenches the club free with a big heave and straightens up. 7.5-10 s he returns to the ready stance and roars.",
+     "sheet": "wide"
+    },
+    {
+     "name": "hurt",
+     "clips": [
+      "hurt"
+     ],
+     "motion": "0-1 s he stands ready. 1-2.5 s he is wounded in the right forearm: he recoils, jerks that arm back, throws his head back and roars in pain. 2.5-4.5 s he recovers. 4.5-6 s he is wounded again in the same way. 6-8 s he recovers. 8-10 s he stands ready.",
+     "sheet": "std"
+    },
+    {
+     "name": "death",
+     "clips": [
+      "death"
+     ],
+     "motion": "0-1 s he stands ready. 1-3 s he is exhausted and defeated: he sways, lets the club fall from his hand, and sinks down onto his knees with his arms hanging. 3-5 s he slowly tips forward and comes to rest lying flat on his front on the ground. 5-10 s he lies completely still, like a sleeping giant.",
+     "sheet": "wide"
+    },
+    {
+     "name": "idle_n",
+     "clips": [
+      "idle"
+     ],
+     "motion": "The four-armed giant stands ready in place on the spot and keeps his exact design, club and proportions. He breathes slowly and deeply, one breath every 3.5 seconds: chest and shoulders rise and fall. His weight shifts slowly from the left leg to the right and back over 7 seconds, knees soft, feet flat. The upper right hand keeps the club resting on his right shoulder; it bobs with each breath. The upper left arm hangs with a bent elbow and sways a little. The lower pair of arms hangs in front of the hips, fingers flexing, each hand at its own time. His head turns slowly left, then right.",
+     "sheet": "nat_std",
+     "pass": "natural 2026-11-23: starts from the natural stance sheet"
+    },
+    {
+     "name": "walk_n",
+     "clips": [
+      "walk"
+     ],
+     "motion": "The four-armed giant walks in place on the spot with heavy, deliberate steps, one step every 0.7 seconds, and keeps his exact design and proportions. His knees bend, each foot lifts and stomps down flat. His torso sways over the planted foot, twists against the legs and dips on every footfall. The upper right hand keeps the club resting on his right shoulder; the club bounces with each step. The upper left arm swings forward and back opposite the left leg. The lower pair of arms swings loosely in front of the hips, opposite the legs and a little later. His head stays level and looks ahead.",
+     "sheet": "nat_std",
+     "pass": "natural 2026-11-23: starts from the natural stance sheet"
+    }
+   ]
+  },
+  "medusa": {
+   "noun": "serpent-bodied creature",
+   "bg": "white",
+   "videos": [
+    {
+     "name": "idle",
+     "clips": [
+      "idle"
+     ],
+     "motion": "She stays upright and sways gently; her long serpent tail undulates slowly on the ground behind her, the snakes on her head writhe, her arms are slightly spread. She holds this for the whole clip.",
+     "sheet": "std"
+    },
+    {
+     "name": "slither",
+     "clips": [
+      "slither"
+     ],
+     "motion": "She slithers forward in place on the spot: her tail makes continuous S-shaped waves along its whole length on the ground, and her upright body leans forward and sways from side to side with the motion. Steady rhythm for the whole clip.",
+     "sheet": "std"
+    },
+    {
+     "name": "gaze",
+     "clips": [
+      "gaze"
+     ],
+     "motion": "0-1 s she sways idly. 1-2.5 s wind-up: she pulls her head back and raises both arms, the snakes on her head rearing up. 2.5-4.5 s she thrusts her head forward and glares with wide open eyes, arms thrown out to the sides, body rigid and leaning forward, holding the stare. 4.5-6 s she relaxes back to the idle sway. 6-9.5 s she repeats the same wind-up and stare. 9.5-10 s idle.",
+     "sheet": "std"
+    },
+    {
+     "name": "stunned",
+     "clips": [
+      "stun_start",
+      "stunned",
+      "rise"
+     ],
+     "motion": "0-1 s she sways idly. 1-2 s she is blinded: she recoils violently, her head whipping back, both arms covering her eyes. 2-3.5 s she collapses forward, lowering her whole upper body until her head and arms rest on the floor in front of her. 3.5-7 s she stays slumped with her head on the floor, dazed, moving only weakly. 7-9 s she pushes herself back up to her full upright height. 9-10 s idle.",
+     "sheet": "wide"
+    },
+    {
+     "name": "tail_swipe",
+     "clips": [
+      "tail_swipe"
+     ],
+     "motion": "0-1 s she sways idly. 1-2.5 s wind-up: she coils her tail tightly beside her and twists her torso. 2.5-3.5 s she whips her tail around in a fast, low, horizontal sweep in a full circle around her body. 3.5-5 s she recovers. 5-8 s she repeats the same tail sweep. 8-10 s idle.",
+     "sheet": "swipe"
+    },
+    {
+     "name": "hurt",
+     "clips": [
+      "hurt"
+     ],
+     "motion": "0-1 s she sways idly. 1-2.5 s she is cut on the side of the neck: she flinches sideways, clutches her neck with one hand and shrieks with her head thrown back, the snakes thrashing. 2.5-4.5 s she recovers. 4.5-6 s she is cut again in the same way. 6-8 s she recovers. 8-10 s idle.",
+     "sheet": "std"
+    },
+    {
+     "name": "death",
+     "clips": [
+      "death"
+     ],
+     "motion": "0-1 s she sways idly. 1-3 s she shrieks, arms rising, body arching backward. 3-5 s she collapses onto the floor, her tail going limp. 5-10 s she lies completely still.",
+     "sheet": "wide"
+    },
+    {
+     "name": "idle_n",
+     "clips": [
+      "idle"
+     ],
+     "motion": "She rests upright on the spot and holds her design. Her chest rises and falls in one slow breath every 3 seconds, her shoulders lifting slightly. Over 6 seconds her torso shifts its weight to her left and back again in a soft S-curve, never rocking like a pendulum. Her head tilts and turns a little to her left, then returns. Her right arm hangs loosely by her hip, fingers curling; her raised left hand slowly turns its open palm. The six snakes of her hair move separately, each at its own pace. Her curved tail stays on the ground; its curled tip lifts and flicks gently twice.",
+     "sheet": "nat_std",
+     "pass": "natural 2026-11-23: starts from the natural stance sheet"
+    },
+    {
+     "name": "slither_n",
+     "clips": [
+      "slither"
+     ],
+     "motion": "She glides forward on the spot, staying in place and holding her design. Her tail drives continuous S-shaped waves along its whole length on the ground, one wave every 2 seconds, travelling from her hips back to the curled tip. Her upright body rides the waves: her hips sway from side to side and her torso counter-sways, leaning slightly forward. Her arms swing loosely and alternately, elbows bent, the left forward as the right goes back. Her head stays level and looks ahead, tilting slightly into each sway. The six snakes of her hair trail behind her head and sway separately, each with its own delay.",
+     "sheet": "nat_std",
+     "pass": "natural 2026-11-23: starts from the natural stance sheet"
+    }
+   ]
+  },
+  "hydra": {
+   "noun": "nine-headed creature",
+   "bg": "white",
+   "videos": [
+    {
+     "name": "idle",
+     "clips": [
+      "idle"
+     ],
+     "motion": "The beast stands on its four legs and breathes; its nine heads sway and weave slowly on their long necks, each moving a little differently; the tail swings gently. It holds this for the whole clip.",
+     "sheet": "std"
+    },
+    {
+     "name": "walk",
+     "clips": [
+      "walk"
+     ],
+     "motion": "It walks in place on the spot with slow, heavy, four-legged steps: the body sways, the heads bob with each step, the tail swings. Steady rhythm for the whole clip.",
+     "sheet": "std"
+    },
+    {
+     "name": "fire_sweep",
+     "clips": [
+      "fire_sweep",
+      "head_down",
+      "head_up"
+     ],
+     "motion": "0-1 s it stands idle. 1-2.5 s wind-up: the CENTRE head rears up and back with its mouth opening, the chest swelling as it inhales deeply, the other heads spreading apart. 2.5-5 s the centre head lunges forward and down with its mouth wide open and sweeps slowly in a wide arc from the creature's right side to its left side, low over the ground. 5-8 s exhausted, the centre head drops until its chin rests on the ground in front of the body and stays there, panting. 8-10 s the centre head lifts back up to the idle pose.",
+     "sheet": "wide"
+    },
+    {
+     "name": "stomp",
+     "clips": [
+      "stomp"
+     ],
+     "motion": "0-1 s it stands idle. 1-2.2 s wind-up: it shifts its weight back and lifts its front left foreleg high off the ground. 2.2-2.8 s it slams that foot down hard. 2.8-4.5 s it recovers. 4.5-8 s it repeats the same stomp. 8-10 s idle.",
+     "sheet": "std"
+    },
+    {
+     "name": "bite",
+     "clips": [
+      "bite"
+     ],
+     "motion": "0-1 s it stands idle. 1-2 s one of the outer heads on its right side draws back, coiling its neck like a snake about to strike. 2-2.6 s that head lunges forward and down in a fast bite, jaws snapping near the ground in front of the body. 2.6-4.5 s the head pulls back. 4.5-8 s it repeats the same bite. 8-10 s idle.",
+     "sheet": "std"
+    },
+    {
+     "name": "hurt",
+     "clips": [
+      "hurt"
+     ],
+     "motion": "0-1 s it stands idle. 1-2.5 s the centre head is struck under the jaw: it jerks up and back, all the heads recoil and thrash, the body flinches backward. 2.5-4.5 s it recovers. 4.5-6 s it is struck again in the same way. 6-8 s it recovers. 8-10 s idle.",
+     "sheet": "std"
+    },
+    {
+     "name": "death",
+     "clips": [
+      "death"
+     ],
+     "motion": "0-1 s it stands idle. 1-3.5 s the heads thrash wildly and the legs buckle. 3.5-6 s it collapses onto its belly, the necks falling limp to the ground one after another. 6-10 s it lies completely still.",
+     "sheet": "wide"
+    },
+    {
+     "name": "idle_n",
+     "clips": [
+      "idle"
+     ],
+     "motion": "The nine-headed beast stands relaxed on its four planted legs. Its chest and belly swell with one slow breath every 3.5 seconds, and its weight drifts from the right legs to the left and back over 7 seconds. The tall centre head looks calmly left, then right, its jaw easing open and shut. The eight side heads keep their loose S-shaped necks at different heights and weave independently, each on its own slow rhythm: the low heads sniff toward the ground and lift, the outer heads turn to look sideways, never two moving together. The tail sways lazily. It stays on the spot and keeps its exact design.",
+     "sheet": "nat_std",
+     "pass": "natural 2026-11-23: starts from the natural stance sheet"
+    },
+    {
+     "name": "walk_n",
+     "clips": [
+      "walk"
+     ],
+     "motion": "The nine-headed beast walks in place on the spot with a slow, heavy four-legged gait, one full stride every 2.2 seconds: left foreleg, right hind leg, right foreleg, left hind leg, each foot lifting clearly and planting flat. The body rolls and dips with every step, shoulders rising over the planted foreleg. The tall centre head stays high, looks straight ahead and nods slightly on each footfall. The eight side heads keep their loose S-shaped necks and bob and sway with the steps, each a beat later than its neighbour, never in unison. The tail swings side to side against the shoulders. It keeps its exact design.",
+     "sheet": "nat_std",
+     "pass": "natural 2026-11-23: starts from the natural stance sheet"
+    }
+   ]
+  },
+  "pegasus": {
+   "noun": "winged horse",
+   "bg": "green",
+   "videos": [
+    {
+     "name": "idle",
+     "clips": [
+      "idle"
+     ],
+     "motion": "The winged horse stands calmly with its wings half folded: it shifts its weight, flicks its tail, tosses its head and mane gently and ruffles its wings. It holds this for the whole clip.",
+     "sheet": "std"
+    },
+    {
+     "name": "fly",
+     "clips": [
+      "fly"
+     ],
+     "motion": "It flies in place: powerful steady wing beats, the wings sweeping fully up and fully down about once per second, the legs tucked up under the body in a galloping flying pose, mane and tail streaming back, the body bobbing slightly with each beat. Steady rhythm for the whole clip.",
+     "sheet": "std"
+    },
+    {
+     "name": "glide",
+     "clips": [
+      "glide"
+     ],
+     "motion": "It glides in place with its wings held fully outstretched and still, only small adjustments of the wing tips, the legs tucked up, the body tilting gently left and right, mane and tail streaming back. It holds this for the whole clip.",
+     "sheet": "std"
+    },
+    {
+     "name": "idle_n",
+     "clips": [
+      "idle"
+     ],
+     "motion": "The winged horse stands calmly on the spot and keeps its design. Its chest rises and falls in one slow breath every 3.5 seconds. Its left hind leg rests on the hoof tip; at 4 seconds it shifts its weight and rests the right hind leg instead, and at 8 seconds it shifts back. The forelegs stay planted. The arched neck slowly turns the head to the left, then to the right. The half-folded wings settle with small shrugs: the left wing twitches at 2 seconds, the right wing lifts slightly and refolds at 6 seconds. The tail sways gently and flicks once at 3 seconds.",
+     "sheet": "nat_std",
+     "pass": "natural 2026-11-23: starts from the natural stance sheet"
+    }
+   ]
+  }
+ },
+ "ride": {
+  "name": "ride",
+  "clips": [
+   "hercules:ride",
+   "pegasus:fly_ridden"
+  ],
+  "noun": "hero riding a winged horse",
+  "bg": "green",
+  "motion": "The hero sits astride the winged horse's back, leaning slightly forward, legs gripping its sides, one hand holding the mane. The horse flies in place with powerful steady wing beats, the wings sweeping fully up and fully down about once per second, legs tucked up, mane and tail streaming back; the rider's body follows the up-and-down motion of each beat. Steady rhythm for the whole clip."
+ }
+}

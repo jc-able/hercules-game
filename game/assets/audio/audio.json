@@ -1,0 +1,630 @@
+{
+ "_about": "Audio manifest read by the Sfx autoload (game/scripts/autoload/sfx.gd). Built by tools/audio/process.py from art_src/audio/raw (registry: docs/audio_list.json). volume_db is added to every play; positional sounds use unit_size / max_distance; pitch_random = +- fraction.",
+ "sounds": {
+  "sword_swing": {
+   "file": "sfx/sword_swing.wav",
+   "bus": "SFX",
+   "volume_db": 2.3,
+   "pitch_random": 0.06,
+   "loop": false,
+   "max_distance": 90.0,
+   "unit_size": 6.0,
+   "positional": true
+  },
+  "sword_hit": {
+   "file": "sfx/sword_hit.wav",
+   "bus": "SFX",
+   "volume_db": 3.6,
+   "pitch_random": 0.05,
+   "loop": false,
+   "max_distance": 90.0,
+   "unit_size": 6.0,
+   "positional": true
+  },
+  "glance": {
+   "file": "sfx/glance.wav",
+   "bus": "SFX",
+   "volume_db": 3.6,
+   "pitch_random": 0.06,
+   "loop": false,
+   "max_distance": 90.0,
+   "unit_size": 6.0,
+   "positional": true
+  },
+  "roll": {
+   "file": "sfx/roll.wav",
+   "bus": "SFX",
+   "volume_db": -0.9,
+   "pitch_random": 0.05,
+   "loop": false,
+   "max_distance": 90.0,
+   "unit_size": 6.0,
+   "positional": true
+  },
+  "step_dirt": {
+   "file": "sfx/step_dirt.wav",
+   "bus": "SFX",
+   "volume_db": -3.7,
+   "pitch_random": 0.08,
+   "loop": false,
+   "max_distance": 40.0,
+   "unit_size": 4.0,
+   "positional": true
+  },
+  "step_stone": {
+   "file": "sfx/step_stone.wav",
+   "bus": "SFX",
+   "volume_db": -7.3,
+   "pitch_random": 0.08,
+   "loop": false,
+   "max_distance": 40.0,
+   "unit_size": 4.0,
+   "positional": true
+  },
+  "shield_up": {
+   "file": "sfx/shield_up.wav",
+   "bus": "SFX",
+   "volume_db": 3.8,
+   "pitch_random": 0.04,
+   "loop": false,
+   "max_distance": 90.0,
+   "unit_size": 6.0,
+   "positional": true
+  },
+  "block": {
+   "file": "sfx/block.wav",
+   "bus": "SFX",
+   "volume_db": 5.4,
+   "pitch_random": 0.04,
+   "loop": false,
+   "max_distance": 90.0,
+   "unit_size": 6.0,
+   "positional": true
+  },
+  "reflect": {
+   "file": "sfx/reflect.wav",
+   "bus": "SFX",
+   "volume_db": 0.8,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 90.0,
+   "unit_size": 6.0,
+   "positional": true
+  },
+  "hurt": {
+   "file": "sfx/hurt.wav",
+   "bus": "SFX",
+   "volume_db": -0.2,
+   "pitch_random": 0.05,
+   "loop": false,
+   "max_distance": 90.0,
+   "unit_size": 6.0,
+   "positional": true
+  },
+  "death": {
+   "file": "sfx/death.wav",
+   "bus": "SFX",
+   "volume_db": 2.6,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 90.0,
+   "unit_size": 6.0,
+   "positional": true
+  },
+  "petrify": {
+   "file": "sfx/petrify.wav",
+   "bus": "SFX",
+   "volume_db": 6.1,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 90.0,
+   "unit_size": 6.0,
+   "positional": true
+  },
+  "cyclops_roar": {
+   "file": "sfx/cyclops_roar.wav",
+   "bus": "SFX",
+   "volume_db": 2.5,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "cyclops_step": {
+   "file": "sfx/cyclops_step.wav",
+   "bus": "SFX",
+   "volume_db": -1.1,
+   "pitch_random": 0.06,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "cyclops_sweep_warn": {
+   "file": "sfx/cyclops_sweep_warn.wav",
+   "bus": "SFX",
+   "volume_db": 3.4,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 24.0,
+   "positional": true
+  },
+  "cyclops_sweep": {
+   "file": "sfx/cyclops_sweep.wav",
+   "bus": "SFX",
+   "volume_db": 5.0,
+   "pitch_random": 0.03,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "cyclops_slam_warn": {
+   "file": "sfx/cyclops_slam_warn.wav",
+   "bus": "SFX",
+   "volume_db": 1.2,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 24.0,
+   "positional": true
+  },
+  "cyclops_slam": {
+   "file": "sfx/cyclops_slam.wav",
+   "bus": "SFX",
+   "volume_db": 8.0,
+   "pitch_random": 0.03,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "cyclops_stuck": {
+   "file": "sfx/cyclops_stuck.wav",
+   "bus": "SFX",
+   "volume_db": 2.4,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "cyclops_pull_free": {
+   "file": "sfx/cyclops_pull_free.wav",
+   "bus": "SFX",
+   "volume_db": 3.9,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "cyclops_hurt": {
+   "file": "sfx/cyclops_hurt.wav",
+   "bus": "SFX",
+   "volume_db": 1.9,
+   "pitch_random": 0.04,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "cyclops_death": {
+   "file": "sfx/cyclops_death.wav",
+   "bus": "SFX",
+   "volume_db": -1.2,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "medusa_hiss": {
+   "file": "sfx/medusa_hiss.wav",
+   "bus": "SFX",
+   "volume_db": 0.7,
+   "pitch_random": 0.04,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "medusa_gaze_warn": {
+   "file": "sfx/medusa_gaze_warn.wav",
+   "bus": "SFX",
+   "volume_db": -0.3,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 24.0,
+   "positional": true
+  },
+  "medusa_gaze": {
+   "file": "sfx/medusa_gaze.wav",
+   "bus": "SFX",
+   "volume_db": 2.3,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "medusa_stun": {
+   "file": "sfx/medusa_stun.wav",
+   "bus": "SFX",
+   "volume_db": 2.6,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "medusa_tail_swipe_warn": {
+   "file": "sfx/medusa_tail_swipe_warn.wav",
+   "bus": "SFX",
+   "volume_db": 6.0,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 24.0,
+   "positional": true
+  },
+  "medusa_tail_swipe": {
+   "file": "sfx/medusa_tail_swipe.wav",
+   "bus": "SFX",
+   "volume_db": 6.2,
+   "pitch_random": 0.03,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "medusa_hurt": {
+   "file": "sfx/medusa_hurt.wav",
+   "bus": "SFX",
+   "volume_db": 2.7,
+   "pitch_random": 0.04,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "medusa_death": {
+   "file": "sfx/medusa_death.wav",
+   "bus": "SFX",
+   "volume_db": 3.4,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "hydra_roar": {
+   "file": "sfx/hydra_roar.wav",
+   "bus": "SFX",
+   "volume_db": 2.6,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "hydra_fire_sweep_warn": {
+   "file": "sfx/hydra_fire_sweep_warn.wav",
+   "bus": "SFX",
+   "volume_db": 2.4,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 24.0,
+   "positional": true
+  },
+  "hydra_fire": {
+   "file": "sfx/hydra_fire.wav",
+   "bus": "SFX",
+   "volume_db": 2.3,
+   "pitch_random": 0.0,
+   "loop": true,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "hydra_head_down": {
+   "file": "sfx/hydra_head_down.wav",
+   "bus": "SFX",
+   "volume_db": 3.3,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "hydra_stomp_warn": {
+   "file": "sfx/hydra_stomp_warn.wav",
+   "bus": "SFX",
+   "volume_db": -1.7,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 24.0,
+   "positional": true
+  },
+  "hydra_stomp": {
+   "file": "sfx/hydra_stomp.wav",
+   "bus": "SFX",
+   "volume_db": 2.8,
+   "pitch_random": 0.03,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "hydra_bite_warn": {
+   "file": "sfx/hydra_bite_warn.wav",
+   "bus": "SFX",
+   "volume_db": 1.5,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 24.0,
+   "positional": true
+  },
+  "hydra_bite": {
+   "file": "sfx/hydra_bite.wav",
+   "bus": "SFX",
+   "volume_db": 7.2,
+   "pitch_random": 0.04,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "hydra_hurt": {
+   "file": "sfx/hydra_hurt.wav",
+   "bus": "SFX",
+   "volume_db": 2.8,
+   "pitch_random": 0.04,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "hydra_death": {
+   "file": "sfx/hydra_death.wav",
+   "bus": "SFX",
+   "volume_db": 2.9,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 260.0,
+   "unit_size": 22.0,
+   "positional": true
+  },
+  "wing_flap": {
+   "file": "sfx/wing_flap.wav",
+   "bus": "SFX",
+   "volume_db": -4.6,
+   "pitch_random": 0.05,
+   "loop": false,
+   "max_distance": 160.0,
+   "unit_size": 10.0,
+   "positional": true
+  },
+  "neigh": {
+   "file": "sfx/neigh.wav",
+   "bus": "SFX",
+   "volume_db": 2.9,
+   "pitch_random": 0.03,
+   "loop": false,
+   "max_distance": 160.0,
+   "unit_size": 10.0,
+   "positional": true
+  },
+  "mount": {
+   "file": "sfx/mount.wav",
+   "bus": "SFX",
+   "volume_db": 3.7,
+   "pitch_random": 0.03,
+   "loop": false,
+   "max_distance": 160.0,
+   "unit_size": 10.0,
+   "positional": true
+  },
+  "land": {
+   "file": "sfx/land.wav",
+   "bus": "SFX",
+   "volume_db": 3.5,
+   "pitch_random": 0.03,
+   "loop": false,
+   "max_distance": 160.0,
+   "unit_size": 10.0,
+   "positional": true
+  },
+  "wind_loop": {
+   "file": "sfx/wind_loop.wav",
+   "bus": "SFX",
+   "volume_db": -2.1,
+   "pitch_random": 0.0,
+   "loop": true,
+   "max_distance": 60.0,
+   "unit_size": 6.0,
+   "positional": false
+  },
+  "sea_loop": {
+   "file": "sfx/sea_loop.wav",
+   "bus": "SFX",
+   "volume_db": -5.1,
+   "pitch_random": 0.0,
+   "loop": true,
+   "max_distance": 60.0,
+   "unit_size": 6.0,
+   "positional": false
+  },
+  "lava_loop": {
+   "file": "sfx/lava_loop.wav",
+   "bus": "SFX",
+   "volume_db": -2.8,
+   "pitch_random": 0.0,
+   "loop": true,
+   "max_distance": 60.0,
+   "unit_size": 6.0,
+   "positional": false
+  },
+  "fire_loop": {
+   "file": "sfx/fire_loop.wav",
+   "bus": "SFX",
+   "volume_db": 2.3,
+   "pitch_random": 0.0,
+   "loop": true,
+   "max_distance": 28.0,
+   "unit_size": 2.5,
+   "positional": true
+  },
+  "beacon_loop": {
+   "file": "sfx/beacon_loop.wav",
+   "bus": "SFX",
+   "volume_db": -7.5,
+   "pitch_random": 0.0,
+   "loop": true,
+   "max_distance": 320.0,
+   "unit_size": 18.0,
+   "positional": true
+  },
+  "thunder": {
+   "file": "sfx/thunder.wav",
+   "bus": "SFX",
+   "volume_db": 2.9,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 900.0,
+   "unit_size": 90.0,
+   "positional": true
+  },
+  "ui_move": {
+   "file": "sfx/ui_move.wav",
+   "bus": "UI",
+   "volume_db": -3.6,
+   "pitch_random": 0.03,
+   "loop": false,
+   "max_distance": 1.0,
+   "unit_size": 1.0,
+   "positional": false
+  },
+  "ui_accept": {
+   "file": "sfx/ui_accept.wav",
+   "bus": "UI",
+   "volume_db": -1.0,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 1.0,
+   "unit_size": 1.0,
+   "positional": false
+  },
+  "ui_back": {
+   "file": "sfx/ui_back.wav",
+   "bus": "UI",
+   "volume_db": 1.9,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 1.0,
+   "unit_size": 1.0,
+   "positional": false
+  },
+  "victory": {
+   "file": "sfx/victory.wav",
+   "bus": "UI",
+   "volume_db": 1.6,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 1.0,
+   "unit_size": 1.0,
+   "positional": false
+  },
+  "defeat": {
+   "file": "sfx/defeat.wav",
+   "bus": "UI",
+   "volume_db": -0.9,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 1.0,
+   "unit_size": 1.0,
+   "positional": false
+  },
+  "title_card": {
+   "file": "sfx/title_card.wav",
+   "bus": "UI",
+   "volume_db": 0.1,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 1.0,
+   "unit_size": 1.0,
+   "positional": false
+  },
+  "trophy": {
+   "file": "sfx/trophy.wav",
+   "bus": "UI",
+   "volume_db": 2.9,
+   "pitch_random": 0.0,
+   "loop": false,
+   "max_distance": 1.0,
+   "unit_size": 1.0,
+   "positional": false
+  },
+  "music_title": {
+   "file": "music/music_title.ogg",
+   "bus": "Music",
+   "volume_db": -5.0,
+   "pitch_random": 0.0,
+   "loop": true,
+   "loop_offset": 0.0,
+   "max_distance": 0.0,
+   "unit_size": 0.0,
+   "positional": false
+  },
+  "music_flight": {
+   "file": "music/music_flight.ogg",
+   "bus": "Music",
+   "volume_db": -5.0,
+   "pitch_random": 0.0,
+   "loop": true,
+   "loop_offset": 9.7492,
+   "max_distance": 0.0,
+   "unit_size": 0.0,
+   "positional": false
+  },
+  "music_cyclops": {
+   "file": "music/music_cyclops.ogg",
+   "bus": "Music",
+   "volume_db": -5.0,
+   "pitch_random": 0.0,
+   "loop": true,
+   "loop_offset": 0.0,
+   "max_distance": 0.0,
+   "unit_size": 0.0,
+   "positional": false
+  },
+  "music_medusa": {
+   "file": "music/music_medusa.ogg",
+   "bus": "Music",
+   "volume_db": -5.0,
+   "pitch_random": 0.0,
+   "loop": true,
+   "loop_offset": 0.0,
+   "max_distance": 0.0,
+   "unit_size": 0.0,
+   "positional": false
+  },
+  "music_hydra": {
+   "file": "music/music_hydra.ogg",
+   "bus": "Music",
+   "volume_db": -5.0,
+   "pitch_random": 0.0,
+   "loop": true,
+   "loop_offset": 1.8475,
+   "max_distance": 0.0,
+   "unit_size": 0.0,
+   "positional": false
+  }
+ }
+}

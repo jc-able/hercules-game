@@ -1,0 +1,1029 @@
+{
+ "fly_mix": {
+  "action": "work/assemble_pegasus/trial_mix/action_fly.json",
+  "length": 1.0416666666666667,
+  "fps": 24.0,
+  "rider_time_scale": 0.6944444444444445,
+  "frames_checked": 50,
+  "frames_with_hits": 1,
+  "max_pairs": 109,
+  "rows": [
+   {
+    "frame": 0.0,
+    "t": 0.0,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 0.5,
+    "t": 0.0208,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 1.0,
+    "t": 0.0417,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 1.5,
+    "t": 0.0625,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 2.0,
+    "t": 0.0833,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 2.5,
+    "t": 0.1042,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 3.0,
+    "t": 0.125,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 3.5,
+    "t": 0.1458,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 4.0,
+    "t": 0.1667,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 4.5,
+    "t": 0.1875,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 5.0,
+    "t": 0.2083,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 5.5,
+    "t": 0.2292,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 6.0,
+    "t": 0.25,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 6.5,
+    "t": 0.2708,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 7.0,
+    "t": 0.2917,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 7.5,
+    "t": 0.3125,
+    "hits": {
+     "hercules": 109,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {
+     "thigh_l": 32,
+     "shin_l": 31,
+     "shin_r": 27,
+     "thigh_r": 19
+    }
+   },
+   {
+    "frame": 8.0,
+    "t": 0.3333,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 8.5,
+    "t": 0.3542,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 9.0,
+    "t": 0.375,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 9.5,
+    "t": 0.3958,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 10.0,
+    "t": 0.4167,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 10.5,
+    "t": 0.4375,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 11.0,
+    "t": 0.4583,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 11.5,
+    "t": 0.4792,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 12.0,
+    "t": 0.5,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 12.5,
+    "t": 0.5208,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 13.0,
+    "t": 0.5417,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 13.5,
+    "t": 0.5625,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 14.0,
+    "t": 0.5833,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 14.5,
+    "t": 0.6042,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 15.0,
+    "t": 0.625,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 15.5,
+    "t": 0.6458,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 16.0,
+    "t": 0.6667,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 16.5,
+    "t": 0.6875,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 17.0,
+    "t": 0.7083,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 17.5,
+    "t": 0.7292,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 18.0,
+    "t": 0.75,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 18.5,
+    "t": 0.7708,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 19.0,
+    "t": 0.7917,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 19.5,
+    "t": 0.8125,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 20.0,
+    "t": 0.8333,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 20.5,
+    "t": 0.8542,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 21.0,
+    "t": 0.875,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 21.5,
+    "t": 0.8958,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 22.0,
+    "t": 0.9167,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 22.5,
+    "t": 0.9375,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 23.0,
+    "t": 0.9583,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 23.5,
+    "t": 0.9792,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 24.0,
+    "t": 1.0,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 24.5,
+    "t": 1.0208,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   }
+  ]
+ },
+ "fly_y25": {
+  "action": "work/assemble_pegasus/trial_y25/action_fly.json",
+  "length": 1.0416666666666667,
+  "fps": 24.0,
+  "rider_time_scale": 0.6944444444444445,
+  "frames_checked": 50,
+  "frames_with_hits": 0,
+  "max_pairs": 0,
+  "rows": [
+   {
+    "frame": 0.0,
+    "t": 0.0,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 0.5,
+    "t": 0.0208,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 1.0,
+    "t": 0.0417,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 1.5,
+    "t": 0.0625,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 2.0,
+    "t": 0.0833,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 2.5,
+    "t": 0.1042,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 3.0,
+    "t": 0.125,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 3.5,
+    "t": 0.1458,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 4.0,
+    "t": 0.1667,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 4.5,
+    "t": 0.1875,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 5.0,
+    "t": 0.2083,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 5.5,
+    "t": 0.2292,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 6.0,
+    "t": 0.25,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 6.5,
+    "t": 0.2708,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 7.0,
+    "t": 0.2917,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 7.5,
+    "t": 0.3125,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 8.0,
+    "t": 0.3333,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 8.5,
+    "t": 0.3542,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 9.0,
+    "t": 0.375,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 9.5,
+    "t": 0.3958,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 10.0,
+    "t": 0.4167,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 10.5,
+    "t": 0.4375,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 11.0,
+    "t": 0.4583,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 11.5,
+    "t": 0.4792,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 12.0,
+    "t": 0.5,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 12.5,
+    "t": 0.5208,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 13.0,
+    "t": 0.5417,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 13.5,
+    "t": 0.5625,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 14.0,
+    "t": 0.5833,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 14.5,
+    "t": 0.6042,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 15.0,
+    "t": 0.625,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 15.5,
+    "t": 0.6458,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 16.0,
+    "t": 0.6667,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 16.5,
+    "t": 0.6875,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 17.0,
+    "t": 0.7083,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 17.5,
+    "t": 0.7292,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 18.0,
+    "t": 0.75,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 18.5,
+    "t": 0.7708,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 19.0,
+    "t": 0.7917,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 19.5,
+    "t": 0.8125,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 20.0,
+    "t": 0.8333,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 20.5,
+    "t": 0.8542,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 21.0,
+    "t": 0.875,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 21.5,
+    "t": 0.8958,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 22.0,
+    "t": 0.9167,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 22.5,
+    "t": 0.9375,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 23.0,
+    "t": 0.9583,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 23.5,
+    "t": 0.9792,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 24.0,
+    "t": 1.0,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   },
+   {
+    "frame": 24.5,
+    "t": 1.0208,
+    "hits": {
+     "hercules": 0,
+     "prop_sword": 0,
+     "prop_shield": 0
+    },
+    "bones": {}
+   }
+  ]
+ }
+}

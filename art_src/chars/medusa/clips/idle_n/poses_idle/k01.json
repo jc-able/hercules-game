@@ -1,0 +1,170 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0.0,
+   0.0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "pelvis": {
+   "ry": -6.0
+  },
+  "spine_01": {
+   "space": "local_delta",
+   "rx": 3,
+   "ry": 1.0
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rx": 1.766,
+   "ry": 4.0
+  },
+  "spine_03": {
+   "space": "local_delta",
+   "rx": -2.234,
+   "ry": 4.0,
+   "rz": 4.0
+  },
+  "neck": {
+   "space": "local_delta",
+   "rx": 3,
+   "ry": 1.0,
+   "rz": 5.0
+  },
+  "head": {
+   "space": "local_delta",
+   "rx": 5.167,
+   "ry": -9.0,
+   "rz": 9.0
+  },
+  "shoulder_l": {
+   "space": "local_delta",
+   "ry": 5.565
+  },
+  "shoulder_r": {
+   "space": "local_delta",
+   "ry": -3.652
+  },
+  "upper_arm_r": {
+   "front": 18.234,
+   "side": 5.723
+  },
+  "forearm_r": {
+   "front": -8.0,
+   "side": -32.402
+  },
+  "hand_r": {
+   "front": 8,
+   "side": -20.0,
+   "twist": -15.0
+  },
+  "upper_arm_l": {
+   "front": -16.0,
+   "side": -24.077
+  },
+  "forearm_l": {
+   "front": -14.0,
+   "side": -98.986
+  },
+  "hand_l": {
+   "front": -12,
+   "side": -80.268,
+   "twist": 45.0
+  },
+  "hair_l_01": {
+   "space": "local_delta",
+   "ry": -18.326,
+   "rz": 13.099,
+   "rx": 7.009
+  },
+  "hair_l_02": {
+   "space": "local_delta",
+   "rx": 4.023,
+   "rz": -18.766,
+   "ry": -1.991
+  },
+  "hair_l_03": {
+   "space": "local_delta",
+   "ry": 16.457,
+   "rz": -15.647,
+   "rx": -3.156
+  },
+  "hair_r_01": {
+   "space": "local_delta",
+   "ry": 11.429,
+   "rz": -21.378,
+   "rx": 2.305
+  },
+  "hair_r_02": {
+   "space": "local_delta",
+   "ry": -10.617,
+   "rx": -21.879,
+   "rz": 0.286
+  },
+  "hair_r_03": {
+   "space": "local_delta",
+   "ry": 4.093,
+   "rz": 34.621,
+   "rx": 9.692
+  }
+ },
+ "chain": {
+  "name": "tail",
+  "ry": [
+   0.0,
+   0.0,
+   6.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rz": [
+   0,
+   0,
+   0,
+   0,
+   -5.0,
+   -2.224,
+   4.66,
+   9.233,
+   12.696,
+   15.303,
+   19.237,
+   34.0,
+   50.0,
+   62.0
+  ],
+  "rx": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "view_offset": [
+  0,
+  0,
+  0
+ ]
+}

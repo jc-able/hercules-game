@@ -1,0 +1,136 @@
+{
+ "clips": {
+  "bite": {
+   "action": "art_src/chars/hydra/clips/bite/action_bite.json",
+   "length": 3.5,
+   "loop": false,
+   "events": {
+    "impact": 1.5
+   },
+   "changed": "centre strike exact; 8 side heads on the natural stance, original unison pull-back staggered 0.02-0.12 s per head and scaled 0.7-1.1, pull back/up before the strike, flinch outward at impact with lag, look turns; tail counter-swing; breathing on neck roots; start/end natural (0.3 s blend); moving joints 48 -> 65 of 76; acting bones max diff 0.147 deg at original key times"
+  },
+  "bite_l": {
+   "action": "art_src/chars/hydra/clips/bite/action_bite_l.json",
+   "length": 3.5,
+   "loop": false,
+   "events": {
+    "impact": 1.5
+   },
+   "changed": "neck_6 strike exact; centre + 7 heads on the natural stance, watch the strike (head yaw 14 deg toward +X), recoil at impact; tail counter-swing; start/end natural; moving joints 43 -> 62 of 76; acting bones max diff 0.149 deg at original key times"
+  },
+  "bite_r": {
+   "action": "art_src/chars/hydra/clips/bite/action_bite_r.json",
+   "length": 3.5,
+   "loop": false,
+   "events": {
+    "impact": 1.5
+   },
+   "changed": "neck_3 strike exact; centre + 7 heads on the natural stance, watch the strike (head yaw 14 deg toward -X), recoil at impact; tail counter-swing; start/end natural; moving joints 43 -> 64 of 76; acting bones max diff 0.132 deg at original key times"
+  },
+  "fire_sweep": {
+   "action": "art_src/chars/hydra/clips/fire_sweep/action_fire_sweep.json",
+   "length": 4.6,
+   "loop": false,
+   "events": {
+    "fire_start": 1.5,
+    "fire_end": 4.05
+   },
+   "changed": "centre sweep + fire events exact; side heads on the natural stance, lift and lean away as the stream passes their x (-X to +X), flinch at stream start; tail counter-sweep; ends on the shared chin rest with side-head droop; moving joints 48 -> 69 of 76; acting bones max diff 0.169 deg at original key times"
+  },
+  "fire_sweep_l": {
+   "action": "art_src/chars/hydra/clips/fire_sweep/action_fire_sweep_l.json",
+   "length": 4.6,
+   "loop": false,
+   "events": {
+    "fire_start": 1.5,
+    "fire_end": 4.05
+   },
+   "changed": "mirror direction of fire_sweep (+X to -X); same treatment; moving joints 48 -> 66 of 76; acting bones max diff 0.169 deg at original key times"
+  },
+  "fire_sweep_return": {
+   "action": "art_src/chars/hydra/clips/fire_sweep/action_fire_sweep_return.json",
+   "length": 2.7666666666666666,
+   "loop": false,
+   "events": {
+    "fire_start": 0.0,
+    "fire_end": 2.2
+   },
+   "changed": "starts on its own sweep pose; side heads re-based, lean away from the returning stream (+X to -X); ends on the chin rest; moving joints 44 -> 57 of 76; acting bones max diff 0.084 deg at original key times"
+  },
+  "fire_sweep_return_l": {
+   "action": "art_src/chars/hydra/clips/fire_sweep/action_fire_sweep_return_l.json",
+   "length": 2.7666666666666666,
+   "loop": false,
+   "events": {
+    "fire_start": 0.0,
+    "fire_end": 2.2
+   },
+   "changed": "same, stream -X to +X; neck_4 re-based; moving joints 44 -> 55 of 76; acting bones max diff 0.084 deg at original key times"
+  },
+  "head_down": {
+   "action": "art_src/chars/hydra/clips/fire_sweep/action_head_down.json",
+   "length": 1.5,
+   "loop": true,
+   "events": {},
+   "changed": "centre bow exact (jaw socket unchanged); side heads natural + per-head droop (-1.5..-3.5 deg/link), panting breath and weave on 1.5 s (loop-whole) cycles with phase offsets; tail tip stirs; seam exact; moving joints 25 -> 41 of 76; acting bones max diff 0.15 deg at original key times"
+  },
+  "head_up": {
+   "action": "art_src/chars/hydra/clips/fire_sweep/action_head_up.json",
+   "length": 1.5,
+   "loop": false,
+   "events": {},
+   "changed": "centre rise exact; side heads lift out of the droop with 0.1-0.35 s per-head lag; ends on the natural stance (was rest); moving joints 47 -> 56 of 76; acting bones max diff 0.143 deg at original key times"
+  },
+  "hurt": {
+   "action": "art_src/chars/hydra/clips/hurt/action_hurt.json",
+   "length": 0.9,
+   "loop": false,
+   "events": {},
+   "changed": "centre recoil exact; side heads on the chin-rest pose jerk up/out 0.1-0.2 s after the hit with lag, tail lash; starts/ends on the chin rest; moving joints 44 -> 54 of 76; acting bones max diff 0 deg at original key times"
+  },
+  "hurt_standing": {
+   "action": "art_src/chars/hydra/clips/hurt/action_hurt_standing.json",
+   "length": 1.6333333333333333,
+   "loop": false,
+   "events": {},
+   "changed": "side-head reaction kept (staggered) on the natural stance; head_c jerks up 12 deg + jaw opens 10 deg, spine shudder, tail lash; start/end natural; legs natural; moving joints 51 -> 53 of 76; acting bones max diff 0 deg at original key times"
+  },
+  "stomp": {
+   "action": "art_src/chars/hydra/clips/stomp/action_stomp.json",
+   "length": 3.0,
+   "loop": false,
+   "events": {
+    "impact": 1.75
+   },
+   "changed": "left foreleg + impact exact (all legs + spine exact); heads rear up 0.5-1.45 s and whip down at impact with lag and bounce; tail lifts for balance then thumps; start/end natural; moving joints 43 -> 65 of 76; acting bones max diff 0.107 deg at original key times"
+  },
+  "stomp_r": {
+   "action": "art_src/chars/hydra/clips/stomp/action_stomp_r.json",
+   "length": 3.0,
+   "loop": false,
+   "events": {
+    "impact": 1.75
+   },
+   "changed": "mirror of stomp (right foreleg); moving joints 43 -> 65 of 76; acting bones max diff 0.107 deg at original key times"
+  },
+  "death": {
+   "action": "art_src/chars/hydra/clips/death/action_death.json",
+   "length": 3.7916666666666665,
+   "loop": false,
+   "events": {},
+   "changed": "starts on the chin rest (side necks blend from it over 0.35 s); thrash/collapse exact; tail_03..08 whip with lag during the thrash, fading into the collapse; ends in its own pose; moving joints 63 -> 69 of 76; acting bones max diff 0 deg at original key times"
+  },
+  "death_standing": {
+   "action": "art_src/chars/hydra/clips/death/action_death_standing.json",
+   "length": 5.5,
+   "loop": false,
+   "events": {},
+   "changed": "starts natural (0.35 s blend); thrash exact; spine sway + tail whip during the thrash, fading by the collapse; ends in its own pose; moving joints 60 -> 72 of 76; acting bones max diff 0 deg at original key times"
+  }
+ },
+ "kept_as_is": [
+  "idle (V: new video idle_n, other animator)",
+  "walk (V: new video walk_n, other animator)"
+ ],
+ "note": "re-base animator 2026-11-23; one key per frame (inline absolute poses) from work/rebase/hydra/rebase_bl.py; previous files beside as *.rest_v1.json (WARNING: action_<clip>.rest_v1.json also matches a glob action_*.json and carries the same clip name: merge the paths listed here, not a glob)"
+}

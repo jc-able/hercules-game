@@ -1,0 +1,80 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 0.833,
+ "events": {
+  "active_start": 0.25,
+  "active_end": 0.458
+ },
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_attack_2/k0_start.json"
+  },
+  {
+   "t": 0.125,
+   "pose_file": "poses_attack_2/k1_over.json"
+  },
+  {
+   "t": 0.167,
+   "pose_file": "poses_attack_2/k1c_cock.json"
+  },
+  {
+   "t": 0.208,
+   "pose_file": "poses_attack_2/k2_over_top.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_attack_2/k2b_down.json"
+  },
+  {
+   "t": 0.292,
+   "pose_file": "poses_attack_2/k2c_chop1.json"
+  },
+  {
+   "t": 0.333,
+   "pose_file": "poses_attack_2/k2d_chop2.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_attack_2/k3_chop.json"
+  },
+  {
+   "t": 0.417,
+   "pose_file": "poses_attack_2/k3b_follow.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_attack_2/k4_low.json"
+  },
+  {
+   "t": 0.583,
+   "pose_file": "poses_attack_2/k5_low2.json"
+  },
+  {
+   "t": 0.625,
+   "pose_file": "poses_attack_2/k5b_rise.json"
+  },
+  {
+   "t": 0.667,
+   "pose_file": "poses_attack_2/k6_rise.json"
+  },
+  {
+   "t": 0.708,
+   "pose_file": "poses_attack_2/g_0.708.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_attack_2/k6b_settle.json"
+  },
+  {
+   "t": 0.792,
+   "pose_file": "poses_attack_2/g_0.792.json"
+  },
+  {
+   "t": 0.833,
+   "pose_file": "poses_attack_2/k7_ready.json"
+  }
+ ],
+ "note": "review fix 2026-11-22: split retime for the game speed (x1.28 to 0.65 s): wind-up x0.5, chop over 3 frames (k2b_down 0.25 -> k3_chop 0.375 with read-back in-betweens), recovery x0.33, steps back (k6b_settle) into idle k0 at 0.833"
+}

@@ -1,0 +1,26 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 3.0,
+ "events": {},
+ "video": "ref.mp4",
+ "video_t0": 1.5,
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_glide/k0.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_glide/k1.json"
+  },
+  {
+   "t": 1.625,
+   "pose_file": "poses_glide/k2.json"
+  },
+  {
+   "t": 2.375,
+   "pose_file": "poses_glide/k3.json"
+  }
+ ]
+}

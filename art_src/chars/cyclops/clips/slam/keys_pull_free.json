@@ -1,0 +1,165 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 1.5,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_stuck/k00_stuck.json"
+  },
+  {
+   "t": 0.0417,
+   "pose_file": "poses_pull_free/pf2_f01.json"
+  },
+  {
+   "t": 0.0833,
+   "pose_file": "poses_pull_free/pf2_f02.json"
+  },
+  {
+   "t": 0.125,
+   "pose_file": "poses_pull_free/pf2_f03.json"
+  },
+  {
+   "t": 0.1667,
+   "pose_file": "poses_pull_free/pf2_f04.json"
+  },
+  {
+   "t": 0.2083,
+   "pose_file": "poses_pull_free/pf2_f05.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_pull_free/pf2_f06.json"
+  },
+  {
+   "t": 0.2917,
+   "pose_file": "poses_pull_free/pf2_f07.json"
+  },
+  {
+   "t": 0.3333,
+   "pose_file": "poses_pull_free/pf2_f08.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_pull_free/pf2_f09.json"
+  },
+  {
+   "t": 0.4167,
+   "pose_file": "poses_pull_free/pf2_f10.json"
+  },
+  {
+   "t": 0.4583,
+   "pose_file": "poses_pull_free/pf2_f11.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_pull_free/pf2_f12.json"
+  },
+  {
+   "t": 0.5417,
+   "pose_file": "poses_pull_free/pf2_f13.json"
+  },
+  {
+   "t": 0.5833,
+   "pose_file": "poses_pull_free/pf2_f14.json"
+  },
+  {
+   "t": 0.625,
+   "pose_file": "poses_pull_free/pf2_f15.json"
+  },
+  {
+   "t": 0.6667,
+   "pose_file": "poses_pull_free/pf2_f16.json"
+  },
+  {
+   "t": 0.7083,
+   "pose_file": "poses_pull_free/pf2_f17.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_pull_free/pf2_f18.json"
+  },
+  {
+   "t": 0.7917,
+   "pose_file": "poses_pull_free/pf2_f19.json"
+  },
+  {
+   "t": 0.8333,
+   "pose_file": "poses_pull_free/pf2_f20.json"
+  },
+  {
+   "t": 0.875,
+   "pose_file": "poses_pull_free/pf2_f21.json"
+  },
+  {
+   "t": 0.9167,
+   "pose_file": "poses_pull_free/pf2_f22.json"
+  },
+  {
+   "t": 0.9583,
+   "pose_file": "poses_pull_free/pf2_f23.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_pull_free/pf2_f24.json"
+  },
+  {
+   "t": 1.0417,
+   "pose_file": "poses_pull_free/pf2_f25.json"
+  },
+  {
+   "t": 1.0833,
+   "pose_file": "poses_pull_free/pf2_f26.json"
+  },
+  {
+   "t": 1.125,
+   "pose_file": "poses_pull_free/pf2_f27.json"
+  },
+  {
+   "t": 1.1667,
+   "pose_file": "poses_pull_free/pf2_f28.json"
+  },
+  {
+   "t": 1.2083,
+   "pose_file": "poses_pull_free/pf2_f29.json"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_pull_free/pf2_f30.json"
+  },
+  {
+   "t": 1.2917,
+   "pose_file": "poses_pull_free/pf2_f31.json"
+  },
+  {
+   "t": 1.3333,
+   "pose_file": "poses_pull_free/pf2_f32.json"
+  },
+  {
+   "t": 1.375,
+   "pose_file": "poses_pull_free/pf2_f33.json"
+  },
+  {
+   "t": 1.4167,
+   "pose_file": "poses_pull_free/pf2_f34.json"
+  },
+  {
+   "t": 1.4583,
+   "pose_file": "poses_pull_free/pf2_f35.json"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_pull_free/k08_natural.json"
+  }
+ ],
+ "video": "ref.mp4",
+ "video_window": [
+  6.0,
+  7.75
+ ],
+ "note_fix": "2026-11-22 anim fixer: k01-k03 re-solved from the new centre-line buried stuck pose (club head stays in the crack at strain, then comes out at heave); k05 left arm = read-back at 1.1875 (left hand lets go over 1.0-1.25 instead of a 1-frame snap); head/neck thrown back 18/6 deg at 1.25-1.375 (roar); length trimmed 1.75 -> 1.5 (no held tail)",
+ "note_rebase": "2026-11-23 re-base (work/rebase/cyclops/rebase.py): acting bones 24 kept verbatim; replaced [1.5] with natural_pose; gap-filled ['forearm_d_l', 'forearm_d_r', 'shoulder_u_l', 'upper_arm_d_l', 'upper_arm_d_r']; life on ['hand_d_l', 'hand_d_r']; extra life keys []",
+ "note_animfix2": "2026-11-23 animfix (cyclops): end re-timed (k04 1.0->0.9583, k05 1.125->1.0833, k06 1.25->1.1667, k07 1.375->1.2917, new k075_settle 1.375 ~60% to natural, k078_settle 1.4583 ~90% with the four hands staggered, natural 1.5); left upper arm and lower arms move toward natural already in k06 (50%) and k07 (80%). Length 1.5 unchanged, no events. Backups *.rest_v2.json.",
+ "note_clipfix2": "2026-11-23 clip fix 2 (cyclops): keys = 35 per-frame read-backs of the animfix2 bake (keys_pull_free.rest_v3.json and its poses stay as the source) at time-warped clip times: from 0.2 s the heave is re-timed so the club head moves at <= 26 m/s (warp K 24.42, at most 2.0x faster where the club is slow); both feet planted by leg IK (right foot: one step instead of the 1.25 m glide; left: its own step kept, plants pinned). First key k00_stuck, last key k08_natural (seams exact). Length 1.5, no events. Generator: art_src/chars/cyclops/scripts/animfix2/build_pf2.py."
+}

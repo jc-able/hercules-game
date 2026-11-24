@@ -1,0 +1,93 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 1.25,
+ "events": {
+  "active_start": 0.458,
+  "active_end": 0.708,
+  "chain": 0.917
+ },
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_attack_1/k0_ready.json"
+  },
+  {
+   "t": 0.083,
+   "pose_file": "poses_attack_1/g_0.083.json"
+  },
+  {
+   "t": 0.167,
+   "pose_file": "poses_attack_1/k1a_draw.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_attack_1/g_0.25.json"
+  },
+  {
+   "t": 0.333,
+   "pose_file": "poses_attack_1/k1_wind.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_attack_1/k1_wind.json"
+  },
+  {
+   "t": 0.417,
+   "pose_file": "poses_attack_1/k1b_slash.json"
+  },
+  {
+   "t": 0.458,
+   "pose_file": "poses_attack_1/k1c_release.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_attack_1/k1d_swing1.json"
+  },
+  {
+   "t": 0.542,
+   "pose_file": "poses_attack_1/k1d_swing2.json"
+  },
+  {
+   "t": 0.583,
+   "pose_file": "poses_attack_1/k1d_swing3.json"
+  },
+  {
+   "t": 0.625,
+   "pose_file": "poses_attack_1/k1d_swing4.json"
+  },
+  {
+   "t": 0.667,
+   "pose_file": "poses_attack_1/k2_mid.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_attack_1/k3_ext.json"
+  },
+  {
+   "t": 0.833,
+   "pose_file": "poses_attack_1/k3b_raise.json"
+  },
+  {
+   "t": 0.917,
+   "pose_file": "poses_attack_1/k4_end.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_attack_1/g_1.0.json"
+  },
+  {
+   "t": 1.083,
+   "pose_file": "poses_attack_1/k5_recmid.json"
+  },
+  {
+   "t": 1.167,
+   "pose_file": "poses_attack_1/g_1.167.json"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_attack_1/k0_ready.json"
+  }
+ ],
+ "note": "review fix 2026-11-22: starts on idle k0, back (right) foot steps into the lunge (k1a_draw), swing 0.458-0.667 (5 frames = 0.09 s at the game speed x2.27), chain pose k4_end (== attack_2 k0_start) at 0.917 = game 0.40 s (Tuning.ATTACK_CHAIN_FROM), then recovers to idle k0 by 1.25 (game 0.55 s) with a step (k5_recmid)"
+}

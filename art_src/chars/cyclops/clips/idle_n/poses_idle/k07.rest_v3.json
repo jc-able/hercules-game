@@ -1,0 +1,121 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0.138,
+   0,
+   -0.1179
+  ]
+ },
+ "bones": {
+  "hips": {
+   "ry": -0.402
+  },
+  "spine_01": {
+   "rx": 3.48,
+   "ry": 0.134
+  },
+  "spine_02": {
+   "rx": 7.268,
+   "ry": -1.598
+  },
+  "spine_03": {
+   "rx": 10.748,
+   "ry": 3.201,
+   "rz": -6.933
+  },
+  "neck": {
+   "rx": 7.039,
+   "ry": 2,
+   "rz": 0.5
+  },
+  "head": {
+   "rx": -2.304,
+   "ry": -0.866,
+   "rz": 6.191
+  },
+  "thigh_l": {
+   "rx": -18.2058,
+   "ry": -4.6699
+  },
+  "shin_l": {
+   "rx": 11.93
+  },
+  "foot_l": {
+   "rx": 0
+  },
+  "thigh_r": {
+   "rx": -19.3416,
+   "ry": -0.7286
+  },
+  "shin_r": {
+   "rx": 13.0194,
+   "ry": 2
+  },
+  "foot_r": {
+   "rx": 0,
+   "rz": -10
+  },
+  "shoulder_u_l": {
+   "front": -66.888,
+   "side": 4
+  },
+  "upper_arm_u_l": {
+   "front": -33.499,
+   "side": 15.823
+  },
+  "forearm_u_l": {
+   "front": -18.481,
+   "side": -11.946
+  },
+  "hand_u_l": {
+   "front": -8,
+   "side": 1.234,
+   "twist": 108.761
+  },
+  "shoulder_u_r": {
+   "front": 78.793,
+   "side": 0
+  },
+  "upper_arm_u_r": {
+   "front": 46.219,
+   "side": -38.006
+  },
+  "forearm_u_r": {
+   "front": 178,
+   "side": -166.86
+  },
+  "hand_u_r": {
+   "front": -150,
+   "side": -150,
+   "twist": 72.997
+  },
+  "upper_arm_d_l": {
+   "front": -27.866,
+   "side": -37.904
+  },
+  "forearm_d_l": {
+   "front": 29.125,
+   "side": -53.165
+  },
+  "hand_d_l": {
+   "front": 36,
+   "side": -17.608,
+   "twist": -52.0
+  },
+  "upper_arm_d_r": {
+   "front": 27.4,
+   "side": -17.6
+  },
+  "forearm_d_r": {
+   "front": -22.047,
+   "side": -46.792
+  },
+  "hand_d_r": {
+   "front": -28,
+   "side": -27.531,
+   "twist": 56.138
+  }
+ },
+ "_note": "idle t=3.5: natural stance + authored breath/weight-shift/head/arm deltas; legs solved to plant feet (ankle err 0.2 mm)"
+}

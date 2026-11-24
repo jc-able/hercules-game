@@ -1,0 +1,83 @@
+{
+ "space": "absolute",
+ "bones": {
+  "spine_01": {
+   "rx": 15.0
+  },
+  "spine_02": {
+   "rx": 26.5
+  },
+  "spine_03": {
+   "rx": 33.5
+  },
+  "neck": {
+   "rx": 15.0
+  },
+  "head": {
+   "rx": -9.0
+  },
+  "thigh_l": {
+   "front": -58,
+   "side": -25
+  },
+  "shin_l": {
+   "front": -5,
+   "side": 35
+  },
+  "foot_l": {
+   "front": -15,
+   "side": -40
+  },
+  "thigh_r": {
+   "front": 58,
+   "side": -25
+  },
+  "shin_r": {
+   "front": 5,
+   "side": 35
+  },
+  "foot_r": {
+   "front": 15,
+   "side": -40
+  },
+  "upper_arm_l": {
+   "front": 28.76,
+   "side": -66.83
+  },
+  "forearm_l": {
+   "front": 38.41,
+   "side": -63.82,
+   "twist": 0
+  },
+  "hand_l": {
+   "front": 49.76,
+   "side": -51.84
+  },
+  "upper_arm_r": {
+   "front": 34.42,
+   "side": 34.02
+  },
+  "forearm_r": {
+   "front": 11.31,
+   "side": 47.0
+  },
+  "hand_r": {
+   "twist": 159,
+   "front": 14.04,
+   "side": 56.31
+  },
+  "fingers_l": {
+   "rx": 11.17,
+   "ry": 33.98,
+   "rz": -63.73,
+   "space": "local_delta"
+  },
+  "fingers_r": {
+   "rx": -4.18,
+   "ry": 42.18,
+   "rz": 61.79,
+   "space": "local_delta"
+  }
+ },
+ "note": "ride loop key k0_top at clip t=0.0s (beat 1.5s; t=0 = wings at the top of the stroke): base seated pose + {'spine_01': {'rx': 1.0}, 'spine_02': {'rx': 1.5}, 'spine_03': {'rx': 1.5}, 'neck': {'rx': 1.0}, 'head': {'rx': -1.0}, 'upper_arm_r': {'side': 0.0}, 'forearm_r': {'side': 2.0}}"
+}

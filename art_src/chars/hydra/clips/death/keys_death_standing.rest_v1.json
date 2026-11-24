@@ -1,0 +1,93 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 5.5,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_death/k0.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_death/k1.json"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_death/k1b.json"
+  },
+  {
+   "t": 1.75,
+   "pose_file": "poses_death/k2.json"
+  },
+  {
+   "t": 2.25,
+   "pose_file": "poses_death/k2b.json"
+  },
+  {
+   "t": 2.75,
+   "pose_file": "poses_death/k3.json"
+  },
+  {
+   "t": 3.0,
+   "pose_file": "poses_death/k3b.json"
+  },
+  {
+   "t": 3.125,
+   "pose_file": "poses_death/kg1.json"
+  },
+  {
+   "t": 3.25,
+   "pose_file": "poses_death/kg2.json"
+  },
+  {
+   "t": 3.375,
+   "pose_file": "poses_death/kg7.json"
+  },
+  {
+   "t": 3.5,
+   "pose_file": "poses_death/k4.json"
+  },
+  {
+   "t": 3.625,
+   "pose_file": "poses_death/kg3.json"
+  },
+  {
+   "t": 3.75,
+   "pose_file": "poses_death/k4b.json"
+  },
+  {
+   "t": 3.7917,
+   "pose_file": "poses_death/kg5.json"
+  },
+  {
+   "t": 3.875,
+   "pose_file": "poses_death/kg4.json"
+  },
+  {
+   "t": 3.9583,
+   "pose_file": "poses_death/kg6.json"
+  },
+  {
+   "t": 4.0,
+   "pose_file": "poses_death/k5.json"
+  },
+  {
+   "t": 4.25,
+   "pose_file": "poses_death/k5b.json"
+  },
+  {
+   "t": 4.5,
+   "pose_file": "poses_death/k6.json"
+  },
+  {
+   "t": 5.0,
+   "pose_file": "poses_death/k7.json"
+  },
+  {
+   "t": 5.5,
+   "pose_file": "poses_death/k8.json"
+  }
+ ],
+ "note": "animfix_hydra: the original death from the standing idle pose, kept as death_standing; the game plays death from head_down"
+}

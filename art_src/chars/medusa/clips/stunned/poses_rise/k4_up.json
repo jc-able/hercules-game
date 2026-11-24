@@ -1,0 +1,133 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "bones": {
+  "pelvis": {
+   "rx": 0
+  },
+  "tail_03": {
+   "rx": 0
+  },
+  "spine_01": {
+   "rx": 6
+  },
+  "spine_02": {
+   "rx": 10
+  },
+  "spine_03": {
+   "rx": 13
+  },
+  "neck": {
+   "rx": 18
+  },
+  "head": {
+   "rx": 26
+  },
+  "tail_05": {
+   "space": "local_delta",
+   "rz": -1.999
+  },
+  "tail_06": {
+   "space": "local_delta",
+   "rz": 1.317
+  },
+  "tail_07": {
+   "space": "local_delta",
+   "rz": 9.259
+  },
+  "upper_arm_l": {
+   "rx": -5.217,
+   "ry": 13.198,
+   "rz": -2.022
+  },
+  "forearm_l": {
+   "rx": -11.008,
+   "ry": 14.578,
+   "rz": -10.054
+  },
+  "hand_l": {
+   "rx": -14.292,
+   "ry": 15.081,
+   "rz": -8.443
+  },
+  "upper_arm_r": {
+   "front": 20,
+   "side": -4
+  },
+  "forearm_r": {
+   "front": 22,
+   "side": -15
+  },
+  "hand_r": {
+   "front": 22,
+   "side": -15
+  },
+  "hair_l_01": {
+   "rx": -4,
+   "ry": 3,
+   "space": "local_delta"
+  },
+  "hair_r_01": {
+   "rx": -3,
+   "ry": -4,
+   "space": "local_delta"
+  },
+  "shoulder_l": {
+   "rx": 19.776,
+   "ry": 7.579,
+   "rz": -0.098
+  },
+  "shoulder_r": {
+   "space": "local_delta",
+   "ry": -5.6
+  },
+  "tail_01": {
+   "space": "local_delta",
+   "ry": 1.683
+  },
+  "tail_02": {
+   "space": "local_delta",
+   "ry": 1.301
+  },
+  "tail_04": {
+   "space": "local_delta",
+   "rz": 0.224
+  },
+  "tail_08": {
+   "space": "local_delta",
+   "rz": 12.6
+  },
+  "tail_09": {
+   "space": "local_delta",
+   "rz": 15.362
+  },
+  "tail_10": {
+   "space": "local_delta",
+   "rz": 15.954
+  },
+  "tail_11": {
+   "space": "local_delta",
+   "rz": 16.887
+  },
+  "tail_12": {
+   "space": "local_delta",
+   "rz": 27.995
+  },
+  "tail_13": {
+   "space": "local_delta",
+   "rz": 42.215
+  },
+  "tail_14": {
+   "space": "local_delta",
+   "rz": 54.3
+  }
+ },
+ "_rebase": "re-base rise t=2: 15 bones natural+life, 0 posed+life, acting kept",
+ "_animfix2_arms": "left arm = action at t-0.10 s (read back) + forearm rx +3.0, hand rx -3.5 (mirror symmetry broken)"
+}

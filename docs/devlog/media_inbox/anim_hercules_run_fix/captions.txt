@@ -1,0 +1,1 @@
+run_stride_before_after.jpg | Hercules run before/after the stride fix: traced jog-on-the-spot vs authored running stride with flight phase | planted toe travel 0.13 m/0.30 s -> 0.61 m/0.17 s (3.7 m/s); thigh range -66..+3 -> -66..+24 deg; hip bob 1.023-1.070 m both steps (limp 2.5 cm -> 0); strip IoU 0.857 -> 0.725 (deliberate departure from the reference)

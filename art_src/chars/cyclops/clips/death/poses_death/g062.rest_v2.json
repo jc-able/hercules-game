@@ -1,0 +1,168 @@
+{
+ "space": "absolute",
+ "bones": {
+  "root": {
+   "rx": 0.0,
+   "ry": -0.0,
+   "rz": 0.0
+  },
+  "spine_01": {
+   "rx": 7.407,
+   "ry": 0.0,
+   "rz": 0.0
+  },
+  "spine_02": {
+   "rx": 3.704,
+   "ry": -0.0,
+   "rz": 0.0
+  },
+  "neck": {
+   "rx": 9.704,
+   "ry": 0.0,
+   "rz": 0.0
+  },
+  "head": {
+   "rx": 9.555,
+   "ry": 0.0,
+   "rz": 0.0
+  },
+  "shoulder_u_l": {
+   "rx": 0.001,
+   "ry": 1.966,
+   "rz": 0.127,
+   "space": "local_delta"
+  },
+  "upper_arm_u_l": {
+   "rx": -0.006,
+   "ry": -0.252,
+   "rz": -0.023
+  },
+  "forearm_u_l": {
+   "rx": 0.647,
+   "ry": 8.609,
+   "rz": -0.014
+  },
+  "hand_u_l": {
+   "rx": -0.655,
+   "ry": 9.483,
+   "rz": -0.056
+  },
+  "upper_arm_d_l": {
+   "rx": -0.003,
+   "ry": 9.987,
+   "rz": -0.061
+  },
+  "forearm_d_l": {
+   "rx": -10.741,
+   "ry": 20.502,
+   "rz": -12.121
+  },
+  "hand_d_l": {
+   "rx": -13.008,
+   "ry": 16.21,
+   "rz": -10.404
+  },
+  "shoulder_u_r": {
+   "rx": 0.001,
+   "ry": -1.768,
+   "rz": -0.114,
+   "space": "local_delta"
+  },
+  "upper_arm_u_r": {
+   "rx": 0.042,
+   "ry": -0.748,
+   "rz": -0.062
+  },
+  "forearm_u_r": {
+   "rx": 0.78,
+   "ry": -9.501,
+   "rz": -0.094
+  },
+  "hand_u_r": {
+   "rx": -4.225,
+   "ry": -70.223,
+   "rz": -0.74
+  },
+  "upper_arm_d_r": {
+   "rx": -0.003,
+   "ry": -9.987,
+   "rz": 0.061
+  },
+  "forearm_d_r": {
+   "rx": -10.741,
+   "ry": -20.502,
+   "rz": 12.121
+  },
+  "hand_d_r": {
+   "rx": -13.008,
+   "ry": -16.21,
+   "rz": 10.404
+  },
+  "thigh_l": {
+   "rx": -77.178,
+   "ry": -5.25,
+   "rz": -5.876
+  },
+  "shin_l": {
+   "rx": 40.521,
+   "ry": -3.06,
+   "rz": 4.615
+  },
+  "foot_l": {
+   "rx": 13.544,
+   "ry": -1.608,
+   "rz": 2.654
+  },
+  "thigh_r": {
+   "rx": -77.178,
+   "ry": 5.25,
+   "rz": 5.876
+  },
+  "shin_r": {
+   "rx": 40.521,
+   "ry": 3.06,
+   "rz": -4.615
+  },
+  "foot_r": {
+   "rx": 13.544,
+   "ry": 1.608,
+   "rz": -2.654
+  },
+  "hips": {
+   "rx": 0.0,
+   "ry": -1.0,
+   "rz": 0.0,
+   "space": "local_delta"
+  },
+  "spine_03": {
+   "rx": 4.315,
+   "ry": 1.39,
+   "rz": -2.938,
+   "space": "local_delta"
+  }
+ },
+ "root": {
+  "loc": [
+   0.0,
+   -0.16542,
+   -0.79481
+  ],
+  "rot": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "view_offset": [
+  0.11333,
+  -0.06667,
+  -0.13333
+ ],
+ "view_scale": 1.0,
+ "read_from": {
+  "source": "art_src/chars/cyclops/clips/death/action_death.json",
+  "t": 0.625
+ },
+ "_rebase": "re-base 2026-11-23 (death t=0.625): orig; acting cells verbatim, still/gap cells local_delta"
+}

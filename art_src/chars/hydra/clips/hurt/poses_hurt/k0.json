@@ -1,0 +1,12 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {}
+}

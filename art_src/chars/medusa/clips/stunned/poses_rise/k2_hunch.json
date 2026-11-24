@@ -1,0 +1,143 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0.0,
+   -1.3978,
+   -0.6709
+  ]
+ },
+ "bones": {
+  "pelvis": {
+   "rx": 55
+  },
+  "tail_03": {
+   "rx": 0
+  },
+  "spine_01": {
+   "rx": 70
+  },
+  "spine_02": {
+   "rx": 84
+  },
+  "spine_03": {
+   "rx": 94
+  },
+  "neck": {
+   "rx": 104
+  },
+  "head": {
+   "rx": 118
+  },
+  "tail_05": {
+   "space": "local_delta",
+   "rz": 6.846
+  },
+  "tail_06": {
+   "space": "local_delta",
+   "rz": 8.38
+  },
+  "tail_07": {
+   "space": "local_delta",
+   "rz": 13.986
+  },
+  "upper_arm_l": {
+   "rx": -11.715,
+   "ry": 18.062,
+   "rz": -8.037
+  },
+  "forearm_l": {
+   "rx": -20.372,
+   "ry": 20.868,
+   "rz": -21.744
+  },
+  "hand_l": {
+   "rx": -35.051,
+   "ry": 20.87,
+   "rz": -24.887
+  },
+  "upper_arm_r": {
+   "front": 15,
+   "side": -10
+  },
+  "forearm_r": {
+   "front": 12,
+   "side": -25
+  },
+  "hand_r": {
+   "front": 10,
+   "side": -30
+  },
+  "hair_l_01": {
+   "rx": 10,
+   "ry": -4,
+   "space": "local_delta"
+  },
+  "hair_r_01": {
+   "rx": 6,
+   "ry": 6,
+   "space": "local_delta"
+  },
+  "hair_l_02": {
+   "rx": 12,
+   "ry": -2,
+   "space": "local_delta"
+  },
+  "hair_r_02": {
+   "rx": 8,
+   "ry": 4,
+   "space": "local_delta"
+  },
+  "shoulder_l": {
+   "rx": 94.016,
+   "ry": -1.187,
+   "rz": -0.002
+  },
+  "shoulder_r": {
+   "space": "local_delta",
+   "ry": 2.39
+  },
+  "tail_01": {
+   "space": "local_delta",
+   "ry": 1.481
+  },
+  "tail_02": {
+   "space": "local_delta",
+   "ry": 1.989
+  },
+  "tail_04": {
+   "space": "local_delta",
+   "rz": 1.496
+  },
+  "tail_08": {
+   "space": "local_delta",
+   "rz": 6.923
+  },
+  "tail_09": {
+   "space": "local_delta",
+   "rz": 8.782
+  },
+  "tail_10": {
+   "space": "local_delta",
+   "rz": 10.313
+  },
+  "tail_11": {
+   "space": "local_delta",
+   "rz": 14.191
+  },
+  "tail_12": {
+   "space": "local_delta",
+   "rz": 29.774
+  },
+  "tail_13": {
+   "space": "local_delta",
+   "rz": 48.93
+  },
+  "tail_14": {
+   "space": "local_delta",
+   "rz": 65.014
+  }
+ },
+ "_rebase": "re-base rise t=1: 15 bones natural+life, 0 posed+life, acting kept",
+ "_animfix2_arms": "left arm = action at t-0.10 s (read back) + forearm rx +6.0, hand rx -7.0 (mirror symmetry broken)"
+}

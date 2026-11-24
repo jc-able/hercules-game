@@ -1,0 +1,1 @@
+hydra_lock_live_top.jpg | Hydra lock camera before/after: the rearing centre neck was cut at the top (left); the camera now follows the live pose of the top vertices + 75 bone boxes and may pull back 3.0 m for the hydra (right, inhale) | rest top 14.38 m, inhale top 15.2 m, arm 3.7 -> up to 6.7 m, 0.015 ms per frame

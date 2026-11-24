@@ -1,0 +1,140 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0.0325
+  ]
+ },
+ "view_offset": [
+  0,
+  -0.01,
+  0
+ ],
+ "view_scale": 1.0,
+ "bones": {
+  "tail_04": {
+   "rx": -2.86
+  },
+  "tail_05": {
+   "rx": 0.0
+  },
+  "upper_arm_l": {
+   "space": "local_delta",
+   "ry": -0.75,
+   "rx": 0.346
+  },
+  "upper_arm_r": {
+   "space": "local_delta",
+   "ry": 0.75,
+   "rx": -0.042
+  },
+  "forearm_l": {
+   "space": "local_delta",
+   "ry": -0.375
+  },
+  "forearm_r": {
+   "space": "local_delta",
+   "ry": 0.375
+  },
+  "hand_l": {
+   "space": "local_delta",
+   "ry": -0.875
+  },
+  "hand_r": {
+   "space": "local_delta",
+   "ry": 1.828
+  },
+  "hair_l_01": {
+   "space": "local_delta",
+   "rx": 3.464,
+   "rz": -2.771
+  },
+  "hair_l_02": {
+   "space": "local_delta",
+   "rx": -3.475,
+   "rz": 3.186
+  },
+  "hair_l_03": {
+   "space": "local_delta",
+   "rx": -0.751,
+   "rz": -3.2
+  },
+  "hair_r_01": {
+   "space": "local_delta",
+   "rx": 0.189,
+   "rz": 1.23
+  },
+  "hair_r_02": {
+   "space": "local_delta",
+   "rx": -3.341,
+   "rz": 0.648
+  },
+  "hair_r_03": {
+   "space": "local_delta",
+   "rx": 3.161,
+   "rz": -0.922
+  },
+  "neck": {
+   "space": "local_delta",
+   "ry": 0.044
+  },
+  "head": {
+   "space": "local_delta",
+   "ry": 0.062,
+   "rx": 0.0
+  },
+  "tail_06": {
+   "space": "local_delta",
+   "rz": 2.165
+  },
+  "tail_07": {
+   "space": "local_delta",
+   "rz": 2.461
+  },
+  "tail_08": {
+   "space": "local_delta",
+   "rz": 1.6
+  },
+  "tail_09": {
+   "space": "local_delta",
+   "rz": -0.014
+  },
+  "tail_10": {
+   "space": "local_delta",
+   "rz": -1.621
+  },
+  "tail_11": {
+   "space": "local_delta",
+   "rz": -2.466
+  },
+  "tail_12": {
+   "space": "local_delta",
+   "rz": -2.151
+  },
+  "tail_13": {
+   "space": "local_delta",
+   "rz": -0.824
+  },
+  "tail_14": {
+   "space": "local_delta",
+   "rz": 0.89
+  }
+ },
+ "chain": [
+  {
+   "name": "spine_01",
+   "rx": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "ry": [
+    0.40775133924860485,
+    0.40775133924860485,
+    0.40775133924860485
+   ]
+  }
+ ]
+}

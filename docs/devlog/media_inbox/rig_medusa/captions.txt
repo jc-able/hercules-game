@@ -1,0 +1,8 @@
+medusa_01_raw_mesh.jpg | Higgsfield raw mesh of Medusa (front, side, back, 3/4) before cleanup | 70,000 tris, 44,589 verts (34,976 after welding UV seams), 4096 px texture, 0.68 m tall raw -> scaled x9.58 to 6.5 m
+medusa_02_bones_over_mesh.jpg | Own 35-bone skeleton placed from vertex-cloud slices: spine, arms, 14-segment tail along the measured centre line, 6 snake bones | 35 bones (34 deform), tail 11.8 m in 14 x 0.84 m segments
+medusa_03_armpit_before_after.jpg | Bug and fix: arms raised 95 deg; top = skin sheet left hanging under the arms (NaN weights from stray labels), bottom = after the label fallback + NaN guard | 472 vertices in the shoulder box had stayed put before; 0 after
+medusa_04_tail_curl_pose.jpg | Deform test: tail swipe curl, 15-18 deg per tail joint, torso lean and twist | tail weights = linear blends between segment midpoints, max 4 influences
+medusa_05_split_sheet.jpg | FRONT and SIDE reference sheet in the rest pose (animation reference framing) | 1280x720, 36.1 px/m, margins mw 2.6 / mh 1.3
+medusa_weights_before_after.jpg | medusa weight repair after review: stretch heat before/after on a shrug+look and a 45 deg head turn | max edge stretch 26.4 -> 5.1 cm (shrug+look), 26.6 -> 5.3 cm (head turn 45); 14,340 of 34,976 vertices re-weighted by harmonic (Laplace) blending
+medusa_split_sheet_v2.jpg | new reference sheet framing 1920x1080 (all clips except tail_swipe; tail_swipe gets its own wide sheet) | character 449 px tall (was 235 of 720), front +-6 m, side y -6.2..9.6 m
+medusa_deform_shrug_look_v2.jpg | deform proof after the fix: both clavicles up 25, neck 30 + head 35 turn | no tearing at the old neck/shoulder seam

@@ -1,0 +1,277 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 8.0,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_idle/k00.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_idle/k01.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_idle/k02.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_idle/k03.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_idle/k04.json"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_idle/k05.json"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_idle/k06.json"
+  },
+  {
+   "t": 1.75,
+   "pose_file": "poses_idle/k07.json"
+  },
+  {
+   "t": 2.0,
+   "pose_file": "poses_idle/k08.json"
+  },
+  {
+   "t": 2.25,
+   "pose_file": "poses_idle/k09.json"
+  },
+  {
+   "t": 2.3333,
+   "pose_file": "poses_idle/k10.json"
+  },
+  {
+   "t": 2.4167,
+   "pose_file": "poses_idle/k11.json"
+  },
+  {
+   "t": 2.4583,
+   "pose_file": "poses_idle/k12.json"
+  },
+  {
+   "t": 2.5,
+   "pose_file": "poses_idle/k13.json"
+  },
+  {
+   "t": 2.5417,
+   "pose_file": "poses_idle/k14.json"
+  },
+  {
+   "t": 2.5833,
+   "pose_file": "poses_idle/k15.json"
+  },
+  {
+   "t": 2.625,
+   "pose_file": "poses_idle/k16.json"
+  },
+  {
+   "t": 2.6667,
+   "pose_file": "poses_idle/k17.json"
+  },
+  {
+   "t": 2.7083,
+   "pose_file": "poses_idle/k18.json"
+  },
+  {
+   "t": 2.75,
+   "pose_file": "poses_idle/k19.json"
+  },
+  {
+   "t": 2.7917,
+   "pose_file": "poses_idle/k20.json"
+  },
+  {
+   "t": 2.8333,
+   "pose_file": "poses_idle/k21.json"
+  },
+  {
+   "t": 2.875,
+   "pose_file": "poses_idle/k22.json"
+  },
+  {
+   "t": 2.9167,
+   "pose_file": "poses_idle/k23.json"
+  },
+  {
+   "t": 2.9583,
+   "pose_file": "poses_idle/k24.json"
+  },
+  {
+   "t": 3.0,
+   "pose_file": "poses_idle/k25.json"
+  },
+  {
+   "t": 3.0417,
+   "pose_file": "poses_idle/k26.json"
+  },
+  {
+   "t": 3.0833,
+   "pose_file": "poses_idle/k27.json"
+  },
+  {
+   "t": 3.125,
+   "pose_file": "poses_idle/k28.json"
+  },
+  {
+   "t": 3.1667,
+   "pose_file": "poses_idle/k29.json"
+  },
+  {
+   "t": 3.2083,
+   "pose_file": "poses_idle/k30.json"
+  },
+  {
+   "t": 3.25,
+   "pose_file": "poses_idle/k31.json"
+  },
+  {
+   "t": 3.5,
+   "pose_file": "poses_idle/k32.json"
+  },
+  {
+   "t": 3.75,
+   "pose_file": "poses_idle/k33.json"
+  },
+  {
+   "t": 4.0,
+   "pose_file": "poses_idle/k34.json"
+  },
+  {
+   "t": 4.25,
+   "pose_file": "poses_idle/k35.json"
+  },
+  {
+   "t": 4.5,
+   "pose_file": "poses_idle/k36.json"
+  },
+  {
+   "t": 4.75,
+   "pose_file": "poses_idle/k37.json"
+  },
+  {
+   "t": 5.0,
+   "pose_file": "poses_idle/k38.json"
+  },
+  {
+   "t": 5.25,
+   "pose_file": "poses_idle/k39.json"
+  },
+  {
+   "t": 5.5,
+   "pose_file": "poses_idle/k40.json"
+  },
+  {
+   "t": 5.75,
+   "pose_file": "poses_idle/k41.json"
+  },
+  {
+   "t": 6.0,
+   "pose_file": "poses_idle/k42.json"
+  },
+  {
+   "t": 6.25,
+   "pose_file": "poses_idle/k43.json"
+  },
+  {
+   "t": 6.5,
+   "pose_file": "poses_idle/k44.json"
+  },
+  {
+   "t": 6.75,
+   "pose_file": "poses_idle/k45.json"
+  },
+  {
+   "t": 6.8333,
+   "pose_file": "poses_idle/k46.json"
+  },
+  {
+   "t": 6.875,
+   "pose_file": "poses_idle/k47.json"
+  },
+  {
+   "t": 6.9167,
+   "pose_file": "poses_idle/k48.json"
+  },
+  {
+   "t": 6.9583,
+   "pose_file": "poses_idle/k49.json"
+  },
+  {
+   "t": 7.0,
+   "pose_file": "poses_idle/k50.json"
+  },
+  {
+   "t": 7.0417,
+   "pose_file": "poses_idle/k51.json"
+  },
+  {
+   "t": 7.0833,
+   "pose_file": "poses_idle/k52.json"
+  },
+  {
+   "t": 7.125,
+   "pose_file": "poses_idle/k53.json"
+  },
+  {
+   "t": 7.1667,
+   "pose_file": "poses_idle/k54.json"
+  },
+  {
+   "t": 7.2083,
+   "pose_file": "poses_idle/k55.json"
+  },
+  {
+   "t": 7.25,
+   "pose_file": "poses_idle/k56.json"
+  },
+  {
+   "t": 7.2917,
+   "pose_file": "poses_idle/k57.json"
+  },
+  {
+   "t": 7.3333,
+   "pose_file": "poses_idle/k58.json"
+  },
+  {
+   "t": 7.375,
+   "pose_file": "poses_idle/k59.json"
+  },
+  {
+   "t": 7.4167,
+   "pose_file": "poses_idle/k60.json"
+  },
+  {
+   "t": 7.4583,
+   "pose_file": "poses_idle/k61.json"
+  },
+  {
+   "t": 7.5,
+   "pose_file": "poses_idle/k62.json"
+  },
+  {
+   "t": 7.5417,
+   "pose_file": "poses_idle/k63.json"
+  },
+  {
+   "t": 7.5833,
+   "pose_file": "poses_idle/k64.json"
+  },
+  {
+   "t": 7.625,
+   "pose_file": "poses_idle/k65.json"
+  },
+  {
+   "t": 7.75,
+   "pose_file": "poses_idle/k66.json"
+  }
+ ],
+ "note": "idle v2 (fixer 2026-11-23): video idle_n window 1.0-9.0 s (clip t = video t - 1.0); every key = natural stance + life deltas (work/anim2/pegasus_idle_n/gen.py terms) + IK legs (work/anim2/pegasus_fix/gen2_bl.py + params2.json): planted hooves keep their spot, the weight shift is four staged steps (2.45-3.25 s and 6.85-7.65 s). k00 = natural_pose.json."
+}

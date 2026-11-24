@@ -1,0 +1,2 @@
+medusa_ingame_gaze_windup.jpg | first in-engine frame of the real rigged + animated Medusa in her arena: gaze windup, green fan decal, hero (stand-in) in front, chase camera | 70,000 tris, 35 bones, 9 clips, GLB 8.31 MB, 6.5 m tall; bot fight won 24.5 s game time with 3 reflects
+medusa_probe_4clips.jpg | loader probe (CharacterVisual.create): idle, gaze at fire_start, stunned, tail_swipe at impact; red capsule = 1.9 m hero 10 m in front | 9/9 clips, 3/3 events, 4/4 sockets OK

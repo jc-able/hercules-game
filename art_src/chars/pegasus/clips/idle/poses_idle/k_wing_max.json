@@ -1,0 +1,34 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "wing_l_01": {
+   "rz": -22.0,
+   "ry": 5.0,
+   "rx": -12.0
+  },
+  "wing_r_01": {
+   "rz": 22.0,
+   "ry": -5.0,
+   "rx": -12.0
+  },
+  "wing_l_02": {
+   "space": "local_delta",
+   "ry": -20.0,
+   "rx": 20.0
+  },
+  "wing_r_02": {
+   "space": "local_delta",
+   "ry": 15.0,
+   "rx": 20.0
+  }
+ },
+ "fix_note": "fixer 2026-11-22: wing_*_02 capped at 20 deg (rig note), 4 deg moved to wing_*_01 (rz 2 + ry 2)"
+}

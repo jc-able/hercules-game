@@ -1,0 +1,3 @@
+run_first_guess.jpg | Hercules run: first hand-posed keys against the video (red = video only, blue = ours only) | IoU 0.69 and 0.68 mean; gain over rest pose 0.04-0.05
+run_after_fit.jpg | the same keys plus two mirrored keys after ak fit (legs, arms, hand, framing) | IoU front 0.87-0.90, side 0.79-0.86
+run_strip_final.jpg | final 0.833 s run loop (6 keys, 24 fps): video row above ours | strip IoU mean 0.857 over 13 samples

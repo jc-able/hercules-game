@@ -1,0 +1,811 @@
+{
+ "id": "pegasus",
+ "height": 2.994,
+ "withers": 1.9,
+ "size_xyz": [
+  2.287,
+  2.945,
+  2.994
+ ],
+ "bones": [
+  {
+   "name": "root",
+   "parent": null,
+   "head": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "tail": [
+    0.0,
+    -0.4,
+    0.0
+   ],
+   "deform": false
+  },
+  {
+   "name": "hips",
+   "parent": "root",
+   "head": [
+    0.0,
+    0.3,
+    1.58
+   ],
+   "tail": [
+    0.0,
+    0.72,
+    1.62
+   ],
+   "deform": true
+  },
+  {
+   "name": "spine_01",
+   "parent": "hips",
+   "head": [
+    0.0,
+    0.3,
+    1.58
+   ],
+   "tail": [
+    0.0,
+    -0.05,
+    1.6
+   ],
+   "deform": true
+  },
+  {
+   "name": "spine_02",
+   "parent": "spine_01",
+   "head": [
+    0.0,
+    -0.05,
+    1.6
+   ],
+   "tail": [
+    0.0,
+    -0.4,
+    1.62
+   ],
+   "deform": true
+  },
+  {
+   "name": "spine_03",
+   "parent": "spine_02",
+   "head": [
+    0.0,
+    -0.4,
+    1.62
+   ],
+   "tail": [
+    0.0,
+    -0.7,
+    1.72
+   ],
+   "deform": true
+  },
+  {
+   "name": "neck_01",
+   "parent": "spine_03",
+   "head": [
+    0.0,
+    -0.7,
+    1.72
+   ],
+   "tail": [
+    0.0,
+    -0.86,
+    2.05
+   ],
+   "deform": true
+  },
+  {
+   "name": "neck_02",
+   "parent": "neck_01",
+   "head": [
+    0.0,
+    -0.86,
+    2.05
+   ],
+   "tail": [
+    0.0,
+    -0.95,
+    2.33
+   ],
+   "deform": true
+  },
+  {
+   "name": "neck_03",
+   "parent": "neck_02",
+   "head": [
+    0.0,
+    -0.95,
+    2.33
+   ],
+   "tail": [
+    0.0,
+    -1.03,
+    2.62
+   ],
+   "deform": true
+  },
+  {
+   "name": "head",
+   "parent": "neck_03",
+   "head": [
+    0.0,
+    -1.03,
+    2.62
+   ],
+   "tail": [
+    0.0,
+    -1.5,
+    2.22
+   ],
+   "deform": true
+  },
+  {
+   "name": "leg_fl_01",
+   "parent": "spine_03",
+   "head": [
+    0.16,
+    -0.9,
+    1.47
+   ],
+   "tail": [
+    0.175,
+    -0.75,
+    1.17
+   ],
+   "deform": true
+  },
+  {
+   "name": "leg_fl_02",
+   "parent": "leg_fl_01",
+   "head": [
+    0.175,
+    -0.75,
+    1.17
+   ],
+   "tail": [
+    0.148,
+    -0.775,
+    0.7
+   ],
+   "deform": true
+  },
+  {
+   "name": "leg_fl_03",
+   "parent": "leg_fl_02",
+   "head": [
+    0.148,
+    -0.775,
+    0.7
+   ],
+   "tail": [
+    0.147,
+    -0.785,
+    0.26
+   ],
+   "deform": true
+  },
+  {
+   "name": "hoof_fl",
+   "parent": "leg_fl_03",
+   "head": [
+    0.147,
+    -0.785,
+    0.26
+   ],
+   "tail": [
+    0.156,
+    -0.93,
+    0.02
+   ],
+   "deform": true
+  },
+  {
+   "name": "leg_fr_01",
+   "parent": "spine_03",
+   "head": [
+    -0.16,
+    -0.9,
+    1.47
+   ],
+   "tail": [
+    -0.175,
+    -0.75,
+    1.17
+   ],
+   "deform": true
+  },
+  {
+   "name": "leg_fr_02",
+   "parent": "leg_fr_01",
+   "head": [
+    -0.175,
+    -0.75,
+    1.17
+   ],
+   "tail": [
+    -0.148,
+    -0.775,
+    0.7
+   ],
+   "deform": true
+  },
+  {
+   "name": "leg_fr_03",
+   "parent": "leg_fr_02",
+   "head": [
+    -0.148,
+    -0.775,
+    0.7
+   ],
+   "tail": [
+    -0.147,
+    -0.785,
+    0.26
+   ],
+   "deform": true
+  },
+  {
+   "name": "hoof_fr",
+   "parent": "leg_fr_03",
+   "head": [
+    -0.147,
+    -0.785,
+    0.26
+   ],
+   "tail": [
+    -0.156,
+    -0.93,
+    0.02
+   ],
+   "deform": true
+  },
+  {
+   "name": "saddle",
+   "parent": "spine_02",
+   "head": [
+    0.0,
+    0.1,
+    1.88
+   ],
+   "tail": [
+    0.0,
+    0.1,
+    2.13
+   ],
+   "deform": false
+  },
+  {
+   "name": "wing_l_01",
+   "parent": "spine_02",
+   "head": [
+    0.24,
+    -0.38,
+    1.92
+   ],
+   "tail": [
+    0.53,
+    0.04,
+    2.62
+   ],
+   "deform": true
+  },
+  {
+   "name": "wing_l_02",
+   "parent": "wing_l_01",
+   "head": [
+    0.53,
+    0.04,
+    2.62
+   ],
+   "tail": [
+    0.66,
+    0.43,
+    2.85
+   ],
+   "deform": true
+  },
+  {
+   "name": "wing_l_03",
+   "parent": "wing_l_02",
+   "head": [
+    0.66,
+    0.43,
+    2.85
+   ],
+   "tail": [
+    0.97,
+    1.06,
+    2.61
+   ],
+   "deform": true
+  },
+  {
+   "name": "wing_l_feather_03",
+   "parent": "wing_l_03",
+   "head": [
+    0.74,
+    0.56,
+    2.75
+   ],
+   "tail": [
+    1.08,
+    0.93,
+    2.27
+   ],
+   "deform": true
+  },
+  {
+   "name": "wing_l_feather_01",
+   "parent": "wing_l_02",
+   "head": [
+    0.58,
+    0.13,
+    2.45
+   ],
+   "tail": [
+    0.83,
+    0.39,
+    1.05
+   ],
+   "deform": true
+  },
+  {
+   "name": "wing_l_feather_02",
+   "parent": "wing_l_02",
+   "head": [
+    0.76,
+    0.43,
+    2.6
+   ],
+   "tail": [
+    1.11,
+    0.69,
+    1.6
+   ],
+   "deform": true
+  },
+  {
+   "name": "wing_r_01",
+   "parent": "spine_02",
+   "head": [
+    -0.24,
+    -0.38,
+    1.92
+   ],
+   "tail": [
+    -0.53,
+    0.04,
+    2.62
+   ],
+   "deform": true
+  },
+  {
+   "name": "wing_r_02",
+   "parent": "wing_r_01",
+   "head": [
+    -0.53,
+    0.04,
+    2.62
+   ],
+   "tail": [
+    -0.66,
+    0.43,
+    2.85
+   ],
+   "deform": true
+  },
+  {
+   "name": "wing_r_03",
+   "parent": "wing_r_02",
+   "head": [
+    -0.66,
+    0.43,
+    2.85
+   ],
+   "tail": [
+    -0.97,
+    1.06,
+    2.61
+   ],
+   "deform": true
+  },
+  {
+   "name": "wing_r_feather_03",
+   "parent": "wing_r_03",
+   "head": [
+    -0.74,
+    0.56,
+    2.75
+   ],
+   "tail": [
+    -1.08,
+    0.93,
+    2.27
+   ],
+   "deform": true
+  },
+  {
+   "name": "wing_r_feather_01",
+   "parent": "wing_r_02",
+   "head": [
+    -0.58,
+    0.13,
+    2.45
+   ],
+   "tail": [
+    -0.83,
+    0.39,
+    1.05
+   ],
+   "deform": true
+  },
+  {
+   "name": "wing_r_feather_02",
+   "parent": "wing_r_02",
+   "head": [
+    -0.76,
+    0.43,
+    2.6
+   ],
+   "tail": [
+    -1.11,
+    0.69,
+    1.6
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_01",
+   "parent": "hips",
+   "head": [
+    0.0,
+    0.85,
+    1.72
+   ],
+   "tail": [
+    0.01,
+    1.0,
+    1.52
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_02",
+   "parent": "tail_01",
+   "head": [
+    0.01,
+    1.0,
+    1.52
+   ],
+   "tail": [
+    0.015,
+    1.09,
+    1.28
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_03",
+   "parent": "tail_02",
+   "head": [
+    0.015,
+    1.09,
+    1.28
+   ],
+   "tail": [
+    0.025,
+    1.1,
+    1.03
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_04",
+   "parent": "tail_03",
+   "head": [
+    0.025,
+    1.1,
+    1.03
+   ],
+   "tail": [
+    0.04,
+    1.2,
+    0.8
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_05",
+   "parent": "tail_04",
+   "head": [
+    0.04,
+    1.2,
+    0.8
+   ],
+   "tail": [
+    0.07,
+    1.17,
+    0.55
+   ],
+   "deform": true
+  },
+  {
+   "name": "leg_bl_01",
+   "parent": "hips",
+   "head": [
+    0.22,
+    0.68,
+    1.5
+   ],
+   "tail": [
+    0.255,
+    0.45,
+    1.15
+   ],
+   "deform": true
+  },
+  {
+   "name": "leg_bl_02",
+   "parent": "leg_bl_01",
+   "head": [
+    0.255,
+    0.45,
+    1.15
+   ],
+   "tail": [
+    0.265,
+    0.72,
+    0.7
+   ],
+   "deform": true
+  },
+  {
+   "name": "leg_bl_03",
+   "parent": "leg_bl_02",
+   "head": [
+    0.265,
+    0.72,
+    0.7
+   ],
+   "tail": [
+    0.29,
+    0.757,
+    0.29
+   ],
+   "deform": true
+  },
+  {
+   "name": "hoof_bl",
+   "parent": "leg_bl_03",
+   "head": [
+    0.29,
+    0.757,
+    0.29
+   ],
+   "tail": [
+    0.325,
+    0.665,
+    0.02
+   ],
+   "deform": true
+  },
+  {
+   "name": "leg_br_01",
+   "parent": "hips",
+   "head": [
+    -0.22,
+    0.68,
+    1.5
+   ],
+   "tail": [
+    -0.255,
+    0.45,
+    1.15
+   ],
+   "deform": true
+  },
+  {
+   "name": "leg_br_02",
+   "parent": "leg_br_01",
+   "head": [
+    -0.255,
+    0.45,
+    1.15
+   ],
+   "tail": [
+    -0.265,
+    0.72,
+    0.7
+   ],
+   "deform": true
+  },
+  {
+   "name": "leg_br_03",
+   "parent": "leg_br_02",
+   "head": [
+    -0.265,
+    0.72,
+    0.7
+   ],
+   "tail": [
+    -0.29,
+    0.757,
+    0.29
+   ],
+   "deform": true
+  },
+  {
+   "name": "hoof_br",
+   "parent": "leg_br_03",
+   "head": [
+    -0.29,
+    0.757,
+    0.29
+   ],
+   "tail": [
+    -0.325,
+    0.665,
+    0.02
+   ],
+   "deform": true
+  }
+ ],
+ "chains": {
+  "spine": [
+   "hips",
+   "spine_01",
+   "spine_02",
+   "spine_03"
+  ],
+  "neck": [
+   "neck_01",
+   "neck_02",
+   "neck_03",
+   "head"
+  ],
+  "tail": [
+   "tail_01",
+   "tail_02",
+   "tail_03",
+   "tail_04",
+   "tail_05"
+  ],
+  "leg_fl": [
+   "leg_fl_01",
+   "leg_fl_02",
+   "leg_fl_03",
+   "hoof_fl"
+  ],
+  "leg_fr": [
+   "leg_fr_01",
+   "leg_fr_02",
+   "leg_fr_03",
+   "hoof_fr"
+  ],
+  "leg_bl": [
+   "leg_bl_01",
+   "leg_bl_02",
+   "leg_bl_03",
+   "hoof_bl"
+  ],
+  "leg_br": [
+   "leg_br_01",
+   "leg_br_02",
+   "leg_br_03",
+   "hoof_br"
+  ],
+  "wing_l": [
+   "wing_l_01",
+   "wing_l_02",
+   "wing_l_03"
+  ],
+  "wing_r": [
+   "wing_r_01",
+   "wing_r_02",
+   "wing_r_03"
+  ],
+  "wing_l_feathers": [
+   "wing_l_feather_01",
+   "wing_l_feather_02",
+   "wing_l_feather_03"
+  ],
+  "wing_r_feathers": [
+   "wing_r_feather_01",
+   "wing_r_feather_02",
+   "wing_r_feather_03"
+  ]
+ },
+ "sockets": {
+  "saddle": "saddle",
+  "head": "head"
+ },
+ "socket_offsets": {
+  "saddle": {
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "head": {
+   "loc": [
+    0.0,
+    -0.22,
+    -0.17
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "pairs": [
+  [
+   "leg_fl_01",
+   "leg_fr_01"
+  ],
+  [
+   "leg_fl_02",
+   "leg_fr_02"
+  ],
+  [
+   "leg_fl_03",
+   "leg_fr_03"
+  ],
+  [
+   "hoof_fl",
+   "hoof_fr"
+  ],
+  [
+   "leg_bl_01",
+   "leg_br_01"
+  ],
+  [
+   "leg_bl_02",
+   "leg_br_02"
+  ],
+  [
+   "leg_bl_03",
+   "leg_br_03"
+  ],
+  [
+   "hoof_bl",
+   "hoof_br"
+  ],
+  [
+   "wing_l_01",
+   "wing_r_01"
+  ],
+  [
+   "wing_l_02",
+   "wing_r_02"
+  ],
+  [
+   "wing_l_03",
+   "wing_r_03"
+  ],
+  [
+   "wing_l_feather_01",
+   "wing_r_feather_01"
+  ],
+  [
+   "wing_l_feather_02",
+   "wing_r_feather_02"
+  ],
+  [
+   "wing_l_feather_03",
+   "wing_r_feather_03"
+  ]
+ ],
+ "notes": "Blender Z up, faces -Y, left = +X, metres; all bone rolls 0. root and saddle do not deform. saddle head sits on the back surface (z 1.88) behind the withers, between the wing roots: the rider hips go there. socket_offsets loc are armature-space metres relative to the bone head (head offset = middle of the skull). Legs: leg_*_01 = shoulder point->elbow (front) / hip->stifle (hind), _02 forearm / gaskin, _03 cannon, hoof_* fetlock->ground. Wings rest raised and folded back; the arm (wing_*_01) points up from a broad root on the shoulder, so a flap is mostly a rotation about armature X+Y at wing_*_01 (see docs/notes/rig_pegasus.md for tested glide/down/up angles). feather_01 = secondaries (child of wing_02), feather_02 = lower primaries (child of wing_02), feather_03 = mid primaries (child of wing_03); keep relative fan/curl rotations within ~20 deg: neighbouring feathers are fused in the mesh. Mane rides neck_01..03/head; the rear mane behind rest y -0.6 (lying on the withers) rides neck_01 + spine_03 only, and the back behind the wing roots (y > -0.30, where the rider sits) has no neck weight, so neck moves do not move the saddle area. The fused mane/wing-root and wing-lobe/flank contacts are blended, not ripped (a rip opens see-through holes); the hanging feather lobe rides the wing. Breastplate rides spine_03. Tail hair rides tail_01..05/hips (5 bones). Keep neck_01/neck_02 within ~25/15 deg and tail lift within ~60 deg for clean skin."
+}

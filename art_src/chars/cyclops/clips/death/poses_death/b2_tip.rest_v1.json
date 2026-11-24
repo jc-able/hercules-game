@@ -1,0 +1,109 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0.05,
+   0
+  ],
+  "rot": [
+   -35,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "thigh_l": {
+   "front": -22,
+   "side": -50
+  },
+  "thigh_r": {
+   "front": 22,
+   "side": -50
+  },
+  "shin_l": {
+   "side": 130
+  },
+  "shin_r": {
+   "side": 130
+  },
+  "foot_l": {
+   "side": 140
+  },
+  "foot_r": {
+   "side": 140
+  },
+  "toe_l": {
+   "side": 140
+  },
+  "toe_r": {
+   "side": 140
+  },
+  "upper_arm_u_l": {
+   "front": -40,
+   "side": 10
+  },
+  "forearm_u_l": {
+   "front": -30,
+   "side": 5
+  },
+  "hand_u_l": {
+   "front": -30
+  },
+  "upper_arm_d_l": {
+   "front": -34,
+   "side": 8
+  },
+  "upper_arm_d_r": {
+   "front": 34,
+   "side": 8
+  },
+  "forearm_d_l": {
+   "front": -24,
+   "side": 1
+  },
+  "forearm_d_r": {
+   "front": 24,
+   "side": 1
+  },
+  "hand_d_l": {
+   "front": -24,
+   "side": 6
+  },
+  "hand_d_r": {
+   "front": 24,
+   "side": 6
+  },
+  "spine_01": {
+   "rx": -12
+  },
+  "spine_02": {
+   "rx": -6
+  },
+  "spine_03": {
+   "rx": -4
+  },
+  "neck": {
+   "rx": -8
+  },
+  "head": {
+   "rx": -18
+  },
+  "upper_arm_u_r": {
+   "rx": -5.25,
+   "ry": -41.93,
+   "rz": 20.17
+  },
+  "forearm_u_r": {
+   "rx": -14.99,
+   "ry": -59.08,
+   "rz": 35.68
+  },
+  "hand_u_r": {
+   "rx": -14.63,
+   "ry": -108.71,
+   "rz": 7.52
+  }
+ }
+}

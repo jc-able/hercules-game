@@ -1,0 +1,121 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 3.7917,
+ "events": {},
+ "note": "animfix_hydra 2026-11-22: death as played in the game, from the head_down chin rest (the killing blow always lands on the jaw); side necks use the traced thrash angles (k1/k1b/k2/k2b), the collapse is the traced k4..k8 shifted by -41 frames with the centre neck kept low; the standing version is keys_death_standing.json; the belly drop (2.04-2.29 s) uses lb_* in-betweens whose leg bones swing by nlerp of world directions (no dip through the floor, no body bounce); kr_* = read-back keys re-grounded by fixground",
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "../fire_sweep/poses_head_down/k0_down.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_death_down/k1_spasm.json"
+  },
+  {
+   "t": 0.6667,
+   "pose_file": "poses_death_down/k1b_thrash.json"
+  },
+  {
+   "t": 0.9583,
+   "pose_file": "poses_death_down/k2_thrash.json"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_death_down/k2b_thrash.json"
+  },
+  {
+   "t": 1.3333,
+   "pose_file": "poses_death_down/kr_1.3333.json"
+  },
+  {
+   "t": 1.375,
+   "pose_file": "poses_death_down/kr_1.3750.json"
+  },
+  {
+   "t": 1.4167,
+   "pose_file": "poses_death_down/kg1.json"
+  },
+  {
+   "t": 1.4583,
+   "pose_file": "poses_death_down/kr_1.4583.json"
+  },
+  {
+   "t": 1.5417,
+   "pose_file": "poses_death_down/kg2.json"
+  },
+  {
+   "t": 1.5833,
+   "pose_file": "poses_death_down/kr_1.5833.json"
+  },
+  {
+   "t": 1.6667,
+   "pose_file": "poses_death_down/kg7.json"
+  },
+  {
+   "t": 1.75,
+   "pose_file": "poses_death_down/kr_1.7500.json"
+  },
+  {
+   "t": 1.7917,
+   "pose_file": "poses_death_down/k4.json"
+  },
+  {
+   "t": 1.8333,
+   "pose_file": "poses_death_down/kr_1.8333.json"
+  },
+  {
+   "t": 1.9167,
+   "pose_file": "poses_death_down/kg3.json"
+  },
+  {
+   "t": 1.9583,
+   "pose_file": "poses_death_down/kr_1.9583.json"
+  },
+  {
+   "t": 2.0417,
+   "pose_file": "poses_death_down/k4b.json"
+  },
+  {
+   "t": 2.0833,
+   "pose_file": "poses_death_down/lb_2.0833.json"
+  },
+  {
+   "t": 2.125,
+   "pose_file": "poses_death_down/lb_2.1250.json"
+  },
+  {
+   "t": 2.1667,
+   "pose_file": "poses_death_down/lb_2.1667.json"
+  },
+  {
+   "t": 2.2083,
+   "pose_file": "poses_death_down/lb_2.2083.json"
+  },
+  {
+   "t": 2.25,
+   "pose_file": "poses_death_down/lb_2.2500.json"
+  },
+  {
+   "t": 2.2917,
+   "pose_file": "poses_death_down/k5.json"
+  },
+  {
+   "t": 2.5417,
+   "pose_file": "poses_death_down/k5b.json"
+  },
+  {
+   "t": 2.7917,
+   "pose_file": "poses_death_down/k6.json"
+  },
+  {
+   "t": 3.2917,
+   "pose_file": "poses_death_down/k7.json"
+  },
+  {
+   "t": 3.7917,
+   "pose_file": "poses_death_down/k8.json"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "space": "absolute",
+ "view_offset": [
+  -0.25,
+  0.26,
+  0.04
+ ],
+ "view_scale": 0.98,
+ "bones": {
+  "upper_arm_l": {
+   "front": -38,
+   "side": -5
+  },
+  "forearm_l": {
+   "front": -38,
+   "side": -5
+  },
+  "upper_arm_r": {
+   "front": 36,
+   "side": 5
+  },
+  "forearm_r": {
+   "front": 36,
+   "side": 5
+  },
+  "tail_04": {
+   "rz": 25
+  },
+  "tail_05": {
+   "rz": 50,
+   "rx": 0
+  },
+  "tail_06": {
+   "rz": 48,
+   "rx": 0
+  },
+  "tail_07": {
+   "rz": 45,
+   "rx": 0
+  },
+  "tail_08": {
+   "rz": 42,
+   "rx": 0
+  },
+  "tail_09": {
+   "rz": 40,
+   "rx": 0
+  },
+  "tail_10": {
+   "rz": 38,
+   "rx": 0
+  },
+  "tail_11": {
+   "rz": 35,
+   "rx": 0
+  },
+  "tail_12": {
+   "rz": 32,
+   "rx": 0
+  },
+  "tail_13": {
+   "rz": 30,
+   "rx": 0
+  },
+  "tail_14": {
+   "rz": 28,
+   "rx": 0
+  }
+ }
+}

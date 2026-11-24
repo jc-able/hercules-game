@@ -1,0 +1,6 @@
+final_title.jpg | final check: title screen, windowed 1280x720 | New game / Continue (disabled) / Controls / Quit, 0 errors
+final_home_sea.jpg | final check: home isle, then Pegasus flight to the Quarry Isle | home -> sea at 3.1 s, landing ring at 15 s
+final_cyclops.jpg | final check: cyclops fight start (shield seen from behind), blocked sweep, stuck club, death with no club in frame under LABOR COMPLETE | victory 35.9 s, 8 strikes, 0 hits
+final_medusa.jpg | final check: medusa linger run: reflected gaze, tail ring with the roll-out hint, death | 2 tail swipes both missed (hero 11.6-12.0 m out), victory 34.5 s
+final_hydra.jpg | final check: hydra guard, inhale warning, jaw opening, bite, LABOR COMPLETE | victory 99.5 s game time, 8 strikes, 0 hits
+final_lose.jpg | final check: hero death: boss bar hidden, DEFEATED in the upper third, hero visible lying | death 20.05 s, card at +1.4 s, restart 24.7 s

@@ -1,0 +1,140 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0.0325
+  ]
+ },
+ "view_offset": [
+  0,
+  -0.01,
+  0
+ ],
+ "view_scale": 1.0,
+ "bones": {
+  "tail_04": {
+   "rx": -2.86
+  },
+  "tail_05": {
+   "rx": 0.0
+  },
+  "upper_arm_l": {
+   "space": "local_delta",
+   "ry": -0.75,
+   "rx": -0.798
+  },
+  "upper_arm_r": {
+   "space": "local_delta",
+   "ry": 0.75,
+   "rx": -0.671
+  },
+  "forearm_l": {
+   "space": "local_delta",
+   "ry": -0.375
+  },
+  "forearm_r": {
+   "space": "local_delta",
+   "ry": 0.375
+  },
+  "hand_l": {
+   "space": "local_delta",
+   "ry": -1.12
+  },
+  "hand_r": {
+   "space": "local_delta",
+   "ry": -0.211
+  },
+  "hair_l_01": {
+   "space": "local_delta",
+   "rx": -3.464,
+   "rz": 2.771
+  },
+  "hair_l_02": {
+   "space": "local_delta",
+   "rx": 0.022,
+   "rz": -1.856
+  },
+  "hair_l_03": {
+   "space": "local_delta",
+   "rx": 3.778,
+   "rz": 1.619
+  },
+  "hair_r_01": {
+   "space": "local_delta",
+   "rx": -3.555,
+   "rz": 1.944
+  },
+  "hair_r_02": {
+   "space": "local_delta",
+   "rx": 3.575,
+   "rz": -3.038
+  },
+  "hair_r_03": {
+   "space": "local_delta",
+   "rx": 0.542,
+   "rz": 3.115
+  },
+  "neck": {
+   "space": "local_delta",
+   "ry": -0.279
+  },
+  "head": {
+   "space": "local_delta",
+   "ry": 0.115,
+   "rx": 0.0
+  },
+  "tail_06": {
+   "space": "local_delta",
+   "rz": -2.165
+  },
+  "tail_07": {
+   "space": "local_delta",
+   "rz": -0.851
+  },
+  "tail_08": {
+   "space": "local_delta",
+   "rz": 0.864
+  },
+  "tail_09": {
+   "space": "local_delta",
+   "rz": 2.172
+  },
+  "tail_10": {
+   "space": "local_delta",
+   "rz": 2.459
+  },
+  "tail_11": {
+   "space": "local_delta",
+   "rz": 1.589
+  },
+  "tail_12": {
+   "space": "local_delta",
+   "rz": -0.028
+  },
+  "tail_13": {
+   "space": "local_delta",
+   "rz": -1.632
+  },
+  "tail_14": {
+   "space": "local_delta",
+   "rz": -2.468
+  }
+ },
+ "chain": [
+  {
+   "name": "spine_01",
+   "rx": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "ry": [
+    -0.5850634632454084,
+    -0.5850634632454084,
+    -0.5850634632454084
+   ]
+  }
+ ]
+}

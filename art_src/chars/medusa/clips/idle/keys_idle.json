@@ -1,0 +1,33 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 3.0,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_idle/k3.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_idle/k4.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_idle/k5.json"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_idle/k0.json"
+  },
+  {
+   "t": 2.0,
+   "pose_file": "poses_idle/k1.json"
+  },
+  {
+   "t": 2.5,
+   "pose_file": "poses_idle/k2.json"
+  }
+ ],
+ "note": "Keys rotated by 1.5 s (fixer): frame 0 = k3 = the rest-like pose the one-shots start/end on; motion unchanged."
+}

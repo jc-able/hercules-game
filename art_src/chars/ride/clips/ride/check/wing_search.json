@@ -1,0 +1,234 @@
+[
+ {
+  "frame": 0,
+  "u": 0,
+  "raise": -75.0,
+  "best": {
+   "pitch": 10,
+   "yaw": 0,
+   "hits": {
+    "body": 0,
+    "skirt": 0,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 0,
+   "cost": 20
+  },
+  "unpitched": {
+   "pitch": 0,
+   "yaw": 0,
+   "hits": {
+    "body": 0,
+    "skirt": 102,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 0,
+   "cost": 102
+  }
+ },
+ {
+  "frame": 5,
+  "u": 0.075,
+  "raise": -67.29452054794521,
+  "best": {
+   "pitch": 0,
+   "yaw": -10,
+   "hits": {
+    "body": 0,
+    "skirt": 0,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 0,
+   "cost": 30
+  },
+  "unpitched": {
+   "pitch": 0,
+   "yaw": 0,
+   "hits": {
+    "body": 0,
+    "skirt": 270,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 0,
+   "cost": 270
+  }
+ },
+ {
+  "frame": 9,
+  "u": 0.285,
+  "raise": -45.71917808219178,
+  "best": {
+   "pitch": 0,
+   "yaw": -10,
+   "hits": {
+    "body": 0,
+    "skirt": 0,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 0,
+   "cost": 30
+  },
+  "unpitched": {
+   "pitch": 0,
+   "yaw": 0,
+   "hits": {
+    "body": 5,
+    "skirt": 44,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 5,
+   "cost": 5044
+  }
+ },
+ {
+  "frame": 14,
+  "u": 0.728,
+  "raise": -0.20547945205479368,
+  "best": {
+   "pitch": 0,
+   "yaw": -10,
+   "hits": {
+    "body": 0,
+    "skirt": 0,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 0,
+   "cost": 30
+  },
+  "unpitched": {
+   "pitch": 0,
+   "yaw": 0,
+   "hits": {
+    "body": 524,
+    "skirt": 0,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 524,
+   "cost": 524000
+  }
+ },
+ {
+  "frame": 18,
+  "u": 1,
+  "raise": 70.0,
+  "best": {
+   "pitch": 0,
+   "yaw": -10,
+   "hits": {
+    "body": 0,
+    "skirt": 0,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 0,
+   "cost": 30
+  },
+  "unpitched": {
+   "pitch": 0,
+   "yaw": 0,
+   "hits": {
+    "body": 944,
+    "skirt": 0,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 944,
+   "cost": 944000
+  }
+ },
+ {
+  "frame": 23,
+  "u": 0.687,
+  "raise": -4.4178082191780765,
+  "best": {
+   "pitch": 0,
+   "yaw": -10,
+   "hits": {
+    "body": 0,
+    "skirt": 0,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 0,
+   "cost": 30
+  },
+  "unpitched": {
+   "pitch": 0,
+   "yaw": 0,
+   "hits": {
+    "body": 577,
+    "skirt": 0,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 577,
+   "cost": 577000
+  }
+ },
+ {
+  "frame": 27,
+  "u": 0.439,
+  "raise": -29.897260273972602,
+  "best": {
+   "pitch": 0,
+   "yaw": -10,
+   "hits": {
+    "body": 0,
+    "skirt": 0,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 0,
+   "cost": 30
+  },
+  "unpitched": {
+   "pitch": 0,
+   "yaw": 0,
+   "hits": {
+    "body": 223,
+    "skirt": 0,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 223,
+   "cost": 223000
+  }
+ },
+ {
+  "frame": 32,
+  "u": 0.02,
+  "raise": -72.94520547945206,
+  "best": {
+   "pitch": 10,
+   "yaw": 0,
+   "hits": {
+    "body": 0,
+    "skirt": 0,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 0,
+   "cost": 20
+  },
+  "unpitched": {
+   "pitch": 0,
+   "yaw": 0,
+   "hits": {
+    "body": 0,
+    "skirt": 111,
+    "prop_sword": 0,
+    "prop_shield": 0
+   },
+   "hard": 0,
+   "cost": 111
+  }
+ }
+]

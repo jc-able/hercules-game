@@ -1,0 +1,274 @@
+{
+ "rider_offset": {
+  "loc": [
+   0.0041,
+   -0.8365,
+   -0.1701
+  ],
+  "rot_deg": [
+   -90.0,
+   0.0,
+   -0.0
+  ],
+  "frame": "pegasus 'saddle' bone frame with the origin at the bone HEAD (Blender bone axes: +Y along the bone = world up at rest; glTF/Godot keep this joint frame). Euler XYZ degrees. Transform of the hercules ROOT (armature origin = between his feet): rider_world = saddle_bone_global @ T(loc) @ R(rot).",
+  "quat_wxyz": [
+   0.707108,
+   -0.707106,
+   0.0,
+   0.0
+  ],
+  "matrix": [
+   [
+    1.0,
+    -0.0,
+    0.0,
+    0.004099
+   ],
+   [
+    -0.0,
+    3e-06,
+    0.999978,
+    -0.836508
+   ],
+   [
+    -0.0,
+    -1.0,
+    3e-06,
+    -0.170068
+   ],
+   [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  ]
+ },
+ "rider_offset_armature_axes": {
+  "loc": [
+   0.0041,
+   0.1701,
+   -0.8365
+  ],
+  "rot_deg": [
+   0.0,
+   -0.0,
+   0.0
+  ],
+  "frame": "same transform, origin at the saddle bone head but in PEGASUS ARMATURE axes (Z up, faces -Y), like pegasus rig.json socket_offsets. With pegasus at rest the rider root sits at saddle_head + loc."
+ },
+ "seat": {
+  "hips_joint_rel_saddle_head_armature_axes": [
+   0.0,
+   0.2,
+   0.2471
+  ],
+  "pitch_deg": 0.0,
+  "seat_skin_depth_cm": 0.0
+ },
+ "hercules_pose": {
+  "space": "absolute",
+  "bones": {
+   "spine_01": {
+    "rx": 14
+   },
+   "spine_02": {
+    "rx": 25
+   },
+   "spine_03": {
+    "rx": 32
+   },
+   "neck": {
+    "rx": 14
+   },
+   "head": {
+    "rx": -8
+   },
+   "thigh_l": {
+    "front": -58,
+    "side": -25
+   },
+   "shin_l": {
+    "front": -5,
+    "side": 35
+   },
+   "foot_l": {
+    "front": -15,
+    "side": -40
+   },
+   "thigh_r": {
+    "front": 58,
+    "side": -25
+   },
+   "shin_r": {
+    "front": 5,
+    "side": 35
+   },
+   "foot_r": {
+    "front": 15,
+    "side": -40
+   },
+   "upper_arm_l": {
+    "front": 28.76,
+    "side": -66.83
+   },
+   "forearm_l": {
+    "front": 38.41,
+    "side": -63.82,
+    "twist": 0
+   },
+   "hand_l": {
+    "front": 49.76,
+    "side": -51.84
+   },
+   "upper_arm_r": {
+    "front": 34.42,
+    "side": 34.02
+   },
+   "forearm_r": {
+    "front": 11.31,
+    "side": 45.0
+   },
+   "hand_r": {
+    "twist": 159,
+    "front": 14.04,
+    "side": 56.31
+   },
+   "fingers_l": {
+    "rx": 11.17,
+    "ry": 33.98,
+    "rz": -63.73,
+    "space": "local_delta"
+   },
+   "fingers_r": {
+    "rx": -4.18,
+    "ry": 42.18,
+    "rz": 61.79,
+    "space": "local_delta"
+   }
+  }
+ },
+ "pegasus_pose": {
+  "space": "absolute",
+  "bones": {
+   "wing_l_01": {
+    "rx": 88.73,
+    "ry": 40.65,
+    "rz": 32.26
+   },
+   "wing_r_01": {
+    "rx": 88.73,
+    "ry": -40.65,
+    "rz": -32.26
+   },
+   "leg_fl_01": {
+    "rx": -55,
+    "space": "local_delta"
+   },
+   "leg_fl_02": {
+    "rx": -30,
+    "space": "local_delta"
+   },
+   "leg_fl_03": {
+    "rx": 135,
+    "space": "local_delta"
+   },
+   "hoof_fl": {
+    "rx": 30,
+    "space": "local_delta"
+   },
+   "leg_fr_01": {
+    "rx": -50,
+    "space": "local_delta"
+   },
+   "leg_fr_02": {
+    "rx": -28,
+    "space": "local_delta"
+   },
+   "leg_fr_03": {
+    "rx": 128,
+    "space": "local_delta"
+   },
+   "hoof_fr": {
+    "rx": 30,
+    "space": "local_delta"
+   },
+   "leg_bl_01": {
+    "rx": -50,
+    "space": "local_delta"
+   },
+   "leg_bl_02": {
+    "rx": 90,
+    "space": "local_delta"
+   },
+   "leg_bl_03": {
+    "rx": -70,
+    "space": "local_delta"
+   },
+   "hoof_bl": {
+    "rx": -20,
+    "space": "local_delta"
+   },
+   "leg_br_01": {
+    "rx": -45,
+    "space": "local_delta"
+   },
+   "leg_br_02": {
+    "rx": 85,
+    "space": "local_delta"
+   },
+   "leg_br_03": {
+    "rx": -65,
+    "space": "local_delta"
+   },
+   "hoof_br": {
+    "rx": -20,
+    "space": "local_delta"
+   },
+   "neck_01": {
+    "rx": 24,
+    "space": "local_delta"
+   },
+   "neck_02": {
+    "rx": 12,
+    "space": "local_delta"
+   },
+   "neck_03": {
+    "rx": 6,
+    "space": "local_delta"
+   },
+   "head": {
+    "rx": -14,
+    "space": "local_delta"
+   },
+   "tail_01": {
+    "rx": 35,
+    "space": "local_delta"
+   },
+   "tail_02": {
+    "rx": 12,
+    "space": "local_delta"
+   },
+   "tail_03": {
+    "rx": 10,
+    "space": "local_delta"
+   },
+   "tail_04": {
+    "rx": 6,
+    "space": "local_delta"
+   },
+   "tail_05": {
+    "rx": 5,
+    "space": "local_delta"
+   }
+  },
+  "notes": "ride sheet flight pose: wings half raised (glide + 15 deg up about the body axis, trailing edge pitched up 18 deg) and spread, legs tucked, neck stretched forward, tail streaming back; body level (root untouched)"
+ },
+ "notes": [
+  "Poses are ak (animkit) format: apply with tools/ak on each character's own blend (absolute view axes, each armature at the origin). hercules_pose is applied in HIS armature frame; the rider offset then carries the whole body onto the saddle, so his view axes follow pegasus's back (both face -Y when pegasus is level).",
+  "Hercules skirt bones are driven (rig.json \"driven\", skirt_drivers.skirt_matrices): never key them; ak and the GLB export set them from the thighs.",
+  "fingers_l / fingers_r: curl of {'fingers_l': 75, 'fingers_r': 75} deg about the finger bone's own X (grip), stored as the equivalent ak local_delta for THIS hand pose; if the hand pose changes, re-derive it (build_ride.py resolve_grip).",
+  "The pegasus pose is the first frame of the ride video only (wings half raised); the game uses pegasus fly/glide clips and the hercules ride clip; rider_offset stays valid as long as the saddle bone is used (it rides spine_02).",
+  "Rebuild: python3 art_src/chars/ride/scripts/make_poses.py art_src/chars/ride/poses; Blender -b --factory-startup --python art_src/chars/ride/scripts/build_ride.py -- <repo> art_src/chars/ride/seat.json"
+ ]
+}

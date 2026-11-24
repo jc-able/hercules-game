@@ -1,0 +1,2 @@
+real_slam_stuck_strike.jpg | real Cyclops: club lands on the slam circle the hero rolled out of, stays in a crack, hero strikes the real forearm (white hit flash) | club head lands 0.10-0.14 m from the circle centre; forearm 2.15-2.24 m high (no clamp); 2nd hit 2.0 s into the 3.0 s window
+real_sweep_trail.jpg | sweep decal moved onto the real club path (his right, 155 deg, 7.6 m) + trail ribbon following the club head | measured arc -115..+40 deg, head 6.6-7.2 m out

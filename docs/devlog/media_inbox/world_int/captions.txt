@@ -1,0 +1,4 @@
+home_mount_beat.jpg | home: hero walks to the real Pegasus (idle), hops onto the saddle (0.55 s), wings open, lift-off under a chase camera | hop 0.55 s, settle 0.35 s, lift 1.6 s, rider on the saddle socket with the manifest offset
+flight_chase_camera.jpg | flight chase camera after the fix: offset smoothed (not the world position), 6.0 m behind, 4.2 m up | before: the pair trailed 6.5 m extra at 46 m/s boost and shrank to a speck
+ride_wingbeat_behind.jpg | 8 phases of the fly beat from behind: rider on the back, wings outside his legs, ride clip locked to the wing beat | phase error <= 0.01 s (probe), rider x1.44 on fly (x1.8 boosting), x0.4 on glide
+ride_wingbeat_side.jpg | same beat from the side (harness --world-cam-yaw=75): near wing passes outside the rider like the ride reference sheet | hips on the socket 0.000 m, tilt <= 1.4 deg

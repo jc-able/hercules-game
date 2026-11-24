@@ -1,0 +1,39 @@
+{
+ "width": 1920,
+ "height": 1080,
+ "ppm": 47.407407407407405,
+ "front_w": 948,
+ "side_w": 972,
+ "centre_x": 0.0,
+ "centre_y": -0.25,
+ "ground_z": 0.0,
+ "ground_frac": 0.08,
+ "bg": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "rest_size": [
+  3.7338151931762695,
+  9.890024900436401,
+  6.49999902830776
+ ],
+ "note": "left panel = front view (camera at -Y looking +Y), right panel = side view (camera at -X looking +X, character faces screen-right)",
+ "clips": [
+  "tail_swipe"
+ ],
+ "sheet": "split_sheet_tail_swipe.png",
+ "other_framing": "cam.json",
+ "coverage_m": {
+  "front_x": [
+   -10.0,
+   10.0
+  ],
+  "side_y": [
+   -10.5,
+   10.0
+  ],
+  "z_top": 20.96
+ },
+ "framing_note": "medusa uses two framings: this file covers tail_swipe; the other clips use cam.json. Character height 6.5 m = 308 px."
+}

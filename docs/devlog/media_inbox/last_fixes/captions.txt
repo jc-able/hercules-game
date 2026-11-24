@@ -1,0 +1,1 @@
+land_before_after.jpg | Arriving home from the sea, before vs after: before, the hero already stood on the path while Pegasus glided in riderless; after, he rides it in, Pegasus touches down and settles, he hops off beside it, then the player gets control | glide-in 1.9 s, settle 0.3 s, hop off 0.85 s (8.36-9.22 s in the real sea->home run), control at 9.22 s

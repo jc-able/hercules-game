@@ -1,0 +1,122 @@
+{
+ "sockets": {
+  "head": "head",
+  "neck": "neck",
+  "tail_tip": "tail_14",
+  "eyes": "head"
+ },
+ "socket_offsets": {
+  "head": {
+   "loc": [
+    -0.0,
+    0.4,
+    -0.0
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "neck": {
+   "loc": [
+    -0.0,
+    0.1328,
+    0.0295
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "tail_tip": {
+   "loc": [
+    -0.0,
+    0.8407,
+    0.0
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "eyes": {
+   "loc": [
+    -0.0,
+    0.37,
+    0.374
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "clips": {
+  "death": {
+   "length": 3.5,
+   "loop": false,
+   "events": {}
+  },
+  "gaze": {
+   "length": 4.25,
+   "loop": false,
+   "events": {
+    "fire_start": 2.0,
+    "fire_end": 3.25
+   }
+  },
+  "hurt": {
+   "length": 1.625,
+   "loop": false,
+   "events": {}
+  },
+  "idle": {
+   "length": 6.0,
+   "loop": true,
+   "events": {}
+  },
+  "rise": {
+   "length": 2.5,
+   "loop": false,
+   "events": {}
+  },
+  "slither": {
+   "length": 1.75,
+   "loop": true,
+   "events": {},
+   "move_speed": 3.2
+  },
+  "stun_start": {
+   "length": 1.625,
+   "loop": false,
+   "events": {}
+  },
+  "stunned": {
+   "length": 3.0,
+   "loop": true,
+   "events": {}
+  },
+  "tail_swipe": {
+   "length": 2.25,
+   "loop": false,
+   "events": {
+    "impact": 0.833
+   }
+  }
+ },
+ "size": {
+  "height": 6.5,
+  "width_x": 3.734,
+  "length_z": 9.89,
+  "upright_height": 6.5,
+  "tail_on_ground": 9.9,
+  "tris": 70000,
+  "bones": 35,
+  "note": "metres, rest pose; Godot axes: height = +Y, width = X, length = Z (the tail runs toward -Z behind her, she faces +Z); from rig.json size_m (Blender x/y/z)"
+ },
+ "offset_space": "blender"
+}

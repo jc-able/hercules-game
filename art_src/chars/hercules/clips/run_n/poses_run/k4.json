@@ -1,0 +1,138 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "hips": {
+   "rx": 5.0,
+   "ry": 0.0,
+   "rz": -3
+  },
+  "spine_01": {
+   "rx": 4.25,
+   "ry": 0.0,
+   "rz": -0.37
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rx": 2.42,
+   "ry": -0.91,
+   "rz": -2.31
+  },
+  "spine_03": {
+   "space": "local_delta",
+   "rx": 2.05,
+   "rz": -1.58
+  },
+  "neck": {
+   "space": "local_delta",
+   "rx": -0.43,
+   "rz": 2.62
+  },
+  "head": {
+   "space": "local_delta",
+   "rx": -0.01,
+   "ry": 0.79,
+   "rz": 4.22
+  },
+  "upper_arm_r": {
+   "rx": 14.32,
+   "rz": 6.67,
+   "ry": -15.41
+  },
+  "forearm_r": {
+   "rx": -0.86,
+   "rz": 30.97,
+   "ry": -26.34
+  },
+  "upper_arm_l": {
+   "rx": -13.845,
+   "ry": 4.5923,
+   "rz": 6.5999
+  },
+  "forearm_l": {
+   "rx": -93.2052,
+   "ry": 36.1985,
+   "rz": -11.9321
+  },
+  "thigh_r": {
+   "rx": 0.0,
+   "ry": -2.93,
+   "rz": -1.29
+  },
+  "shin_r": {
+   "rx": 40.0,
+   "ry": -9.3,
+   "rz": -0.8
+  },
+  "foot_r": {
+   "rx": 30.0,
+   "ry": 2.7,
+   "rz": 0.75
+  },
+  "thigh_l": {
+   "rx": -65.72,
+   "ry": -9.6,
+   "rz": -6.54
+  },
+  "shin_l": {
+   "rx": 25.49,
+   "ry": 10.4,
+   "rz": 0.03
+  },
+  "foot_l": {
+   "rx": 42.26,
+   "ry": 2.1,
+   "rz": 7.5
+  },
+  "hand_r": {
+   "rx": 7.63,
+   "rz": 30.47,
+   "ry": -3.6
+  },
+  "hand_l": {
+   "space": "local_delta",
+   "rx": -0.15
+  },
+  "shoulder_r": {
+   "space": "local_delta",
+   "rx": 1.53,
+   "rz": -1.53
+  },
+  "shoulder_l": {
+   "space": "local_delta",
+   "rx": -1.84,
+   "rz": 1.84,
+   "ry": 0.64
+  },
+  "toe_r": {
+   "space": "local_delta",
+   "rx": -25
+  },
+  "fingers_r": {
+   "space": "local_delta",
+   "rx": 75.38,
+   "ry": -24.46,
+   "rz": -39.5
+  },
+  "fingers_l": {
+   "space": "local_delta",
+   "rx": 7.97,
+   "ry": 22.37,
+   "rz": -25.91
+  }
+ },
+ "view_offset": [
+  0,
+  0.005,
+  -0.045
+ ],
+ "view_scale": 1.02,
+ "_animfix": "left arm re-keyed for the game shield (animfix_hercules): upper_arm_l -20 deg out, forearm_l twist -65 deg, fingers_l x0.5"
+}

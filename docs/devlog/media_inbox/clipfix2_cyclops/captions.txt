@@ -1,0 +1,2 @@
+01_idle_start_before_after.jpg | Cyclops idle in the first 2 s of the fight, game shots 0.5 s apart (top = before, bottom = after clip fix 2) | club head range 0.80 -> 2.10 m, shoulders rise 0.12-0.16 -> 0.40-0.45 m, pelvis shift 0.12 -> 0.17 m; changed pixels per 0.5 s 2309-3089 -> 3365-4385
+02_pull_free_strip_after.jpg | pull_free after the heave re-timing + foot IK (Blender strip, front | side, 12 poses) | club head peak 50.3 -> 27.0 m/s (24 fps), right foot glide 1.25 m -> one 0.37 m step, plants 0.00 m

@@ -1,0 +1,15 @@
+before_cyclops_all_clips.jpg | every Cyclops clip BEFORE the natural pass, 8 poses each, game loader, three-quarter front (lead tool tools/probes/clip_showcase.gd, 9:15 AM Nov 23) | idle 9/29 joints move (T pose, club straight up), walk 13/29 (arms frozen), stuck 11/29
+before_hercules_all_clips.jpg | every Hercules clip BEFORE the natural pass | idle 6/29 joints move, block_idle 5/29, ride 3/29, strafe 10/29, walk_back 10/29
+before_medusa_all_clips.jpg | every Medusa clip BEFORE the natural pass | idle 18/35, stunned 13/35, gaze 17/35 (tail frozen)
+before_hydra_all_clips.jpg | every Hydra clip BEFORE the natural pass | idle 0/76 joints move (eight identical frames), walk 24/76 (heads frozen), stomp 25/76
+before_pegasus_all_clips.jpg | every Pegasus clip BEFORE the natural pass | idle 16/43, glide 13/43, fly 28/43
+after_cyclops_all_clips.jpg | every Cyclops clip AFTER the natural pass (same tool and camera as before_cyclops_all_clips.jpg) | idle 25/29 joints move (was 9), walk 28/29 (was 13), stuck 22 (was 11); every clip starts from the stance with the club on the shoulder
+after_hercules_all_clips.jpg | every Hercules clip AFTER | idle 21/29 (was 6), run 28/29 (was 19), strafe 21 (was 10), block_idle 19 (was 5), ride 9 (was 3)
+after_hercules_from_behind.jpg | seven Hercules clips AFTER, seen from behind like the game camera | relaxed stance, sword down at the right, shield at the left side
+after_medusa_all_clips.jpg | every Medusa clip AFTER | idle 30/35 (was 18), slither 34/35 (was 26), stunned 28 (was 13)
+after_hydra_all_clips.jpg | every Hydra clip AFTER (19 clips: two new turn-in-place walks) | idle 43/76 (was 0), walk 67/76 (was 24), stomp 64 (was 25)
+after_pegasus_all_clips.jpg | every Pegasus clip AFTER | idle 39/43 (was 16), glide 38 (was 13), fly 38 (was 28)
+ingame_cyclops_approach_after.jpg | the Cyclops walking toward a standing Hercules in the game after the pass (gdwin movie, 2.5 frames per second from 2.5 s): club on the shoulder, arms hanging and swinging, then the first sweep | lead recording 10:57 AM
+ingame_medusa_approach_after.jpg | Medusa slithering toward a standing Hercules after the pass: relaxed arms that change pose, then the idle | lead recording 10:57 AM
+ingame_home_idle_v1_vs_v2.jpg | Hercules's idle on the home island from the game camera, 12 frames half a second apart: top two rows = the first new idle (relaxed but nearly identical frames), bottom two rows = after the clip fix (weight shift, a look to his left, the sword hand re-grips) | hips 4.5 -> 7.5 cm, look 27 -> 37 deg, sword tip 7.6 -> 24.5 cm (clip-fix numbers); lead recordings 10:57 and 11:13 AM
+before_after_key_clips.jpg | six key clips before (red) and after (green) the natural pass, 8 poses each: cyclops walk and idle, hydra walk and idle, medusa slither, hercules idle | from the lead's showcase sheets

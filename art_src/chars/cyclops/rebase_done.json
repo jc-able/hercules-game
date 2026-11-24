@@ -1,0 +1,62 @@
+{
+ "clips": {
+  "slam": {
+   "action": "art_src/chars/cyclops/clips/slam/action_slam.json",
+   "length": 1.75,
+   "loop": false,
+   "events": {
+    "impact": 1.5
+   },
+   "keys": 10,
+   "changed": "t=0 rest T pose replaced by natural_pose (club on shoulder, root x 0 = the in-place spot idle_n bakes to); acting keys 0.25-1.75 verbatim; gap cells (unlisted = rest) filled by local slerp toward the next keyed pose: legs 0.25-1.0, hips/neck/head/shoulder_u_l/lower arms 0.25; lower hands (never keyed) natural -> stuck + reaction (cock -18 deg in the overhead 1.333, snap +16 deg at the impact 1.5). Club hand moves 0.000 m at the 6 strike keys 1.333-1.75."
+  },
+  "stuck": {
+   "action": "art_src/chars/cyclops/clips/slam/action_stuck.json",
+   "length": 1.5,
+   "loop": true,
+   "events": {},
+   "keys": 5,
+   "changed": "2 life keys added (0.375, 1.125; acting arms read back from the old curve); shared k00_stuck untouched; k01_tug gets the tug: knees bend 8-9 deg, shins 11-12, spine_01/02 lean back 3-3.5, neck back 4; lower arms push (upper -7, forearm -8, hands -11/-12 with phase offsets); spine_03 breath 3 deg 1x per loop; head/neck turn 3-4 deg in counter-phase, 2x per loop head tilt. Moving bones 12 -> 24 of 29."
+  },
+  "pull_free": {
+   "action": "art_src/chars/cyclops/clips/slam/action_pull_free.json",
+   "length": 1.5,
+   "loop": false,
+   "events": {},
+   "keys": 9,
+   "changed": "last key (rest T pose) replaced by natural stance in a new file poses_pull_free/k08_natural.json (root x 0.25: the bake's in-place ramp lands it on the idle spot); lower arms (1.125-1.375) and shoulder_u_l (1.25-1.375) gap-filled toward natural instead of snapping to rest; lower hands grab and release (clench -16 at heave, flick +10 at release, right hand one key later)."
+  },
+  "sweep": {
+   "action": "art_src/chars/cyclops/clips/sweep/action_sweep.json",
+   "length": 2.5,
+   "loop": false,
+   "events": {
+    "impact": 1.31
+   },
+   "keys": 21,
+   "changed": "t=0 and t=2.5 rest T pose replaced by natural stance; k9b_settle (2.375) blended 50% toward natural so he returns over the last 0.25 s; never-keyed head looks at the target (counter-turn +11 deg in the wind-up, dips 7 at the strike, -13 in the follow-through), shoulder_u_l balances (lift -7 at the strike), left upper hand cocks -12 / flicks +14, lower hands trail the swing (+-8..12 deg, left one key later). Hips left alone (spine is local_delta: any hips turn would move the club). Club hand 0.000 m at every key 0.375-2.25."
+  },
+  "hurt": {
+   "action": "art_src/chars/cyclops/clips/hurt/action_hurt.json",
+   "length": 0.6667,
+   "loop": false,
+   "events": {},
+   "keys": 5,
+   "changed": "1 life key added (0.5, overshoot; acting bones read back); start/end stay on shared k00_stuck; knees dip 4-5 / shins 6-7, spine_01 recoils 4 deg, neck snaps back 7 and overshoots, lower hands fling 11-14 deg; acting flinch untouched. Moving 15 -> 22."
+  },
+  "death": {
+   "action": "art_src/chars/cyclops/clips/death/action_death.json",
+   "length": 4.5,
+   "loop": false,
+   "events": {},
+   "keys": 36,
+   "changed": "t=0 rest pose replaced by natural stance (root x 0; clip keeps root motion); spine_03 gap-filled 0.375-1.25 (natural -> slump instead of riding spine_02 straight), head gap-filled at 0.875-1.125, spine_02 at 1.25/3.875/3.917; shoulders slump 8-9 deg from 0.4 to 1.25 s and stay; hips leave the natural tilt by 0.75 s. Fall 2.6-4.5 unchanged. Moving 26 -> 29."
+  }
+ },
+ "kept_as_is": [],
+ "skipped_new_video": [
+  "idle",
+  "walk"
+ ],
+ "note": "2026-11-23 re-base animator (cyclops). Tool: work/rebase/cyclops/rebase.py + rb_resolve.py. Old files kept as *.rest_v1.json / *.rest_v1.jpg. Bake: death with --keep-root-motion (as before), the others default."
+}

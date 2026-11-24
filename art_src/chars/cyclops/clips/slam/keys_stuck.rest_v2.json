@@ -1,0 +1,30 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 1.5,
+ "events": {},
+ "keys": [
+  {
+   "t": 0,
+   "pose_file": "poses_stuck/k00_stuck.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_stuck/k005_life.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_stuck/k01_tug.json"
+  },
+  {
+   "t": 1.125,
+   "pose_file": "poses_stuck/k015_life.json"
+  }
+ ],
+ "video": "ref.mp4",
+ "video_window": [
+  3.0,
+  6.0
+ ],
+ "note_rebase": "2026-11-23 re-base (work/rebase/cyclops/rebase.py): acting bones 7 kept verbatim; replaced [] with natural_pose; gap-filled []; life on ['foot_l', 'foot_r', 'forearm_d_l', 'forearm_d_r', 'forearm_u_l', 'hand_d_l', 'hand_d_r', 'head', 'hips', 'neck', 'shin_l', 'shin_r', 'spine_01', 'spine_02', 'spine_03', 'thigh_l', 'thigh_r', 'upper_arm_d_l', 'upper_arm_d_r']; extra life keys [0.375, 1.125]"
+}

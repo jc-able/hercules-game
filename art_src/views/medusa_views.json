@@ -1,0 +1,48 @@
+{
+ "sheet": "art_src/sheets/medusa_sheet.png",
+ "size": [
+  2172,
+  724
+ ],
+ "views": {
+  "front": {
+   "box": [
+    117,
+    75,
+    447,
+    675
+   ],
+   "file": "art_src/views/medusa_front.png",
+   "px": [
+    330,
+    600
+   ]
+  },
+  "side": {
+   "box": [
+    489,
+    75,
+    1455,
+    660
+   ],
+   "file": "art_src/views/medusa_side.png",
+   "px": [
+    966,
+    585
+   ]
+  },
+  "back": {
+   "box": [
+    1701,
+    75,
+    2034,
+    675
+   ],
+   "file": "art_src/views/medusa_back.png",
+   "px": [
+    333,
+    600
+   ]
+  }
+ }
+}

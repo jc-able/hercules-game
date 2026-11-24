@@ -1,0 +1,9 @@
+# medusa / idle (video "idle")
+
+- idle | video window t0 4.375 - t1 7.375 s (one breathing cycle, top of the rise to top of the rise) | 6 keys every 0.5 s (k0 high, k3 low) | IoU per key (front/side, full frame): k0 0.80/0.76, k1 0.76/0.76, k2 0.79/0.76, k3 0.81/0.76, k4 0.81/0.76, k5 0.81/0.75 (mean 0.78); upper body only (z > 1 m, excluding the tail artefact): 0.92/0.92, 0.90/0.93, 0.91/0.93, 0.93/0.93, 0.90/0.93, 0.91/0.92 (mean 0.92; rest pose scores 0.82-0.93) | length 3.0 s at 24 fps, loop | events: none | Mismatch: full-frame IoU is capped near 0.78 because Seedance drew the side-view tail beyond the side panel, across the divider into the front panel (red strip in the front diff) and left the near side-panel tail area empty (blue in the side diff); this is a video artefact, not a pose error. Measured video motion: body rises 13 cm and sinks back with a 3.1 s period (loop kept at 3.0 s = 72 frames, ~4% faster), arms open ~1 deg as she sinks, sway < 2 cm. The tail undulation and snake writhing cannot be traced (tail is off-panel, snakes are fused to the head mesh and redrawn): authored as a slow travelling side wave on tail_06..14 (2.5 deg per link, tip +-0.45 m) and per-snake +-4 deg writhes with separate phases. The rise is root.loc z with tail_04 rx counter-turn (-88 deg per m) and tail_05 held level so the ground tail stays on the floor (lowest_z -0.7..0 cm; the floor tail slides ~10 cm toward the body at the top of the rise).
+- Built by `work/anim/medusa_idle/gen.py` from `params.json` (sinusoids sampled at the 6 keys); rerun it to tweak amplitudes, then re-bake.
+
+
+## Fixer pass (2026-11-22, owner away)
+Keys rotated by 1.5 s (k3,k4,k5,k0,k1,k2 at 0..2.5): frame 0 is now the rest-like pose the one-shots start/end on (root 0,
+neck z 5.20). Motion and seam unchanged. Strip vs video t0 5.875: mean IoU 0.80/0.76.

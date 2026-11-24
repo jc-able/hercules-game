@@ -1,0 +1,2 @@
+medusa_rest_vs_natural.jpg | Medusa in the rig's rest pose (arms spread in an A-pose, tail straight back, snakes fanned out symmetrically) next to the new natural stance, same views: front, front close-up, three-quarter close-up | 35 bones; stance = 20 posed bones + 14-link tail chain; tail tip curls 2.5 m to her right; lowest vertex 0.000 m
+medusa_sheet_nat_std.jpg | The new FRONT | SIDE split sheet rendered from the natural stance: the first frame of the new Seedance reference videos idle_n and slither_n | 1280x720, 64.6 px/m in both panels, front +-3.5 m, side -3.0..9.8 m

@@ -1,0 +1,140 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0.13
+  ]
+ },
+ "view_offset": [
+  0,
+  -0.01,
+  0
+ ],
+ "view_scale": 1.0,
+ "bones": {
+  "tail_04": {
+   "rx": -11.44
+  },
+  "tail_05": {
+   "rx": 0.0
+  },
+  "upper_arm_l": {
+   "space": "local_delta",
+   "ry": -0.0,
+   "rx": 0.452
+  },
+  "upper_arm_r": {
+   "space": "local_delta",
+   "ry": 0.0,
+   "rx": 0.713
+  },
+  "forearm_l": {
+   "space": "local_delta",
+   "ry": -0.0
+  },
+  "forearm_r": {
+   "space": "local_delta",
+   "ry": 0.0
+  },
+  "hand_l": {
+   "space": "local_delta",
+   "ry": 1.995
+  },
+  "hand_r": {
+   "space": "local_delta",
+   "ry": -1.617
+  },
+  "hair_l_01": {
+   "space": "local_delta",
+   "rx": 0.0,
+   "rz": 0.0
+  },
+  "hair_l_02": {
+   "space": "local_delta",
+   "rx": 3.453,
+   "rz": -1.329
+  },
+  "hair_l_03": {
+   "space": "local_delta",
+   "rx": -3.027,
+   "rz": 1.581
+  },
+  "hair_r_01": {
+   "space": "local_delta",
+   "rx": 3.366,
+   "rz": -3.173
+  },
+  "hair_r_02": {
+   "space": "local_delta",
+   "rx": -0.233,
+   "rz": 2.39
+  },
+  "hair_r_03": {
+   "space": "local_delta",
+   "rx": -3.703,
+   "rz": -2.192
+  },
+  "neck": {
+   "space": "local_delta",
+   "ry": 0.235
+  },
+  "head": {
+   "space": "local_delta",
+   "ry": -0.177,
+   "rx": 0.0
+  },
+  "tail_06": {
+   "space": "local_delta",
+   "rz": 0.0
+  },
+  "tail_07": {
+   "space": "local_delta",
+   "rz": -1.611
+  },
+  "tail_08": {
+   "space": "local_delta",
+   "rz": -2.464
+  },
+  "tail_09": {
+   "space": "local_delta",
+   "rz": -2.158
+  },
+  "tail_10": {
+   "space": "local_delta",
+   "rz": -0.837
+  },
+  "tail_11": {
+   "space": "local_delta",
+   "rz": 0.877
+  },
+  "tail_12": {
+   "space": "local_delta",
+   "rz": 2.179
+  },
+  "tail_13": {
+   "space": "local_delta",
+   "rz": 2.456
+  },
+  "tail_14": {
+   "space": "local_delta",
+   "rz": 1.578
+  }
+ },
+ "chain": [
+  {
+   "name": "spine_01",
+   "rx": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "ry": [
+    0.1773121239968037,
+    0.1773121239968037,
+    0.1773121239968037
+   ]
+  }
+ ]
+}

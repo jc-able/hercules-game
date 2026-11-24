@@ -1,0 +1,38 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 2.25,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_hurt/k0_rest.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.083,
+   "pose_file": "poses_hurt/k1_jerk.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_hurt/k2_peak.json"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_hurt/k3_hold.json"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_hurt/k4_rec1.json"
+  },
+  {
+   "t": 1.75,
+   "pose_file": "poses_hurt/k5_rec2.json"
+  },
+  {
+   "t": 2.25,
+   "pose_file": "poses_hurt/k0_rest.json"
+  }
+ ],
+ "note": "video window 1.25-3.50 s of ref.mp4 (first take); t = video_t - 1.25; the hit snaps in 2 video frames (1.25->1.333, linear); starts and ends on the rest/sheet pose"
+}

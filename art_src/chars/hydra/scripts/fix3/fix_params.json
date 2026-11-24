@@ -1,0 +1,146 @@
+{
+ "ik_reg": [
+  0.0005,
+  0.0015,
+  0.0005,
+  0.001
+ ],
+ "lift_thr": 0.03,
+ "lift_min": 0.08,
+ "hurt_taps": [
+  [
+   -2,
+   1
+  ],
+  [
+   -1,
+   2
+  ],
+  [
+   0,
+   3
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   2,
+   1
+  ]
+ ],
+ "duck_n8": {
+  "fire_sweep_l": {
+   "win": [
+    1.15,
+    1.5,
+    2.45,
+    2.8
+   ],
+   "up": -10.0,
+   "side": -7.0
+  },
+  "fire_sweep_return_l": {
+   "win": [
+    0.95,
+    1.25,
+    2.3,
+    2.6
+   ],
+   "up": -10.0,
+   "side": -4.0
+  }
+ },
+ "stomp": {
+  "rear_a": 0.45,
+  "rear_b": 1.15,
+  "rear_c": 1.45,
+  "rear_d": 1.7,
+  "rear_amp": 1.0,
+  "whip_c": 1.7,
+  "whip_w": 0.1,
+  "whip_amp": 4.0,
+  "reb_delay": 0.35,
+  "reb_w": 0.16,
+  "reb_k": 0.3,
+  "rear_k": {
+   "neck_c": 0.3,
+   "n8": 0.6,
+   "n5": 0.8,
+   "n2": 0.8,
+   "n4": 0.9,
+   "n6": 0.65
+  },
+  "rear_prof": [
+   15.0,
+   14.0,
+   9.0,
+   4.0,
+   0.0
+  ],
+  "rear_head": -12.0,
+  "follow_amp": 3.0,
+  "follow": [
+   1.7,
+   1.88,
+   1.92,
+   2.4
+  ]
+ },
+ "stomp_n5": {
+  "win": [
+   0.1,
+   0.45,
+   2.25,
+   2.7
+  ],
+  "side": 5.0,
+  "up": 0.0
+ },
+ "head_down_pant": {
+  "amp": 1.2,
+  "neck": 0.6
+ },
+ "idle": {
+  "breaths": 2,
+  "pitch2": 0.6,
+  "pitch3": 0.45,
+  "neck": 0.5,
+  "bob_m": 0.02,
+  "sway_m": 0.04
+ },
+ "turn": {
+  "move_speed": 1.2,
+  "match_phase": 0.73,
+  "match": 0.25,
+  "lift_dead": 0.0,
+  "lift_scale": 1.0,
+  "r_game": 2.99,
+  "crouch": 0.12,
+  "bob_k": 0.4,
+  "hip_roll_k": 0.3,
+  "stop_window": [
+   1.48,
+   1.68
+  ],
+  "start_time": 1.5833
+ },
+ "root_drop_mid": {
+  "stomp": 1.0,
+  "stomp_r": 1.0
+ },
+ "ik_reg_hoof": 0.006,
+ "stomp_side": {
+  "neck_7": 4.0,
+  "neck_3": -3.0
+ },
+ "stomp_side_win": [
+  0.35,
+  0.8,
+  2.0,
+  2.6
+ ],
+ "life_k": {
+  "head_down": 1.8
+ }
+}

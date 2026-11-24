@@ -1,0 +1,48 @@
+{
+ "sheet": "art_src/sheets/pegasus_sheet.png",
+ "size": [
+  1774,
+  887
+ ],
+ "views": {
+  "front": {
+   "box": [
+    12,
+    96,
+    558,
+    786
+   ],
+   "file": "art_src/views/pegasus_front.png",
+   "px": [
+    546,
+    690
+   ]
+  },
+  "side": {
+   "box": [
+    555,
+    99,
+    1194,
+    786
+   ],
+   "file": "art_src/views/pegasus_side.png",
+   "px": [
+    639,
+    687
+   ]
+  },
+  "back": {
+   "box": [
+    1209,
+    96,
+    1761,
+    786
+   ],
+   "file": "art_src/views/pegasus_back.png",
+   "px": [
+    552,
+    690
+   ]
+  }
+ }
+}

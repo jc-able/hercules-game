@@ -1,0 +1,3 @@
+stun_start_after.jpg | Medusa stun_start after the fix: video row above, rig row below; she now falls forward with the tail planted, head on the floor 4.45 m in front | fall 0.5 s ease-in, lowest vertex -0.009..+0.003 m every frame (was +0.325 m float, 2.4 m tail skate)
+godot_probe_after.jpg | In-game probe of the re-exported GLB: idle, stunned (chase cam), tail_swipe at impact, stunned side view | neck 4.56 m forward, 0.98 m up while stunned; 9/9 clips, 3/3 events, 4/4 sockets OK
+tail_swipe_spin.jpg | tail_swipe re-authored from the video's overhead whip to a flat 360 deg spin to match the game's 360 ring | tail tip sweeps 381 deg at r 8.4-9.3 m, max 0.82 m high, impact 0.833 s

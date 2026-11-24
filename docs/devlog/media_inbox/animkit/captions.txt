@@ -1,0 +1,6 @@
+animkit_hercules_bones.jpg | ak info: the Meshy Hercules rig learned from one picture (front+side, every joint named) | 24 bones, 31025 tris, 0.9 s per call
+animkit_seedance_calibration_overlay.jpg | Seedance re-frames the split sheet (character ~20% larger, divider moved from 700 px to the middle); auto-calibration lays video frame 0 back onto the sheet | calibration IoU 0.90 front / 0.94 side
+animkit_pose_axes.jpg | the pose format: angles in the view axes (ry = front panel, rx = side panel, rz = twist), signs shown on the real rig | pose-math test: 349 bone directions within 0.5 deg
+animkit_run_key0_compare.jpg | one key of the run: target frame vs our render, 50% overlay and red/blue silhouette difference | IoU 0.82 front / 0.77 side after ak fit (0.64/0.48 by eye first)
+animkit_run_match_strip.jpg | proof match: 0.708 s run loop (period found by ak cycle) keyed with 5 poses, video row above our row | mean IoU 0.72 over 8 strip frames; 5 keys: 2 by eye + ak fit, 3 from ak mirror + fit; baked at 24 fps = 17 frames, Godot reads 0.7083 s
+animkit_run_match_preview.mp4 | side-by-side preview of the same loop (reference top, our rig bottom) | 15 fps, 11 frames

@@ -1,0 +1,55 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 2.25,
+ "events": {
+  "impact": 0.833
+ },
+ "note": "k0-k1b traced from tail_swipe.mp4 5.75-6.25 s (wind-up); s1-s7 authored flat 360 deg counter-clockwise spin (the video shows an overhead whip; the game needs a 360 low sweep). impact = mid-spin (tail passes her front). Old overhead-whip keys k2-k8 are kept in poses_tail_swipe/ but unused.",
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_tail_swipe/k0.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_tail_swipe/k1.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_tail_swipe/k1b.json"
+  },
+  {
+   "t": 0.625,
+   "pose_file": "poses_tail_swipe/s1.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_tail_swipe/s2.json"
+  },
+  {
+   "t": 0.875,
+   "pose_file": "poses_tail_swipe/s3.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_tail_swipe/s4.json"
+  },
+  {
+   "t": 1.125,
+   "pose_file": "poses_tail_swipe/s5.json"
+  },
+  {
+   "t": 1.333,
+   "pose_file": "poses_tail_swipe/s6.json"
+  },
+  {
+   "t": 1.708,
+   "pose_file": "poses_tail_swipe/s7.json"
+  },
+  {
+   "t": 2.25,
+   "pose_file": "poses_tail_swipe/k0.json"
+  }
+ ]
+}

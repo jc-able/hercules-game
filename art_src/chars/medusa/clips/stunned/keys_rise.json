@@ -1,0 +1,71 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 2.5,
+ "events": {},
+ "source": "ref.mp4 6.5-9.0 s (clip t = video t - 6.5); push earlier, lean recipe (fixer)",
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_stunned/k0_slump.json"
+  },
+  {
+   "t": 0.125,
+   "pose_file": "poses_rise/kf1_ground.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_rise/k0b_press.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_rise/k0c_press.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_rise/k1_push.json"
+  },
+  {
+   "t": 0.625,
+   "pose_file": "poses_rise/g01_t0.625.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_rise/g02_t0.750.json"
+  },
+  {
+   "t": 0.875,
+   "pose_file": "poses_rise/g03_t0.875.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_rise/k2_hunch.json"
+  },
+  {
+   "t": 1.16667,
+   "pose_file": "poses_rise/g04_t1.167.json"
+  },
+  {
+   "t": 1.33333,
+   "pose_file": "poses_rise/g05_t1.333.json"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_rise/k3_lift.json"
+  },
+  {
+   "t": 1.75,
+   "pose_file": "poses_rise/g06_t1.750.json"
+  },
+  {
+   "t": 2.0,
+   "pose_file": "poses_rise/k4_up.json"
+  },
+  {
+   "t": 2.5,
+   "pose_file": "poses_stun_start/k0_rest.json"
+  }
+ ],
+ "rebase": "re-base animator 2026-11-23: frozen rest-pose bones -> natural stance (natural_pose.json) + quiet life; acting bones, key times, events, length, loop unchanged; originals: *.rest_v1.json; tool: work/rebase/medusa/rebase.py",
+ "animfix2_floor": "2026-11-23: grounded in-between keys where the fall/rise dipped below the floor"
+}

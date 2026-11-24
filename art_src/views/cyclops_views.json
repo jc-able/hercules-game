@@ -1,0 +1,48 @@
+{
+ "sheet": "art_src/sheets/cyclops_sheet.png",
+ "size": [
+  1774,
+  887
+ ],
+ "views": {
+  "front": {
+   "box": [
+    15,
+    111,
+    711,
+    813
+   ],
+   "file": "art_src/views/cyclops_front.png",
+   "px": [
+    696,
+    702
+   ]
+  },
+  "side": {
+   "box": [
+    783,
+    111,
+    981,
+    813
+   ],
+   "file": "art_src/views/cyclops_side.png",
+   "px": [
+    198,
+    702
+   ]
+  },
+  "back": {
+   "box": [
+    1059,
+    111,
+    1761,
+    813
+   ],
+   "file": "art_src/views/cyclops_back.png",
+   "px": [
+    702,
+    702
+   ]
+  }
+ }
+}

@@ -1,0 +1,168 @@
+{
+ "space": "absolute",
+ "view_offset": [
+  -0.1,
+  -0.07,
+  0.02
+ ],
+ "bones": {
+  "spine_01": {
+   "space": "local_delta",
+   "rx": -3,
+   "ry": 3
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rx": -3,
+   "ry": 3
+  },
+  "spine_03": {
+   "space": "local_delta",
+   "rx": -3,
+   "ry": 3
+  },
+  "neck": {
+   "space": "local_delta",
+   "rx": -5,
+   "ry": -3
+  },
+  "head": {
+   "space": "local_delta",
+   "rx": -12,
+   "ry": -6
+  },
+  "upper_arm_r": {
+   "front": 48,
+   "side": -24
+  },
+  "forearm_r": {
+   "front": -85,
+   "side": -128
+  },
+  "upper_arm_l": {
+   "front": -40,
+   "side": -15
+  },
+  "forearm_l": {
+   "front": 70,
+   "side": -95
+  },
+  "hair_l_01": {
+   "space": "local_delta",
+   "rx": 15
+  },
+  "hair_r_01": {
+   "space": "local_delta",
+   "rx": 10
+  },
+  "hair_l_02": {
+   "space": "local_delta",
+   "rx": 10
+  },
+  "hair_r_02": {
+   "space": "local_delta",
+   "rx": 15
+  },
+  "pelvis": {
+   "space": "local_delta",
+   "rx": -2.635,
+   "ry": -5.821
+  },
+  "hair_l_03": {
+   "space": "local_delta",
+   "rx": 1.597,
+   "ry": 15.0,
+   "rz": -28.49
+  },
+  "hair_r_03": {
+   "space": "local_delta",
+   "rx": 6.421,
+   "ry": 6.0,
+   "rz": 20.756
+  },
+  "shoulder_l": {
+   "space": "local_delta",
+   "ry": -0.004
+  },
+  "hand_l": {
+   "space": "local_delta",
+   "rx": 29.78,
+   "ry": -37.663,
+   "rz": 0.093
+  },
+  "shoulder_r": {
+   "space": "local_delta",
+   "ry": 1.752
+  },
+  "hand_r": {
+   "space": "local_delta",
+   "rx": 27.771,
+   "ry": 18.752,
+   "rz": 12.325
+  },
+  "tail_01": {
+   "space": "local_delta",
+   "rx": 2.1,
+   "ry": 0.217
+  },
+  "tail_02": {
+   "space": "local_delta",
+   "rx": 1.4,
+   "ry": 1.163
+  },
+  "tail_03": {
+   "space": "local_delta",
+   "rx": 0.134,
+   "ry": 6.9
+  },
+  "tail_04": {
+   "space": "local_delta",
+   "rz": 0.279
+  },
+  "tail_05": {
+   "space": "local_delta",
+   "rz": -5.677
+  },
+  "tail_06": {
+   "space": "local_delta",
+   "rz": -5.106
+  },
+  "tail_07": {
+   "space": "local_delta",
+   "rz": 0.519
+  },
+  "tail_08": {
+   "space": "local_delta",
+   "rz": 4.826
+  },
+  "tail_09": {
+   "space": "local_delta",
+   "rz": 9.315
+  },
+  "tail_10": {
+   "space": "local_delta",
+   "rz": 14.161
+  },
+  "tail_11": {
+   "space": "local_delta",
+   "rz": 21.092
+  },
+  "tail_12": {
+   "space": "local_delta",
+   "rz": 38.417
+  },
+  "tail_13": {
+   "space": "local_delta",
+   "rz": 57.186
+  },
+  "tail_14": {
+   "space": "local_delta",
+   "rz": 70.457
+  }
+ },
+ "root": {
+  "ground": "lowest"
+ },
+ "_rebase": "re-base hurt t=0.125: 21 bones natural+life, 0 posed+life, acting kept",
+ "_animfix2": "hurt: the neck clutch travels further by 0.125 s (forearm side -95 -> -128, front -70 -> -85; upper arm 40/-15 -> 48/-24) so the arrival eases instead of a 89 deg/frame snap"
+}

@@ -1,0 +1,32 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 1.5,
+ "events": {},
+ "keys": [
+  {
+   "t": 0,
+   "pose_file": "poses_head_up/k0_down.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_head_up/k1_up1.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_head_up/k2_up2.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_head_up/k3_up3.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_head_up/k4_up4.json"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_head_up/k5_rest.json"
+  }
+ ]
+}

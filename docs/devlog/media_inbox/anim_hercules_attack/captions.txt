@@ -1,0 +1,4 @@
+attack_first_guess.jpg | Hercules attack: first hand-placed keys (end of slash, overhead, chop) vs the video; the video character has stepped ~0.6 m forward, so the side panel barely overlaps | IoU side 0.17-0.28, front 0.43-0.49
+attack_shield_too_low.jpg | mistake: shield pulled behind the body but dropped ~0.3 m too low (it had covered the face one try earlier); fixed by moving the upper arm out to the side and the forearm up, then ak fit | front IoU 0.59-0.65 here, 0.72-0.79 after the fix
+attack_1_strip_final.jpg | attack_1 (backhand slash) final: video row above ours | 8 keys, 1.25 s at 24 fps, strip IoU mean 0.68 (front ~0.75, side ~0.60)
+attack_2_strip_final.jpg | attack_2 (overhead chop) final: video row above ours | 10 keys, 1.5 s at 24 fps, strip IoU mean 0.67

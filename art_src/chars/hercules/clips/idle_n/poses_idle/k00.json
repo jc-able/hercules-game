@@ -1,0 +1,125 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   -0.0,
+   0.0,
+   0.0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "hips": {
+   "rx": 0.0,
+   "ry": 2.0,
+   "rz": -5.0
+  },
+  "spine_01": {
+   "space": "local_delta",
+   "rx": -2.0,
+   "ry": -4.0,
+   "rz": 4.0
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rx": -3.0,
+   "ry": -1.5,
+   "rz": 2.0
+  },
+  "spine_03": {
+   "space": "local_delta",
+   "rx": 1.0,
+   "rz": 0.0,
+   "ry": 0.0
+  },
+  "neck": {
+   "space": "local_delta",
+   "rx": 3.0,
+   "rz": 3.0,
+   "ry": 0.0
+  },
+  "head": {
+   "space": "local_delta",
+   "rx": -3.0,
+   "ry": -2.0,
+   "rz": 6.0
+  },
+  "upper_arm_r": {
+   "front": 14.0,
+   "side": 4.0
+  },
+  "forearm_r": {
+   "front": 10.0,
+   "side": -14.0
+  },
+  "upper_arm_l": {
+   "front": -22.0,
+   "side": 8.0
+  },
+  "forearm_l": {
+   "front": -20.0,
+   "side": -62.0,
+   "twist": -62.0
+  },
+  "thigh_r": {
+   "rx": -3.0,
+   "ry": 0.0,
+   "rz": -6
+  },
+  "shin_r": {
+   "rx": 4.0,
+   "ry": 0.0,
+   "rz": -6
+  },
+  "foot_r": {
+   "rx": 0,
+   "rz": -8
+  },
+  "thigh_l": {
+   "rx": -11.0,
+   "ry": -8.0,
+   "rz": 10
+  },
+  "shin_l": {
+   "rx": 3.0,
+   "ry": -4.0,
+   "rz": 10
+  },
+  "foot_l": {
+   "rx": 4.0,
+   "rz": 12
+  },
+  "hand_r": {
+   "space": "local_delta",
+   "rx": 30.0,
+   "ry": 10.0,
+   "rz": 0.0
+  },
+  "fingers_r": {
+   "space": "local_delta",
+   "rx": 60.07,
+   "ry": -40.78,
+   "rz": -58.44
+  },
+  "fingers_l": {
+   "space": "local_delta",
+   "rx": 9.17,
+   "ry": 21.03,
+   "rz": -23.91
+  },
+  "shoulder_l": {
+   "space": "local_delta",
+   "ry": 0.0
+  },
+  "shoulder_r": {
+   "space": "local_delta",
+   "ry": 0.0
+  },
+  "hand_l": {
+   "space": "local_delta",
+   "rx": 0.0,
+   "ry": 0.0
+  }
+ },
+ "_note": "animfix_hercules 2026-11-23: left arm re-authored against the GAME shield transform (manifest socket_offsets.forearm_l, +40 deg turn): upper_arm_l front -16 -> -22, forearm_l front -14 -> -20, twist -20 -> -62, fingers_l curl halved. Shield hangs vertical at his side (normal x 0.99, tilt 6 deg), face out and 8 deg back; no body vertex inside the shield, upper arm no longer through the face. v1: backup_animfix_20261123/natural_pose.v1.json"
+}

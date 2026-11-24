@@ -1,0 +1,1 @@
+hydra_walk_n_strip.jpg | hydra walk re-keyed from the natural-stance video walk_n: reference row (Seedance) above our row, 8 samples of the 2.17 s loop | 75 of 76 bones move (old walk: 24); strip IoU 0.810 (front 0.797, side 0.823) vs 0.680 for the old clip on the same video; planted feet within 0.055 m of the floor

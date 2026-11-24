@@ -1,0 +1,19 @@
+{
+ "by": "pegasus assembler (assemble2), 2026-11-23; updated by the pegasus animation fixer, 2026-11-23; feedback2 pegasus fixer 2026-11-23 (fly v4, glide v4); feedback2 pegasus RE-fixer 2026-11-23 (fly v5, glide v5, new wings_up)",
+ "rule": "newest source per game clip; pass tools/ak merge exactly these paths, never a glob (*.rest_v1.json, *.rebase.json and *.v1.json / *.v3.json / *.v4.json backups carry the same clip names)",
+ "clips": {
+  "idle": "art_src/chars/pegasus/clips/idle_n/action_idle.json",
+  "fly": "art_src/chars/pegasus/clips/fly/action_fly.json",
+  "glide": "art_src/chars/pegasus/clips/glide/action_glide.json",
+  "wings_up": "art_src/chars/pegasus/clips/wings_up/action_wings_up.json"
+ },
+ "why": {
+  "idle": "idle v2 (fixer): same file path, re-generated: 8.0 s loop (was 6.0), IK-planted hooves, weight shift as staged steps at 2.45-3.25 s and 6.85-7.65 s (work/anim2/pegasus_fix/gen2_bl.py); k00 = natural_pose.json (also updated). Old v1: keys_idle.v1.json / action_idle.v1.json / poses_idle_v1/ (never merge them)",
+  "fly": "re-based (rebase_done.json): built on ridden/fly/action_fly.json, the 25 deg rider sweep is ALREADY in it; make_ridden.py NOT run again; ridden/fly/action_fly.json NOT merged; v3 (fixer): eased downstroke/upstroke/top, right wing 1 frame late x0.97, legs de-phased (fly2_bl.py); the re-base version is kept as keys_fly.rebase.json / action_fly.rebase.json (never merge it); v4 (feedback2 pegasus fixer, art_src/chars/pegasus/scripts/gen4.py (copied from work/)): eased full stroke +50/-30 deg (was held top + hanging -62), forelegs tucked, hind legs trailing, tail streaming, neck stretched, bob x1.5; v3 kept as keys_fly.v3.json / action_fly.v3.json (never merge it); v5 (feedback2 pegasus RE-fixer, art_src/chars/pegasus/scripts/gen5.py): stroke down 0.625 s / up 0.417 s with no bottom dwell, upstroke FOLDED (hand back 55 deg, down 15), hind legs stretched back in line with the chase camera, forelegs tucked, neck stretched + head counter-turned, constant 9 deg nose-down root pitch; v4 kept as keys_fly.v4.json / action_fly.v4.json (never merge it)",
+  "glide": "re-based (rebase_done.json): matched glide + life layer; v3 (fixer): right wing chain 0.125 s late, 1.5 deg spine_03 bank (glide2_bl.py); re-base version kept as *.rebase.json (never merge it); v4 (feedback2 pegasus fixer): wings spread near level (+10 deg, 3 deg breath), legs tucked, tail streaming, neck stretched; v3 kept as keys_glide.v3.json / action_glide.v3.json (never merge it); v5 (feedback2 pegasus RE-fixer, art_src/chars/pegasus/scripts/gen5.py): wing SHAPE from the flat level fly downstroke (no feather curtain), primaries roll +-3 deg, tip flex, same legs/neck/9 deg pitch as fly v5; v4 kept as keys_glide.v4.json / action_glide.v4.json (never merge it)",
+  "wings_up": "NEW (feedback2 pegasus RE-fixer, request in docs/notes/feedback2_flight.md; art_src/chars/pegasus/scripts/gen_wings_up.py SWEEP=-20 RAISE=15): idle k00 stance, wings = fly v5 top raised 15 deg more and swept 20 deg further FORWARD, 2 s loop with a 2 deg breath; for the mount/dismount wing overlay. Swept BACK (as requested) the wings cut the seated rider on 24/24 frames (work/feedback2_pegasus/r2/pair_wu_back45.json); forward: 0/24"
+ },
+ "not_included": {
+  "fly_ridden": "art_src/chars/ride/clips/ride/ holds only the hercules 'ride' action (rig_hash cab1a3a4339f, 29 bones): no pegasus action to include, as on 2026-11-22"
+ }
+}

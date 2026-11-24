@@ -1,0 +1,57 @@
+{
+ "u_mid": 0.73,
+ "frames": [
+  {
+   "frame": 0,
+   "video_t": 1.875,
+   "u": 0,
+   "dz": -0.0446
+  },
+  {
+   "frame": 5,
+   "video_t": 2.083,
+   "u": 0.075,
+   "dz": -0.0373
+  },
+  {
+   "frame": 9,
+   "video_t": 2.25,
+   "u": 0.285,
+   "dz": -0.0052
+  },
+  {
+   "frame": 14,
+   "video_t": 2.458,
+   "u": 0.728,
+   "dz": 0.0373
+  },
+  {
+   "frame": 18,
+   "video_t": 2.625,
+   "u": 1,
+   "dz": 0.0415
+  },
+  {
+   "frame": 23,
+   "video_t": 2.833,
+   "u": 0.687,
+   "dz": 0.0342
+  },
+  {
+   "frame": 27,
+   "video_t": 3.0,
+   "u": 0.439,
+   "dz": 0.0114
+  },
+  {
+   "frame": 32,
+   "video_t": 3.208,
+   "u": 0.02,
+   "dz": -0.0383
+  }
+ ],
+ "note": "frame = clip frame at 24 fps (clip t = video t - 1.875); u from the front-panel wing height, dz from the front-panel horse-head height (96.5 px/m)",
+ "pitch": 0.0,
+ "yaw": -10.0,
+ "wing_note": "uniform clearance offset chosen from check/wing_search.json (yaw -10 = wings swept 10 deg forward: 0 rider/prop hits at all 8 keys; unswept: up to 944 leg hits at the downstroke)"
+}

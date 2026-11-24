@@ -1,0 +1,157 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest",
+  "rot": [
+   0,
+   0,
+   71.25
+  ]
+ },
+ "bones": {
+  "foot_l": {
+   "rx": 0.0,
+   "ry": -0.0,
+   "rz": 0.0
+  },
+  "foot_r": {
+   "rx": 0.0,
+   "ry": -0.0,
+   "rz": 0.0
+  },
+  "forearm_d_l": {
+   "rx": -19.53,
+   "ry": 18.21,
+   "rz": 0.24
+  },
+  "forearm_d_r": {
+   "rx": -35.83,
+   "ry": -48.1,
+   "rz": 50.2
+  },
+  "forearm_u_l": {
+   "rx": 18.65,
+   "ry": 61.29,
+   "rz": 24.93
+  },
+  "forearm_u_r": {
+   "rx": 107.99,
+   "ry": 26.13,
+   "rz": 167.47
+  },
+  "hand_u_r": {
+   "rx": 79.58,
+   "ry": 34.44,
+   "rz": 90.04
+  },
+  "neck": {
+   "rx": 19.36,
+   "ry": 7.59,
+   "rz": 0.14
+  },
+  "shin_l": {
+   "rx": 11.42,
+   "ry": 21.98,
+   "rz": -1.63
+  },
+  "shin_r": {
+   "rx": 10.37,
+   "ry": -18.97,
+   "rz": 0.4
+  },
+  "shoulder_u_r": {
+   "rx": 4.25,
+   "ry": -15.85,
+   "rz": 17.57
+  },
+  "spine_01": {
+   "space": "local_delta",
+   "rx": 38.38,
+   "ry": -20.0,
+   "rz": 1.95
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rx": -2.06,
+   "ry": -29.0,
+   "rz": 2.28
+  },
+  "spine_03": {
+   "space": "local_delta",
+   "rx": -15.56,
+   "ry": -3.0,
+   "rz": 2.28
+  },
+  "thigh_l": {
+   "rx": 1.94,
+   "ry": 12.99,
+   "rz": -3.65
+  },
+  "thigh_r": {
+   "rx": 2.97,
+   "ry": -10.49,
+   "rz": 0.69
+  },
+  "upper_arm_d_l": {
+   "rx": -5.8,
+   "ry": -27.9,
+   "rz": -0.28
+  },
+  "upper_arm_d_r": {
+   "rx": -14.17,
+   "ry": -44.99,
+   "rz": 21.72
+  },
+  "upper_arm_u_l": {
+   "rx": 50.71,
+   "ry": 5.72,
+   "rz": 41.5
+  },
+  "upper_arm_u_r": {
+   "rx": 80.39,
+   "ry": 19.65,
+   "rz": 167.63
+  },
+  "head": {
+   "rx": -12.888,
+   "ry": -2.954,
+   "rz": -7.851,
+   "space": "local_delta"
+  },
+  "shoulder_u_l": {
+   "rx": -13.669,
+   "ry": 22.871,
+   "rz": 4.441,
+   "space": "local_delta"
+  },
+  "hand_u_l": {
+   "rx": 28.639,
+   "ry": 6.448,
+   "rz": -103.981,
+   "space": "local_delta"
+  },
+  "hand_d_l": {
+   "rx": 50.7,
+   "ry": 20.827,
+   "rz": 48.408,
+   "space": "local_delta"
+  },
+  "hand_d_r": {
+   "rx": 37.648,
+   "ry": -14.022,
+   "rz": -51.488,
+   "space": "local_delta"
+  }
+ },
+ "view_offset": [
+  -0.018,
+  0.233,
+  0.06
+ ],
+ "_rebase": "re-base 2026-11-23 (sweep t=1.8125): orig; acting cells verbatim, still/gap cells local_delta"
+}

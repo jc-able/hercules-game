@@ -1,0 +1,2 @@
+bite_before_after.jpg | hydra bite before/after the re-base: same centre strike, the 8 other heads now stand in the natural stance, staggered pull-back, outward flinch at impact | moving joints 48 -> 65 of 76; strike within 0.15 deg of the old keys; impact 1.5 s unchanged
+fire_sweep_before_after.jpg | hydra fire_sweep before/after: side heads lift and lean away as the fire stream passes them, droop into the chin rest at the end | moving joints 48 -> 69 of 76; fire_start 1.5 / fire_end 4.05 s unchanged

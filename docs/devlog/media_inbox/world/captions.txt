@@ -1,0 +1,11 @@
+first_v1_bug_no_grass_top.jpg | first windowed run: home plateau top missing (top face wound backwards, culled; sea shows through) + flight cam too far | v1 built in ~1 h, bot travel already worked
+home_spawn_view.jpg | home plateau as spawned: sign with next goal + controls, Pegasus waiting, medusa pillar + hydra storm on the horizon | plateau 47 m across, 14 m above the sea
+home_trophies.jpg | trophy pedestals with all three bosses beaten (horn, stone snake head, club piece) in front of the temple | 3 pedestals, 1.1 m
+storm_wall_before_fix.jpg | bug: storm wall's far side blended over its near side and the sea painted over its lower half | storm radius 176 m, camera 260 m out
+storm_wall_after_fix.jpg | fix: cull back faces + draw after the sea (render_priority 1); Pegasus turns away 133 m from the centre | closest approach 123 m to an 88 m wall
+flight_volcano_isle.jpg | flying at the open Volcano Isle: lava rivers, smoke plume, pillar of light, landing ring | cone 88 m tall, ring r 28 m at 42 m
+flight_sanctuary_defeated.jpg | a beaten island: calm, white ring kept so the fight can be replayed | ring r 26 m
+real_rigs_saddle_fit.jpg | real Pegasus + Hercules rigs (rest pose, clips not in yet): rider hips glued to the saddle bone each frame | pegasus 43 bones, hercules 29
+ending_card.jpg | ending card after the Hydra (shown once, then free flight) | 6 lines, 11 s hold
+fix_flight_camera_sheet.jpg | review fix: chase camera raised (5.2 m up, 7.5 m back, aim 120 m ahead) so the target island shows above the rider | Sanctuary Isle visible at 534/413/302/194 m (was hidden behind Pegasus at 623/404/186 m)
+fix_home_sign.jpg | review fix: home sign rewritten to 3 big lines (controls on the back) + goal in the title card | text ~3x taller at the spawn view (font 56 @ 0.0058 m/px vs 40 @ 0.0036)

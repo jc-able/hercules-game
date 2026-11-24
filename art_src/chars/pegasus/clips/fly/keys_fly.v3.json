@@ -1,0 +1,180 @@
+{
+ "fps": 24.0,
+ "loop": true,
+ "length": 1.0417,
+ "events": {},
+ "rebase": {
+  "by": "pegasus re-base animator 2026-11-23",
+  "base_action": "art_src/chars/pegasus/ridden/fly/action_fly.json",
+  "base_key_times": [
+   0.0,
+   0.25,
+   0.2917,
+   0.375,
+   0.4167,
+   0.4583,
+   0.625,
+   0.75,
+   0.875,
+   1.0417
+  ],
+  "life": "work/rebase/pegasus/life.json",
+  "tool": "work/rebase/pegasus/rebase_bl.py",
+  "note": "all bones absolute (read-back of the base action at every key time + the life layer); the base key times are keys with their original values",
+  "WARNING": "already rider-safe (25 deg forward sweep included from ridden/fly). Never run ridden/make_ridden.py on this clip."
+ },
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_fly/fx_k00.json"
+  },
+  {
+   "t": 0.041667,
+   "pose_file": "poses_fly/fx_k01.json"
+  },
+  {
+   "t": 0.083333,
+   "pose_file": "poses_fly/fx_k02.json"
+  },
+  {
+   "t": 0.125,
+   "pose_file": "poses_fly/fx_k03.json"
+  },
+  {
+   "t": 0.166667,
+   "pose_file": "poses_fly/fx_k04.json"
+  },
+  {
+   "t": 0.208333,
+   "pose_file": "poses_fly/fx_k05.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_fly/fx_k06.json"
+  },
+  {
+   "t": 0.291667,
+   "pose_file": "poses_fly/fx_k07.json"
+  },
+  {
+   "t": 0.333333,
+   "pose_file": "poses_fly/fx_k08.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_fly/fx_k09.json"
+  },
+  {
+   "t": 0.416667,
+   "pose_file": "poses_fly/fx_k10.json"
+  },
+  {
+   "t": 0.458333,
+   "pose_file": "poses_fly/fx_k11.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_fly/fx_k12.json"
+  },
+  {
+   "t": 0.541667,
+   "pose_file": "poses_fly/fx_k13.json"
+  },
+  {
+   "t": 0.583333,
+   "pose_file": "poses_fly/fx_k14.json"
+  },
+  {
+   "t": 0.625,
+   "pose_file": "poses_fly/fx_k15.json"
+  },
+  {
+   "t": 0.666667,
+   "pose_file": "poses_fly/fx_k16.json"
+  },
+  {
+   "t": 0.708333,
+   "pose_file": "poses_fly/fx_k17.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_fly/fx_k18.json"
+  },
+  {
+   "t": 0.791667,
+   "pose_file": "poses_fly/fx_k19.json"
+  },
+  {
+   "t": 0.833333,
+   "pose_file": "poses_fly/fx_k20.json"
+  },
+  {
+   "t": 0.875,
+   "pose_file": "poses_fly/fx_k21.json"
+  },
+  {
+   "t": 0.916667,
+   "pose_file": "poses_fly/fx_k22.json"
+  },
+  {
+   "t": 0.958333,
+   "pose_file": "poses_fly/fx_k23.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_fly/fx_k24.json"
+  }
+ ],
+ "ridden_sweep_deg": 25.0,
+ "fix": {
+  "by": "pegasus animation fixer 2026-11-23",
+  "base_keys": "keys_fly.rebase.json (rb_k*.json)",
+  "tool": "work/anim2/pegasus_fix/fly/fly2_bl.py",
+  "params": {
+   "warps": [
+    {
+     "driver": "wing_l_01",
+     "f0": 4,
+     "f1": 11,
+     "inc": [
+      8,
+      18,
+      28,
+      32,
+      30,
+      23,
+      10
+     ]
+    },
+    {
+     "driver": "wing_l_01",
+     "f0": 16,
+     "f1": 21,
+     "inc": [
+      4,
+      12,
+      24,
+      30,
+      24
+     ]
+    },
+    {
+     "driver": "wing_l_02",
+     "f0": 21,
+     "f1": 25,
+     "inc": [
+      11,
+      9,
+      6.5,
+      4.2
+     ]
+    }
+   ],
+   "r_delay_frames": 1.0,
+   "r_amp": 0.97,
+   "fr_delay_s": 0.0625,
+   "br_delay_s": 0.1,
+   "bl_delay_s": 0.0417
+  }
+ }
+}

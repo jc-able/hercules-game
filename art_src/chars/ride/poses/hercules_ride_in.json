@@ -1,0 +1,83 @@
+{
+ "space": "absolute",
+ "bones": {
+  "spine_01": {
+   "rx": 14
+  },
+  "spine_02": {
+   "rx": 25
+  },
+  "spine_03": {
+   "rx": 32
+  },
+  "neck": {
+   "rx": 14
+  },
+  "head": {
+   "rx": -8
+  },
+  "thigh_l": {
+   "front": -58,
+   "side": -25
+  },
+  "shin_l": {
+   "front": -5,
+   "side": 35
+  },
+  "foot_l": {
+   "front": -15,
+   "side": -40
+  },
+  "thigh_r": {
+   "front": 58,
+   "side": -25
+  },
+  "shin_r": {
+   "front": 5,
+   "side": 35
+  },
+  "foot_r": {
+   "front": 15,
+   "side": -40
+  },
+  "upper_arm_l": {
+   "front": 28.76,
+   "side": -66.83
+  },
+  "forearm_l": {
+   "front": 38.41,
+   "side": -63.82,
+   "twist": 0
+  },
+  "hand_l": {
+   "front": 49.76,
+   "side": -51.84
+  },
+  "upper_arm_r": {
+   "dir": [
+    -0.135,
+    0.133,
+    -0.197
+   ]
+  },
+  "forearm_r": {
+   "dir": [
+    -0.1,
+    0.5,
+    -0.5
+   ]
+  },
+  "hand_r": {
+   "dir": [
+    -0.1,
+    0.6,
+    -0.4
+   ],
+   "twist": 159
+  }
+ },
+ "grip": {
+  "fingers_l": 75,
+  "fingers_r": 75
+ }
+}

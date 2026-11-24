@@ -1,0 +1,6 @@
+hydra_inhale_before_after.jpg | inhale warning before (flat orange fill) vs after (glowing cracks, embers, heat fronts toward the head, bright edge) from the chase camera inside the cone | fill alpha 0.38 -> 0.10
+hydra_natural_move_strip.jpg | movie strip 30 fps: approach, stepping turn in place (eased 0 -> 35 deg/s in 0.39 s, walk rate follows the turn), fire start/end, head_down -> head_up -> stomp | blends >= 0.2 s
+hydra_inhale_before_sheet.jpg | before: 8 frames of the old inhale (flat orange, pale flash at the end) | seed 11, 0.25 s apart
+hydra_refix_move_strip.jpg | re-fix: approach, 120 deg stepping turn, the turn brakes (35 -> 0.5 deg/s in ~0.4 s) before the inhale, fire start/end, head_down -> head_up -> stomp (gdwin movie, 30 fps) | largest one-tick change of the body turn rate 1.5 deg/s (was 18-27 deg/s at the fire start)
+hydra_refix_inhale_strip.jpg | re-fix: inhale warning from inside the cone, frames 0.1 s apart: white-hot heat fronts run along the cracks toward the head | fine cracks 0.5 -> 0.25, front spacing u*2.4 -> u*1.6, cracks fade out from 62-90 % of the reach
+hydra_refix_inhale_before_after.jpg | inhale warning: first fixer's even crack net (left) vs re-fix (right) | same chase camera, hero inside the cone

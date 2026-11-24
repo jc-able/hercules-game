@@ -1,0 +1,123 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0.4,
+   0
+  ],
+  "rot": [
+   -90,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "thigh_l": {
+   "front": -30,
+   "side": 2
+  },
+  "thigh_r": {
+   "front": 30,
+   "side": 2
+  },
+  "shin_l": {
+   "front": -18.0,
+   "side": 10
+  },
+  "shin_r": {
+   "front": 18.0,
+   "side": 10
+  },
+  "foot_l": {
+   "side": -60
+  },
+  "foot_r": {
+   "side": -60
+  },
+  "toe_l": {
+   "side": -60
+  },
+  "toe_r": {
+   "side": -60
+  },
+  "upper_arm_u_l": {
+   "front": -75,
+   "side": 0
+  },
+  "forearm_u_l": {
+   "front": -65,
+   "side": -5
+  },
+  "hand_u_l": {
+   "front": -65
+  },
+  "upper_arm_d_l": {
+   "front": -62,
+   "side": 0
+  },
+  "upper_arm_d_r": {
+   "front": 62,
+   "side": 0
+  },
+  "forearm_d_l": {
+   "front": -52,
+   "side": -7
+  },
+  "forearm_d_r": {
+   "front": 52,
+   "side": -7
+  },
+  "hand_d_l": {
+   "front": -52,
+   "side": -2
+  },
+  "hand_d_r": {
+   "front": 52,
+   "side": -2
+  },
+  "spine_01": {
+   "rx": 0
+  },
+  "spine_02": {
+   "rx": 0
+  },
+  "spine_03": {
+   "rx": -2
+  },
+  "neck": {
+   "rx": -6
+  },
+  "head": {
+   "rx": -10
+  },
+  "upper_arm_u_r": {
+   "rx": -1.03,
+   "ry": -42.24,
+   "rz": -27.08
+  },
+  "forearm_u_r": {
+   "rx": -13.66,
+   "ry": -111.33,
+   "rz": 43.43
+  },
+  "hand_u_r": {
+   "rx": -21.07,
+   "ry": -78.67,
+   "rz": 20.74
+  },
+  "shoulder_u_l": {
+   "rx": -2.025,
+   "ry": 8.995,
+   "rz": -0.317
+  },
+  "shoulder_u_r": {
+   "rx": -2.02,
+   "ry": -7.995,
+   "rz": 0.281
+  }
+ },
+ "_rebase": "re-base 2026-11-23 (death t=4.0): orig; acting cells verbatim, still/gap cells local_delta",
+ "_animfix": "animfix 2026-11-23: shoulder_u_l/r absolute = constant slump relative to spine_03 (value of k3b_hold 2.6 s)"
+}

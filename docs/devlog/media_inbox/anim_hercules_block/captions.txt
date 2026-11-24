@@ -1,0 +1,5 @@
+block_first_try.jpg | first hand-written block pose vs the video frame at 3.0 s: the shield lies flat like a tray (forearm twist missing) | IoU front 0.655 / side 0.439
+block_shield_sideways.jpg | mistake: aiming the forearm forward turned the shield face sideways (a shield's face is always square to the forearm) | IoU 0.660 / 0.656, wrong look
+block_after_fit.jpg | fixed: forearm across the chest, twist solved so the shield faces forward, then ak fit on spine/arms/legs | IoU front 0.873 / side 0.617
+block_start_strip.jpg | block_start: idle stance -> back foot steps up while the shield comes up -> braced block, 0.417 s | strip IoU per frame 0.44 -> 0.88 front
+block_idle_strip.jpg | block_idle 2.5 s loop: tiny brace (knees 3-4 deg deeper, chest 1.5 deg), seamless | strip mean IoU 0.740 (front 0.85-0.88, side 0.60-0.62)

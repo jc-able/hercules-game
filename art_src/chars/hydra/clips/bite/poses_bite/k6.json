@@ -1,0 +1,16 @@
+{
+ "space": "local_delta",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ]
+ },
+ "view_offset": [
+  0,
+  0.08,
+  0.04
+ ],
+ "bones": {}
+}

@@ -1,0 +1,68 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "view_scale": 1.0,
+ "bones": {
+  "neck": {
+   "rx": 6
+  },
+  "head": {
+   "rx": 4
+  },
+  "upper_arm_u_l": {
+   "front": -97
+  },
+  "forearm_u_l": {
+   "front": -92
+  },
+  "hand_u_l": {
+   "front": -92
+  },
+  "upper_arm_d_l": {
+   "front": -65
+  },
+  "forearm_d_l": {
+   "front": -29,
+   "side": -30
+  },
+  "hand_d_l": {
+   "front": -30,
+   "side": -15
+  },
+  "upper_arm_d_r": {
+   "front": 65
+  },
+  "forearm_d_r": {
+   "front": 29,
+   "side": -30
+  },
+  "hand_d_r": {
+   "front": 30,
+   "side": -15
+  },
+  "shoulder_u_l": {
+   "space": "local_delta",
+   "ry": 2.5
+  },
+  "shoulder_u_r": {
+   "space": "local_delta",
+   "ry": -2.5
+  },
+  "upper_arm_u_r": {
+   "rx": 0
+  },
+  "forearm_u_r": {
+   "rx": 0
+  },
+  "hand_u_r": {
+   "rx": 0
+  }
+ }
+}

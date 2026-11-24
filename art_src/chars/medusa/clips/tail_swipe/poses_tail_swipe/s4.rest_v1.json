@@ -1,0 +1,117 @@
+{
+ "space": "absolute",
+ "root": {
+  "rot": [
+   0,
+   0,
+   300
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "spine_01": {
+   "space": "local_delta",
+   "rz": 2,
+   "rx": 4.0,
+   "ry": 0.0
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rz": 2,
+   "rx": 4.0,
+   "ry": 0.0
+  },
+  "spine_03": {
+   "space": "local_delta",
+   "rz": 2,
+   "rx": 4.0,
+   "ry": 0.0
+  },
+  "tail_04": {
+   "rz": -4.0,
+   "rx": 0
+  },
+  "tail_05": {
+   "rz": -8.0,
+   "rx": 2.5
+  },
+  "tail_06": {
+   "rz": -11.0,
+   "rx": 2.5
+  },
+  "tail_07": {
+   "rz": -14.0,
+   "rx": 2.5
+  },
+  "tail_08": {
+   "rz": -17.0,
+   "rx": 2.5
+  },
+  "tail_09": {
+   "rz": -20.0,
+   "rx": 2.5
+  },
+  "tail_10": {
+   "rz": -23.0,
+   "rx": 2.5
+  },
+  "tail_11": {
+   "rz": -26.0,
+   "rx": 2.5
+  },
+  "tail_12": {
+   "rz": -29.0,
+   "rx": 2.5
+  },
+  "tail_13": {
+   "rz": -32.0,
+   "rx": 2.5
+  },
+  "tail_14": {
+   "rz": -35.0,
+   "rx": 2.5
+  },
+  "upper_arm_l": {
+   "front": -85,
+   "side": -15
+  },
+  "forearm_l": {
+   "front": -90,
+   "side": -15
+  },
+  "upper_arm_r": {
+   "front": 85,
+   "side": -15
+  },
+  "forearm_r": {
+   "front": 90,
+   "side": -15
+  },
+  "hair_l_01": {
+   "space": "local_delta",
+   "rz": -25,
+   "rx": 7.5
+  },
+  "hair_r_01": {
+   "space": "local_delta",
+   "rz": -20.0
+  },
+  "hair_l_02": {
+   "space": "local_delta",
+   "rz": -22.5
+  },
+  "hair_r_02": {
+   "space": "local_delta",
+   "rz": -17.5,
+   "rx": 5.0
+  },
+  "hair_l_03": {
+   "space": "local_delta",
+   "rz": -15.0
+  },
+  "hair_r_03": {
+   "space": "local_delta",
+   "rz": -12.5
+  }
+ }
+}

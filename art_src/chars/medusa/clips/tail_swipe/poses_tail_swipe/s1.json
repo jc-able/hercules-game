@@ -1,0 +1,168 @@
+{
+ "space": "absolute",
+ "root": {
+  "rot": [
+   0,
+   0,
+   35
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "spine_01": {
+   "space": "local_delta",
+   "rz": 6,
+   "rx": 4.0,
+   "ry": 0.0
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rz": 6,
+   "rx": 4.0,
+   "ry": 0.0
+  },
+  "spine_03": {
+   "space": "local_delta",
+   "rz": 6,
+   "rx": 4.0,
+   "ry": 0.0
+  },
+  "tail_04": {
+   "rz": -12.5,
+   "rx": 0
+  },
+  "tail_05": {
+   "rz": -25.0,
+   "rx": 2.5
+  },
+  "tail_06": {
+   "rz": -34.4,
+   "rx": 2.5
+  },
+  "tail_07": {
+   "rz": -43.9,
+   "rx": 2.5
+  },
+  "tail_08": {
+   "rz": -53.3,
+   "rx": 2.5
+  },
+  "tail_09": {
+   "rz": -62.8,
+   "rx": 2.5
+  },
+  "tail_10": {
+   "rz": -72.2,
+   "rx": 2.5
+  },
+  "tail_11": {
+   "rz": -81.7,
+   "rx": 2.5
+  },
+  "tail_12": {
+   "rz": -91.1,
+   "rx": 2.5
+  },
+  "tail_13": {
+   "rz": -100.6,
+   "rx": 2.5
+  },
+  "tail_14": {
+   "rz": -110.0,
+   "rx": 2.5
+  },
+  "upper_arm_l": {
+   "front": -85,
+   "side": -40
+  },
+  "forearm_l": {
+   "front": -90,
+   "side": -40
+  },
+  "upper_arm_r": {
+   "front": 85,
+   "side": -40
+  },
+  "forearm_r": {
+   "front": 90,
+   "side": -40
+  },
+  "hair_l_01": {
+   "space": "local_delta",
+   "rz": -15,
+   "rx": 4.5
+  },
+  "hair_r_01": {
+   "space": "local_delta",
+   "rz": -12.0
+  },
+  "hair_l_02": {
+   "space": "local_delta",
+   "rz": -13.5
+  },
+  "hair_r_02": {
+   "space": "local_delta",
+   "rz": -10.5,
+   "rx": 3.0
+  },
+  "hair_l_03": {
+   "space": "local_delta",
+   "rz": -9.0
+  },
+  "hair_r_03": {
+   "space": "local_delta",
+   "rz": -7.5
+  },
+  "pelvis": {
+   "space": "local_delta",
+   "rx": 0.388,
+   "ry": -5.149
+  },
+  "neck": {
+   "space": "local_delta",
+   "rx": 3.218,
+   "ry": 1.0,
+   "rz": 16.83
+  },
+  "head": {
+   "space": "local_delta",
+   "rx": 2.462,
+   "ry": -9.29,
+   "rz": 23.967
+  },
+  "shoulder_l": {
+   "space": "local_delta",
+   "ry": -0.8
+  },
+  "hand_l": {
+   "space": "local_delta",
+   "rx": 33.834,
+   "ry": -37.663,
+   "rz": 1.976
+  },
+  "shoulder_r": {
+   "space": "local_delta",
+   "ry": 2.273
+  },
+  "hand_r": {
+   "space": "local_delta",
+   "rx": 26.601,
+   "ry": 18.752,
+   "rz": 12.162
+  },
+  "tail_01": {
+   "space": "local_delta",
+   "ry": 1.023
+  },
+  "tail_02": {
+   "space": "local_delta",
+   "ry": 1.786
+  },
+  "tail_03": {
+   "space": "local_delta",
+   "rx": 0.541,
+   "ry": 6.999
+  }
+ },
+ "_rebase": "re-base tail_swipe t=0.625: 10 bones natural+life, 0 posed+life, acting kept"
+}

@@ -1,0 +1,3 @@
+pegasus_idle_strip.jpg | Pegasus idle: Seedance reference row above our keyframed rig row, 8 samples of the 7 s loop | 21 keys, mean key IoU 0.90, strip IoU 0.915
+pegasus_idle_wing_fit.jpg | Wing ruffle key after ak fit: the video draws the open wings bigger than the mesh can reach | front IoU 0.45 -> 0.73, side 0.80 -> 0.90
+pegasus_idle_green_key.jpg | Rest pose scored with a green-key silhouette (the stock one treated the green background as horse and scored every pose ~0.95) | rest vs wide-wing frame: 0.94 (broken) -> 0.47 (real)

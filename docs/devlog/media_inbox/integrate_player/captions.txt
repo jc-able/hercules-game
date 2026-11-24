@@ -1,0 +1,3 @@
+camera_before_after.jpg | lock-on camera before/after vs the owner's key_cyclops.png | arm 6.5 -> 3.7 m, camera 2.4 -> 1.3 m above the feet, hero ~20% -> ~36% of frame height, cyclops top in frame (model_top 11.45 -> 8.0 m once the club is ignored)
+cyclops_block_after.jpg | real hero raising the lion shield against the cyclops sweep, new low chase camera | block_start 0.25 s -> block_idle, feet above the boss bar
+hero_petrified.jpg | petrify on the real hero GLB: frozen pose + cool stone toon + grey ink | stone (0.66, 0.67, 0.70)

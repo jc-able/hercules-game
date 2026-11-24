@@ -1,0 +1,93 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 7.0,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_idle/k_neutral.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_idle/k_tail_rise.json"
+  },
+  {
+   "t": 0.625,
+   "pose_file": "poses_idle/k_tail_hi.json"
+  },
+  {
+   "t": 0.875,
+   "pose_file": "poses_idle/k_tail_str.json"
+  },
+  {
+   "t": 1.125,
+   "pose_file": "poses_idle/k_tail_fall.json"
+  },
+  {
+   "t": 1.375,
+   "pose_file": "poses_idle/k_tail_down.json"
+  },
+  {
+   "t": 1.875,
+   "pose_file": "poses_idle/k_neutral.json"
+  },
+  {
+   "t": 2.5,
+   "pose_file": "poses_idle/k_breath.json"
+  },
+  {
+   "t": 2.875,
+   "pose_file": "poses_idle/k_head_a.json"
+  },
+  {
+   "t": 3.0,
+   "pose_file": "poses_idle/k_head_b.json"
+  },
+  {
+   "t": 3.25,
+   "pose_file": "poses_idle/k_head_c.json"
+  },
+  {
+   "t": 3.5,
+   "pose_file": "poses_idle/k_head_d.json"
+  },
+  {
+   "t": 3.75,
+   "pose_file": "poses_idle/k_head_e.json"
+  },
+  {
+   "t": 4.0,
+   "pose_file": "poses_idle/k_head_f.json"
+  },
+  {
+   "t": 4.5,
+   "pose_file": "poses_idle/k_neutral.json"
+  },
+  {
+   "t": 5.125,
+   "pose_file": "poses_idle/k_neutral.json"
+  },
+  {
+   "t": 5.5,
+   "pose_file": "poses_idle/k_wing_mid.json"
+  },
+  {
+   "t": 5.875,
+   "pose_file": "poses_idle/k_wing_max.json"
+  },
+  {
+   "t": 6.25,
+   "pose_file": "poses_idle/k_wing_hold.json"
+  },
+  {
+   "t": 6.5,
+   "pose_file": "poses_idle/k_wing_back.json"
+  },
+  {
+   "t": 6.875,
+   "pose_file": "poses_idle/k_neutral.json"
+  }
+ ],
+ "note": "video window 2.5-9.5 s of ref.mp4 (clip t = video t - 2.5); tail flick 0.25-1.9, head toss 2.6-4.5, wing ruffle 5.2-6.9"
+}

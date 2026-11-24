@@ -1,0 +1,30 @@
+{
+ "fps": 30,
+ "loop": false,
+ "length": 0.9,
+ "events": {},
+ "note": "animfix_hydra 2026-11-22: hurt as played in the game, from head_down (the jaw is only exposed there): starts and ends on the head_down chin rest; the old standing hurt is keys_hurt_standing.json",
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "../fire_sweep/poses_head_down/k0_down.json"
+  },
+  {
+   "t": 0.0667,
+   "pose_file": "poses_hurt_down/k1_flinch.json"
+  },
+  {
+   "t": 0.3,
+   "pose_file": "poses_hurt_down/k2_over.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.5667,
+   "pose_file": "poses_hurt_down/k3_settle.json"
+  },
+  {
+   "t": 0.9,
+   "pose_file": "../fire_sweep/poses_head_down/k0_down.json"
+  }
+ ]
+}

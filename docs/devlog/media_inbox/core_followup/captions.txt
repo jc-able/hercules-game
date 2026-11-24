@@ -1,0 +1,2 @@
+hydra_lock_framing_before.jpg | lock camera on the real 14.4 m Hydra (rest-pose GLB) with the top taken above the lock point: horn tips cut at 7.5 m and at the jaw | first version of the new framing; arm 6.5-8.8 m
+hydra_lock_framing_after.jpg | same fight after sampling 20 real top points of the mesh: whole Hydra framed at the jaw strike, hero's feet above the boss bar in every frame | arm grows 6.5 -> 9.2 m (max 10.0), feet kept 2.5% of the screen above the bar

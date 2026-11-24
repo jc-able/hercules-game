@@ -1,0 +1,86 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "hips": {
+   "rx": 0
+  },
+  "spine_01": {
+   "rx": 0
+  },
+  "spine_02": {
+   "rx": -2
+  },
+  "spine_03": {
+   "rx": -4
+  },
+  "neck": {
+   "rx": -11
+  },
+  "head": {
+   "rx": -28
+  },
+  "thigh_l": {
+   "rx": 0,
+   "ry": -6
+  },
+  "shin_l": {
+   "rx": 0
+  },
+  "foot_l": {
+   "rx": 0
+  },
+  "thigh_r": {
+   "rx": 0,
+   "ry": 6
+  },
+  "shin_r": {
+   "rx": 0
+  },
+  "foot_r": {
+   "rx": 0
+  },
+  "upper_arm_u_l": {
+   "rx": -0.49,
+   "ry": -12.84,
+   "rz": 0.02
+  },
+  "forearm_u_l": {
+   "rx": -0.64,
+   "ry": -8.52,
+   "rz": -0.02
+  },
+  "hand_u_l": {
+   "rx": 0.46,
+   "ry": -7.68,
+   "rz": 0.02
+  },
+  "shoulder_u_r": {
+   "rx": 0.25,
+   "ry": 1.99,
+   "rz": 3.05
+  },
+  "upper_arm_u_r": {
+   "rx": -0.97,
+   "ry": -6.42,
+   "rz": 11.48
+  },
+  "forearm_u_r": {
+   "rx": 11.71,
+   "ry": 46.2,
+   "rz": 33.99
+  },
+  "hand_u_r": {
+   "rx": 19.39,
+   "ry": 28.67,
+   "rz": 12.66
+  }
+ }
+}

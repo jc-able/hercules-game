@@ -1,0 +1,2 @@
+raw_vs_game_waveforms.jpg | 8 sounds before/after processing (same 2 s scale): hydra inhale gap spliced out, giant step shaped into a thud, sword hit cut to its loud slash, sub-bass removed from the glance, hum replaced by a lyre chord | 57 sfx + 5 music processed, warn sounds start <= 5 ms, peaks -3 dBFS, music -16 LUFS
+cyclops_fight_audio_track.jpg | audio track of a 22 s Movie Maker capture of the Cyclops fight with every logged sound start marked (warns in red) | -14.8 LUFS integrated, peak -0.5 dBFS, 0 clipped samples

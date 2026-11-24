@@ -1,0 +1,25 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 1.5,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_ride/k0_top.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_ride/k1_down.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_ride/k2_bottom.json"
+  },
+  {
+   "t": 1.125,
+   "pose_file": "poses_ride/k3_up.json"
+  }
+ ],
+ "note": "hercules ride loop, one wing beat (video period measured 1.48 s; t=0 = wing top). See docs/notes/ride_anim.md"
+}

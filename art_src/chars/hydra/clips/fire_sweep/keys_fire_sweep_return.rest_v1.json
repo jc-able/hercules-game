@@ -1,0 +1,29 @@
+{
+ "fps": 30,
+ "loop": false,
+ "length": 2.7667,
+ "events": {
+  "fire_start": 0.0,
+  "fire_end": 2.2
+ },
+ "note": "animfix_hydra: enraged return pass, left (+X) -> right (-X); starts on fire_sweep's end-of-pass key (k6_sweep_l at 3.95 s) and ends on the head_down chin rest",
+ "keys": [
+  {
+   "t": 0,
+   "pose_file": "poses_fire_sweep/k6_sweep_l.json"
+  },
+  {
+   "t": 1.1,
+   "pose_file": "poses_fire_sweep/k5_sweep_c.json",
+   "interp": "linear"
+  },
+  {
+   "t": 2.2,
+   "pose_file": "poses_fire_sweep/k4_low_r.json"
+  },
+  {
+   "t": 2.7667,
+   "pose_file": "poses_fire_sweep/k7_down.json"
+  }
+ ]
+}

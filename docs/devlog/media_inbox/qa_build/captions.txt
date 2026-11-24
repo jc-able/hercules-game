@@ -1,0 +1,1 @@
+editor_vs_exported_app.jpg | Cyclops fight 1 s and 3 s after fight start: editor run (left) vs the exported Hercules.app (right), same seed, identical frames | app 229 MB (170 MB universal runtime + 70.5 MB pck), title in 0.4 s, arena in ~0.9 s, bot victory in the app

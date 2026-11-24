@@ -1,0 +1,1 @@
+run_n_strip.jpg | Hercules run re-keyed from the natural-stance video: reference row over our row, arms, shield, head and spine now move | 28/29 bones move (was 19), 0.667 s loop, planted foot 4.59 m/s, strip IoU 0.76 front / 0.60 side

@@ -1,0 +1,156 @@
+{
+ "space": "absolute",
+ "bones": {
+  "tail_01": {
+   "rx": 26.99,
+   "ry": -64.71,
+   "rz": -6.58
+  },
+  "tail_02": {
+   "rx": 7.13,
+   "ry": -36.29,
+   "rz": -5.23
+  },
+  "tail_03": {
+   "rx": 10.09,
+   "ry": -17.15,
+   "rz": -6.52
+  },
+  "tail_04": {
+   "rx": 1.1,
+   "ry": -0.0,
+   "rz": 0.0
+  },
+  "pelvis": {
+   "rx": 52.0,
+   "ry": -40.0
+  },
+  "spine_01": {
+   "space": "local_delta",
+   "rx": 5
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rx": 37.0,
+   "ry": 0.0
+  },
+  "head": {
+   "space": "local_delta",
+   "rx": 6.0,
+   "ry": 2.0
+  },
+  "upper_arm_l": {
+   "rx": 47.523,
+   "ry": -46.694,
+   "rz": -47.804
+  },
+  "forearm_l": {
+   "rx": -36.956,
+   "ry": -119.063,
+   "rz": 43.021
+  },
+  "upper_arm_r": {
+   "rx": 90.885,
+   "ry": 33.945,
+   "rz": 31.297
+  },
+  "forearm_r": {
+   "rx": 101.383,
+   "ry": 75.489,
+   "rz": 27.213
+  },
+  "tail_09": {
+   "space": "local_delta",
+   "rz": 15.0,
+   "rx": 0
+  },
+  "tail_10": {
+   "space": "local_delta",
+   "rz": 15.0,
+   "rx": 0
+  },
+  "tail_11": {
+   "space": "local_delta",
+   "rz": 15.0,
+   "rx": 0
+  },
+  "tail_12": {
+   "space": "local_delta",
+   "rz": 15.0,
+   "rx": 0
+  },
+  "tail_13": {
+   "space": "local_delta",
+   "rz": 15.0,
+   "rx": 0
+  },
+  "tail_14": {
+   "space": "local_delta",
+   "rz": 12.0,
+   "rx": 0
+  },
+  "hair_l_01": {
+   "space": "local_delta",
+   "ry": 10,
+   "rx": -3.0
+  },
+  "hair_l_02": {
+   "space": "local_delta",
+   "ry": -5,
+   "rx": 1.5
+  },
+  "hair_l_03": {
+   "space": "local_delta",
+   "ry": 5,
+   "rx": -1.5
+  },
+  "hair_r_01": {
+   "space": "local_delta",
+   "ry": 0,
+   "rx": 0.0
+  },
+  "hair_r_02": {
+   "space": "local_delta",
+   "ry": -12,
+   "rx": -3.6
+  },
+  "hair_r_03": {
+   "space": "local_delta",
+   "ry": 6,
+   "rx": 1.8
+  },
+  "shoulder_l": {
+   "space": "local_delta",
+   "ry": 3.415
+  },
+  "hand_l": {
+   "rx": -35.36,
+   "ry": -153.377,
+   "rz": 25.898
+  },
+  "shoulder_r": {
+   "space": "local_delta",
+   "ry": -1.064
+  },
+  "hand_r": {
+   "rx": 15.021,
+   "ry": 123.233,
+   "rz": -39.271
+  }
+ },
+ "root": {
+  "loc": [
+   -1.4866,
+   -0.4793,
+   -0.7769
+  ]
+ },
+ "view_offset": [
+  0.14,
+  0.16,
+  0.12
+ ],
+ "view_scale": 1.0,
+ "_rebase": "re-base death t=2: 4 bones natural+life, 0 posed+life, acting kept",
+ "_clipfix2": "upper arms rolled toward rest by 50 deg (left +, right -), forearm half, hand world orientation kept: local rotation of the upper arm stays under 180 deg (no quaternion hemisphere crossing in the game blend)"
+}

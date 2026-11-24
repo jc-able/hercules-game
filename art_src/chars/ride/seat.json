@@ -1,0 +1,10 @@
+{
+ "hercules_pose": "poses/hercules_ride_in.json",
+ "pegasus_pose": "poses/pegasus_fly.json",
+ "seat": {
+  "y": 0.2,
+  "z": "auto",
+  "pitch": 0.0,
+  "auto_depth": 0.0
+ }
+}

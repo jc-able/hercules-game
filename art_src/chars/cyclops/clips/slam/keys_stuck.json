@@ -1,0 +1,159 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 1.5,
+ "events": {},
+ "keys": [
+  {
+   "t": 0,
+   "pose_file": "poses_stuck/k00_stuck.json"
+  },
+  {
+   "t": 0.0417,
+   "pose_file": "poses_stuck/kf01.json"
+  },
+  {
+   "t": 0.0833,
+   "pose_file": "poses_stuck/kf02.json"
+  },
+  {
+   "t": 0.125,
+   "pose_file": "poses_stuck/kf03.json"
+  },
+  {
+   "t": 0.1667,
+   "pose_file": "poses_stuck/kf04.json"
+  },
+  {
+   "t": 0.2083,
+   "pose_file": "poses_stuck/kf05.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_stuck/kf06.json"
+  },
+  {
+   "t": 0.2917,
+   "pose_file": "poses_stuck/kf07.json"
+  },
+  {
+   "t": 0.3333,
+   "pose_file": "poses_stuck/kf08.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_stuck/k005_life.json"
+  },
+  {
+   "t": 0.4167,
+   "pose_file": "poses_stuck/kf10.json"
+  },
+  {
+   "t": 0.4583,
+   "pose_file": "poses_stuck/kf11.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_stuck/kf12.json"
+  },
+  {
+   "t": 0.5417,
+   "pose_file": "poses_stuck/kf13.json"
+  },
+  {
+   "t": 0.5833,
+   "pose_file": "poses_stuck/kf14.json"
+  },
+  {
+   "t": 0.625,
+   "pose_file": "poses_stuck/kf15.json"
+  },
+  {
+   "t": 0.6667,
+   "pose_file": "poses_stuck/kf16.json"
+  },
+  {
+   "t": 0.7083,
+   "pose_file": "poses_stuck/kf17.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_stuck/k01_tug.json"
+  },
+  {
+   "t": 0.7917,
+   "pose_file": "poses_stuck/kf19.json"
+  },
+  {
+   "t": 0.8333,
+   "pose_file": "poses_stuck/kf20.json"
+  },
+  {
+   "t": 0.875,
+   "pose_file": "poses_stuck/kf21.json"
+  },
+  {
+   "t": 0.9167,
+   "pose_file": "poses_stuck/kf22.json"
+  },
+  {
+   "t": 0.9583,
+   "pose_file": "poses_stuck/kf23.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_stuck/kf24.json"
+  },
+  {
+   "t": 1.0417,
+   "pose_file": "poses_stuck/kf25.json"
+  },
+  {
+   "t": 1.0833,
+   "pose_file": "poses_stuck/kf26.json"
+  },
+  {
+   "t": 1.125,
+   "pose_file": "poses_stuck/k015_life.json"
+  },
+  {
+   "t": 1.1667,
+   "pose_file": "poses_stuck/kf28.json"
+  },
+  {
+   "t": 1.2083,
+   "pose_file": "poses_stuck/kf29.json"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_stuck/kf30.json"
+  },
+  {
+   "t": 1.2917,
+   "pose_file": "poses_stuck/kf31.json"
+  },
+  {
+   "t": 1.3333,
+   "pose_file": "poses_stuck/kf32.json"
+  },
+  {
+   "t": 1.375,
+   "pose_file": "poses_stuck/kf33.json"
+  },
+  {
+   "t": 1.4167,
+   "pose_file": "poses_stuck/kf34.json"
+  },
+  {
+   "t": 1.4583,
+   "pose_file": "poses_stuck/kf35.json"
+  }
+ ],
+ "video": "ref.mp4",
+ "video_window": [
+  3.0,
+  6.0
+ ],
+ "note_rebase": "2026-11-23 re-base (work/rebase/cyclops/rebase.py): acting bones 7 kept verbatim; replaced [] with natural_pose; gap-filled []; life on ['foot_l', 'foot_r', 'forearm_d_l', 'forearm_d_r', 'forearm_u_l', 'hand_d_l', 'hand_d_r', 'head', 'hips', 'neck', 'shin_l', 'shin_r', 'spine_01', 'spine_02', 'spine_03', 'thigh_l', 'thigh_r', 'upper_arm_d_l', 'upper_arm_d_r']; extra life keys [0.375, 1.125]",
+ "note_animfix2": "2026-11-23 animfix (cyclops): keys every frame = read-backs of the re-based loop with the feet, both club hands and the club pinned to k00_stuck (leg + arm IK); the tug shows in the knees, hips, spine and head (spine_03 hunches 0-16 deg forward where the left hand could not reach grip2 otherwise). Times of the loop, length 1.5 unchanged. Backups *.rest_v2.json."
+}

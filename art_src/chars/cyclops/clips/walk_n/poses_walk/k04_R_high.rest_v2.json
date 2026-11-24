@@ -1,0 +1,139 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0.24,
+   0.06,
+   0.0
+  ],
+  "ground": "left"
+ },
+ "bones": {
+  "hips": {
+   "ry": -4.0,
+   "rz": 3.0,
+   "rx": 3
+  },
+  "spine_01": {
+   "rx": -2,
+   "ry": 1.6,
+   "rz": 0
+  },
+  "spine_02": {
+   "rx": 12.0,
+   "ry": 2.4,
+   "rz": -2.0
+  },
+  "spine_03": {
+   "rx": 11,
+   "ry": 4.0,
+   "rz": -8.0
+  },
+  "neck": {
+   "rx": 2.0,
+   "ry": 1,
+   "rz": 2.4
+  },
+  "head": {
+   "rx": -11,
+   "ry": 0.8,
+   "rz": 5
+  },
+  "thigh_l": {
+   "rx": 12.0,
+   "ry": -1.0
+  },
+  "shin_l": {
+   "rx": 18.0,
+   "ry": 4.0
+  },
+  "foot_l": {
+   "rx": 0,
+   "rz": 8
+  },
+  "thigh_r": {
+   "rx": -58.0,
+   "ry": 13.0
+  },
+  "shin_r": {
+   "rx": 8.0,
+   "ry": 2.0
+  },
+  "foot_r": {
+   "rx": -5,
+   "rz": -8
+  },
+  "shoulder_u_l": {
+   "front": -65.4,
+   "side": -0.2
+  },
+  "upper_arm_u_l": {
+   "front": -30,
+   "side": -4.2
+  },
+  "forearm_u_l": {
+   "front": -14,
+   "side": -39.4
+  },
+  "hand_u_l": {
+   "front": -8,
+   "side": -33.4,
+   "twist": 120
+  },
+  "shoulder_u_r": {
+   "front": 76.6,
+   "side": 0
+  },
+  "upper_arm_u_r": {
+   "front": 48.4,
+   "side": -42.1
+  },
+  "forearm_u_r": {
+   "front": 178,
+   "side": -165
+  },
+  "hand_u_r": {
+   "front": -150,
+   "side": -150,
+   "twist": 79.5
+  },
+  "upper_arm_d_l": {
+   "front": -26,
+   "side": -43.2
+  },
+  "forearm_d_l": {
+   "front": 30,
+   "side": -62.0
+  },
+  "hand_d_l": {
+   "front": 36,
+   "side": -43.4,
+   "twist": -40
+  },
+  "upper_arm_d_r": {
+   "front": 26,
+   "side": -6.8
+  },
+  "forearm_d_r": {
+   "front": -24,
+   "side": -28.0
+  },
+  "hand_d_r": {
+   "front": -28,
+   "side": -6.6,
+   "twist": 40
+  },
+  "toe_l": {
+   "rx": 0
+  },
+  "toe_r": {
+   "rx": 0
+  }
+ },
+ "view_offset": [
+  -0.02,
+  -0.03,
+  0.12
+ ],
+ "_src": "p/BR_fit_s.json"
+}

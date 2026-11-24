@@ -1,0 +1,546 @@
+{
+ "joints": {
+  "pelvis": [
+   0,
+   0.3,
+   2.95
+  ],
+  "spine1": [
+   0,
+   0.27,
+   3.7
+  ],
+  "spine2": [
+   0,
+   0.2,
+   4.45
+  ],
+  "spine3": [
+   0,
+   0.26,
+   5.25
+  ],
+  "neck": [
+   0,
+   0.37,
+   6.3
+  ],
+  "head": [
+   0,
+   0.36,
+   6.95
+  ],
+  "top": [
+   0,
+   0.3,
+   8.0
+  ],
+  "clav": [
+   0.32,
+   0.4,
+   6.36
+  ],
+  "shoulder_u": [
+   1.42,
+   0.45,
+   6.4
+  ],
+  "elbow_u": [
+   2.22,
+   0.42,
+   6.36
+  ],
+  "wrist_u": [
+   3.02,
+   0.36,
+   6.38
+  ],
+  "hand_u_tip": [
+   4.02,
+   0.42,
+   6.42
+  ],
+  "shoulder_d": [
+   1.15,
+   0.36,
+   5.35
+  ],
+  "elbow_d": [
+   1.85,
+   0.36,
+   4.8
+  ],
+  "wrist_d": [
+   2.48,
+   0.33,
+   4.22
+  ],
+  "hand_d_tip": [
+   3.22,
+   0.42,
+   3.42
+  ],
+  "hip": [
+   0.72,
+   0.3,
+   2.95
+  ],
+  "knee": [
+   0.8,
+   0.33,
+   2.22
+  ],
+  "ankle": [
+   0.97,
+   0.57,
+   0.95
+  ],
+  "ball": [
+   1.15,
+   -0.45,
+   0.14
+  ],
+  "toe_tip": [
+   1.2,
+   -1.05,
+   0.12
+  ]
+ },
+ "bones": [
+  {
+   "name": "root",
+   "parent": null,
+   "head": [
+    0,
+    0,
+    0
+   ],
+   "tail": [
+    0,
+    0,
+    1.0
+   ],
+   "deform": false
+  },
+  {
+   "name": "hips",
+   "parent": "root",
+   "head": [
+    0,
+    0.3,
+    2.95
+   ],
+   "tail": [
+    0,
+    0.27,
+    3.7
+   ],
+   "deform": true
+  },
+  {
+   "name": "spine_01",
+   "parent": "hips",
+   "head": [
+    0,
+    0.27,
+    3.7
+   ],
+   "tail": [
+    0,
+    0.2,
+    4.45
+   ],
+   "deform": true
+  },
+  {
+   "name": "spine_02",
+   "parent": "spine_01",
+   "head": [
+    0,
+    0.2,
+    4.45
+   ],
+   "tail": [
+    0,
+    0.26,
+    5.25
+   ],
+   "deform": true
+  },
+  {
+   "name": "spine_03",
+   "parent": "spine_02",
+   "head": [
+    0,
+    0.26,
+    5.25
+   ],
+   "tail": [
+    0,
+    0.37,
+    6.3
+   ],
+   "deform": true
+  },
+  {
+   "name": "neck",
+   "parent": "spine_03",
+   "head": [
+    0,
+    0.37,
+    6.3
+   ],
+   "tail": [
+    0,
+    0.36,
+    6.95
+   ],
+   "deform": true
+  },
+  {
+   "name": "head",
+   "parent": "neck",
+   "head": [
+    0,
+    0.36,
+    6.95
+   ],
+   "tail": [
+    0,
+    0.3,
+    8.0
+   ],
+   "deform": true
+  },
+  {
+   "name": "shoulder_u_l",
+   "parent": "spine_03",
+   "head": [
+    0.32,
+    0.4,
+    6.36
+   ],
+   "tail": [
+    1.42,
+    0.45,
+    6.4
+   ],
+   "deform": true
+  },
+  {
+   "name": "upper_arm_u_l",
+   "parent": "shoulder_u_l",
+   "head": [
+    1.42,
+    0.45,
+    6.4
+   ],
+   "tail": [
+    2.22,
+    0.42,
+    6.36
+   ],
+   "deform": true
+  },
+  {
+   "name": "forearm_u_l",
+   "parent": "upper_arm_u_l",
+   "head": [
+    2.22,
+    0.42,
+    6.36
+   ],
+   "tail": [
+    3.02,
+    0.36,
+    6.38
+   ],
+   "deform": true
+  },
+  {
+   "name": "hand_u_l",
+   "parent": "forearm_u_l",
+   "head": [
+    3.02,
+    0.36,
+    6.38
+   ],
+   "tail": [
+    4.02,
+    0.42,
+    6.42
+   ],
+   "deform": true
+  },
+  {
+   "name": "upper_arm_d_l",
+   "parent": "spine_03",
+   "head": [
+    1.15,
+    0.36,
+    5.35
+   ],
+   "tail": [
+    1.85,
+    0.36,
+    4.8
+   ],
+   "deform": true
+  },
+  {
+   "name": "forearm_d_l",
+   "parent": "upper_arm_d_l",
+   "head": [
+    1.85,
+    0.36,
+    4.8
+   ],
+   "tail": [
+    2.48,
+    0.33,
+    4.22
+   ],
+   "deform": true
+  },
+  {
+   "name": "hand_d_l",
+   "parent": "forearm_d_l",
+   "head": [
+    2.48,
+    0.33,
+    4.22
+   ],
+   "tail": [
+    3.22,
+    0.42,
+    3.42
+   ],
+   "deform": true
+  },
+  {
+   "name": "thigh_l",
+   "parent": "hips",
+   "head": [
+    0.72,
+    0.3,
+    2.95
+   ],
+   "tail": [
+    0.8,
+    0.33,
+    2.22
+   ],
+   "deform": true
+  },
+  {
+   "name": "shin_l",
+   "parent": "thigh_l",
+   "head": [
+    0.8,
+    0.33,
+    2.22
+   ],
+   "tail": [
+    0.97,
+    0.57,
+    0.95
+   ],
+   "deform": true
+  },
+  {
+   "name": "foot_l",
+   "parent": "shin_l",
+   "head": [
+    0.97,
+    0.57,
+    0.95
+   ],
+   "tail": [
+    1.15,
+    -0.45,
+    0.14
+   ],
+   "deform": true
+  },
+  {
+   "name": "toe_l",
+   "parent": "foot_l",
+   "head": [
+    1.15,
+    -0.45,
+    0.14
+   ],
+   "tail": [
+    1.2,
+    -1.05,
+    0.12
+   ],
+   "deform": true
+  },
+  {
+   "name": "shoulder_u_r",
+   "parent": "spine_03",
+   "head": [
+    -0.32,
+    0.4,
+    6.36
+   ],
+   "tail": [
+    -1.42,
+    0.45,
+    6.4
+   ],
+   "deform": true
+  },
+  {
+   "name": "upper_arm_u_r",
+   "parent": "shoulder_u_r",
+   "head": [
+    -1.42,
+    0.45,
+    6.4
+   ],
+   "tail": [
+    -2.22,
+    0.42,
+    6.36
+   ],
+   "deform": true
+  },
+  {
+   "name": "forearm_u_r",
+   "parent": "upper_arm_u_r",
+   "head": [
+    -2.22,
+    0.42,
+    6.36
+   ],
+   "tail": [
+    -3.02,
+    0.36,
+    6.38
+   ],
+   "deform": true
+  },
+  {
+   "name": "hand_u_r",
+   "parent": "forearm_u_r",
+   "head": [
+    -3.02,
+    0.36,
+    6.38
+   ],
+   "tail": [
+    -4.02,
+    0.42,
+    6.42
+   ],
+   "deform": true
+  },
+  {
+   "name": "upper_arm_d_r",
+   "parent": "spine_03",
+   "head": [
+    -1.15,
+    0.36,
+    5.35
+   ],
+   "tail": [
+    -1.85,
+    0.36,
+    4.8
+   ],
+   "deform": true
+  },
+  {
+   "name": "forearm_d_r",
+   "parent": "upper_arm_d_r",
+   "head": [
+    -1.85,
+    0.36,
+    4.8
+   ],
+   "tail": [
+    -2.48,
+    0.33,
+    4.22
+   ],
+   "deform": true
+  },
+  {
+   "name": "hand_d_r",
+   "parent": "forearm_d_r",
+   "head": [
+    -2.48,
+    0.33,
+    4.22
+   ],
+   "tail": [
+    -3.22,
+    0.42,
+    3.42
+   ],
+   "deform": true
+  },
+  {
+   "name": "thigh_r",
+   "parent": "hips",
+   "head": [
+    -0.72,
+    0.3,
+    2.95
+   ],
+   "tail": [
+    -0.8,
+    0.33,
+    2.22
+   ],
+   "deform": true
+  },
+  {
+   "name": "shin_r",
+   "parent": "thigh_r",
+   "head": [
+    -0.8,
+    0.33,
+    2.22
+   ],
+   "tail": [
+    -0.97,
+    0.57,
+    0.95
+   ],
+   "deform": true
+  },
+  {
+   "name": "foot_r",
+   "parent": "shin_r",
+   "head": [
+    -0.97,
+    0.57,
+    0.95
+   ],
+   "tail": [
+    -1.15,
+    -0.45,
+    0.14
+   ],
+   "deform": true
+  },
+  {
+   "name": "toe_r",
+   "parent": "foot_r",
+   "head": [
+    -1.15,
+    -0.45,
+    0.14
+   ],
+   "tail": [
+    -1.2,
+    -1.05,
+    0.12
+   ],
+   "deform": true
+  }
+ ]
+}

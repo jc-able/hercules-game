@@ -1,0 +1,94 @@
+{
+ "tilt_k": 1.0,
+ "hip_yaw": 3,
+ "chest_yaw": 7,
+ "lean": 3,
+ "lean_amp": 0.8,
+ "lean_phase": 0.46,
+ "head_tilt": 3,
+ "head_yaw": 2,
+ "nod": 1.5,
+ "arm_phase": 0.87,
+ "shrug": 3,
+ "shoulder_yaw": 3,
+ "up_mean_l": 16.5,
+ "up_mean_r": -10,
+ "up_swing": 20,
+ "arm_out": 3,
+ "fore_mean_l": 36.5,
+ "fore_mean_r": -30,
+ "fore_swing": 37.5,
+ "fore_lag": 0.05,
+ "fore_in": 4,
+ "hand_swing": 12,
+ "hand_lag": 0.1,
+ "hand_twist": 10,
+ "hair_trail": 6,
+ "hair": [
+  [
+   "hair_l_01",
+   0.0,
+   9
+  ],
+  [
+   "hair_l_02",
+   0.31,
+   7
+  ],
+  [
+   "hair_l_03",
+   0.62,
+   10
+  ],
+  [
+   "hair_r_01",
+   0.47,
+   8
+  ],
+  [
+   "hair_r_02",
+   0.78,
+   10
+  ],
+  [
+   "hair_r_03",
+   0.15,
+   7
+  ]
+ ],
+ "wave_start": 5,
+ "wave_amp": 40,
+ "ramp": 2,
+ "amp_taper": 1.03,
+ "links_per_wave": 7.0,
+ "wave_phase": 0.3125,
+ "x_pelvis": [
+  0.15,
+  0.47
+ ],
+ "x_chest": [
+  0.117,
+  0.41
+ ],
+ "x_head": [
+  0.117,
+  0.38
+ ],
+ "x_t2": [
+  0.19,
+  0.55
+ ],
+ "x_t3": [
+  0.235,
+  0.61
+ ],
+ "x_t4": [
+  0.266,
+  0.65
+ ],
+ "rock": 2.7,
+ "rock_pmax": 0.43,
+ "stance_tail_fade": 1.0,
+ "fade_from": 4,
+ "_animfix2": "2026-11-23: stance floor-tail curl faded to 0 (tail_05..14), wave 50->40 deg, 6.67->7.0 links/wave, amp x1.03 per link toward the tip; picked by slip sweep (work/animfix2_medusa/sweep*.log)"
+}

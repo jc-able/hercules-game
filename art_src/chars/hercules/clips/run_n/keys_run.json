@@ -1,0 +1,48 @@
+{
+ "fps": 30,
+ "loop": true,
+ "length": 0.6667,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_run/k0.json"
+  },
+  {
+   "t": 0.0333,
+   "pose_file": "poses_run/k0a.json"
+  },
+  {
+   "t": 0.0667,
+   "pose_file": "poses_run/k0b.json"
+  },
+  {
+   "t": 0.1333,
+   "pose_file": "poses_run/k1.json"
+  },
+  {
+   "t": 0.2333,
+   "pose_file": "poses_run/k2.json"
+  },
+  {
+   "t": 0.3333,
+   "pose_file": "poses_run/k3.json"
+  },
+  {
+   "t": 0.3667,
+   "pose_file": "poses_run/k3a.json"
+  },
+  {
+   "t": 0.4,
+   "pose_file": "poses_run/k3b.json"
+  },
+  {
+   "t": 0.4667,
+   "pose_file": "poses_run/k4.json"
+  },
+  {
+   "t": 0.5667,
+   "pose_file": "poses_run/k5.json"
+  }
+ ]
+}

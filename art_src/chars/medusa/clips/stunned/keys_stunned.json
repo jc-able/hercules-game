@@ -1,0 +1,42 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 3.0,
+ "events": {},
+ "source": "ref.mp4 2.75-7.0 s slumped hold (breathing authored, 3.0 s loop); lean recipe (fixer)",
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_stunned/k0_slump.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_stunned/l_t0.375.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_stunned/l_t0.750.json"
+  },
+  {
+   "t": 1.125,
+   "pose_file": "poses_stunned/l_t1.125.json"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_stunned/k1_breath.json"
+  },
+  {
+   "t": 1.875,
+   "pose_file": "poses_stunned/l_t1.875.json"
+  },
+  {
+   "t": 2.25,
+   "pose_file": "poses_stunned/l_t2.250.json"
+  },
+  {
+   "t": 2.625,
+   "pose_file": "poses_stunned/l_t2.625.json"
+  }
+ ],
+ "rebase": "re-base animator 2026-11-23: frozen rest-pose bones -> natural stance (natural_pose.json) + quiet life; acting bones, key times, events, length, loop unchanged; originals: *.rest_v1.json; tool: work/rebase/medusa/rebase.py"
+}

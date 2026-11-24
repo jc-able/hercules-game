@@ -1,0 +1,2 @@
+fly_strip.jpg | Pegasus fly loop: Seedance reference (top rows) vs the real rig keyframed to match (bottom rows), one wing beat | 1.0417 s loop, 7 keys, strip IoU mean 0.71 (front 0.86 at the up pose, ~0.60 in the downstroke where the video redraws the wings broader)
+fly_key_compare.jpg | Mid-iteration check: target | ours | red/blue silhouette difference for six key frames | front IoU 0.52-0.83, side 0.66-0.73; before the fix the green background made every IoU meaningless (calib 0.66 -> 0.94 after a green-key silhouette)

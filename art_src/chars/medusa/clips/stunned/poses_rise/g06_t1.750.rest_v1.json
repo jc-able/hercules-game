@@ -1,0 +1,89 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0.0,
+   -0.3212,
+   -0.0204
+  ]
+ },
+ "bones": {
+  "pelvis": {
+   "rx": 11.0
+  },
+  "tail_03": {
+   "rx": 0
+  },
+  "spine_01": {
+   "rx": 20.0
+  },
+  "spine_02": {
+   "rx": 32.0
+  },
+  "spine_03": {
+   "rx": 37.5
+  },
+  "neck": {
+   "rx": 44.0
+  },
+  "head": {
+   "rx": 53.0
+  },
+  "tail_05": {
+   "space": "local_delta",
+   "rz": 3.33
+  },
+  "tail_06": {
+   "space": "local_delta",
+   "rz": 3.33
+  },
+  "tail_07": {
+   "space": "local_delta",
+   "rz": 3.33
+  },
+  "upper_arm_l": {
+   "front": -20,
+   "side": -4
+  },
+  "forearm_l": {
+   "front": -22,
+   "side": -15
+  },
+  "hand_l": {
+   "front": -22,
+   "side": -15
+  },
+  "upper_arm_r": {
+   "front": 20,
+   "side": -4
+  },
+  "forearm_r": {
+   "front": 22,
+   "side": -15
+  },
+  "hand_r": {
+   "front": 22,
+   "side": -15
+  },
+  "hair_l_02": {
+   "ry": -2.0,
+   "rx": -3.0,
+   "space": "local_delta"
+  },
+  "hair_r_01": {
+   "ry": 2.0,
+   "rx": -6.5,
+   "space": "local_delta"
+  },
+  "hair_r_02": {
+   "ry": 2.5,
+   "rx": -4.5,
+   "space": "local_delta"
+  },
+  "hair_l_01": {
+   "ry": -1.5,
+   "rx": -6.0,
+   "space": "local_delta"
+  }
+ }
+}

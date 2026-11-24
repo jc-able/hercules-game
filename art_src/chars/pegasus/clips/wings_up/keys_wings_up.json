@@ -1,0 +1,25 @@
+{
+ "fps": 24.0,
+ "loop": true,
+ "length": 2.0,
+ "events": {},
+ "note": "wings_up (feedback2 pegasus re-fixer 2026-11-23, art_src/chars/pegasus/scripts/gen_wings_up.py): mount/dismount wing overlay pose: idle stance, wings raised and swept back -20 deg",
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_wings_up/k00.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_wings_up/k01.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_wings_up/k02.json"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_wings_up/k03.json"
+  }
+ ]
+}

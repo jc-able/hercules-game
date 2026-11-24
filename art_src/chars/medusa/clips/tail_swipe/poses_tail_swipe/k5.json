@@ -1,0 +1,92 @@
+{
+ "bones": {
+  "spine_01": {
+   "space": "local_delta",
+   "rz": 0.0,
+   "rx": 3.3333333333333335,
+   "ry": -1.6666666666666667
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rz": 0.0,
+   "rx": 3.3333333333333335,
+   "ry": -1.6666666666666667
+  },
+  "spine_03": {
+   "space": "local_delta",
+   "rz": 0.0,
+   "rx": 3.3333333333333335,
+   "ry": -1.6666666666666667
+  },
+  "upper_arm_l": {
+   "front": -80,
+   "side": -85
+  },
+  "forearm_l": {
+   "front": -80,
+   "side": -85
+  },
+  "upper_arm_r": {
+   "front": 35,
+   "side": 15
+  },
+  "forearm_r": {
+   "front": 35,
+   "side": 15
+  },
+  "tail_04": {
+   "rz": 96,
+   "rx": 5
+  },
+  "tail_05": {
+   "rz": 150,
+   "rx": 5
+  },
+  "tail_06": {
+   "rz": 140,
+   "rx": 12
+  },
+  "tail_07": {
+   "rz": 110,
+   "rx": 15
+  },
+  "tail_08": {
+   "rz": 90,
+   "rx": 18
+  },
+  "tail_09": {
+   "rz": 95,
+   "rx": 22
+  },
+  "tail_10": {
+   "rz": 100,
+   "rx": 26
+  },
+  "tail_11": {
+   "rz": 90,
+   "rx": 30
+  },
+  "tail_12": {
+   "rz": 76,
+   "rx": 34
+  },
+  "tail_13": {
+   "rz": 65,
+   "rx": 35
+  },
+  "tail_14": {
+   "rz": 55,
+   "rx": 35
+  }
+ },
+ "root": {
+  "ground": "lowest"
+ },
+ "view_offset": [
+  0.53,
+  -0.4,
+  0.03
+ ],
+ "view_scale": 0.95,
+ "space": "absolute"
+}

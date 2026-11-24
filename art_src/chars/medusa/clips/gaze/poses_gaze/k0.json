@@ -1,0 +1,134 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "pelvis": {
+   "ry": -6
+  },
+  "spine_01": {
+   "space": "local_delta",
+   "rx": 3,
+   "ry": 1
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rx": 2,
+   "ry": 4
+  },
+  "spine_03": {
+   "space": "local_delta",
+   "rx": -2,
+   "ry": 4,
+   "rz": 4
+  },
+  "neck": {
+   "space": "local_delta",
+   "rx": 3,
+   "ry": 1,
+   "rz": 5
+  },
+  "head": {
+   "space": "local_delta",
+   "rx": 5,
+   "ry": -9,
+   "rz": 9
+  },
+  "shoulder_l": {
+   "space": "local_delta",
+   "ry": 6
+  },
+  "shoulder_r": {
+   "space": "local_delta",
+   "ry": -4
+  },
+  "upper_arm_r": {
+   "front": 18,
+   "side": 6
+  },
+  "forearm_r": {
+   "front": -8,
+   "side": -32
+  },
+  "hand_r": {
+   "front": 8,
+   "side": -20,
+   "twist": -15
+  },
+  "upper_arm_l": {
+   "front": -16,
+   "side": -24
+  },
+  "forearm_l": {
+   "front": -14,
+   "side": -98
+  },
+  "hand_l": {
+   "front": -12,
+   "side": -80,
+   "twist": 45
+  },
+  "hair_l_01": {
+   "space": "local_delta",
+   "ry": -20,
+   "rz": 15
+  },
+  "hair_l_02": {
+   "space": "local_delta",
+   "rx": 15,
+   "rz": -10
+  },
+  "hair_l_03": {
+   "space": "local_delta",
+   "ry": 15,
+   "rz": -20
+  },
+  "hair_r_01": {
+   "space": "local_delta",
+   "ry": 12,
+   "rz": -12
+  },
+  "hair_r_02": {
+   "space": "local_delta",
+   "ry": -12,
+   "rx": -15
+  },
+  "hair_r_03": {
+   "space": "local_delta",
+   "ry": 6,
+   "rz": 25
+  }
+ },
+ "chain": {
+  "name": "tail",
+  "ry": [
+   0,
+   0,
+   6,
+   0
+  ],
+  "rz": [
+   0,
+   0,
+   0,
+   0,
+   -5,
+   -3,
+   4,
+   9,
+   13,
+   16,
+   20,
+   34,
+   50,
+   62
+  ]
+ },
+ "_rebase": "medusa natural stance (re-base gaze)"
+}

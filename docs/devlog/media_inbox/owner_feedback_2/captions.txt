@@ -1,0 +1,24 @@
+01_sword_hands_closeups.jpg | sword hand close-ups from the owner's play-test: idle front/back, walk, fight front/run/back, strike reach, strike end, overhead | 9 crops, 300x300 px of the 2992x1870 game window each; times 17:28 17:33 1:20 5:55 5:47.5 5:46 5:50.5 5:53 5:52.5
+02_sword_idle_front_17m28.jpg | home idle seen from the front: the fingers are not closed round the grip, the blade leaves the hand down and outward | 900x900 crop at 17:28
+03_sword_cyclops_fight_5m46-5m58.jpg | hero in the Cyclops fight every 0.5 s: run, overhead raise, reach strike, side cut | 25 frames, 5:46.0-5:58.0
+04_mount1_home_1m38-1m41.jpg | first mount every 0.2 s: he stands beside Pegasus at 1:39.5 and is seated at 1:39.7 (snap), sword held straight out sideways while Pegasus walks off | 16 frames, 1:38.3-1:41.3
+05_mount2_home_6m58-7m05.jpg | second mount every 0.5 s: standing at 7:02.0, seated at 7:02.5, near wing sweeps over his legs at 7:03.0 | 16 frames, 6:58.0-7:05.5
+06_dismounts_home_6m49_17m00.jpg | both dismounts on arriving home every 0.2 s: rider not visible 6:49.8-6:50.2 and 17:01.2-17:01.6, seated -> standing in one 0.2 s step | 28 frames
+07_flight_camera_6m17-6m43.jpg | flight after the Cyclops win every 0.75 s: Pegasus below the bottom edge 6:20.0-6:24.5, then large and close 6:26-6:28, horizon tilted 6:32-6:34 | 35 frames
+08_wings_1m56_and_camera_2m06-2m11.jpg | top: level flight every 0.3 s (small wing movement); bottom: camera every 0.5 s while he used the right stick: Pegasus jumps between out of frame, left edge, side view, centre | 8 + 12 frames
+09_flight_1m46-2m20.jpg | first flight every 1 s (the "right stick camera, left stick turning ... a little off" moment) | 35 frames
+10_pegasus_rider_closeups.jpg | Pegasus and rider in flight: wings in a V, tail hanging straight down, rider legs splayed with feet off the flanks, blade pointing down at the flank | 9 crops
+11_islands_from_the_air.jpg | Quarry Isle (2:58-3:06), Sanctuary (7:20-7:23.5), Volcano (9:33-9:44.5), free flight (16:30-16:57): no creature visible on any island | 20 frames
+12_strike_vfx_cyclops_5m50_hydra_13m38.jpg | weak-point hits today: Cyclops 5:50.0-5:51.4 every 0.2 s (white flash, a few yellow dots, dust), Hydra 13:37.5-13:40.3 every 0.4 s (one orange-white puff at the neck) | 16 frames
+13_strike_flash_cyclops_5m50.4.jpg | the whole-body white flash of a Cyclops weak-point hit (the only big hit cue today) | full game window 5:50.4
+14_clipping_candidates.jpg | clipping candidates: hero inside the club (5:00), head inside the Cyclops leg (5:51), hero inside the Hydra's lowered head (13:30, 15:00) | 9 crops
+15_clip_hero_inside_club_5m00.jpg | hero standing inside the Cyclops's club lying on the ground | full game window 5:00
+16_clip_head_in_cyclops_leg_5m51.jpg | hero's head and shoulder inside the Cyclops's leg | 1400x1400 crop at 5:51.0
+17_clip_hero_in_hydra_head_13m30.jpg | hero standing inside the Hydra's lowered head | 1400 px crop at 13:30
+18_praised_hydra_fight_12m20.jpg | the Hydra fight the owner praised ("the gameplay for the dragon was good") | full game window 12:20
+19_flight_pegasus_out_of_frame_6m21.jpg | flight camera with Pegasus out of the frame (sea and sky only) | full game window 6:21
+20_overview_0m00-3m50.jpg | contact sheet of the recording every 10 s (title, controls, home, first flight, Cyclops); two desktop frames blacked out | 24 tiles
+21_overview_4m00-7m50.jpg | contact sheet every 10 s: Cyclops fight, flight home, home, flight, Medusa | 24 tiles
+22_overview_8m00-11m50.jpg | contact sheet every 10 s: Medusa, flight to the volcano, Hydra | 24 tiles
+23_overview_12m00-15m50.jpg | contact sheet every 10 s: Hydra fight | 24 tiles
+24_overview_16m00-17m50.jpg | contact sheet every 10 s: ending card, free flight, home, pause | 12 tiles

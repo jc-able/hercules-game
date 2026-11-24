@@ -1,0 +1,71 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 0.833,
+ "events": {},
+ "stride_m": 0.6,
+ "natural_speed_mps": 0.72,
+ "note": "strafe_r, fix pass 2026-11-22: `ak mirror --keys keys_strafe_l.json`, then the strafe_l (un-mirrored) entries restored for upper_arm_l/r, forearm_l/r, hand_r, spine_01, spine_02, neck, head and the mirrored hand_l removed, so the sword stays in the right hand and the shield covers the front. Legs, hips and root are the mirror: the RIGHT foot steps out in frames 0-10, the left follows in frames 10-20. Same stride as strafe_l. Built by work/anim/hercules_strafe_fix/make_strafe_r.py.",
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_strafe_r/k00.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.0417,
+   "pose_file": "poses_strafe_r/k01.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.0833,
+   "pose_file": "poses_strafe_r/k02.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.1667,
+   "pose_file": "poses_strafe_r/k04.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_strafe_r/k06.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.3333,
+   "pose_file": "poses_strafe_r/k08.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.4167,
+   "pose_file": "poses_strafe_r/k10.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.4583,
+   "pose_file": "poses_strafe_r/k11.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_strafe_r/k12.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.5833,
+   "pose_file": "poses_strafe_r/k14.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.6667,
+   "pose_file": "poses_strafe_r/k16.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_strafe_r/k18.json",
+   "interp": "linear"
+  }
+ ]
+}

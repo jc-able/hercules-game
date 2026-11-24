@@ -1,0 +1,17 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 3.0,
+ "events": {},
+ "source": "ref.mp4 2.75-7.0 s slumped hold (breathing authored, 3.0 s loop); lean recipe (fixer)",
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_stunned/k0_slump.json"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_stunned/k1_breath.json"
+  }
+ ]
+}

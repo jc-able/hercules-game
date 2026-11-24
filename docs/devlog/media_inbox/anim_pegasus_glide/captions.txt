@@ -1,0 +1,3 @@
+glide_broken_iou_before.jpg | first pose with stock ak masks: green sheet background counted as character, flat wings scored 0.93 (rest 0.94) | IoU meaningless before the green-key fix
+glide_keys_final.jpg | 4 glide keys vs the video with green-key masks: wide V wings, tucked legs | IoU front/side 0.78/0.80, 0.75/0.80, 0.78/0.79, 0.76/0.80
+glide_strip.jpg | glide loop (3.0 s, 72 frames) reference row over ours | strip IoU 0.75-0.81 every frame

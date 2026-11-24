@@ -1,0 +1,149 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 4.5,
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_death/k0_ready.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_death/g0375.json"
+  },
+  {
+   "t": 0.625,
+   "pose_file": "poses_death/g062.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_death/k1_sink.json"
+  },
+  {
+   "t": 0.875,
+   "pose_file": "poses_death/g087.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_death/k1b_land.json"
+  },
+  {
+   "t": 1.042,
+   "pose_file": "poses_death/g104.json"
+  },
+  {
+   "t": 1.083,
+   "pose_file": "poses_death/g108.json"
+  },
+  {
+   "t": 1.125,
+   "pose_file": "poses_death/g112.json"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_death/k2_kneel.json"
+  },
+  {
+   "t": 2.0,
+   "pose_file": "poses_death/k3_slump.json"
+  },
+  {
+   "t": 2.6,
+   "pose_file": "poses_death/k3b_hold.json"
+  },
+  {
+   "t": 2.6667,
+   "pose_file": "poses_death/i_2_6667.json"
+  },
+  {
+   "t": 2.7083,
+   "pose_file": "poses_death/i_2_7083.json"
+  },
+  {
+   "t": 2.75,
+   "pose_file": "poses_death/i_2_75.json"
+  },
+  {
+   "t": 2.7917,
+   "pose_file": "poses_death/i_2_7917.json"
+  },
+  {
+   "t": 2.833,
+   "pose_file": "poses_death/b1_sitback.json"
+  },
+  {
+   "t": 2.875,
+   "pose_file": "poses_death/i_2_875.json"
+  },
+  {
+   "t": 2.9167,
+   "pose_file": "poses_death/i_2_9167.json"
+  },
+  {
+   "t": 2.9583,
+   "pose_file": "poses_death/i_2_9583.json"
+  },
+  {
+   "t": 3.0,
+   "pose_file": "poses_death/b2_tip.json"
+  },
+  {
+   "t": 3.0417,
+   "pose_file": "poses_death/i_3_0417.json"
+  },
+  {
+   "t": 3.125,
+   "pose_file": "poses_death/i_3_125.json"
+  },
+  {
+   "t": 3.1667,
+   "pose_file": "poses_death/i_3_1667.json"
+  },
+  {
+   "t": 3.2083,
+   "pose_file": "poses_death/i_3_2083.json"
+  },
+  {
+   "t": 3.25,
+   "pose_file": "poses_death/i_3_25.json"
+  },
+  {
+   "t": 3.29,
+   "pose_file": "poses_death/b3_fall.json"
+  },
+  {
+   "t": 3.3333,
+   "pose_file": "poses_death/i_3_3333.json"
+  },
+  {
+   "t": 3.375,
+   "pose_file": "poses_death/i_3_375.json"
+  },
+  {
+   "t": 3.42,
+   "pose_file": "poses_death/b4_land.json"
+  },
+  {
+   "t": 3.5,
+   "pose_file": "poses_death/b5_bounce.json"
+  },
+  {
+   "t": 3.75,
+   "pose_file": "poses_death/b5b_slide.json"
+  },
+  {
+   "t": 3.875,
+   "pose_file": "poses_death/i_3_875.json"
+  },
+  {
+   "t": 3.9167,
+   "pose_file": "poses_death/i_3_9167.json"
+  },
+  {
+   "t": 4.0,
+   "pose_file": "poses_death/b6_lie.json"
+  }
+ ],
+ "events": {},
+ "note_fix": "2026-11-22 anim fixer: 0-2.6 s kept (sink to the knees and slump, traced from the video; right arm raised on g112/k2/k3/k3b so the club head stays above the floor). 2.6-4.5 re-keyed as a BACKWARD fall (Tuning cyclops fall: back): sits back on his heels (2.83), tips back about the hips (root.rot rx -35 / -70 / -90 at 3.0 / 3.29 / 3.42), lands on his back with knees up (3.42-3.5), legs slide out (4.0), held to 4.5. Head ends ~5.7 m BEHIND the start, feet ~1 m in front. Club lies flat at his right. Keep --keep-root-motion. The forward-fall keys are kept in poses_death/old_forward_fall/. The video shows a forward fall: 2.6-4.5 is authored, not traced. i_*.json = grounded read-back in-betweens (re-grounded, right arm lifted so the club stays above the floor)."
+}

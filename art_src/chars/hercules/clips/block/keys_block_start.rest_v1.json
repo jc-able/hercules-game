@@ -1,0 +1,21 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 0.25,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_block_start/k0.json"
+  },
+  {
+   "t": 0.083,
+   "pose_file": "poses_block_start/k1.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_block_start/k2.json"
+  }
+ ],
+ "note": "review fix 2026-11-22: retimed x0.6 (was 0.417 s) so the shield is up in 0.25 s and the clip ends during the game's 0.1 s blend into block_idle that starts at 0.15 s"
+}

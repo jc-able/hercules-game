@@ -1,0 +1,33 @@
+{
+ "period": 2.1667,
+ "nkeys": 52,
+ "phase": 0.0,
+ "duty": 0.8,
+ "stride": 2.0,
+ "lift": 0.7,
+ "legs": {
+  "fl": 0.302,
+  "fr": 0.681,
+  "bl": 0.98,
+  "br": 0.45
+ },
+ "tail_side": 4.0,
+ "tail_ph": 2.45,
+ "tail_up": 1.0,
+ "neck_bob": 1.0,
+ "neck_ph": 4.06,
+ "neck_side": 0.4,
+ "front_scale": 1.5,
+ "hind_scale": 1.7,
+ "drop": 0.1,
+ "bob": 0.05,
+ "hind_shift": 0.3,
+ "spine_side": 0.5,
+ "spine_ph": 0.0,
+ "front_shift": -0.3,
+ "front_ease": 0.8,
+ "front_lift_scale": 1.6,
+ "hind_ease": 0.6,
+ "hind_lift_scale": 1.2,
+ "swing_reach": 1.0
+}

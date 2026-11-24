@@ -1,0 +1,48 @@
+{
+ "sheet": "art_src/sheets/hercules_sheet.png",
+ "size": [
+  1672,
+  941
+ ],
+ "views": {
+  "front": {
+   "box": [
+    75,
+    75,
+    606,
+    873
+   ],
+   "file": "art_src/views/hercules_front.png",
+   "px": [
+    531,
+    798
+   ]
+  },
+  "side": {
+   "box": [
+    741,
+    75,
+    912,
+    873
+   ],
+   "file": "art_src/views/hercules_side.png",
+   "px": [
+    171,
+    798
+   ]
+  },
+  "back": {
+   "box": [
+    1068,
+    75,
+    1599,
+    873
+   ],
+   "file": "art_src/views/hercules_back.png",
+   "px": [
+    531,
+    798
+   ]
+  }
+ }
+}

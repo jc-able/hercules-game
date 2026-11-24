@@ -1,0 +1,16 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 2.5,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_block_idle/k0.json"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_block_idle/k1.json"
+  }
+ ]
+}

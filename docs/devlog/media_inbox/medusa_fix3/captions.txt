@@ -1,0 +1,1 @@
+tail_ring_and_framing.jpg | Medusa fixer 3: approach (she towers ~1.6x), gaze windup with her eyes in frame, neck mark beside the neck on a reflect, stunned, tail ring now = the 9 m hit zone with the on-screen hint 'roll out of the ring' | ring 13.95 m -> 9.0 m, fill 0.7 s -> 1.5 s; probe 100/100 rolls out (normal+enraged), worst margin +0.28 m when the ring fills

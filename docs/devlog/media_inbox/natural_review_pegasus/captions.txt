@@ -1,0 +1,1 @@
+pegasus_idle_hind_skate.jpg | naturalness review: new Pegasus idle, side view at clip t 2.5 / 2.75 / 3.0 / 3.25 s - the two hind hooves swap places along the floor without lifting (weight shift) | hoof_bl +0.45 m, hoof_br -0.48 m in 0.75 s, both toes <= 0.014 m above the floor

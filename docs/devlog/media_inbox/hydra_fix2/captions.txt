@@ -1,0 +1,2 @@
+bite_colour_before_after.jpg | play-test fix: the only pink in the game (3.2 m bite pillar + pink head ball) replaced by a crimson/ember ground circle with a 0.3 m rim; per-texel recolour makes the legs violet and the belly crimson | hue split 63% purple / 37% raspberry texels; tint (0.52,0.40,0.62) -> recolour + (0.78,0.72,0.84)
+hydra_fix2_contact.jpg | after the play-test fixes: guard, translucent inhale cone with hatch, solid resting head, ember bite lock, death with the hero pushed clear (14.5 m) | bot win 99.25 s, 8/8 jaw hits, 0 hits taken (seeds 11, 4242)

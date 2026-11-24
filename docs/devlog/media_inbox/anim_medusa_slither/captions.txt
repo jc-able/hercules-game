@@ -1,0 +1,3 @@
+medusa_slither_rest_vs_video.jpg | rest pose vs video 1.0 s / 2.0 s: red = her tail swinging out to the sides in the video, which the straight rest tail lacks | IoU rest front 0.70-0.73, side 0.84-0.87
+medusa_slither_first_wave_compare.jpg | first procedural travelling wave (heading 55 deg, 7 links/wave) at 4 phases vs the video | IoU front 0.79-0.84, side 0.83-0.90
+medusa_slither_strip.jpg | final 2.0 s loop (8 keys, heading 58 deg, 8 links/wave, base sway 10 deg) above the video, 15 samples | mean IoU front 0.823, side 0.863, min 0.79

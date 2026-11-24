@@ -1,0 +1,2 @@
+medusa_hurt_first_guess.jpg | Medusa hurt: rest pose and first hand-posed shriek key against the video (red = video only, blue = ours only); the red tail in the front view and blue tail in the side view are Seedance redrawing her tail curled sideways, not motion | shriek key IoU 0.57/0.59 (front/side), gain over rest 0.08
+medusa_hurt_strip_final.jpg | Medusa hurt final: video row (1.25-4.5 s) above ours | 8 keys, 3.25 s at 24 fps, key IoU mean 0.72 (ceiling ~0.79 = rest pose on a rest frame, because of the tail redraw), strip mean 0.71 over 50 samples

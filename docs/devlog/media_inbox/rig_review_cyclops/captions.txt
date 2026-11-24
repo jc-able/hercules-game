@@ -1,0 +1,2 @@
+cyclops_knee_at_ankle.jpg | independent rig review: walk back-leg (left) and knee-100 (right) bends happen just above the foot; the calf rides the thigh because the rig's knee sits at z 1.12 m (real knee narrowing at z ~2.2 m, ankle ~1.0 m) | thigh weight up to 0.69 on heel vertices, heel edges stretched 5-13x
+cyclops_shoulder_elbow_zooms.jpg | review zooms: slam raise / slam impact from behind, sweep follow-through and elbow+twist test from the front; no tearing, mild posterior-armpit stretch | <=0.23 m local stretch, 0 unweighted verts

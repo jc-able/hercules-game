@@ -1,0 +1,3 @@
+hit_first_guess.jpg | first hand-written guesses for the hit: the impact frame was misread (video buckles FORWARD before snapping back) and the stepped-back leg floated 12 cm | IoU front/side 0.52/0.48, 0.67/0.48, 0.71/0.47
+hit_arch_key_fit.jpg | after reading the frames, fixing the legs and letting ak fit polish spine/arms: the deepest back arch and the forward buckle | IoU 0.88/0.85 and 0.77/0.83
+hit_strip_final.jpg | final hit clip (9 keys, 2.17 s @24 fps) under the reference video, every in-between checked | strip IoU mean 0.838 over 33 frames, feet within -1.1/+0.05 cm of the floor

@@ -1,0 +1,24 @@
+{
+ "note": "hydra clip -> action file merged (fix3 animation fixer 2026-11-23, after assemble2). idle = idle_n base + breathing (clips/idle_n/base/ holds the anim2 base), walk = walk_n (unchanged), walk_turn_l/_r new (clips/walk_turn), the other 15 re-based v2 with foot IK (generator art_src/chars/hydra/scripts/fix3/fix_bl.py + fix_params.json). Merge exactly these paths, never a glob (*.rest_v1.json backups carry the same clip names).",
+ "clips": {
+  "bite": "art_src/chars/hydra/clips/bite/action_bite.json",
+  "bite_l": "art_src/chars/hydra/clips/bite/action_bite_l.json",
+  "bite_r": "art_src/chars/hydra/clips/bite/action_bite_r.json",
+  "death": "art_src/chars/hydra/clips/death/action_death.json",
+  "death_standing": "art_src/chars/hydra/clips/death/action_death_standing.json",
+  "fire_sweep": "art_src/chars/hydra/clips/fire_sweep/action_fire_sweep.json",
+  "fire_sweep_l": "art_src/chars/hydra/clips/fire_sweep/action_fire_sweep_l.json",
+  "fire_sweep_return": "art_src/chars/hydra/clips/fire_sweep/action_fire_sweep_return.json",
+  "fire_sweep_return_l": "art_src/chars/hydra/clips/fire_sweep/action_fire_sweep_return_l.json",
+  "head_down": "art_src/chars/hydra/clips/fire_sweep/action_head_down.json",
+  "head_up": "art_src/chars/hydra/clips/fire_sweep/action_head_up.json",
+  "hurt": "art_src/chars/hydra/clips/hurt/action_hurt.json",
+  "hurt_standing": "art_src/chars/hydra/clips/hurt/action_hurt_standing.json",
+  "idle": "art_src/chars/hydra/clips/idle_n/action_idle.json",
+  "stomp": "art_src/chars/hydra/clips/stomp/action_stomp.json",
+  "stomp_r": "art_src/chars/hydra/clips/stomp/action_stomp_r.json",
+  "walk": "art_src/chars/hydra/clips/walk_n/action_walk.json",
+  "walk_turn_l": "art_src/chars/hydra/clips/walk_turn/action_walk_turn_l.json",
+  "walk_turn_r": "art_src/chars/hydra/clips/walk_turn/action_walk_turn_r.json"
+ }
+}

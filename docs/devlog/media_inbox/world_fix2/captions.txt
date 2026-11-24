@@ -1,0 +1,1 @@
+quarry_approach_before_after.jpg | approach to the Quarry Isle before/after the play-test fix: deeper sky, fog 0.00045->0.0002, painted cloud streaks 0.45->0.2; isle cliffs 10->20 m, green top, 3-tier quarry wall (~27 m), cypresses | ring moved 40->58 m above the sea; low approach max 0.52 m/frame

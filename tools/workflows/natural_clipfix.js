@@ -1,0 +1,19 @@
+export const meta = {
+  name: 'hercules-natural-clipfix',
+  description: 'Per character: fix the clip problems the integrators and the lead found in motion (pops, over-fast swings, a too-quiet idle), re-export and re-import the game files',
+  phases: [
+    { title: 'Clip fix', detail: 'one animation fixer per character, listed problems only', model: 'opus' },
+  ],
+}
+// args: { tasks: { <id>: 'numbered problems for this character' } }
+const R = '~/HerculesGame'   // the repo (your clone)
+const RESULT = { type: 'object', properties: {
+  status: { type: 'string', enum: ['done', 'partial', 'failed'] }, summary: { type: 'string' },
+  fixed: { type: 'array', items: { type: 'string' } }, not_fixed: { type: 'array', items: { type: 'string' } },
+  changed_for_game: { type: 'array', items: { type: 'string' } },
+  numbers: { type: 'array', items: { type: 'string' } },
+}, required: ['status', 'summary'] }
+const HEAD = `Hercules game (Godot 4.7.2, Blender 5.2 headless). Repo: ${R}. THE OWNER IS AT THIS MAC, working and play-testing: obey the section "THE OWNER IS AT THIS MAC" at the top of ${R}/docs/AGENT_RULES.md to the letter (no window, no focus, no sound; Blender only headless; a Godot run that renders goes only through tools/godot_bg/gdwin; never rebuild builds/Hercules.app). He will not answer questions: decide and write the decision down.\nFirst make one trivial tool call (ls ${R}/docs), then read ${R}/docs/AGENT_RULES.md, ${R}/docs/briefs/anim_natural.md (the owner's words today, what natural means, the contracts that must not change), ${R}/docs/ANIM_PIPELINE.md (the manual of tools/ak) and ${R}/tools/probes/README.md.\n`
+const ids = Object.keys(args.tasks)
+const res = await parallel(ids.map(id => () => agent(`${HEAD}You are the CLIP FIXER for the character "${id}" and the ONLY writer of art_src/chars/${id}/ (blend, clip folders) and game/assets/characters/${id}/ right now. Read docs/notes/assemble2_${id}.md first (how the clips were merged and exported this morning, the checks, the last fix pass), art_src/chars/${id}/clip_sources.json (clip -> action file; NEVER merge with a glob: *.rest_v1.json backups sit beside the action files) and docs/notes/integrate2_*.md for your character (what the game code does with the clips today).\nFix ONLY the problems below. Keep every contract: clip names, loop flags, events and their times, sockets and socket_offsets, the acting limb of every attack at its event times, the first and last pose of clips that chain or return to the natural stance. A clip's length changes only where a problem says it may.\nFor each problem: edit the key and pose files, re-bake (tools/ak bake ... --out-action), LOOK at a strip, measure what the problem measured (speed per frame, travel, angle) before and after. Then merge ALL clips by the exact paths of clip_sources.json, export the GLB and manifest exactly as the assembler did, import under the lock (SPEC §10), re-run its checks (clip_motion table, seams, events, socket_offsets identical, the loader probe through tools/godot_bg/gdwin) and one headless bot fight or run that uses the character. Append to docs/notes/assemble2_${id}.md under "Clip fix 2". Tools the lead uses to look at your result: tools/probes/clip_showcase.gd (every clip, 8 poses, add --yaw=197 to see the hero from behind like the game camera) and a recorded game run. Aim to finish in about 30 minutes.\nPROBLEMS:\n${args.tasks[id]}\nFinal answer: the result schema (numbers = before -> after for every problem; changed_for_game = anything the game code must know).`, { label: `clipfix:${id}`, phase: 'Clip fix', schema: RESULT, model: 'opus', effort: 'high' })))
+return ids.map((id, i) => ({ id, result: res[i] && { status: res[i].status, summary: (res[i].summary || '').slice(0, 900), fixed: res[i].fixed, not_fixed: res[i].not_fixed, changed_for_game: res[i].changed_for_game, numbers: res[i].numbers } }))

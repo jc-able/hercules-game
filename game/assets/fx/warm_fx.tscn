@@ -1,0 +1,144 @@
+[gd_scene format=3]
+
+[ext_resource type="Shader" path="res://shaders/telegraph.gdshader" id="1_bt16x"]
+
+[sub_resource type="Gradient" id="Gradient_uo2aq"]
+offsets = PackedFloat32Array(0, 0.45, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0.85, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_scx7x"]
+gradient = SubResource("Gradient_uo2aq")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(1, 0.5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_drxo7"]
+transparency = 1
+shading_mode = 0
+albedo_color = Color(0.7, 1, 0.9, 1)
+albedo_texture = SubResource("GradientTexture2D_scx7x")
+billboard_mode = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_iqf12"]
+material = SubResource("StandardMaterial3D_drxo7")
+size = Vector2(0.004, 0.004)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m2l4w"]
+albedo_color = Color(0.45, 0.33, 0.22, 1)
+
+[sub_resource type="QuadMesh" id="QuadMesh_lrimu"]
+material = SubResource("StandardMaterial3D_m2l4w")
+size = Vector2(0.004, 0.004)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r6sqp"]
+render_priority = 12
+transparency = 1
+blend_mode = 1
+cull_mode = 2
+shading_mode = 0
+albedo_color = Color(0.9, 1, 0.85, 0)
+
+[sub_resource type="QuadMesh" id="QuadMesh_wsqgy"]
+size = Vector2(0.004, 0.004)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ekjm7"]
+render_priority = -10
+shader = ExtResource("1_bt16x")
+shader_parameter/mode = 1
+shader_parameter/color = Color(0.03, 0.46, 0.13, 1)
+shader_parameter/edge_color = Color(0.01, 0.12, 0.04, 1)
+shader_parameter/progress = 1.0
+shader_parameter/half_angle = 0.20943951023931956
+shader_parameter/inner = null
+shader_parameter/edge = 0.008
+shader_parameter/strike = 0.0
+
+[sub_resource type="QuadMesh" id="QuadMesh_5i6mv"]
+size = Vector2(0.004, 0.004)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ttaku"]
+cull_mode = 2
+shading_mode = 0
+albedo_color = Color(0.22, 0.15, 0.1, 1)
+
+[sub_resource type="QuadMesh" id="QuadMesh_ih57u"]
+size = Vector2(0.004, 0.004)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e5i6m"]
+transparency = 1
+cull_mode = 2
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_color = Color(1, 1, 1, 0)
+
+[sub_resource type="QuadMesh" id="QuadMesh_dpdse"]
+size = Vector2(0.004, 0.004)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2yhu0"]
+transparency = 1
+shading_mode = 0
+albedo_color = Color(1, 0.7, 0.35, 0)
+
+[sub_resource type="QuadMesh" id="QuadMesh_01va5"]
+size = Vector2(0.004, 0.004)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6fgu2"]
+render_priority = 12
+transparency = 1
+blend_mode = 1
+shading_mode = 0
+albedo_color = Color(0.6, 1, 0.5, 0)
+
+[sub_resource type="QuadMesh" id="QuadMesh_texvf"]
+size = Vector2(0.004, 0.004)
+
+[node name="WarmFx" type="Node3D" unique_id=26565919]
+
+[node name="cpu_sh_57cf24e1" type="CPUParticles3D" parent="." unique_id=64725777]
+amount = 1
+preprocess = 0.5
+mesh = SubResource("QuadMesh_iqf12")
+gravity = Vector3(0, 0, 0)
+
+[node name="cpu_sh_84f2e65e" type="CPUParticles3D" parent="." unique_id=2145364835]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.005, 0, 0)
+amount = 1
+preprocess = 0.5
+mesh = SubResource("QuadMesh_lrimu")
+gravity = Vector3(0, 0, 0)
+
+[node name="mesh_264da6fb" type="MeshInstance3D" parent="." unique_id=2113548669]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.01, 0, 0)
+material_override = SubResource("StandardMaterial3D_r6sqp")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_wsqgy")
+
+[node name="mesh_4d7ecd01" type="MeshInstance3D" parent="." unique_id=1713445453]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.015, 0, 0)
+material_override = SubResource("ShaderMaterial_ekjm7")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_5i6mv")
+
+[node name="mesh_ad1a7559" type="MeshInstance3D" parent="." unique_id=1343594958]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.02, 0, 0)
+material_override = SubResource("StandardMaterial3D_ttaku")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_ih57u")
+
+[node name="mesh_bcf2c1ef" type="MeshInstance3D" parent="." unique_id=905826953]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.025, 0, 0)
+material_override = SubResource("StandardMaterial3D_e5i6m")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_dpdse")
+
+[node name="mesh_d29905f8" type="MeshInstance3D" parent="." unique_id=1349929891]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.03, 0, 0)
+material_override = SubResource("StandardMaterial3D_2yhu0")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_01va5")
+
+[node name="mesh_f369c1f9" type="MeshInstance3D" parent="." unique_id=836702210]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.035, 0, 0)
+material_override = SubResource("StandardMaterial3D_6fgu2")
+cast_shadow = 0
+mesh = SubResource("QuadMesh_texvf")

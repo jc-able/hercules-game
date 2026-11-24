@@ -1,0 +1,150 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 1.4167,
+ "events": {
+  "step_r": 0.4167,
+  "step_l": 1.125
+ },
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_walk/f00.json"
+  },
+  {
+   "t": 0.0417,
+   "pose_file": "poses_walk/f01.json"
+  },
+  {
+   "t": 0.0833,
+   "pose_file": "poses_walk/f02.json"
+  },
+  {
+   "t": 0.125,
+   "pose_file": "poses_walk/f03.json"
+  },
+  {
+   "t": 0.1667,
+   "pose_file": "poses_walk/f04.json"
+  },
+  {
+   "t": 0.2083,
+   "pose_file": "poses_walk/f05.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_walk/f06.json"
+  },
+  {
+   "t": 0.2917,
+   "pose_file": "poses_walk/f07.json"
+  },
+  {
+   "t": 0.3333,
+   "pose_file": "poses_walk/f08.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_walk/f09.json"
+  },
+  {
+   "t": 0.4167,
+   "pose_file": "poses_walk/f10.json"
+  },
+  {
+   "t": 0.4583,
+   "pose_file": "poses_walk/f11.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_walk/f12.json"
+  },
+  {
+   "t": 0.5417,
+   "pose_file": "poses_walk/f13.json"
+  },
+  {
+   "t": 0.5833,
+   "pose_file": "poses_walk/f14.json"
+  },
+  {
+   "t": 0.625,
+   "pose_file": "poses_walk/f15.json"
+  },
+  {
+   "t": 0.6667,
+   "pose_file": "poses_walk/f16.json"
+  },
+  {
+   "t": 0.7083,
+   "pose_file": "poses_walk/f17.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_walk/f18.json"
+  },
+  {
+   "t": 0.7917,
+   "pose_file": "poses_walk/f19.json"
+  },
+  {
+   "t": 0.8333,
+   "pose_file": "poses_walk/f20.json"
+  },
+  {
+   "t": 0.875,
+   "pose_file": "poses_walk/f21.json"
+  },
+  {
+   "t": 0.9167,
+   "pose_file": "poses_walk/f22.json"
+  },
+  {
+   "t": 0.9583,
+   "pose_file": "poses_walk/f23.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_walk/f24.json"
+  },
+  {
+   "t": 1.0417,
+   "pose_file": "poses_walk/f25.json"
+  },
+  {
+   "t": 1.0833,
+   "pose_file": "poses_walk/f26.json"
+  },
+  {
+   "t": 1.125,
+   "pose_file": "poses_walk/f27.json"
+  },
+  {
+   "t": 1.1667,
+   "pose_file": "poses_walk/f28.json"
+  },
+  {
+   "t": 1.2083,
+   "pose_file": "poses_walk/f29.json"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_walk/f30.json"
+  },
+  {
+   "t": 1.2917,
+   "pose_file": "poses_walk/f31.json"
+  },
+  {
+   "t": 1.3333,
+   "pose_file": "poses_walk/f32.json"
+  },
+  {
+   "t": 1.375,
+   "pose_file": "poses_walk/f33.json"
+  }
+ ],
+ "note": "2026-11-23 walk_n (natural stance): window 2.583-4.083 s of walk_n/ref.mp4 (one 1.5 s cycle, two steps) retimed x0.9444 to the game loop 1.4167 s. Footfalls: right heel 0.4167 (event step 0.40, unchanged name/time), left heel 1.125 (= step + length/2, the game derives it). Left step = right step mirrored for the legs (the video step lengths differ); root.loc y per key = measured surge so the planted foot travels at an even ~2.54 m/s (1.48 m per stance).",
+ "note_integrate2": "integrate2_cyclops 2026-11-23: one footfall event per foot at the measured heel contacts of the natural walk (GLB, lowest foot vertex reaches the floor: right 0.4167 s = frame 10, left 1.125 s = frame 27 at 24 fps); replaces the single `step` 0.40 (+ half the clip). cyclops.gd thuds on every event named step*. (Carried into build_walk.py by clip fix 2.)",
+ "note_animfix2": "2026-11-23 animfix (cyclops): keys = 34 per-frame read-backs of the walk_n bake (the authored k*.json keys and keys_walk.rest_v2.json stay as the source) with: lower arms abducted 14 (left) / 19 (right) deg and delayed 2 frames (right amplitude x0.82), club dip 4 deg + roll +-5 deg 2-3 frames after each footfall, stance-foot x pinned by leg IK (hip sway no longer drags the planted foot). Generator: art_src/chars/cyclops/scripts/animfix2/build_walk.py. Length, loop, move_speed unchanged; events = EVENTS (step_r/step_l)."
+}

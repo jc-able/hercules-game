@@ -1,0 +1,1 @@
+ten_sounds_before_after.jpg | waveforms of the 10 regenerated sounds, old game file (grey) vs new (orange), scaled by volume_db | sword_hit kept the first take; hurt -44 -> -16 LUFS raw; fire_loop = new roar + old crackle, 2.3 s loop, 100 ms RMS std 0.97 dB over the wrap

@@ -1,0 +1,179 @@
+{
+ "sockets": {
+  "hand_ur": "hand_u_r",
+  "hand_ul": "hand_u_l",
+  "forearm_ur": "forearm_u_r",
+  "head": "head",
+  "club_grip2": "hand_u_r"
+ },
+ "socket_offsets": {
+  "hand_ur": {
+   "bone": "hand_u_r",
+   "loc": [
+    0.0056,
+    0.3371,
+    0.4009
+   ],
+   "rot_deg": [
+    3.431,
+    -0.0,
+    -87.709
+   ],
+   "quat_xyzw": [
+    0.02159,
+    0.02074,
+    -0.69252,
+    0.72078
+   ],
+   "note": "club.glb origin (grip) and orientation: club head along +Y when the socket has no rotation"
+  },
+  "hand_ul": {
+   "bone": "hand_u_l",
+   "loc": [
+    -0.0056,
+    0.3371,
+    0.4009
+   ],
+   "rot_deg": [
+    3.431,
+    0.0,
+    87.709
+   ],
+   "quat_xyzw": [
+    0.02159,
+    -0.02074,
+    0.69252,
+    0.72078
+   ],
+   "note": "left upper hand: palm centre (mirror of the right grip) in the hand_u_l frame, world-up orientation. NOT on the club: for the left hand on the club (two-hand slam) use club_grip2 as the IK target"
+  },
+  "forearm_ur": {
+   "bone": "forearm_u_r",
+   "loc": [
+    0.0,
+    0.4012,
+    -0.0
+   ],
+   "rot_deg": [
+    -4.288,
+    -0.0,
+    -88.568
+   ],
+   "quat_xyzw": [
+    -0.02678,
+    -0.02612,
+    -0.69773,
+    0.71539
+   ],
+   "note": "weak point `forearm`: middle of the right upper forearm, radius ~0.33 m"
+  },
+  "head": {
+   "bone": "head",
+   "loc": [
+    -0.0,
+    0.7579,
+    0.4675
+   ],
+   "rot_deg": [
+    -3.27,
+    -0.0,
+    0.0
+   ],
+   "quat_xyzw": [
+    -0.02854,
+    -0.0,
+    -0.0,
+    0.99959
+   ],
+   "note": "the eye (front of the head), for look-at / targeting"
+  },
+  "club_grip2": {
+   "bone": "hand_u_r",
+   "loc": [
+    0.705,
+    0.3651,
+    0.4026
+   ],
+   "rot_deg": [
+    3.431,
+    -0.0,
+    -87.709
+   ],
+   "quat_xyzw": [
+    0.02159,
+    0.02074,
+    -0.69252,
+    0.72078
+   ],
+   "note": "second grip on the club handle, 0.7 m above the main grip along the club axis, in the hand_u_r frame (moves with the club); same orientation as the club (+Y = club axis)"
+  }
+ },
+ "clips": {
+  "death": {
+   "length": 4.5,
+   "loop": false,
+   "events": {},
+   "root_motion": true
+  },
+  "hurt": {
+   "length": 0.6667,
+   "loop": false,
+   "events": {}
+  },
+  "idle": {
+   "length": 6.0,
+   "loop": true,
+   "events": {}
+  },
+  "pull_free": {
+   "length": 1.5,
+   "loop": false,
+   "events": {}
+  },
+  "slam": {
+   "length": 1.75,
+   "loop": false,
+   "events": {
+    "impact": 1.5
+   }
+  },
+  "stuck": {
+   "length": 1.5,
+   "loop": true,
+   "events": {}
+  },
+  "sweep": {
+   "length": 2.5,
+   "loop": false,
+   "events": {
+    "impact": 1.31
+   }
+  },
+  "walk": {
+   "length": 1.4167,
+   "loop": true,
+   "events": {
+    "step_r": 0.4167,
+    "step_l": 1.125
+   },
+   "move_speed": 2.54,
+   "speed_note": "planted-foot speed at playback 1.0 (walk_n animator, ak solve every frame: 2.54 m/s, 1.48 m per 0.58 s stance; GLB re-measure in Godot see docs/notes/assemble2_cyclops.md). cyclops.gd plays walk at ground speed / move_speed (walk_speed 2.6 -> 1.02x)",
+   "events_note": "integrate2_cyclops 2026-11-23: one footfall event per foot at the measured heel contacts of the natural walk (GLB, lowest foot vertex reaches the floor: right 0.4167 s = frame 10, left 1.125 s = frame 27 at 24 fps); replaces the single `step` 0.40 (+ half the clip). cyclops.gd thuds on every event named step*."
+  }
+ },
+ "offset_space": "godot",
+ "size": {
+  "height": 8.0,
+  "width_arms": 8.03,
+  "depth": 2.39,
+  "club_length": 5.5,
+  "club_top_rest": 11.45,
+  "units": "m",
+  "note": "rest pose (T upper arms, club held up in hand_u_r); GLB includes the club mesh (node \"club\", child of joint hand_u_r)"
+ },
+ "source": {
+  "blend": "art_src/chars/cyclops/cyclops.blend",
+  "rig_hash": "fe38d0652353",
+  "clips_from": "art_src/chars/cyclops/clip_sources.json (clip -> action JSON, 2026-11-23 natural pass)"
+ }
+}

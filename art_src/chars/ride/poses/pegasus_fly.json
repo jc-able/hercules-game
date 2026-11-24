@@ -1,0 +1,116 @@
+{
+ "space": "absolute",
+ "bones": {
+  "wing_l_01": {
+   "rx": 88.73,
+   "ry": 40.65,
+   "rz": 32.26
+  },
+  "wing_r_01": {
+   "rx": 88.73,
+   "ry": -40.65,
+   "rz": -32.26
+  },
+  "leg_fl_01": {
+   "rx": -55,
+   "space": "local_delta"
+  },
+  "leg_fl_02": {
+   "rx": -30,
+   "space": "local_delta"
+  },
+  "leg_fl_03": {
+   "rx": 135,
+   "space": "local_delta"
+  },
+  "hoof_fl": {
+   "rx": 30,
+   "space": "local_delta"
+  },
+  "leg_fr_01": {
+   "rx": -50,
+   "space": "local_delta"
+  },
+  "leg_fr_02": {
+   "rx": -28,
+   "space": "local_delta"
+  },
+  "leg_fr_03": {
+   "rx": 128,
+   "space": "local_delta"
+  },
+  "hoof_fr": {
+   "rx": 30,
+   "space": "local_delta"
+  },
+  "leg_bl_01": {
+   "rx": -50,
+   "space": "local_delta"
+  },
+  "leg_bl_02": {
+   "rx": 90,
+   "space": "local_delta"
+  },
+  "leg_bl_03": {
+   "rx": -70,
+   "space": "local_delta"
+  },
+  "hoof_bl": {
+   "rx": -20,
+   "space": "local_delta"
+  },
+  "leg_br_01": {
+   "rx": -45,
+   "space": "local_delta"
+  },
+  "leg_br_02": {
+   "rx": 85,
+   "space": "local_delta"
+  },
+  "leg_br_03": {
+   "rx": -65,
+   "space": "local_delta"
+  },
+  "hoof_br": {
+   "rx": -20,
+   "space": "local_delta"
+  },
+  "neck_01": {
+   "rx": 24,
+   "space": "local_delta"
+  },
+  "neck_02": {
+   "rx": 12,
+   "space": "local_delta"
+  },
+  "neck_03": {
+   "rx": 6,
+   "space": "local_delta"
+  },
+  "head": {
+   "rx": -14,
+   "space": "local_delta"
+  },
+  "tail_01": {
+   "rx": 35,
+   "space": "local_delta"
+  },
+  "tail_02": {
+   "rx": 12,
+   "space": "local_delta"
+  },
+  "tail_03": {
+   "rx": 10,
+   "space": "local_delta"
+  },
+  "tail_04": {
+   "rx": 6,
+   "space": "local_delta"
+  },
+  "tail_05": {
+   "rx": 5,
+   "space": "local_delta"
+  }
+ },
+ "notes": "ride sheet flight pose: wings half raised (glide + 15 deg up about the body axis, trailing edge pitched up 18 deg) and spread, legs tucked, neck stretched forward, tail streaming back; body level (root untouched)"
+}

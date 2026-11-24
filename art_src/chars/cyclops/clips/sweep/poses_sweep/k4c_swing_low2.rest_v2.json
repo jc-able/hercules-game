@@ -1,0 +1,159 @@
+{
+ "space": "absolute",
+ "bones": {
+  "spine_01": {
+   "rx": 45.336,
+   "ry": 26.684,
+   "rz": 3.99
+  },
+  "spine_02": {
+   "rx": 48.438,
+   "ry": 5.839,
+   "rz": 7.671
+  },
+  "spine_03": {
+   "rx": 35.707,
+   "ry": 1.354,
+   "rz": 6.331
+  },
+  "neck": {
+   "rx": 14.157,
+   "ry": 12.577,
+   "rz": 2.81
+  },
+  "upper_arm_u_l": {
+   "rx": 6.953,
+   "ry": 6.599,
+   "rz": 15.247
+  },
+  "forearm_u_l": {
+   "rx": 30.096,
+   "ry": -14.114,
+   "rz": 0.507
+  },
+  "upper_arm_d_l": {
+   "rx": 4.884,
+   "ry": 6.917,
+   "rz": 2.191
+  },
+  "forearm_d_l": {
+   "rx": -13.837,
+   "ry": 18.325,
+   "rz": 2.286
+  },
+  "shoulder_u_r": {
+   "rx": -15.71,
+   "ry": -36.72,
+   "rz": -13.02
+  },
+  "upper_arm_u_r": {
+   "rx": -2.89,
+   "ry": -32.37,
+   "rz": -11.46
+  },
+  "forearm_u_r": {
+   "rx": -0.47,
+   "ry": -40.92,
+   "rz": -10.37
+  },
+  "hand_u_r": {
+   "rx": -128.81,
+   "ry": -45.36,
+   "rz": 150.1
+  },
+  "upper_arm_d_r": {
+   "rx": 12.767,
+   "ry": -3.647,
+   "rz": 3.122
+  },
+  "forearm_d_r": {
+   "rx": 8.112,
+   "ry": -8.878,
+   "rz": 3.029
+  },
+  "thigh_l": {
+   "rx": -34.734,
+   "ry": -11.346,
+   "rz": 3.745
+  },
+  "shin_l": {
+   "rx": 28.711,
+   "ry": 11.566,
+   "rz": 2.652
+  },
+  "foot_l": {
+   "rx": 0.109,
+   "ry": 0.034,
+   "rz": 2.63
+  },
+  "thigh_r": {
+   "rx": -36.0,
+   "ry": 12.665,
+   "rz": 3.332
+  },
+  "shin_r": {
+   "rx": 31.265,
+   "ry": 4.466,
+   "rz": 3.309
+  },
+  "foot_r": {
+   "rx": -0.003,
+   "ry": 0.001,
+   "rz": 3.293
+  },
+  "head": {
+   "rx": -0.818,
+   "ry": -2.535,
+   "rz": 6.716,
+   "space": "local_delta"
+  },
+  "shoulder_u_l": {
+   "rx": -11.994,
+   "ry": 18.066,
+   "rz": 1.289,
+   "space": "local_delta"
+  },
+  "hand_u_l": {
+   "rx": 27.585,
+   "ry": 5.88,
+   "rz": -106.271,
+   "space": "local_delta"
+  },
+  "hand_d_l": {
+   "rx": 49.126,
+   "ry": 24.399,
+   "rz": 50.769,
+   "space": "local_delta"
+  },
+  "hand_d_r": {
+   "rx": 34.672,
+   "ry": -15.035,
+   "rz": -49.828,
+   "space": "local_delta"
+  }
+ },
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest",
+  "rot": [
+   0,
+   0,
+   0
+  ]
+ },
+ "view_offset": [
+  0.3266,
+  -0.3133,
+  -0.02666
+ ],
+ "view_scale": 1.0,
+ "read_from": {
+  "source": "work/anim_fix_cyclops/action_sweep.json",
+  "t": 1.2083
+ },
+ "_rebase": "re-base 2026-11-23 (sweep t=1.2083): orig; acting cells verbatim, still/gap cells local_delta"
+}

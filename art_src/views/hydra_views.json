@@ -1,0 +1,48 @@
+{
+ "sheet": "art_src/sheets/hydra_sheet.png",
+ "size": [
+  1671,
+  941
+ ],
+ "views": {
+  "front": {
+   "box": [
+    42,
+    165,
+    480,
+    783
+   ],
+   "file": "art_src/views/hydra_front.png",
+   "px": [
+    438,
+    618
+   ]
+  },
+  "side": {
+   "box": [
+    450,
+    171,
+    1146,
+    783
+   ],
+   "file": "art_src/views/hydra_side.png",
+   "px": [
+    696,
+    612
+   ]
+  },
+  "back": {
+   "box": [
+    1191,
+    165,
+    1632,
+    810
+   ],
+   "file": "art_src/views/hydra_back.png",
+   "px": [
+    441,
+    645
+   ]
+  }
+ }
+}

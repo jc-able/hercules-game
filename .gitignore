@@ -1,0 +1,10 @@
+work/
+art_src/raw3d/
+art_src/blend/*.blend1
+*.blend1
+.DS_Store
+.devlog_tools/
+game/.godot/
+builds/
+__pycache__/
+*.pyc

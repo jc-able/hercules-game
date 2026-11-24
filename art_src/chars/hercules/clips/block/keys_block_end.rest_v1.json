@@ -1,0 +1,21 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 0.2502,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_block_start/k2.json"
+  },
+  {
+   "t": 0.15,
+   "pose_file": "poses_block_start/k1.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_block_start/k0.json"
+  }
+ ],
+ "note": "block_end = block_start reversed (review fix 2026-11-22): lowering the shield back into the idle stance"
+}

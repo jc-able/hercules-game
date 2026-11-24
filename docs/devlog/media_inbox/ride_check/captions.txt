@@ -1,0 +1,2 @@
+ride_sheet_frame_before_after.jpg | independent check widened the ride sheet front panel so a fully stretched wing cannot touch the edge | wing length 1.81 m from its root at x 0.24 -> worst reach 2.05 m; frame half-width 2.09 -> 2.25 m; 151.8 -> 146.3 px/m
+ride_check_views.jpg | checker's own views of ride.blend: 3/4 front right/left, top, and shield close-ups | seat gap 0.0 cm; sword 0 hits on the horse; fresh rebuild from ride.json matches the blend to 0.05 mm

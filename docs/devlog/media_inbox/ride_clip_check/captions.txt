@@ -1,0 +1,2 @@
+ride_loop_side_6frames.jpg | independent check: Hercules ride loop on Pegasus, side view, 6 frames of the 1.5 s loop (wings swept 10 deg forward) | seat hips fixed at +0.247 m / 0.20 m behind saddle; 0 wing/sword/shield hits; left hand 4.2-4.8 cm from mane
+ride_loop_q34_6frames.jpg | same 6 frames from a front-right three-quarter view | loop seam exact (0.0 rotation difference), no root travel

@@ -1,0 +1,197 @@
+{
+ "sockets": {
+  "hand_r": "hand_r",
+  "forearm_l": "forearm_l",
+  "head": "head",
+  "chest": "spine_02"
+ },
+ "socket_offsets": {
+  "hand_r": {
+   "loc": [
+    -0.0086,
+    0.1173,
+    0.0093
+   ],
+   "rot_deg": [
+    -1.33,
+    -50.27,
+    -108.11
+   ],
+   "note": "core_fix2 2026-11-23: rig.json value (loc -0.0574 0.1027 0.0093, rot -1.33 -50.27 -83.11) turned -25 deg about the hand bone Z so the blade shows beside the leg from the chase camera; keep on manifest rebuilds (docs/notes/integrate_player.md)"
+  },
+  "forearm_l": {
+   "loc": [
+    -0.0499,
+    0.151,
+    0.0515
+   ],
+   "rot_deg": [
+    -34.19,
+    0.0,
+    -90.0
+   ],
+   "note": "core_fix2 2026-11-23: rig.json value (loc -0.0713 0.151 0.0074, rot 5.81 0 -90) turned +40 deg about the forearm bone Y so the shield reads as a disc from behind and still faces forward in block; keep on manifest rebuilds (docs/notes/integrate_player.md)"
+  },
+  "head": {
+   "loc": [
+    -0.0007,
+    0.1101,
+    0.0163
+   ],
+   "rot_deg": [
+    -90.0,
+    0.0,
+    0.0
+   ]
+  },
+  "chest": {
+   "loc": [
+    0.0024,
+    0.0668,
+    0.188
+   ],
+   "rot_deg": [
+    -90.6,
+    0.0,
+    0.31
+   ]
+  }
+ },
+ "clips": {
+  "attack_1": {
+   "length": 1.25,
+   "loop": false,
+   "events": {
+    "active_start": 0.458,
+    "active_end": 0.708,
+    "chain": 0.917
+   },
+   "game_note": "play at length/ATTACK_1_TIME (x2.27). Starts and ends on idle frame 0 (natural stance). events.chain 0.917 = game 0.40 s = Tuning.ATTACK_CHAIN_FROM: the pose there equals attack_2 frame 0. Keep ATTACK_CHAIN_FROM at 0.40 (after 0.917 the clip recovers to idle)."
+  },
+  "attack_2": {
+   "length": 0.8333,
+   "loop": false,
+   "events": {
+    "active_start": 0.25,
+    "active_end": 0.458
+   },
+   "game_note": "play at length/ATTACK_2_TIME (x1.28); starts on attack_1 events.chain pose, ends on idle frame 0 (natural stance)."
+  },
+  "block_end": {
+   "length": 0.25,
+   "loop": false,
+   "events": {},
+   "game_note": "block_start reversed (block_idle frame 0 -> idle frame 0 (natural stance)), 0.25 s: play when the shield is lowered."
+  },
+  "block_idle": {
+   "length": 2.5,
+   "loop": true,
+   "events": {}
+  },
+  "block_start": {
+   "length": 0.25,
+   "loop": false,
+   "events": {},
+   "game_note": "0.25 s, idle frame 0 (natural stance) -> block_idle frame 0; with the 0.15 s switch + 0.1 s blend in player.gd it ends exactly when the blend does."
+  },
+  "death": {
+   "length": 3.75,
+   "loop": false,
+   "events": {
+    "drop_props": 2.1
+   },
+   "game_note": "events.drop_props 2.1: detach the sword/shield attachments there (they would otherwise stay in the hands)."
+  },
+  "hit": {
+   "length": 0.4583,
+   "loop": false,
+   "events": {},
+   "game_note": "idle frame 0 (natural stance) -> flinch -> idle frame 0 (natural stance) in 0.458 s; HIT_FLINCH 0.4 at 1x shows all of it but the last 2 frames."
+  },
+  "idle": {
+   "length": 6.0,
+   "loop": true,
+   "events": {},
+   "game_note": "2026-11-23 new idle (idle_n video): 6.0 s loop (was 3.5 s), two 3.0 s breaths; frame 0 = natural_pose.json = first/last pose of every one-shot"
+  },
+  "ride": {
+   "length": 1.5,
+   "loop": true,
+   "events": {}
+  },
+  "roll": {
+   "length": 0.7083,
+   "loop": false,
+   "events": {},
+   "game_note": "forward roll from/to idle frame 0 (natural stance); for a backward roll play it at a negative speed or turn the visual 180 deg."
+  },
+  "run": {
+   "length": 0.6667,
+   "loop": true,
+   "events": {},
+   "move_speed": 4.59,
+   "move_dir": "forward (+Z)",
+   "suggested_speed_scale": 1.31,
+   "speed_note": "speed_scale = clamp(ground_speed / move_speed, 0.6, 2.5); 2026-11-23 new run (run_n video): 0.667 s, move_speed 4.59 (animator, planted ball of the foot; GLB re-measure at 24 fps 4.71). RUN_SPEED 6.0 -> 1.31x, no skating"
+  },
+  "strafe_l": {
+   "length": 0.8333,
+   "loop": true,
+   "events": {},
+   "move_speed": 0.72,
+   "move_dir": "left (+X)",
+   "suggested_speed_scale": 2.5,
+   "speed_note": "speed_scale = clamp(ground_speed / move_speed, 0.6, 2.5); cap; lower the locked-on sideways speed to ~1.8 m/s for no skating (2.5 x 0.72)"
+  },
+  "strafe_r": {
+   "length": 0.8333,
+   "loop": true,
+   "events": {},
+   "move_speed": 0.72,
+   "move_dir": "right (-X)",
+   "suggested_speed_scale": 2.5,
+   "speed_note": "speed_scale = clamp(ground_speed / move_speed, 0.6, 2.5); cap; lower the locked-on sideways speed to ~1.8 m/s for no skating (2.5 x 0.72)"
+  },
+  "walk_back": {
+   "length": 0.5,
+   "loop": true,
+   "events": {},
+   "move_speed": 1.2,
+   "move_dir": "back (-Z)",
+   "suggested_speed_scale": 2.0,
+   "speed_note": "speed_scale = clamp(ground_speed / move_speed, 0.6, 2.5); cap; 2.0 x 1.20 = 2.4 m/s backwards without skating"
+  }
+ },
+ "offset_space": "blender",
+ "socket_props": {
+  "hand_r": "res://assets/props/sword.glb",
+  "forearm_l": "res://assets/props/shield.glb"
+ },
+ "size": {
+  "height": 1.9,
+  "measured_height": 1.9,
+  "width": 1.286,
+  "depth": 0.407,
+  "bounds_min": [
+   -0.643,
+   0.0,
+   -0.204
+  ],
+  "bounds_max": [
+   0.643,
+   1.9,
+   0.204
+  ],
+  "units": "m",
+  "up": "+Y",
+  "front": "+Z",
+  "note": "rest (A-pose) bounds of the body mesh, props not included; feet at y = 0"
+ },
+ "move_speed_note": "move_speed = metres per second the planted foot slides over the ground at playback speed 1.0. No skating: speed_scale = ground speed / move_speed. run 6.0 m/s -> 1.31x (2026-11-23 run, 4.59 m/s); strafe 0.72 and walk_back 1.20 unchanged (see docs/notes/assemble2_hercules.md).",
+ "source": {
+  "blend": "art_src/chars/hercules/hercules.blend",
+  "clip_sources": "art_src/chars/hercules/clip_sources.json",
+  "built_by": "work/animfix_hercules (same steps as work/assemble2_hercules: ak merge per clip_sources entry, ak export, strip_props.py, finalize_manifest3.py = finalize_manifest2.py with this folder), 2026-11-23 animfix",
+  "props_in_glb": false
+ }
+}

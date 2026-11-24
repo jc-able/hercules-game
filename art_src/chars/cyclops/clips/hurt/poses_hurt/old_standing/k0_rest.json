@@ -1,0 +1,17 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "view_offset": [
+  -0.04,
+  -0.04,
+  -0.08
+ ],
+ "bones": {}
+}

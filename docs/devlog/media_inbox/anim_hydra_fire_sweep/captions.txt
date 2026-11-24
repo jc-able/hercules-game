@@ -1,0 +1,5 @@
+hydra_fire_sweep_first_guess.jpg | first hand-written centre-neck poses vs the video (rear, lunge, low right, head down): necks bent at the top instead of the base | IoU 0.55-0.66, gain over rest pose -0.02
+hydra_fire_sweep_after_fit.jpg | same keys after aiming the neck by 3D direction + ak fit (rx/ry) + an IoU grid on side-neck spread/lean | IoU 0.65-0.69, gain over rest +0.01..+0.05
+hydra_fire_sweep_strip.jpg | baked fire_sweep (5.0 s, 8 keys) under the reference: wind-up, lunge right, low sweep right->left (left half authored), chin down | strip IoU mean 0.68 (keys 0.62-0.69); video neck is ~1.5x longer than the rig's (top 17.4 m vs 14.4 m)
+hydra_head_up_strip.jpg | head_up (1.5 s, 6 keys) from chin-on-ground back to idle | strip IoU mean 0.78, end pose 0.92
+hydra_head_down_strip.jpg | head_down loop (1.5 s = 2 pants of 0.75 s from ak cycle): chin on the ground, body bowed, all four feet planted | strip IoU 0.62; chose the chin-on-ground pose (jaw joint 1.13 m) over a dangling-head pose that scored 0.66

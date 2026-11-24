@@ -1,0 +1,104 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 3.75,
+ "events": {
+  "drop_props": 2.1
+ },
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_death/k0.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_death/k0b.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_death/k1.json"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_death/k2.json"
+  },
+  {
+   "t": 1.375,
+   "pose_file": "poses_death/k2a.json"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_death/k2b.json"
+  },
+  {
+   "t": 1.625,
+   "pose_file": "poses_death/k2c.json"
+  },
+  {
+   "t": 1.75,
+   "pose_file": "poses_death/k3.json"
+  },
+  {
+   "t": 2.625,
+   "pose_file": "poses_death/k4.json"
+  },
+  {
+   "t": 2.792,
+   "pose_file": "poses_death/k4b_sword.json"
+  },
+  {
+   "t": 2.875,
+   "pose_file": "poses_death/k5.json",
+   "interp": "linear"
+  },
+  {
+   "t": 2.917,
+   "pose_file": "poses_death/k5a_topple.json",
+   "interp": "linear"
+  },
+  {
+   "t": 2.958,
+   "pose_file": "poses_death/k5b_topple.json",
+   "interp": "linear"
+  },
+  {
+   "t": 3.0,
+   "pose_file": "poses_death/k6_topple.json",
+   "interp": "linear"
+  },
+  {
+   "t": 3.042,
+   "pose_file": "poses_death/k6b_topple.json",
+   "interp": "linear"
+  },
+  {
+   "t": 3.083,
+   "pose_file": "poses_death/k6c_topple.json",
+   "interp": "linear"
+  },
+  {
+   "t": 3.125,
+   "pose_file": "poses_death/k6d_topple.json",
+   "interp": "linear"
+  },
+  {
+   "t": 3.167,
+   "pose_file": "poses_death/k6e_topple.json",
+   "interp": "linear"
+  },
+  {
+   "t": 3.208,
+   "pose_file": "poses_death/k6f_topple.json",
+   "interp": "linear"
+  },
+  {
+   "t": 3.25,
+   "pose_file": "poses_death/k7_h.json"
+  },
+  {
+   "t": 3.75,
+   "pose_file": "poses_death/k8_h.json"
+  }
+ ],
+ "note": "review fix 2026-11-22: sword kept above the floor (k4b_sword 2.792, hand_r aimed on k5..k6c, k8_h); topple keys = re-grounded read-backs every 2 frames, linear; drop_props event for core"
+}

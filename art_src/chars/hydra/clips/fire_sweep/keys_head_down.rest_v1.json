@@ -1,0 +1,24 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 1.5,
+ "events": {},
+ "keys": [
+  {
+   "t": 0,
+   "pose_file": "poses_head_down/k0_down.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_head_down/k1_down_in.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_head_down/k2_down_b.json"
+  },
+  {
+   "t": 1.125,
+   "pose_file": "poses_head_down/k3_down_in2.json"
+  }
+ ]
+}

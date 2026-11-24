@@ -1,0 +1,1 @@
+pegasus_idle_n_strip.jpg | Pegasus idle from the natural stance: video (top) vs our rig (bottom), 6.0 s loop | 32 of 43 bones move (old idle 16), strip IoU mean 0.85, loop seam 0.92/0.96

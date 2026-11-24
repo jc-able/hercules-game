@@ -1,0 +1,2 @@
+medusa_x15_gaze_stun_petrify.jpg | Medusa scaled x1.5 after the play-test: start, gaze windup, reflect, head down (stun), neck cut, petrified hero (grey stone, no white glow) | 9.75 m upright, gaze from ~7.2-7.7 m, ~1.8-2.0x the hero's screen height at the fire (was ~1.1x); hits frames show the white hurt flash
+medusa_x15_windup_framing.jpg | Gaze windup with head and raised hands in frame after nudging the gaze range to ~7.7 m | lock arm 3.4-3.9 m, top fits (lo 6.7 <= hi 7.8 deg)

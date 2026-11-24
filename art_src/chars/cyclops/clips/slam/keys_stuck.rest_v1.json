@@ -1,0 +1,21 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 1.5,
+ "events": {},
+ "keys": [
+  {
+   "t": 0,
+   "pose_file": "poses_stuck/k00_stuck.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_stuck/k01_tug.json"
+  }
+ ],
+ "video": "ref.mp4",
+ "video_window": [
+  3.0,
+  6.0
+ ]
+}

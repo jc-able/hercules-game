@@ -1,0 +1,22 @@
+{
+ "width": 1280,
+ "height": 720,
+ "ppm": 35.70468837801163,
+ "front_w": 648,
+ "side_w": 632,
+ "centre_x": -0.04555448769391823,
+ "centre_y": 0.11364704370498657,
+ "ground_z": -1.7881393432617188e-07,
+ "ground_frac": 0.08,
+ "bg": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "rest_size": [
+  8.12358158586147,
+  2.393302798271179,
+  11.448753990529898
+ ],
+ "note": "left panel = front view (camera at -Y looking +Y), right panel = side view (camera at -X looking +X, character faces screen-right)"
+}

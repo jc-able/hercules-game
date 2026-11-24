@@ -1,0 +1,2 @@
+hydra_stomp_strip.jpg | Hydra stomp: Seedance reference row (video 1.0-4.0 s) above the keyframed rig row; the side panel of the video never shows the lift | 10 keys, 3.0 s at 24 fps, impact 1.75 s, strip IoU mean 0.83, feet within 3 mm of the floor
+hydra_stomp_keys_compare.jpg | Every stomp key against its video frame (TARGET / OURS / red-blue diff): front traced, side lift authored | key IoU front 0.66-0.83, side 0.80-0.93; front gain over the rest pose +0.05 to +0.09

@@ -1,0 +1,163 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0.0,
+   -1.7165,
+   -1.8611
+  ]
+ },
+ "bones": {
+  "spine_01": {
+   "space": "local_delta",
+   "rx": 1.586,
+   "ry": 1.0
+  },
+  "hair_l_02": {
+   "rx": 6.192,
+   "ry": 4.192,
+   "space": "local_delta"
+  },
+  "hair_l_03": {
+   "rx": 4.064,
+   "ry": 2.127,
+   "space": "local_delta"
+  },
+  "hair_l_01": {
+   "rx": 9.553,
+   "ry": 5.223,
+   "space": "local_delta"
+  },
+  "hair_r_03": {
+   "rx": 2.745,
+   "ry": -2.127,
+   "space": "local_delta"
+  },
+  "tail_14": {
+   "space": "local_delta",
+   "rx": -3.934,
+   "ry": 3.535,
+   "rz": 70.279
+  },
+  "tail_13": {
+   "space": "local_delta",
+   "rx": 0.183,
+   "ry": 5.22,
+   "rz": 57.208
+  },
+  "forearm_l": {
+   "side": -39.64,
+   "front": -20.0
+  },
+  "forearm_r": {
+   "side": -38.549,
+   "front": 20.0
+  },
+  "hair_r_02": {
+   "rx": 11.681,
+   "ry": -4.255,
+   "space": "local_delta"
+  },
+  "tail_03": {
+   "rx": 0.0
+  },
+  "tail_05": {
+   "space": "local_delta",
+   "rz": 8.087
+  },
+  "upper_arm_r": {
+   "side": 14.628,
+   "front": 30.0
+  },
+  "hand_l": {
+   "side": -84.089,
+   "front": -10.0
+  },
+  "tail_11": {
+   "space": "local_delta",
+   "rx": 0.133,
+   "ry": 0.089,
+   "rz": 20.096
+  },
+  "tail_06": {
+   "space": "local_delta",
+   "rz": 9.765
+  },
+  "tail_12": {
+   "space": "local_delta",
+   "rx": 3.038,
+   "ry": 4.173,
+   "rz": 40.111
+  },
+  "neck": {
+   "rx": 117.745,
+   "ry": -7.936
+  },
+  "head": {
+   "rx": 139.681,
+   "ry": 12.191
+  },
+  "spine_03": {
+   "rx": 104.741,
+   "ry": -4.0
+  },
+  "tail_07": {
+   "space": "local_delta",
+   "rz": 17.469
+  },
+  "spine_02": {
+   "rx": 105.642,
+   "ry": 4.0
+  },
+  "upper_arm_l": {
+   "side": 12.441,
+   "front": -30.0
+  },
+  "pelvis": {
+   "rx": 100.0
+  },
+  "hair_r_01": {
+   "rx": 8.191,
+   "ry": -5.872,
+   "space": "local_delta"
+  },
+  "hand_r": {
+   "side": -87.904,
+   "front": 10.0
+  },
+  "tail_10": {
+   "space": "local_delta",
+   "rx": 0.091,
+   "ry": 0.03,
+   "rz": 16.058
+  },
+  "shoulder_l": {
+   "space": "local_delta",
+   "ry": 5.714
+  },
+  "shoulder_r": {
+   "space": "local_delta",
+   "ry": -3.226
+  },
+  "tail_01": {
+   "space": "local_delta"
+  },
+  "tail_02": {
+   "space": "local_delta"
+  },
+  "tail_04": {
+   "space": "local_delta",
+   "rz": -1.061
+  },
+  "tail_08": {
+   "space": "local_delta",
+   "rz": 9.153
+  },
+  "tail_09": {
+   "space": "local_delta",
+   "rz": 15.401
+  }
+ },
+ "_rebase": "re-base stunned t=2.625: 16 bones natural+life, 8 posed+life, acting kept",
+ "_animfix2": "neck held: spine_02/03 rx counter the breath (stun_ik.py); root fixed at the slump height; arm twitch x1.0, sign flipped on R so no hand sinks into the floor"
+}

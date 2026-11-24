@@ -1,0 +1,48 @@
+{
+ "_note": "assemble2_medusa 2026-11-23: clip -> action file (newest source). Merge with exactly these paths, never a glob (*.rest_v1.json backups carry the same clip names).",
+ "clips": {
+  "idle": "art_src/chars/medusa/clips/idle_n/action_idle.json",
+  "slither": "art_src/chars/medusa/clips/slither_n/action_slither.json",
+  "gaze": "art_src/chars/medusa/clips/gaze/action_gaze.json",
+  "hurt": "art_src/chars/medusa/clips/hurt/action_hurt.json",
+  "tail_swipe": "art_src/chars/medusa/clips/tail_swipe/action_tail_swipe.json",
+  "death": "art_src/chars/medusa/clips/death/action_death.json",
+  "stun_start": "art_src/chars/medusa/clips/stunned/action_stun_start.json",
+  "stunned": "art_src/chars/medusa/clips/stunned/action_stunned.json",
+  "rise": "art_src/chars/medusa/clips/stunned/action_rise.json"
+ },
+ "rebaked_by_assembler": {
+  "clips": [
+   "death",
+   "stun_start",
+   "stunned",
+   "rise"
+  ],
+  "why": "the re-base agent baked these four in place (spec in_place true), which removed the forward root slide the original animators kept (--keep-root-motion): the stunned neck moved from 4.56 m to 2.82 m in front of her and the bot could no longer reach it. Re-baked from the re-based keys files with --keep-root-motion; root.loc x/y now equal the originals at every old key time.",
+  "command": "tools/ak bake art_src/chars/medusa/medusa.blend --clip <clip> --keys <clip folder>/keys_<clip>.json [--loop for stunned] --keep-root-motion --out-action <clip folder>/action_<clip>.json",
+  "rebaser_versions_kept": "work/assemble2_medusa/rebaser_inplace/"
+ },
+ "animfix2": {
+  "date": "2026-11-23",
+  "clips_changed": [
+   "slither",
+   "idle",
+   "stunned",
+   "stun_start",
+   "rise",
+   "gaze",
+   "hurt",
+   "death"
+  ],
+  "note": "paths unchanged; key/pose edits in the clip folders, re-baked with the same flags; see docs/notes/assemble2_medusa.md (Animation fix pass). Do not re-run work/rebase/medusa/rebase.py: it would overwrite these edits."
+ },
+ "clipfix2": {
+  "date": "2026-11-23",
+  "clips_changed": [
+   "stun_start",
+   "death",
+   "idle"
+  ],
+  "note": "paths unchanged; stun_start: arm bones of g05/g06/g07 rewritten (drop spread 1.333/1.375 -> 1.625 s); death: k3a_turn rebuilt, new kf7_ground (1.7917), upper arms rolled toward rest from 1.875 s; idle: idle_params.json amplitudes raised + idle_gen.py re-run. Tools and backups: work/clipfix2_medusa/. See docs/notes/assemble2_medusa.md (Clip fix 2)."
+ }
+}

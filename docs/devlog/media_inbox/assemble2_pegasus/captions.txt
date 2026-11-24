@@ -1,0 +1,4 @@
+devlog_idle_before_after.jpg | Pegasus idle in the game (CharacterVisual, home-island view), before (top) vs after (bottom) at clip t 0.2 / 2.2 / 3.2 / 5.2 s | before: rest pose with wings straight up, 7.0 s, 16 of 43 bones move; after: natural stance, wings folded, weight shift between hind legs, head look, tail flick, 6.0 s, 32 of 43 bones move
+idle_before_after.mp4 | the same idle, 6 s in real time, before (left) vs after (right), Godot movie writer 30 fps | 16 -> 32 moving bones; loop seam 0.0 deg
+devlog_flight_before_after.jpg | fly (4 frames of one beat) and glide with Hercules seated, flight chase camera, before (top) vs after (bottom) | fly 28 -> 38 and glide 13 -> 38 moving bones; wing beat, rider sweep and lengths unchanged (1.0417 s / 3.0 s); 0 wing-rider hits
+flight_before_after.mp4 | fly 2 beats then glide 3 s with the rider, before (left) vs after (right) | wing-tip and feather follow-through, neck counter-nod, tail wave

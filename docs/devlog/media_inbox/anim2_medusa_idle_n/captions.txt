@@ -1,0 +1,1 @@
+medusa_idle_n_strip.jpg | Medusa's new 6 s idle from the natural stance (top: Seedance reference, bottom: our rig) | 32/35 bones move (was 18/35), strip IoU 0.86/0.90, seam 0 deg

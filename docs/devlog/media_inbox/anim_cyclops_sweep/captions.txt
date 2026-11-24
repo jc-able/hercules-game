@@ -1,0 +1,2 @@
+cyclops_sweep_before_after_fit.jpg | wind-up keys: hand-typed poses (left, body facing the camera) vs after turning the whole body 35-40 deg to its right and two ak fit passes (right) | mean IoU 0.51 -> 0.76 on lift / cock / behind-neck / drawn-back keys
+cyclops_sweep_strip.jpg | finished sweep clip (bottom rows) under the Seedance reference (top rows): cock the club, drop it behind, sweep right-to-left through the front, wrap over the left shoulder, back to ready | 17 keys, 2.5 s, impact 1.31 s, traced-key mean IoU 0.75, all-frame mean 0.65

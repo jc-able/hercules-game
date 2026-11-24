@@ -1,0 +1,1 @@
+shield_before_after.jpg | Hercules' shield in the game, natural stance, before/after the left-arm fix (front-left, behind, above) | body vertices inside the shield 110 -> 0, upper arm through the shield face 10.9 cm -> none, shield tilt 39 -> 6 deg from vertical

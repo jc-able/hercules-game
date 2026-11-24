@@ -1,0 +1,1 @@
+medusa_slither_n_strip.jpg | Medusa slither re-keyed from the natural-stance video: reference row above, our rig below | 34/35 bones move (was 26), IoU front .77 / side .85, cycle 1.75 s, tail wave 5.6 m = 3.2 m/s

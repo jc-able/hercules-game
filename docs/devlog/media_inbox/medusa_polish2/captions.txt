@@ -1,0 +1,8 @@
+medusa_polish2_turn.jpg | Medusa turning ~120 deg in place: before = the idle pose rotates like a statue, after = the slither clip plays at a rate matched to the turn | 90 deg/s turn -> slither x1.08 (eff. 3.46 m/s vs 3.2 m/s reference); 30 fps movie strip
+medusa_polish2_turn_crop.jpg | Same turn, cropped on her body, 4 frames before/after | frames 198-222 of the 30 fps movie
+medusa_polish2_approach.jpg | Stalk approach from 15 m: before = full speed from the first frame and a hard stop, after = she gathers speed and brakes into 7.7 m | accel 6 m/s2, clip rate = ground speed / 3.2 (0.60 -> 1.00 -> 0.60), idle after 0.25 s still
+medusa_polish2_gaze.jpg | Gaze start and end: cross-fade into the gaze 0.12 -> 0.25 s, she brakes over ~0.35 s instead of stopping dead | 30 fps movie strip
+medusa_polish2_tail.jpg | Tail swipe start and end: blend 0.1 -> 0.25 s, after the sweep the clip plays out its recovery before idle/slither (before: cut at clip 1.53 of 2.25 s) | 30 fps movie strip
+medusa_polish2_hair.jpg | Snake-hair close-ups: the muddy brown/yellow patches on the snake heads repainted green in her own toon shader copy, only on vertices skinned to the hair bones; tongues stay red | 19 % of hair-skinned vertices sampled warm texels (hue 12-67 deg); 6 hair bones; no texture or GLB change
+medusa_polish3_moves.jpg | Medusa after the review re-fix: a 120 deg turn, the gaze end, backing off with the slither reversed, the tail-swipe start | back-off 3.2 -> 1.4 m/s on a 55 deg arc; lean eases out over 0.9 s on the gaze clip, then a 0.5 s blend; turn accel 360 deg/s^2
+medusa_polish3_hair.jpg | snake-hair close-ups, polish 2 (left) vs polish 3 (right) | orange-red patch on the back snake head gone; pale mint eye blobs remain

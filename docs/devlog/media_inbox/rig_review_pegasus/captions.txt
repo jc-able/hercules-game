@@ -1,0 +1,2 @@
+pegasus_review_game_camera_withers.jpg | independent rig review, game-camera view of the withers: rest, neck forward 35 deg, head turn 30, builder downstroke/upstroke, downstroke+neck; blue mane streaks over the white back when the neck bends | neck-forward: 183 edges >2x in the withers, back under the saddle lifts 0.19 m (p90)
+pegasus_review_mane_smear_side.jpg | side close-ups rest vs head-lowered vs full downstroke + stretch map: mane smeared across the wing-root feathers | graze pose 827 edges >2x at the withers, max edge stretch 53x

@@ -1,0 +1,8 @@
+{"fps": 24, "loop": false, "length": 3.5, "events": {"impact": 1.5},
+ "keys": [{"t": 0.0, "pose_file": "poses_bite/k0.json"},
+  {"t": 1.333, "pose_file": "poses_bite/k1.json"},
+  {"t": 1.417, "pose_file": "poses_bite/k2.json", "interp": "linear"},
+  {"t": 1.5, "pose_file": "poses_bite/k3.json"},
+  {"t": 2.25, "pose_file": "poses_bite/k4.json"},
+  {"t": 2.75, "pose_file": "poses_bite/k5.json"},
+  {"t": 3.5, "pose_file": "poses_bite/k6.json"}]}

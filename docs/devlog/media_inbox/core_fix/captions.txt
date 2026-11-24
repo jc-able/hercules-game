@@ -1,0 +1,1 @@
+death_framing_title_after.jpg | after the core fixer pass: lock framing (hero ~45-50 % of the frame at a 2.9 m arm), faint weak-point glow + HUD ring, death now falls (kneeling at +1.2 s, lying at +3.4 s under DEFEATED), dithered title sky | death clip from 0.25 s at 1.6x, DEFEATED hold 3.0 -> 4.5 s, lock arm 3.7 -> 2.9 m (cyclops/medusa)

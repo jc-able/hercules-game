@@ -1,0 +1,53 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 3.0,
+ "events": {
+  "impact": 1.75
+ },
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_stomp/k0.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_stomp/k0b.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_stomp/k1.json"
+  },
+  {
+   "t": 1.083,
+   "pose_file": "poses_stomp/k2.json"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_stomp/k3.json",
+   "interp": "linear"
+  },
+  {
+   "t": 1.667,
+   "pose_file": "poses_stomp/k4.json",
+   "interp": "linear"
+  },
+  {
+   "t": 1.75,
+   "pose_file": "poses_stomp/k5.json"
+  },
+  {
+   "t": 2.0,
+   "pose_file": "poses_stomp/k6.json"
+  },
+  {
+   "t": 2.5,
+   "pose_file": "poses_stomp/k6b.json"
+  },
+  {
+   "t": 3.0,
+   "pose_file": "poses_stomp/k0.json"
+  }
+ ],
+ "note": "stomp from ref.mp4 take 1, video t = clip t + 1.0 s; impact = left forefoot (foot_fl) hits the floor"
+}

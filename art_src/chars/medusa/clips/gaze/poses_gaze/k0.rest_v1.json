@@ -1,0 +1,46 @@
+{
+ "space": "absolute",
+ "bones": {
+  "spine_01": {
+   "rx": 0,
+   "ry": 0.0,
+   "rz": 0.0
+  },
+  "spine_02": {
+   "rx": 0,
+   "ry": 0.0,
+   "rz": 0.0
+  },
+  "spine_03": {
+   "rx": 0,
+   "ry": 0.0,
+   "rz": 0.0
+  },
+  "neck": {
+   "rx": 0,
+   "ry": 0.0,
+   "rz": 0.0
+  },
+  "head": {
+   "rx": 0,
+   "ry": 0.0,
+   "rz": 0.0
+  },
+  "upper_arm_l": {
+   "front": -36,
+   "side": 0
+  },
+  "forearm_l": {
+   "front": -36,
+   "side": -8
+  },
+  "upper_arm_r": {
+   "front": 36,
+   "side": 0
+  },
+  "forearm_r": {
+   "front": 36,
+   "side": -8
+  }
+ }
+}

@@ -1,0 +1,1 @@
+{"_desc": "snakes writhe hard (roots): l_01 up 45, l_03 forward 60, r_02 forward 60, r_01 up 45, l_02 down, r_03 up; head turn 40", "hair_l_01": [0, -45, 0], "hair_l_02": [0, 40, 0], "hair_l_03": [0, 0, -60], "hair_r_01": [0, 45, 0], "hair_r_02": [0, 0, 60], "hair_r_03": [0, 45, 0], "head": [0, 0, 40]}

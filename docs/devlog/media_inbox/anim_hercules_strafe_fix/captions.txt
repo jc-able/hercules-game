@@ -1,0 +1,1 @@
+strafe_fix_before_after.jpg | Hercules strafe_l before/after the review fixes (reference row above ours) | sword/shield re-posed, stride 0.27 -> 0.6 m per 0.833 s cycle, planted foot slides a constant 30 mm/frame (was 5-22), key IoU 0.81 -> 0.76 front (wider stance than the video on purpose), strafe_r mirrored k10 0.59/0.66 -> 0.74/0.80

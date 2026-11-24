@@ -1,0 +1,68 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 0.5,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_walk_back/k00.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.0417,
+   "pose_file": "poses_walk_back/k01.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.0833,
+   "pose_file": "poses_walk_back/k02.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.125,
+   "pose_file": "poses_walk_back/k03.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.1667,
+   "pose_file": "poses_walk_back/k04.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.2083,
+   "pose_file": "poses_walk_back/k05.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_walk_back/k06.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.2917,
+   "pose_file": "poses_walk_back/k07.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.3333,
+   "pose_file": "poses_walk_back/k08.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_walk_back/k09.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.4167,
+   "pose_file": "poses_walk_back/k10.json",
+   "interp": "linear"
+  },
+  {
+   "t": 0.4583,
+   "pose_file": "poses_walk_back/k11.json",
+   "interp": "linear"
+  }
+ ]
+}

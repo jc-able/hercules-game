@@ -1,0 +1,1 @@
+sword_refix.jpg | feedback 2 sword re-fix: reach strike before/after the +25 deg roll about the blade (the edge leads the cut), and the game camera in the run and a strike | attack_1 peak frame flat-lead 0.44 -> 0.02, mount sword jump 28.5/20.9 -> max 2.9 deg per frame, run blade swing 4 -> 15.7 deg

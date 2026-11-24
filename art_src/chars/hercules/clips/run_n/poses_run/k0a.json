@@ -1,0 +1,134 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "hips": {
+   "rx": 5.0,
+   "ry": -0.0,
+   "rz": -1.587
+  },
+  "spine_01": {
+   "rx": 4.84,
+   "ry": 0.0,
+   "rz": 1.14
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rx": 2.35,
+   "ry": -0.1,
+   "rz": 4.0
+  },
+  "spine_03": {
+   "space": "local_delta",
+   "rx": 1.24,
+   "rz": 1.92
+  },
+  "neck": {
+   "space": "local_delta",
+   "rx": 1.0,
+   "rz": -3.54
+  },
+  "head": {
+   "space": "local_delta",
+   "rx": -2.78,
+   "ry": 0.56,
+   "rz": -1.46
+  },
+  "upper_arm_r": {
+   "rx": -12.1,
+   "rz": -11.08,
+   "ry": -3.58
+  },
+  "forearm_r": {
+   "rx": -16.3,
+   "rz": 20.66,
+   "ry": -28.56
+  },
+  "upper_arm_l": {
+   "rx": 12.8404,
+   "ry": -4.7551,
+   "rz": -7.7752
+  },
+  "forearm_l": {
+   "rx": -54.6243,
+   "ry": 43.5085,
+   "rz": -12.6747
+  },
+  "thigh_r": {
+   "rx": -8.328,
+   "ry": 4.277,
+   "rz": 4.888
+  },
+  "shin_r": {
+   "rx": 100.202,
+   "ry": -7.382,
+   "rz": -3.8
+  },
+  "foot_r": {
+   "rx": 65.267,
+   "ry": -0.243,
+   "rz": -8.873
+  },
+  "thigh_l": {
+   "rx": -20.742,
+   "ry": -1.875,
+   "rz": -1.944
+  },
+  "shin_l": {
+   "rx": 1.097,
+   "ry": 7.808,
+   "rz": 4.383
+  },
+  "foot_l": {
+   "rx": 1.196,
+   "ry": 0.822,
+   "rz": 5.787
+  },
+  "hand_r": {
+   "rx": -25.24,
+   "rz": 28.82,
+   "ry": -0.83
+  },
+  "hand_l": {
+   "space": "local_delta",
+   "rx": -3.15
+  },
+  "shoulder_r": {
+   "space": "local_delta",
+   "rx": -2.99,
+   "rz": 2.99
+  },
+  "shoulder_l": {
+   "space": "local_delta",
+   "rx": 3.0,
+   "rz": -3.0,
+   "ry": -1.49
+  },
+  "fingers_r": {
+   "space": "local_delta",
+   "rx": 61.51,
+   "ry": -46.31,
+   "rz": -4.26
+  },
+  "fingers_l": {
+   "space": "local_delta",
+   "rx": 15.35,
+   "ry": 21.63,
+   "rz": -16.31
+  }
+ },
+ "view_offset": [
+  0,
+  0.005,
+  -0.045
+ ],
+ "view_scale": 1.02,
+ "_animfix": "left arm re-keyed for the game shield (animfix_hercules): upper_arm_l -6 deg out, forearm_l twist -45 deg, fingers_l x0.5"
+}

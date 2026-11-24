@@ -1,0 +1,68 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 3.5,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_death/k0_ready.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_death/k1_rise.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_death/k2_shriek.json"
+  },
+  {
+   "t": 1.75,
+   "pose_file": "poses_death/k3_arch.json",
+   "interp": "linear"
+  },
+  {
+   "t": 1.8125,
+   "pose_file": "poses_death/k3a_turn.json",
+   "interp": "linear"
+  },
+  {
+   "t": 1.875,
+   "pose_file": "poses_death/k3b_twist.json",
+   "interp": "linear"
+  },
+  {
+   "t": 1.9167,
+   "pose_file": "poses_death/k3c_tip.json",
+   "interp": "linear"
+  },
+  {
+   "t": 2.0,
+   "pose_file": "poses_death/k4_tip.json",
+   "interp": "linear"
+  },
+  {
+   "t": 2.0833,
+   "pose_file": "poses_death/k4c_fall.json",
+   "interp": "linear"
+  },
+  {
+   "t": 2.1667,
+   "pose_file": "poses_death/k4b_fall.json",
+   "interp": "linear"
+  },
+  {
+   "t": 2.375,
+   "pose_file": "poses_death/k5_impact.json"
+  },
+  {
+   "t": 2.75,
+   "pose_file": "poses_death/k6_slap.json"
+  },
+  {
+   "t": 3.125,
+   "pose_file": "poses_death/k7_still.json"
+  }
+ ],
+ "note": "fixer: grounded read-back keys k3b_twist (1.875), k4c_fall (2.083), k4b_fall (2.167) remove the 0.4-0.9 m dips through the floor in the fall; k6/k7 snakes droop (hair_*_01/02 rx +25)"
+}

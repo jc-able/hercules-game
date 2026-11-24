@@ -1,0 +1,58 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 4.25,
+ "events": {
+  "fire_start": 2.0,
+  "fire_end": 3.25
+ },
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_gaze/k0.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_gaze/k1.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_gaze/k2.json"
+  },
+  {
+   "t": 1.875,
+   "pose_file": "poses_gaze/k3.json",
+   "interp": "linear"
+  },
+  {
+   "t": 2.0,
+   "pose_file": "poses_gaze/k4.json"
+  },
+  {
+   "t": 2.5,
+   "pose_file": "poses_gaze/k5.json"
+  },
+  {
+   "t": 2.75,
+   "pose_file": "poses_gaze/k5b.json"
+  },
+  {
+   "t": 3.0,
+   "pose_file": "poses_gaze/k5c.json"
+  },
+  {
+   "t": 3.25,
+   "pose_file": "poses_gaze/k6.json"
+  },
+  {
+   "t": 3.75,
+   "pose_file": "poses_gaze/k7.json"
+  },
+  {
+   "t": 4.25,
+   "pose_file": "poses_gaze/k0.json"
+  }
+ ],
+ "rebase": "re-base animator 2026-11-23: frozen rest-pose bones -> natural stance (natural_pose.json) + quiet life; acting bones, key times, events, length, loop unchanged; originals: *.rest_v1.json; tool: work/rebase/medusa/rebase.py",
+ "animfix2": "2026-11-23: arm life in the held stare (k5, k5b 2.75, k5c 3.0, k6); head, neck, eyes, events unchanged"
+}

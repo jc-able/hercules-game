@@ -1,0 +1,676 @@
+{
+ "id": "cyclops",
+ "height": 8.0,
+ "bones": [
+  {
+   "name": "root",
+   "parent": null,
+   "head": [
+    0,
+    0,
+    0
+   ],
+   "tail": [
+    0,
+    0,
+    1.0
+   ],
+   "deform": false
+  },
+  {
+   "name": "hips",
+   "parent": "root",
+   "head": [
+    0,
+    0.3,
+    2.95
+   ],
+   "tail": [
+    0,
+    0.27,
+    3.7
+   ],
+   "deform": true
+  },
+  {
+   "name": "spine_01",
+   "parent": "hips",
+   "head": [
+    0,
+    0.27,
+    3.7
+   ],
+   "tail": [
+    0,
+    0.2,
+    4.45
+   ],
+   "deform": true
+  },
+  {
+   "name": "spine_02",
+   "parent": "spine_01",
+   "head": [
+    0,
+    0.2,
+    4.45
+   ],
+   "tail": [
+    0,
+    0.26,
+    5.25
+   ],
+   "deform": true
+  },
+  {
+   "name": "spine_03",
+   "parent": "spine_02",
+   "head": [
+    0,
+    0.26,
+    5.25
+   ],
+   "tail": [
+    0,
+    0.37,
+    6.3
+   ],
+   "deform": true
+  },
+  {
+   "name": "neck",
+   "parent": "spine_03",
+   "head": [
+    0,
+    0.37,
+    6.3
+   ],
+   "tail": [
+    0,
+    0.36,
+    6.95
+   ],
+   "deform": true
+  },
+  {
+   "name": "head",
+   "parent": "neck",
+   "head": [
+    0,
+    0.36,
+    6.95
+   ],
+   "tail": [
+    0,
+    0.3,
+    8.0
+   ],
+   "deform": true
+  },
+  {
+   "name": "shoulder_u_l",
+   "parent": "spine_03",
+   "head": [
+    0.32,
+    0.4,
+    6.36
+   ],
+   "tail": [
+    1.42,
+    0.45,
+    6.4
+   ],
+   "deform": true
+  },
+  {
+   "name": "upper_arm_u_l",
+   "parent": "shoulder_u_l",
+   "head": [
+    1.42,
+    0.45,
+    6.4
+   ],
+   "tail": [
+    2.22,
+    0.42,
+    6.36
+   ],
+   "deform": true
+  },
+  {
+   "name": "forearm_u_l",
+   "parent": "upper_arm_u_l",
+   "head": [
+    2.22,
+    0.42,
+    6.36
+   ],
+   "tail": [
+    3.02,
+    0.36,
+    6.38
+   ],
+   "deform": true
+  },
+  {
+   "name": "hand_u_l",
+   "parent": "forearm_u_l",
+   "head": [
+    3.02,
+    0.36,
+    6.38
+   ],
+   "tail": [
+    4.02,
+    0.42,
+    6.42
+   ],
+   "deform": true
+  },
+  {
+   "name": "upper_arm_d_l",
+   "parent": "spine_03",
+   "head": [
+    1.15,
+    0.36,
+    5.35
+   ],
+   "tail": [
+    1.85,
+    0.36,
+    4.8
+   ],
+   "deform": true
+  },
+  {
+   "name": "forearm_d_l",
+   "parent": "upper_arm_d_l",
+   "head": [
+    1.85,
+    0.36,
+    4.8
+   ],
+   "tail": [
+    2.48,
+    0.33,
+    4.22
+   ],
+   "deform": true
+  },
+  {
+   "name": "hand_d_l",
+   "parent": "forearm_d_l",
+   "head": [
+    2.48,
+    0.33,
+    4.22
+   ],
+   "tail": [
+    3.22,
+    0.42,
+    3.42
+   ],
+   "deform": true
+  },
+  {
+   "name": "thigh_l",
+   "parent": "hips",
+   "head": [
+    0.72,
+    0.3,
+    2.95
+   ],
+   "tail": [
+    0.8,
+    0.33,
+    2.22
+   ],
+   "deform": true
+  },
+  {
+   "name": "shin_l",
+   "parent": "thigh_l",
+   "head": [
+    0.8,
+    0.33,
+    2.22
+   ],
+   "tail": [
+    0.97,
+    0.57,
+    0.95
+   ],
+   "deform": true
+  },
+  {
+   "name": "foot_l",
+   "parent": "shin_l",
+   "head": [
+    0.97,
+    0.57,
+    0.95
+   ],
+   "tail": [
+    1.15,
+    -0.45,
+    0.14
+   ],
+   "deform": true
+  },
+  {
+   "name": "toe_l",
+   "parent": "foot_l",
+   "head": [
+    1.15,
+    -0.45,
+    0.14
+   ],
+   "tail": [
+    1.2,
+    -1.05,
+    0.12
+   ],
+   "deform": true
+  },
+  {
+   "name": "shoulder_u_r",
+   "parent": "spine_03",
+   "head": [
+    -0.32,
+    0.4,
+    6.36
+   ],
+   "tail": [
+    -1.42,
+    0.45,
+    6.4
+   ],
+   "deform": true
+  },
+  {
+   "name": "upper_arm_u_r",
+   "parent": "shoulder_u_r",
+   "head": [
+    -1.42,
+    0.45,
+    6.4
+   ],
+   "tail": [
+    -2.22,
+    0.42,
+    6.36
+   ],
+   "deform": true
+  },
+  {
+   "name": "forearm_u_r",
+   "parent": "upper_arm_u_r",
+   "head": [
+    -2.22,
+    0.42,
+    6.36
+   ],
+   "tail": [
+    -3.02,
+    0.36,
+    6.38
+   ],
+   "deform": true
+  },
+  {
+   "name": "hand_u_r",
+   "parent": "forearm_u_r",
+   "head": [
+    -3.02,
+    0.36,
+    6.38
+   ],
+   "tail": [
+    -4.02,
+    0.42,
+    6.42
+   ],
+   "deform": true
+  },
+  {
+   "name": "upper_arm_d_r",
+   "parent": "spine_03",
+   "head": [
+    -1.15,
+    0.36,
+    5.35
+   ],
+   "tail": [
+    -1.85,
+    0.36,
+    4.8
+   ],
+   "deform": true
+  },
+  {
+   "name": "forearm_d_r",
+   "parent": "upper_arm_d_r",
+   "head": [
+    -1.85,
+    0.36,
+    4.8
+   ],
+   "tail": [
+    -2.48,
+    0.33,
+    4.22
+   ],
+   "deform": true
+  },
+  {
+   "name": "hand_d_r",
+   "parent": "forearm_d_r",
+   "head": [
+    -2.48,
+    0.33,
+    4.22
+   ],
+   "tail": [
+    -3.22,
+    0.42,
+    3.42
+   ],
+   "deform": true
+  },
+  {
+   "name": "thigh_r",
+   "parent": "hips",
+   "head": [
+    -0.72,
+    0.3,
+    2.95
+   ],
+   "tail": [
+    -0.8,
+    0.33,
+    2.22
+   ],
+   "deform": true
+  },
+  {
+   "name": "shin_r",
+   "parent": "thigh_r",
+   "head": [
+    -0.8,
+    0.33,
+    2.22
+   ],
+   "tail": [
+    -0.97,
+    0.57,
+    0.95
+   ],
+   "deform": true
+  },
+  {
+   "name": "foot_r",
+   "parent": "shin_r",
+   "head": [
+    -0.97,
+    0.57,
+    0.95
+   ],
+   "tail": [
+    -1.15,
+    -0.45,
+    0.14
+   ],
+   "deform": true
+  },
+  {
+   "name": "toe_r",
+   "parent": "foot_r",
+   "head": [
+    -1.15,
+    -0.45,
+    0.14
+   ],
+   "tail": [
+    -1.2,
+    -1.05,
+    0.12
+   ],
+   "deform": true
+  }
+ ],
+ "chains": {
+  "spine": [
+   "hips",
+   "spine_01",
+   "spine_02",
+   "spine_03",
+   "neck",
+   "head"
+  ],
+  "arm_u_l": [
+   "shoulder_u_l",
+   "upper_arm_u_l",
+   "forearm_u_l",
+   "hand_u_l"
+  ],
+  "arm_d_l": [
+   "upper_arm_d_l",
+   "forearm_d_l",
+   "hand_d_l"
+  ],
+  "leg_l": [
+   "thigh_l",
+   "shin_l",
+   "foot_l",
+   "toe_l"
+  ],
+  "arm_u_r": [
+   "shoulder_u_r",
+   "upper_arm_u_r",
+   "forearm_u_r",
+   "hand_u_r"
+  ],
+  "arm_d_r": [
+   "upper_arm_d_r",
+   "forearm_d_r",
+   "hand_d_r"
+  ],
+  "leg_r": [
+   "thigh_r",
+   "shin_r",
+   "foot_r",
+   "toe_r"
+  ]
+ },
+ "sockets": {
+  "hand_ur": "hand_u_r",
+  "hand_ul": "hand_u_l",
+  "forearm_ur": "forearm_u_r",
+  "head": "head",
+  "club_grip2": "hand_u_r"
+ },
+ "socket_offsets": {
+  "hand_ur": {
+   "bone": "hand_u_r",
+   "loc": [
+    0.0056,
+    0.3371,
+    0.4009
+   ],
+   "rot_deg": [
+    3.431,
+    -0.0,
+    -87.709
+   ],
+   "quat_xyzw": [
+    0.02159,
+    0.02074,
+    -0.69252,
+    0.72078
+   ],
+   "note": "club.glb origin (grip) and orientation: club head along +Y when the socket has no rotation"
+  },
+  "hand_ul": {
+   "bone": "hand_u_l",
+   "loc": [
+    -0.0056,
+    0.3371,
+    0.4009
+   ],
+   "rot_deg": [
+    3.431,
+    0.0,
+    87.709
+   ],
+   "quat_xyzw": [
+    0.02159,
+    -0.02074,
+    0.69252,
+    0.72078
+   ],
+   "note": "left upper hand: palm centre (mirror of the right grip) in the hand_u_l frame, world-up orientation. NOT on the club: for the left hand on the club (two-hand slam) use club_grip2 as the IK target"
+  },
+  "forearm_ur": {
+   "bone": "forearm_u_r",
+   "loc": [
+    0.0,
+    0.4012,
+    -0.0
+   ],
+   "rot_deg": [
+    -4.288,
+    -0.0,
+    -88.568
+   ],
+   "quat_xyzw": [
+    -0.02678,
+    -0.02612,
+    -0.69773,
+    0.71539
+   ],
+   "note": "weak point `forearm`: middle of the right upper forearm, radius ~0.33 m"
+  },
+  "head": {
+   "bone": "head",
+   "loc": [
+    -0.0,
+    0.7579,
+    0.4675
+   ],
+   "rot_deg": [
+    -3.27,
+    -0.0,
+    0.0
+   ],
+   "quat_xyzw": [
+    -0.02854,
+    -0.0,
+    -0.0,
+    0.99959
+   ],
+   "note": "the eye (front of the head), for look-at / targeting"
+  },
+  "club_grip2": {
+   "bone": "hand_u_r",
+   "loc": [
+    0.705,
+    0.3651,
+    0.4026
+   ],
+   "rot_deg": [
+    3.431,
+    -0.0,
+    -87.709
+   ],
+   "quat_xyzw": [
+    0.02159,
+    0.02074,
+    -0.69252,
+    0.72078
+   ],
+   "note": "second grip on the club handle, 0.7 m above the main grip along the club axis, in the hand_u_r frame (moves with the club); same orientation as the club (+Y = club axis)"
+  }
+ },
+ "pairs": [
+  [
+   "foot_l",
+   "foot_r"
+  ],
+  [
+   "forearm_d_l",
+   "forearm_d_r"
+  ],
+  [
+   "forearm_u_l",
+   "forearm_u_r"
+  ],
+  [
+   "hand_d_l",
+   "hand_d_r"
+  ],
+  [
+   "hand_u_l",
+   "hand_u_r"
+  ],
+  [
+   "shin_l",
+   "shin_r"
+  ],
+  [
+   "shoulder_u_l",
+   "shoulder_u_r"
+  ],
+  [
+   "thigh_l",
+   "thigh_r"
+  ],
+  [
+   "toe_l",
+   "toe_r"
+  ],
+  [
+   "upper_arm_d_l",
+   "upper_arm_d_r"
+  ],
+  [
+   "upper_arm_u_l",
+   "upper_arm_u_r"
+  ]
+ ],
+ "props": {
+  "club": {
+   "glb": "game/assets/props/club.glb",
+   "socket": "hand_ur",
+   "length_m": 5.5,
+   "origin": "grip, 0.45 m above the butt end",
+   "axis": "club head along +Y (Godot) / +Z (Blender)",
+   "blender_world_rest": [
+    [
+     1.0,
+     0.0,
+     -0.0,
+     -3.38
+    ],
+    [
+     0.0,
+     1.0,
+     0.0,
+     -0.02
+    ],
+    [
+     -0.0,
+     0.0,
+     1.0,
+     6.4
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ]
+  }
+ },
+ "notes": "Blender space: Z up, faces -Y, metres; bone head/tail in armature space = world (transforms applied). Left = character left = +X. socket_offsets are in the glTF joint frame (= Godot bone global rest frame, Y up): loc metres, rot_deg = Godot rotation_degrees (YXZ order), quat_xyzw the same rotation. Upper arm pair = *_u_*, lower arm pair = *_d_* (parented to spine_03, no clavicle). root is non-deforming. Skin: own distance/geodesic weights (03a_weights.py), max 4 influences, normalised; beard rides the head; crotch shares hips + both thighs. Rest pose = generated pose (T upper arms, lower arms ~40 deg down). Rev 2 (11-22, after review): legs re-measured from slices - knee at the back hollow z 2.22, ankle at the narrowing z 0.95 (the first rig had them one segment low); limb chains re-split by joint planes (forearm_u = 1 for |x| 2.37-2.90, thigh 0 below z ~1.97, shin 0 below ~0.75, heel = foot, toe only in front of the ball y < -0.35); posterior armpit blend widened (upper_arm_d fades out on the back above z 5.5)."
+}

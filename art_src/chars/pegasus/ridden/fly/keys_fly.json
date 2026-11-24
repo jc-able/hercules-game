@@ -1,0 +1,46 @@
+{
+ "fps": 24.0,
+ "loop": true,
+ "length": 1.0417,
+ "events": {},
+ "derived_from": "art_src/chars/pegasus/clips/fly/action_fly.json",
+ "ridden_sweep_deg": 25.0,
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses/fly_k00.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses/fly_k01.json"
+  },
+  {
+   "t": 0.292,
+   "pose_file": "poses/fly_k02.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses/fly_k03.json"
+  },
+  {
+   "t": 0.417,
+   "pose_file": "poses/fly_k04.json"
+  },
+  {
+   "t": 0.458,
+   "pose_file": "poses/fly_k05.json"
+  },
+  {
+   "t": 0.625,
+   "pose_file": "poses/fly_k06.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses/fly_k07.json"
+  },
+  {
+   "t": 0.875,
+   "pose_file": "poses/fly_k08.json"
+  }
+ ]
+}

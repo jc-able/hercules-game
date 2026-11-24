@@ -1,0 +1,312 @@
+{
+ "sockets": {
+  "head_c": "head_c",
+  "jaw_c": "jaw_c",
+  "foot_fl": "foot_fl",
+  "foot_fr": "foot_fr",
+  "head_1": "head_1",
+  "head_2": "head_2",
+  "head_3": "head_3",
+  "head_4": "head_4",
+  "head_5": "head_5",
+  "head_6": "head_6",
+  "head_7": "head_7",
+  "head_8": "head_8"
+ },
+ "socket_offsets": {
+  "head_c": {
+   "loc": [
+    0.0,
+    1.1061,
+    0.0
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "jaw_c": {
+   "loc": [
+    0.0,
+    0.6926,
+    0.1869
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "foot_fl": {
+   "loc": [
+    -0.051,
+    0.4263,
+    0.2874
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "foot_fr": {
+   "loc": [
+    0.051,
+    0.4263,
+    0.2874
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "head_1": {
+   "loc": [
+    0.0,
+    0.5929,
+    -0.0
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "head_2": {
+   "loc": [
+    0.0,
+    0.7037,
+    -0.0
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "head_3": {
+   "loc": [
+    0.0,
+    0.6841,
+    -0.0
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "head_4": {
+   "loc": [
+    0.0,
+    0.647,
+    -0.0
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "head_5": {
+   "loc": [
+    -0.0,
+    0.647,
+    -0.0
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "head_6": {
+   "loc": [
+    -0.0,
+    0.6866,
+    -0.0
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "head_7": {
+   "loc": [
+    -0.0,
+    0.7089,
+    0.0
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "head_8": {
+   "loc": [
+    -0.0,
+    0.5888,
+    -0.0
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "clips": {
+  "bite": {
+   "length": 3.5,
+   "loop": false,
+   "events": {
+    "impact": 1.5
+   }
+  },
+  "bite_l": {
+   "length": 3.5,
+   "loop": false,
+   "events": {
+    "impact": 1.5
+   }
+  },
+  "bite_r": {
+   "length": 3.5,
+   "loop": false,
+   "events": {
+    "impact": 1.5
+   }
+  },
+  "death": {
+   "length": 3.8,
+   "loop": false,
+   "events": {}
+  },
+  "death_standing": {
+   "length": 5.5,
+   "loop": false,
+   "events": {}
+  },
+  "fire_sweep": {
+   "length": 4.6,
+   "loop": false,
+   "events": {
+    "fire_start": 1.5,
+    "fire_end": 4.05
+   }
+  },
+  "fire_sweep_l": {
+   "length": 4.6,
+   "loop": false,
+   "events": {
+    "fire_start": 1.5,
+    "fire_end": 4.05
+   }
+  },
+  "fire_sweep_return": {
+   "length": 2.7667,
+   "loop": false,
+   "events": {
+    "fire_start": 0.0,
+    "fire_end": 2.2
+   }
+  },
+  "fire_sweep_return_l": {
+   "length": 2.7667,
+   "loop": false,
+   "events": {
+    "fire_start": 0.0,
+    "fire_end": 2.2
+   }
+  },
+  "head_down": {
+   "length": 1.5,
+   "loop": true,
+   "events": {}
+  },
+  "head_up": {
+   "length": 1.5,
+   "loop": false,
+   "events": {}
+  },
+  "hurt": {
+   "length": 0.9,
+   "loop": false,
+   "events": {}
+  },
+  "hurt_standing": {
+   "length": 1.6333,
+   "loop": false,
+   "events": {}
+  },
+  "idle": {
+   "length": 3.0,
+   "loop": true,
+   "events": {}
+  },
+  "stomp": {
+   "length": 3.0,
+   "loop": false,
+   "events": {
+    "impact": 1.75
+   }
+  },
+  "stomp_r": {
+   "length": 3.0,
+   "loop": false,
+   "events": {
+    "impact": 1.75
+   }
+  },
+  "walk": {
+   "length": 2.1667,
+   "loop": true,
+   "events": {}
+  }
+ },
+ "offset_space": "blender",
+ "weak_points": {
+  "jaw": "jaw_c"
+ },
+ "size": {
+  "height": 14.381,
+  "shoulder_height": 6.5,
+  "length": 16.0077,
+  "width": 10.1385,
+  "size_xyz_m_blender": [
+   10.1385,
+   16.0077,
+   14.3812
+  ],
+  "bounds_min_blender": [
+   -5.0693,
+   -4.669,
+   0.0
+  ],
+  "bounds_max_blender": [
+   5.0693,
+   11.3387,
+   14.3812
+  ],
+  "bounds_min_godot": [
+   -5.0693,
+   0.0,
+   -11.3387
+  ],
+  "bounds_max_godot": [
+   5.0693,
+   14.3812,
+   4.669
+  ],
+  "note": "rest pose, metres; Godot model faces +Z, feet on y=0"
+ },
+ "source": {
+  "blend": "art_src/chars/hydra/hydra.blend",
+  "clips_dir": "art_src/chars/hydra/clips",
+  "assembled": "2026-11-22"
+ }
+}

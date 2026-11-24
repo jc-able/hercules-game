@@ -1,0 +1,708 @@
+{
+ "id": "medusa",
+ "height": 6.5,
+ "size_m": {
+  "x": 3.734,
+  "y": 9.89,
+  "z": 6.5
+ },
+ "tris": 70000,
+ "bones": [
+  {
+   "name": "root",
+   "parent": null,
+   "head": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "tail": [
+    0.0,
+    -0.8,
+    0.0
+   ],
+   "deform": false
+  },
+  {
+   "name": "pelvis",
+   "parent": "root",
+   "head": [
+    0.0,
+    -0.86,
+    3.3
+   ],
+   "tail": [
+    0.0,
+    -0.9,
+    3.85
+   ],
+   "deform": true
+  },
+  {
+   "name": "spine_01",
+   "parent": "pelvis",
+   "head": [
+    0.0,
+    -0.9,
+    3.85
+   ],
+   "tail": [
+    0.0,
+    -0.93,
+    4.35
+   ],
+   "deform": true
+  },
+  {
+   "name": "spine_02",
+   "parent": "spine_01",
+   "head": [
+    0.0,
+    -0.93,
+    4.35
+   ],
+   "tail": [
+    0.0,
+    -0.9,
+    4.8
+   ],
+   "deform": true
+  },
+  {
+   "name": "spine_03",
+   "parent": "spine_02",
+   "head": [
+    0.0,
+    -0.9,
+    4.8
+   ],
+   "tail": [
+    0.0,
+    -0.82,
+    5.2
+   ],
+   "deform": true
+  },
+  {
+   "name": "neck",
+   "parent": "spine_03",
+   "head": [
+    0.0,
+    -0.82,
+    5.2
+   ],
+   "tail": [
+    0.0,
+    -0.84,
+    5.45
+   ],
+   "deform": true
+  },
+  {
+   "name": "head",
+   "parent": "neck",
+   "head": [
+    0.0,
+    -0.84,
+    5.45
+   ],
+   "tail": [
+    0.0,
+    -0.84,
+    6.35
+   ],
+   "deform": true
+  },
+  {
+   "name": "hair_l_01",
+   "parent": "head",
+   "head": [
+    0.5441,
+    -0.2018,
+    6.3413
+   ],
+   "tail": [
+    1.2216,
+    0.2815,
+    6.2148
+   ],
+   "deform": true
+  },
+  {
+   "name": "hair_l_02",
+   "parent": "head",
+   "head": [
+    0.5341,
+    -0.3721,
+    5.8761
+   ],
+   "tail": [
+    1.2454,
+    -0.029,
+    5.7274
+   ],
+   "deform": true
+  },
+  {
+   "name": "hair_l_03",
+   "parent": "head",
+   "head": [
+    0.5757,
+    -0.1753,
+    5.5234
+   ],
+   "tail": [
+    1.1674,
+    0.2372,
+    5.3319
+   ],
+   "deform": true
+  },
+  {
+   "name": "hair_r_01",
+   "parent": "head",
+   "head": [
+    -0.5477,
+    -0.2287,
+    6.3104
+   ],
+   "tail": [
+    -1.2072,
+    0.2339,
+    6.2701
+   ],
+   "deform": true
+  },
+  {
+   "name": "hair_r_02",
+   "parent": "head",
+   "head": [
+    -0.5303,
+    -0.3663,
+    5.8497
+   ],
+   "tail": [
+    -1.2614,
+    -0.0365,
+    5.7638
+   ],
+   "deform": true
+  },
+  {
+   "name": "hair_r_03",
+   "parent": "head",
+   "head": [
+    -0.5822,
+    -0.1889,
+    5.5231
+   ],
+   "tail": [
+    -1.1637,
+    0.2351,
+    5.339
+   ],
+   "deform": true
+  },
+  {
+   "name": "shoulder_l",
+   "parent": "spine_03",
+   "head": [
+    0.12,
+    -0.72,
+    4.9
+   ],
+   "tail": [
+    0.66,
+    -0.62,
+    4.8
+   ],
+   "deform": true
+  },
+  {
+   "name": "upper_arm_l",
+   "parent": "shoulder_l",
+   "head": [
+    0.66,
+    -0.62,
+    4.8
+   ],
+   "tail": [
+    1.05,
+    -0.59,
+    4.22
+   ],
+   "deform": true
+  },
+  {
+   "name": "forearm_l",
+   "parent": "upper_arm_l",
+   "head": [
+    1.05,
+    -0.59,
+    4.22
+   ],
+   "tail": [
+    1.37,
+    -0.57,
+    3.82
+   ],
+   "deform": true
+  },
+  {
+   "name": "hand_l",
+   "parent": "forearm_l",
+   "head": [
+    1.37,
+    -0.57,
+    3.82
+   ],
+   "tail": [
+    1.74,
+    -0.58,
+    3.36
+   ],
+   "deform": true
+  },
+  {
+   "name": "shoulder_r",
+   "parent": "spine_03",
+   "head": [
+    -0.12,
+    -0.72,
+    4.9
+   ],
+   "tail": [
+    -0.66,
+    -0.62,
+    4.8
+   ],
+   "deform": true
+  },
+  {
+   "name": "upper_arm_r",
+   "parent": "shoulder_r",
+   "head": [
+    -0.66,
+    -0.62,
+    4.8
+   ],
+   "tail": [
+    -1.05,
+    -0.59,
+    4.22
+   ],
+   "deform": true
+  },
+  {
+   "name": "forearm_r",
+   "parent": "upper_arm_r",
+   "head": [
+    -1.05,
+    -0.59,
+    4.22
+   ],
+   "tail": [
+    -1.37,
+    -0.57,
+    3.82
+   ],
+   "deform": true
+  },
+  {
+   "name": "hand_r",
+   "parent": "forearm_r",
+   "head": [
+    -1.37,
+    -0.57,
+    3.82
+   ],
+   "tail": [
+    -1.74,
+    -0.58,
+    3.36
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_01",
+   "parent": "pelvis",
+   "head": [
+    0.0,
+    -0.86,
+    3.3
+   ],
+   "tail": [
+    0.0,
+    -0.8954,
+    2.4617
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_02",
+   "parent": "tail_01",
+   "head": [
+    0.0,
+    -0.8954,
+    2.4617
+   ],
+   "tail": [
+    0.0,
+    -0.9145,
+    1.622
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_03",
+   "parent": "tail_02",
+   "head": [
+    0.0,
+    -0.9145,
+    1.622
+   ],
+   "tail": [
+    0.0,
+    -0.6897,
+    0.8197
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_04",
+   "parent": "tail_03",
+   "head": [
+    0.0,
+    -0.6897,
+    0.8197
+   ],
+   "tail": [
+    0.0,
+    -0.0025,
+    0.4051
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_05",
+   "parent": "tail_04",
+   "head": [
+    0.0,
+    -0.0025,
+    0.4051
+   ],
+   "tail": [
+    0.0,
+    0.8373,
+    0.3699
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_06",
+   "parent": "tail_05",
+   "head": [
+    0.0,
+    0.8373,
+    0.3699
+   ],
+   "tail": [
+    0.0,
+    1.678,
+    0.3567
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_07",
+   "parent": "tail_06",
+   "head": [
+    0.0,
+    1.678,
+    0.3567
+   ],
+   "tail": [
+    0.0,
+    2.5186,
+    0.3471
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_08",
+   "parent": "tail_07",
+   "head": [
+    0.0,
+    2.5186,
+    0.3471
+   ],
+   "tail": [
+    0.0,
+    3.3593,
+    0.3395
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_09",
+   "parent": "tail_08",
+   "head": [
+    0.0,
+    3.3593,
+    0.3395
+   ],
+   "tail": [
+    0.0,
+    4.2,
+    0.3333
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_10",
+   "parent": "tail_09",
+   "head": [
+    0.0,
+    4.2,
+    0.3333
+   ],
+   "tail": [
+    0.0,
+    5.0408,
+    0.3287
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_11",
+   "parent": "tail_10",
+   "head": [
+    0.0,
+    5.0408,
+    0.3287
+   ],
+   "tail": [
+    0.0,
+    5.8815,
+    0.3229
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_12",
+   "parent": "tail_11",
+   "head": [
+    0.0,
+    5.8815,
+    0.3229
+   ],
+   "tail": [
+    0.0,
+    6.7222,
+    0.3163
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_13",
+   "parent": "tail_12",
+   "head": [
+    0.0,
+    6.7222,
+    0.3163
+   ],
+   "tail": [
+    0.0,
+    7.5629,
+    0.3148
+   ],
+   "deform": true
+  },
+  {
+   "name": "tail_14",
+   "parent": "tail_13",
+   "head": [
+    0.0,
+    7.5629,
+    0.3148
+   ],
+   "tail": [
+    0.0,
+    8.4036,
+    0.32
+   ],
+   "deform": true
+  }
+ ],
+ "chains": {
+  "spine": [
+   "pelvis",
+   "spine_01",
+   "spine_02",
+   "spine_03",
+   "neck",
+   "head"
+  ],
+  "tail": [
+   "tail_01",
+   "tail_02",
+   "tail_03",
+   "tail_04",
+   "tail_05",
+   "tail_06",
+   "tail_07",
+   "tail_08",
+   "tail_09",
+   "tail_10",
+   "tail_11",
+   "tail_12",
+   "tail_13",
+   "tail_14"
+  ],
+  "arm_l": [
+   "shoulder_l",
+   "upper_arm_l",
+   "forearm_l",
+   "hand_l"
+  ],
+  "arm_r": [
+   "shoulder_r",
+   "upper_arm_r",
+   "forearm_r",
+   "hand_r"
+  ],
+  "hair_l": [
+   "hair_l_01",
+   "hair_l_02",
+   "hair_l_03"
+  ],
+  "hair_r": [
+   "hair_r_01",
+   "hair_r_02",
+   "hair_r_03"
+  ]
+ },
+ "sockets": {
+  "head": "head",
+  "neck": "neck",
+  "tail_tip": "tail_14",
+  "eyes": "head"
+ },
+ "socket_offsets": {
+  "head": {
+   "loc": [
+    -0.0,
+    0.4,
+    -0.0
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "neck": {
+   "loc": [
+    -0.0,
+    0.1328,
+    0.0295
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "tail_tip": {
+   "loc": [
+    -0.0,
+    0.8407,
+    0.0
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  },
+  "eyes": {
+   "loc": [
+    -0.0,
+    0.37,
+    0.374
+   ],
+   "rot_deg": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "framing": {
+  "default": {
+   "sheet": "split_sheet.png",
+   "cam": "cam.json",
+   "clips": [
+    "idle",
+    "slither",
+    "gaze",
+    "stun_start",
+    "stunned",
+    "rise",
+    "hurt",
+    "death"
+   ]
+  },
+  "tail_swipe": {
+   "sheet": "split_sheet_tail_swipe.png",
+   "cam": "cam_tail_swipe.json",
+   "clips": [
+    "tail_swipe"
+   ]
+  }
+ },
+ "lean_recipe": {
+  "pivot_bone": "tail_03",
+  "pivot": [
+   0.0,
+   -0.9145,
+   1.622
+  ],
+  "steps": [
+   "move pelvis on the arc about the pivot by the lean angle",
+   "rotate pelvis by the lean angle",
+   "rotate tail_03 by minus the lean angle"
+  ]
+ },
+ "pairs": [
+  [
+   "shoulder_l",
+   "shoulder_r"
+  ],
+  [
+   "upper_arm_l",
+   "upper_arm_r"
+  ],
+  [
+   "forearm_l",
+   "forearm_r"
+  ],
+  [
+   "hand_l",
+   "hand_r"
+  ],
+  [
+   "hair_l_01",
+   "hair_r_01"
+  ],
+  [
+   "hair_l_02",
+   "hair_r_02"
+  ],
+  [
+   "hair_l_03",
+   "hair_r_03"
+  ]
+ ],
+ "notes": "Blender Z up, faces -Y, character left = +X, metres; GLB export +Y up. Bone rolls 0. socket_offsets.loc are in the bone's local rest frame (metres from the bone head, Y along the bone; for the vertical head/neck bones local Z = world -Y = forward). Sockets head/neck/tail_tip are the SPEC 8 logical names; eyes is an extra (gaze beam origin, on the face between the eyes). Hierarchy: root -> pelvis; pelvis is the centre of gravity and parents BOTH spine_01 (up) and tail_01 (down the upright tail, round the bend at tail_03/04, then flat along +Y to the tip at tail_14). Rotating or moving pelvis moves the whole body incl. the grounded tail: LEAN RECIPE (bow, lean back, head to the floor): move the pelvis on an arc about the tail_03 head (0, -0.9145, 1.622), rotate the pelvis by the lean angle about the same axis, and counter-rotate tail_03 by minus that angle, so tail_03..14 stay on the ground (e.g. stunned = ~80 deg forward lean about X; see _lean in work/rig_review_medusa/stress.py). Decision (owner away): no re-parenting of the tail; animkit can wrap this as a helper. Tail is 14 even segments of 0.84 m (11.8 m from the pelvis to the tip; the tail lies 9.9 m along the ground behind the body, tip 9.3 m from the pelvis axis; SPEC 3.2/8 says ~14 m: kept the owner-sheet proportions, the lead should change SPEC to ~10 m; tail_swipe r 7 m is covered). Snake hair is fused into one mesh with the head (no separable snake islands), so there are 6 hair_* bones, one per visible snake (01 top, 03 bottom), each from inside the hair mass to the snake head. Weights (03b): neck+head and the shoulders are harmonic blends, so the back-hair curtain (fused to the upper back) grades spine_03 -> head from z 4.95 to ~5.95 and the shoulder tops carry no neck/head weight; the face above the jaw line is head 1.0; each snake ramps from head to its hair bone over the first 20 cm (55 cm for the low hair_*_03 snakes). Max edge stretch: head turn 45 / nod 40 ~5 cm, neck turn 35 ~4 cm, clavicle up 30 ~3 cm. FRAMING: split_sheet.png + cam.json (1920x1080) for idle, slither, gaze, stun_start, stunned, rise, hurt, death; split_sheet_tail_swipe.png + cam_tail_swipe.json (1920x1080, front +-10 m, side y -10.5..+10) for tail_swipe only."
+}

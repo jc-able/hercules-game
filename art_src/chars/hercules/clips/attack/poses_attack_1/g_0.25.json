@@ -1,0 +1,94 @@
+{
+ "space": "absolute",
+ "bones": {
+  "spine_01": {
+   "rx": 2.567,
+   "ry": 3.609,
+   "rz": 22.093
+  },
+  "neck": {
+   "rx": -0.032,
+   "ry": 0.016,
+   "rz": 7.073
+  },
+  "head": {
+   "rx": -0.034,
+   "ry": 0.012,
+   "rz": -0.004
+  },
+  "upper_arm_l": {
+   "rx": 11.914,
+   "ry": 7.282,
+   "rz": 7.783
+  },
+  "forearm_l": {
+   "rx": 2.112,
+   "ry": 13.83,
+   "rz": 32.402
+  },
+  "upper_arm_r": {
+   "rx": -41.213,
+   "ry": 16.967,
+   "rz": 69.582
+  },
+  "forearm_r": {
+   "rx": -60.499,
+   "ry": 11.153,
+   "rz": 95.473
+  },
+  "hand_r": {
+   "rx": -94.201,
+   "ry": 39.191,
+   "rz": 108.377
+  },
+  "thigh_l": {
+   "rx": 9.871,
+   "ry": -0.12,
+   "rz": 2.398
+  },
+  "shin_l": {
+   "rx": 33.659,
+   "ry": 7.33,
+   "rz": 4.483
+  },
+  "foot_l": {
+   "rx": 21.403,
+   "ry": 3.394,
+   "rz": 2.292
+  },
+  "thigh_r": {
+   "rx": -18.928,
+   "ry": 19.989,
+   "rz": 0.605
+  },
+  "shin_r": {
+   "rx": -4.552,
+   "ry": -18.873,
+   "rz": 12.704
+  },
+  "foot_r": {
+   "rx": 9.086,
+   "ry": -0.226,
+   "rz": 5.765
+  }
+ },
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "view_offset": [
+  0.01774,
+  -0.0532,
+  -0.03
+ ],
+ "view_scale": 1.045,
+ "read_from": {
+  "source": "art_src/chars/hercules/clips/attack/action_attack_1.json",
+  "t": 0.25
+ },
+ "note": "grounded read-back of the bake at 0.25 s (review fix 2026-11-22: stops the feet sinking between step keys)"
+}

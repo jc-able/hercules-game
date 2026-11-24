@@ -1,0 +1,36 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 0.458,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_hit/k0_ready.json"
+  },
+  {
+   "t": 0.042,
+   "pose_file": "poses_hit/k1_impact.json"
+  },
+  {
+   "t": 0.083,
+   "pose_file": "poses_hit/k2_peak.json"
+  },
+  {
+   "t": 0.167,
+   "pose_file": "poses_hit/k2b_arch.json"
+  },
+  {
+   "t": 0.292,
+   "pose_file": "poses_hit/k4_hold2.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_hit/k5_recover.json"
+  },
+  {
+   "t": 0.458,
+   "pose_file": "poses_hit/k0_ready.json"
+  }
+ ]
+}

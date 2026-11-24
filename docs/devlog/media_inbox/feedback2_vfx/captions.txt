@@ -1,0 +1,1 @@
+strike_fx_before_after.jpg | Cyclops weak-point hit: owner's recording 5:50.4 (before) vs gdwin 1280x720 bot run seed 11, 4th hit t=19.13 (after) and 0.55 s later | streak 9 blade samples (~0.15 s), star+ring 0.9-1.4 m, 34 sparks + 28 ichor drops, 4 wound decals after 4 hits; flash 0.2 s -> 0.08 s; 0 new shader kinds (fx_capture: same 8 signatures)

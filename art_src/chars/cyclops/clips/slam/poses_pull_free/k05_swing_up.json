@@ -1,0 +1,134 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "hips": {
+   "rx": 0
+  },
+  "spine_01": {
+   "rx": 0
+  },
+  "spine_02": {
+   "rx": 0
+  },
+  "spine_03": {
+   "rx": -2
+  },
+  "neck": {
+   "rx": 0
+  },
+  "head": {
+   "rx": 0
+  },
+  "thigh_l": {
+   "rx": -8.16,
+   "ry": -3.24,
+   "rz": -0.8
+  },
+  "shin_l": {
+   "rx": 5.12,
+   "ry": -1.73,
+   "rz": 0.29
+  },
+  "foot_l": {
+   "rx": 0
+  },
+  "thigh_r": {
+   "rx": -8.16,
+   "ry": 3.24,
+   "rz": 0.8
+  },
+  "shin_r": {
+   "rx": 5.12,
+   "ry": 1.73,
+   "rz": -0.29
+  },
+  "foot_r": {
+   "rx": 0
+  },
+  "shoulder_u_r": {
+   "rx": 3.4,
+   "ry": 10.29,
+   "rz": 22.76
+  },
+  "upper_arm_u_r": {
+   "rx": 28.86,
+   "ry": 21.64,
+   "rz": 126.71
+  },
+  "forearm_u_r": {
+   "rx": 38.85,
+   "ry": 21.07,
+   "rz": 126.78
+  },
+  "hand_u_r": {
+   "rx": 139.47,
+   "ry": 84.73,
+   "rz": 113.81
+  },
+  "shoulder_u_l": {
+   "rx": -1.41,
+   "ry": -5.63,
+   "rz": -13.03
+  },
+  "upper_arm_u_l": {
+   "rx": 6.97,
+   "ry": -28.56,
+   "rz": -46.32
+  },
+  "forearm_u_l": {
+   "rx": 6.99,
+   "ry": -24.61,
+   "rz": -45.89
+  },
+  "hand_u_l": {
+   "rx": 20.82,
+   "ry": -45.15,
+   "rz": -14.05
+  },
+  "upper_arm_d_l": {
+   "rx": -37.098,
+   "ry": 15.997,
+   "rz": -5.221,
+   "space": "local_delta"
+  },
+  "forearm_d_l": {
+   "rx": -17.272,
+   "ry": 4.379,
+   "rz": -12.907,
+   "space": "local_delta"
+  },
+  "hand_d_l": {
+   "rx": 6.803,
+   "ry": 0.105,
+   "rz": 2.998,
+   "space": "local_delta"
+  },
+  "upper_arm_d_r": {
+   "rx": -52.303,
+   "ry": -44.381,
+   "rz": 35.72,
+   "space": "local_delta"
+  },
+  "forearm_d_r": {
+   "rx": -18.999,
+   "ry": -4.194,
+   "rz": 13.055,
+   "space": "local_delta"
+  },
+  "hand_d_r": {
+   "rx": 8.402,
+   "ry": -0.089,
+   "rz": -2.548,
+   "space": "local_delta"
+  }
+ },
+ "_rebase": "re-base 2026-11-23 (pull_free t=1.125): orig; acting cells verbatim, still/gap cells local_delta"
+}

@@ -1,0 +1,105 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 2.5,
+ "events": {
+  "impact": 1.31
+ },
+ "video_window": [
+  2.375,
+  4.875
+ ],
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_sweep/k0_ready.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_sweep/k1_lift.json"
+  },
+  {
+   "t": 0.625,
+   "pose_file": "poses_sweep/k2_cock.json"
+  },
+  {
+   "t": 0.875,
+   "pose_file": "poses_sweep/k3_behind_neck.json"
+  },
+  {
+   "t": 1.125,
+   "pose_file": "poses_sweep/k4_drawn_back.json",
+   "interp": "linear"
+  },
+  {
+   "t": 1.1667,
+   "pose_file": "poses_sweep/k4b_swing_low.json",
+   "interp": "linear"
+  },
+  {
+   "t": 1.2083,
+   "pose_file": "poses_sweep/k4c_swing_low2.json",
+   "interp": "linear"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_sweep/k5_sweep_right.json",
+   "interp": "linear"
+  },
+  {
+   "t": 1.2917,
+   "pose_file": "poses_sweep/k5b_impact.json",
+   "interp": "linear"
+  },
+  {
+   "t": 1.375,
+   "pose_file": "poses_sweep/k6_sweep_left.json"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_sweep/k6b_follow.json"
+  },
+  {
+   "t": 1.625,
+   "pose_file": "poses_sweep/k7_wrap.json"
+  },
+  {
+   "t": 1.75,
+   "pose_file": "poses_sweep/k7b_wrap_mid.json"
+  },
+  {
+   "t": 1.8125,
+   "pose_file": "poses_sweep/k7c_wrap_mid2.json"
+  },
+  {
+   "t": 1.875,
+   "pose_file": "poses_sweep/k8_over_shoulder.json"
+  },
+  {
+   "t": 2.0,
+   "pose_file": "poses_sweep/k8b_over_shoulder_hold.json"
+  },
+  {
+   "t": 2.0833,
+   "pose_file": "poses_sweep/k8d_unwind_clear.json"
+  },
+  {
+   "t": 2.125,
+   "pose_file": "poses_sweep/k8c_unwind.json"
+  },
+  {
+   "t": 2.25,
+   "pose_file": "poses_sweep/k9_recover.json"
+  },
+  {
+   "t": 2.375,
+   "pose_file": "poses_sweep/k9b_settle.json"
+  },
+  {
+   "t": 2.5,
+   "pose_file": "poses_sweep/k0_ready.json"
+  }
+ ],
+ "note_fix": "2026-11-22 anim fixer: 1.125-1.375 re-keyed as a LOW backhand (hips ~0.4 m lower, spine +10 deg forward, right arm re-solved): club-head centre z 1.4-1.7 m, lowest vertex 0.4-0.8 m through the front arc; k5b_impact (1.2917) added so the club crosses straight ahead at the impact event 1.31. Video shows the swing at chest height (deliberate deviation for gameplay: a 1.9 m hero must be inside the arc). k4b/k4c (1.1667/1.2083) keep the swing low (the k4->k5 interpolation lifted the club to 3.7 m). k3 club lifted/moved back off the neck; k7_wrap and k8b re-solved so the club passes outside the left flank / over the left shoulder instead of through the body and face. k8d (2.0833) keeps the club left of / above the head on the unwind.",
+ "note_rebase": "2026-11-23 re-base (work/rebase/cyclops/rebase.py): acting bones 20 kept verbatim; replaced [0.0, 2.5] with natural_pose; gap-filled []; life on ['hand_d_l', 'hand_d_r', 'hand_u_l', 'head', 'shoulder_u_l']; extra life keys []"
+}

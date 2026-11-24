@@ -1,0 +1,1 @@
+attack_windup_before_after.jpg | hercules attack_1 wind-up before (torso folded back, face hidden) vs after the fix (upright, sword across the chest) | IoU front/side 0.78/0.58 -> 0.77/0.65 (wind, 2.125-2.167 s) and 0.74/0.40 -> 0.72/0.54 (2.292 s)

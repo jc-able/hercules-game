@@ -1,0 +1,5 @@
+guard_framing_vs_key.jpg | real 14.4 m Hydra (76 bones) at guard, hero lower centre, lava moat glowing between the shelf and the rocks (compare art_src/reference_video/key_hydra.png) | shelf edge 35.5 m, props from 42 m, MODEL_TINT 0.52/0.40/0.62
+fire_from_real_head.jpg | fire stream leaves the real centre head (mouth between head_c and jaw_c) and sweeps with it: flame angle = 1.65 x the head's angle from the apex | head +-42.5 deg at fire_end -> arc edge 70 deg; damage reads the same angles
+head_down_jaw.jpg | head_down on the real clip: jaw weak point on jaw_c, 0.51-0.70 m high, 6.95 m ahead; 8/8 openings struck by the bot | headless 3 seeds: victory 98.9 s, 0 hits taken
+fight_sheet.jpg | final windowed sheet: inhale, fire, head_down, smoke, bite circle on the landing spot | 1280x720
+before_black_blobs_bright_scorch.jpg | BEFORE the fix: CPUParticles3D idle slots drew black/orange balls in the ramp's last colour where the mouth had been; scorch embers far too bright | fixed: ramps end on black + additive fire, plain smoke material, specks 3.5% of 0.33 m cells

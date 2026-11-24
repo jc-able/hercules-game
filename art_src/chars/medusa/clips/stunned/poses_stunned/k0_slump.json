@@ -1,0 +1,158 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0.0,
+   -1.7165,
+   -1.9157
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "pelvis": {
+   "rx": 100
+  },
+  "tail_03": {
+   "rx": 0
+  },
+  "spine_01": {
+   "space": "local_delta",
+   "rx": 3.0,
+   "ry": 1.0
+  },
+  "spine_02": {
+   "rx": 102.739,
+   "ry": 4
+  },
+  "spine_03": {
+   "rx": 106.242,
+   "ry": -4
+  },
+  "neck": {
+   "rx": 118,
+   "ry": -8
+  },
+  "head": {
+   "rx": 140,
+   "ry": 12
+  },
+  "tail_05": {
+   "space": "local_delta",
+   "rz": 8.871
+  },
+  "tail_06": {
+   "space": "local_delta",
+   "rz": 9.67
+  },
+  "tail_07": {
+   "space": "local_delta",
+   "rz": 16.078
+  },
+  "tail_12": {
+   "space": "local_delta",
+   "rx": 2.944,
+   "ry": 4.043,
+   "rz": 34.104
+  },
+  "tail_13": {
+   "space": "local_delta",
+   "rx": 0.175,
+   "ry": 4.997,
+   "rz": 50.008
+  },
+  "tail_14": {
+   "space": "local_delta",
+   "rx": -3.72,
+   "ry": 3.343,
+   "rz": 61.891
+  },
+  "upper_arm_l": {
+   "front": -30,
+   "side": 11.988
+  },
+  "forearm_l": {
+   "front": -20,
+   "side": -36.438
+  },
+  "hand_l": {
+   "front": -10,
+   "side": -81.863
+  },
+  "upper_arm_r": {
+   "front": 30,
+   "side": 13.289
+  },
+  "forearm_r": {
+   "front": 20,
+   "side": -38.11
+  },
+  "hand_r": {
+   "front": 10,
+   "side": -85.204
+  },
+  "hair_l_01": {
+   "rx": 10,
+   "ry": 5,
+   "space": "local_delta"
+  },
+  "hair_r_01": {
+   "rx": 8,
+   "ry": -6,
+   "space": "local_delta"
+  },
+  "hair_l_02": {
+   "rx": 6,
+   "ry": 4,
+   "space": "local_delta"
+  },
+  "hair_r_02": {
+   "rx": 12,
+   "ry": -4,
+   "space": "local_delta"
+  },
+  "hair_l_03": {
+   "rx": 4,
+   "ry": 2,
+   "space": "local_delta"
+  },
+  "hair_r_03": {
+   "rx": 3,
+   "ry": -2,
+   "space": "local_delta"
+  },
+  "shoulder_l": {
+   "space": "local_delta",
+   "ry": 4.042
+  },
+  "shoulder_r": {
+   "space": "local_delta",
+   "ry": -1.772
+  },
+  "tail_01": {
+   "space": "local_delta"
+  },
+  "tail_02": {
+   "space": "local_delta"
+  },
+  "tail_04": {
+   "space": "local_delta"
+  },
+  "tail_08": {
+   "space": "local_delta",
+   "rz": 6.636
+  },
+  "tail_09": {
+   "space": "local_delta",
+   "rz": 12.436
+  },
+  "tail_10": {
+   "space": "local_delta",
+   "rz": 16.0
+  },
+  "tail_11": {
+   "space": "local_delta",
+   "rz": 20.0
+  }
+ },
+ "_rebase": "re-base stunned t=0: 16 bones natural+life, 8 posed+life, acting kept"
+}

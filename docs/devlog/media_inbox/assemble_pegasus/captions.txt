@@ -1,0 +1,2 @@
+pegasus_ingame_q34.jpg | Pegasus in Godot through CharacterVisual.create("pegasus"), fly downstroke, Hercules seated on the saddle socket (toon + outline) | 69,986 tris, 43 bones, 3 clips (idle 7.0 s, fly 1.042 s, glide 3.0 s), GLB 7.12 MB, 2.99 m tall
+pegasus_chase_rider_clear.jpg | game chase camera (7.5 m behind, 5.2 m up): fly top, fly downstroke, glide, idle | matched fly hit the seated rider's legs on 10 of 25 frames (up to 598 tri pairs); 10/15/20 deg forward wing sweep still hit; 25 deg = 0 hits at 50 samples per beat (strip IoU 0.708 -> 0.645)

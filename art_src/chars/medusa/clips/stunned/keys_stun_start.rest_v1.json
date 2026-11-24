@@ -1,0 +1,57 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 1.625,
+ "events": {},
+ "source": "ref.mp4 0.75-2.375 s (clip t = video t - 0.75); fall re-timed + lean recipe (fixer)",
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_stun_start/k0_rest.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_stun_start/k1_cover.json"
+  },
+  {
+   "t": 0.875,
+   "pose_file": "poses_stun_start/k2_recoil.json"
+  },
+  {
+   "t": 0.95833,
+   "pose_file": "poses_stun_start/g01_t0.958.json"
+  },
+  {
+   "t": 1.04167,
+   "pose_file": "poses_stun_start/g02_t1.042.json"
+  },
+  {
+   "t": 1.125,
+   "pose_file": "poses_stun_start/k3_fall.json"
+  },
+  {
+   "t": 1.20833,
+   "pose_file": "poses_stun_start/g03_t1.208.json"
+  },
+  {
+   "t": 1.29167,
+   "pose_file": "poses_stun_start/g04_t1.292.json"
+  },
+  {
+   "t": 1.375,
+   "pose_file": "poses_stun_start/g05_t1.375.json"
+  },
+  {
+   "t": 1.45833,
+   "pose_file": "poses_stun_start/g06_t1.458.json"
+  },
+  {
+   "t": 1.54167,
+   "pose_file": "poses_stun_start/g07_t1.542.json"
+  },
+  {
+   "t": 1.625,
+   "pose_file": "poses_stunned/k0_slump.json"
+  }
+ ]
+}

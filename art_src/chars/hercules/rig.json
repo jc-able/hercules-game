@@ -1,0 +1,633 @@
+{
+ "id": "hercules",
+ "height": 1.9,
+ "bones": [
+  {
+   "name": "root",
+   "parent": null,
+   "head": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "tail": [
+    0.0,
+    0.3,
+    0.0
+   ],
+   "deform": false
+  },
+  {
+   "name": "hips",
+   "parent": "root",
+   "head": [
+    -0.0041,
+    0.0299,
+    1.0836
+   ],
+   "tail": [
+    -0.0034,
+    0.0286,
+    1.2096
+   ],
+   "deform": true
+  },
+  {
+   "name": "spine_01",
+   "parent": "hips",
+   "head": [
+    -0.0034,
+    0.0286,
+    1.2096
+   ],
+   "tail": [
+    -0.0027,
+    0.0273,
+    1.3355
+   ],
+   "deform": true
+  },
+  {
+   "name": "spine_02",
+   "parent": "spine_01",
+   "head": [
+    -0.0027,
+    0.0273,
+    1.3355
+   ],
+   "tail": [
+    -0.002,
+    0.026,
+    1.4652
+   ],
+   "deform": true
+  },
+  {
+   "name": "spine_03",
+   "parent": "spine_02",
+   "head": [
+    -0.002,
+    0.026,
+    1.4652
+   ],
+   "tail": [
+    -0.001,
+    0.0251,
+    1.5528
+   ],
+   "deform": true
+  },
+  {
+   "name": "neck",
+   "parent": "spine_03",
+   "head": [
+    -0.001,
+    0.0251,
+    1.5528
+   ],
+   "tail": [
+    0.0,
+    0.0243,
+    1.6288
+   ],
+   "deform": true
+  },
+  {
+   "name": "head",
+   "parent": "neck",
+   "head": [
+    0.0,
+    0.0243,
+    1.6288
+   ],
+   "tail": [
+    0.0,
+    0.0243,
+    1.89
+   ],
+   "deform": true
+  },
+  {
+   "name": "shoulder_l",
+   "parent": "spine_03",
+   "head": [
+    0.0435,
+    0.0266,
+    1.4952
+   ],
+   "tail": [
+    0.2213,
+    0.0391,
+    1.4952
+   ],
+   "deform": true
+  },
+  {
+   "name": "upper_arm_l",
+   "parent": "shoulder_l",
+   "head": [
+    0.2213,
+    0.0391,
+    1.4952
+   ],
+   "tail": [
+    0.3443,
+    0.0527,
+    1.2656
+   ],
+   "deform": true
+  },
+  {
+   "name": "forearm_l",
+   "parent": "upper_arm_l",
+   "head": [
+    0.3443,
+    0.0527,
+    1.2656
+   ],
+   "tail": [
+    0.5124,
+    0.0173,
+    1.0525
+   ],
+   "deform": true
+  },
+  {
+   "name": "hand_l",
+   "parent": "forearm_l",
+   "head": [
+    0.5124,
+    0.0173,
+    1.0525
+   ],
+   "tail": [
+    0.6603,
+    -0.0138,
+    0.8649
+   ],
+   "deform": true
+  },
+  {
+   "name": "fingers_l",
+   "parent": "hand_l",
+   "head": [
+    0.5997,
+    -0.001,
+    0.9417
+   ],
+   "tail": [
+    0.6756,
+    -0.017,
+    0.8454
+   ],
+   "deform": true
+  },
+  {
+   "name": "shoulder_r",
+   "parent": "spine_03",
+   "head": [
+    -0.0467,
+    0.0247,
+    1.4952
+   ],
+   "tail": [
+    -0.2295,
+    0.039,
+    1.4952
+   ],
+   "deform": true
+  },
+  {
+   "name": "upper_arm_r",
+   "parent": "shoulder_r",
+   "head": [
+    -0.2295,
+    0.039,
+    1.4952
+   ],
+   "tail": [
+    -0.3607,
+    0.0581,
+    1.2656
+   ],
+   "deform": true
+  },
+  {
+   "name": "forearm_r",
+   "parent": "upper_arm_r",
+   "head": [
+    -0.3607,
+    0.0581,
+    1.2656
+   ],
+   "tail": [
+    -0.5247,
+    0.0186,
+    1.0484
+   ],
+   "deform": true
+  },
+  {
+   "name": "hand_r",
+   "parent": "forearm_r",
+   "head": [
+    -0.5247,
+    0.0186,
+    1.0484
+   ],
+   "tail": [
+    -0.6635,
+    -0.0148,
+    0.8645
+   ],
+   "deform": true
+  },
+  {
+   "name": "fingers_r",
+   "parent": "hand_r",
+   "head": [
+    -0.6065,
+    -0.0011,
+    0.94
+   ],
+   "tail": [
+    -0.6776,
+    -0.0182,
+    0.8457
+   ],
+   "deform": true
+  },
+  {
+   "name": "thigh_l",
+   "parent": "hips",
+   "head": [
+    0.1057,
+    0.0299,
+    0.9823
+   ],
+   "tail": [
+    0.1558,
+    -0.0103,
+    0.577
+   ],
+   "deform": true
+  },
+  {
+   "name": "shin_l",
+   "parent": "thigh_l",
+   "head": [
+    0.1558,
+    -0.0103,
+    0.577
+   ],
+   "tail": [
+    0.205,
+    0.07,
+    0.14
+   ],
+   "deform": true
+  },
+  {
+   "name": "foot_l",
+   "parent": "shin_l",
+   "head": [
+    0.205,
+    0.07,
+    0.14
+   ],
+   "tail": [
+    0.237,
+    -0.085,
+    0.045
+   ],
+   "deform": true
+  },
+  {
+   "name": "toe_l",
+   "parent": "foot_l",
+   "head": [
+    0.237,
+    -0.085,
+    0.045
+   ],
+   "tail": [
+    0.237,
+    -0.2036,
+    0.045
+   ],
+   "deform": true
+  },
+  {
+   "name": "thigh_r",
+   "parent": "hips",
+   "head": [
+    -0.1139,
+    0.0299,
+    0.9815
+   ],
+   "tail": [
+    -0.164,
+    -0.0103,
+    0.5729
+   ],
+   "deform": true
+  },
+  {
+   "name": "shin_r",
+   "parent": "thigh_r",
+   "head": [
+    -0.164,
+    -0.0103,
+    0.5729
+   ],
+   "tail": [
+    -0.205,
+    0.07,
+    0.14
+   ],
+   "deform": true
+  },
+  {
+   "name": "foot_r",
+   "parent": "shin_r",
+   "head": [
+    -0.205,
+    0.07,
+    0.14
+   ],
+   "tail": [
+    -0.237,
+    -0.085,
+    0.045
+   ],
+   "deform": true
+  },
+  {
+   "name": "toe_r",
+   "parent": "foot_r",
+   "head": [
+    -0.237,
+    -0.085,
+    0.045
+   ],
+   "tail": [
+    -0.237,
+    -0.2035,
+    0.045
+   ],
+   "deform": true
+  },
+  {
+   "name": "skirt_f",
+   "parent": "hips",
+   "head": [
+    0.0,
+    0.03,
+    1.12
+   ],
+   "tail": [
+    0.0,
+    -0.17,
+    0.7
+   ],
+   "deform": true
+  },
+  {
+   "name": "skirt_b",
+   "parent": "hips",
+   "head": [
+    0.0,
+    0.03,
+    1.12
+   ],
+   "tail": [
+    0.0,
+    0.2,
+    0.7
+   ],
+   "deform": true
+  },
+  {
+   "name": "skirt_l",
+   "parent": "hips",
+   "head": [
+    0.0,
+    0.03,
+    1.12
+   ],
+   "tail": [
+    0.26,
+    0.03,
+    0.7
+   ],
+   "deform": true
+  },
+  {
+   "name": "skirt_r",
+   "parent": "hips",
+   "head": [
+    0.0,
+    0.03,
+    1.12
+   ],
+   "tail": [
+    -0.26,
+    0.03,
+    0.7
+   ],
+   "deform": true
+  }
+ ],
+ "chains": {
+  "spine": [
+   "hips",
+   "spine_01",
+   "spine_02",
+   "spine_03",
+   "neck",
+   "head"
+  ],
+  "arm_l": [
+   "shoulder_l",
+   "upper_arm_l",
+   "forearm_l",
+   "hand_l"
+  ],
+  "arm_r": [
+   "shoulder_r",
+   "upper_arm_r",
+   "forearm_r",
+   "hand_r"
+  ],
+  "leg_l": [
+   "thigh_l",
+   "shin_l",
+   "foot_l",
+   "toe_l"
+  ],
+  "leg_r": [
+   "thigh_r",
+   "shin_r",
+   "foot_r",
+   "toe_r"
+  ]
+ },
+ "sockets": {
+  "hand_r": "hand_r",
+  "forearm_l": "forearm_l",
+  "head": "head",
+  "chest": "spine_02"
+ },
+ "socket_offsets": {
+  "hand_r": {
+   "loc": [
+    -0.0574,
+    0.1027,
+    0.0093
+   ],
+   "rot_deg": [
+    -1.33,
+    -50.27,
+    -83.11
+   ]
+  },
+  "forearm_l": {
+   "loc": [
+    -0.0713,
+    0.151,
+    0.0074
+   ],
+   "rot_deg": [
+    5.81,
+    -0.0,
+    -90.0
+   ]
+  },
+  "head": {
+   "loc": [
+    -0.0007,
+    0.1101,
+    0.0163
+   ],
+   "rot_deg": [
+    -90.0,
+    0.0,
+    0.0
+   ]
+  },
+  "chest": {
+   "loc": [
+    0.0024,
+    0.0668,
+    0.188
+   ],
+   "rot_deg": [
+    -90.6,
+    0.0,
+    0.31
+   ]
+  }
+ },
+ "socket_props": {
+  "hand_r": "res://assets/props/sword.glb",
+  "forearm_l": "res://assets/props/shield.glb"
+ },
+ "socket_rest_world_blender": {
+  "hand_r": [
+   -0.5393,
+   -0.0053,
+   0.9337
+  ],
+  "forearm_l": [
+   0.4924,
+   0.0259,
+   1.1929
+  ],
+  "head": [
+   -0.0007,
+   0.008,
+   1.7389
+  ],
+  "chest": [
+   0.0,
+   -0.1614,
+   1.4003
+  ]
+ },
+ "pairs": [
+  [
+   "shoulder_l",
+   "shoulder_r"
+  ],
+  [
+   "upper_arm_l",
+   "upper_arm_r"
+  ],
+  [
+   "forearm_l",
+   "forearm_r"
+  ],
+  [
+   "hand_l",
+   "hand_r"
+  ],
+  [
+   "thigh_l",
+   "thigh_r"
+  ],
+  [
+   "shin_l",
+   "shin_r"
+  ],
+  [
+   "foot_l",
+   "foot_r"
+  ],
+  [
+   "toe_l",
+   "toe_r"
+  ],
+  [
+   "skirt_l",
+   "skirt_r"
+  ],
+  [
+   "fingers_l",
+   "fingers_r"
+  ]
+ ],
+ "driven": {
+  "bones": [
+   "skirt_f",
+   "skirt_b",
+   "skirt_l",
+   "skirt_r"
+  ],
+  "by": [
+   "thigh_l",
+   "thigh_r"
+  ],
+  "spec": {
+   "K": 0.85,
+   "K_IN": 0.15,
+   "K_SIDE": 0.5,
+   "K_SIDE_BACK": 0.35,
+   "MAX_DEG": 95.0,
+   "CAP": 24.0,
+   "SPREAD_KNEE": 20.0,
+   "SPREAD_SLOPE": 0.65,
+   "SEAT": [
+    30.0,
+    60.0
+   ],
+   "skirt_f": "m = mean(pitch_l, pitch_r); pitch = CAP*tanh(K*m/CAP) if m > 0 else K_IN*m; >= K*lo*smoothstep(SEAT) with lo = min(pitch_l, pitch_r) > 0",
+   "skirt_b": "pitch = CAP*tanh(K*m/CAP) if m < 0 else K_IN*m; <= K*hi*smoothstep(SEAT) with hi = max(pitch_l, pitch_r) < 0",
+   "skirt_l": "abd = K * spread(abd(thigh_l)), K_IN if < 0; pitch = K_SIDE * pitch(thigh_l) forward, K_SIDE_BACK backward",
+   "skirt_r": "abd = K * spread(abd(thigh_r)), K_IN if < 0; pitch = K_SIDE * pitch(thigh_r) forward, K_SIDE_BACK backward",
+   "frame": "angles in the hips frame relative to rest; forward pitch = rotation about -X (Blender, char faces -Y); outward abd = tail moves away from x=0; each skirt bone rotates about its own head"
+  },
+  "code": "art_src/chars/hercules/scripts/skirt_drivers.py (skirt_matrices(rest, posed))",
+  "note": "Do not key the skirt bones by hand: set them from the thighs on every pose/frame before baking. Review fix 2026-11-22 (anim fixer): centre panels driven by the MEAN thigh pitch with a soft cap, side-panel spread limited, seated clearance eased in (skirt split / crotch V fix)."
+ },
+ "notes": "Coordinates: Blender, Z up, metres, character faces -Y, its left = +X; armature and mesh at identity, so bone head/tail are world positions. glTF export (+Y up) keeps each joint in the Blender bone frame (+Y along the bone), so a Godot BoneAttachment3D on the socket bone + socket_offsets (loc, XYZ euler rot_deg, in that bone frame) reproduces the placement in hercules.blend. Skeleton = Higgsfield/Meshy auto-rig renamed (Hips->hips, Spine02->spine_01, Spine01->spine_02, Spine->spine_03, neck, Head->head, Left*/Right* -> *_l/*_r); Meshy helper bone headfront merged into head, head_end dropped, root added (non-deforming, at the origin). Review fixes 2026-11-22: (1) SKIRT: four deform bones skirt_f/b/l/r (children of hips, belt z 1.12 -> hem z 0.70) own the red cloth below the belt (hips at the belt blending to the skirt bones by the hem, by geodesic distance); no thigh weight on the skirt, tunic or belt. The generated mesh glued the hem underside to both thighs with 496 faces; they were deleted (19 verts) so the skirt hangs free; the thigh tops are open inside the skirt and the material is double-sided. The skirt bones are DRIVEN, never keyed: see \"driven\" and skirt_drivers.py. Without the driver the skirt stays rigid with the hips and the thighs pass through it. (2) Feet: both ankles at (+-0.205, 0.070, 0.140), ball joints at (+-0.237, -0.085, 0.045); left foot/toe/lower-shin weights mirrored from the right; mirror test foot 30 deg p95 7.5 mm. (3) Skin under the skirt: no opposite-leg weight beyond a 1.2 cm centre seam; crotch seam 45/45 thighs + 10% hips. (4) Neck: right back mirrored from the left, shoulder weight ramps out above z 1.55-1.59, near-coincident vertex pairs share weights. (5) spine_03 now carries up to 45% of the upper chest (z 1.40-1.55): keying it is safe. (6) Sword at rest pitched 35 deg down and 25 deg out, flat toward the front camera, so it reads in both sheet panels; socket_offsets.hand_r matches. (7) fingers_l / fingers_r: one curl bone per hand (knuckles -> tips; rotate about its own X, about 60-80 deg, to close the hand on the sword grip in clips). Props: sword.glb origin = grip centre, blade +Y (Godot); shield.glb origin = centre of the back, face +Z (Godot); on the left forearm the face points outward and the emblem top points to the thumb side."
+}

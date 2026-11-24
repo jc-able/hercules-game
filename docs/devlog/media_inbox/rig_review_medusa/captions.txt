@@ -1,0 +1,1 @@
+medusa_seam_heat.jpg | reviewer stress test: textured (top) vs edge-stretch heat (bottom, red = 10 cm+) for neck turn 35, head turn 45, left clavicle up 30, shrug+look | max edge stretch 23 / 27 / 26 / 20 cm; hard neck/shoulder weight seam (neck 0.5 on shoulder tops next to shoulder 0.9)

@@ -1,0 +1,234 @@
+{
+ "by": "re-base animator (hercules), 2026-11-23",
+ "tool": "work/rebase/hercules/rebase.py + rebase_bl.py + life.py",
+ "natural_pose": "art_src/chars/hercules/natural_pose.json",
+ "clips": {
+  "block_idle": {
+   "action": "art_src/chars/hercules/clips/block/action_block_idle.json",
+   "length": 2.5,
+   "loop": true,
+   "events": {},
+   "changed": "guard kept; breathing in spine + shoulders (2.5 s), weight shift in the hips (thighs counter-rotated, feet stay), head peeks over the rim and back, neck/head turn on other periods, sword hand re-grips, shield arm rises with the breath; rest bones -> natural. Moving joints (>=3 deg) 5 -> 19 of 24; keys 3 -> 61 (one per frame, every original key time kept); length, loop and events unchanged",
+   "moving_joints_old": 5,
+   "moving_joints_new": 19,
+   "still_bones": [
+    "fingers_l",
+    "hand_l",
+    "hips",
+    "toe_l",
+    "toe_r"
+   ]
+  },
+  "block_start": {
+   "action": "art_src/chars/hercules/clips/block/action_block_start.json",
+   "length": 0.25,
+   "loop": false,
+   "events": {},
+   "changed": "starts on the natural stance (was the old lunge idle), shield raise kept, ends on block_idle frame 0. Moving joints (>=3 deg) 15 -> 16 of 24; keys 3 -> 7 (one per frame, every original key time kept); length, loop and events unchanged",
+   "moving_joints_old": 15,
+   "moving_joints_new": 16,
+   "still_bones": [
+    "fingers_l",
+    "fingers_r",
+    "hand_l",
+    "shoulder_l",
+    "shoulder_r",
+    "spine_03",
+    "toe_l",
+    "toe_r"
+   ]
+  },
+  "block_end": {
+   "action": "art_src/chars/hercules/clips/block/action_block_end.json",
+   "length": 0.25,
+   "loop": false,
+   "events": {},
+   "changed": "starts on block_idle frame 0, lowers into the natural stance (block_start reversed). Moving joints (>=3 deg) 15 -> 16 of 24; keys 3 -> 7 (one per frame, every original key time kept); length, loop and events unchanged",
+   "moving_joints_old": 15,
+   "moving_joints_new": 16,
+   "still_bones": [
+    "fingers_l",
+    "fingers_r",
+    "hand_l",
+    "shoulder_l",
+    "shoulder_r",
+    "spine_03",
+    "toe_l",
+    "toe_r"
+   ]
+  },
+  "strafe_l": {
+   "action": "art_src/chars/hercules/clips/strafe/action_strafe_l.json",
+   "length": 0.8333333333333334,
+   "loop": true,
+   "events": {},
+   "changed": "legs as keyed; sword arm counter-swings 6 deg with the steps, shield arm bobs 1 frame late, spine_03 counter-rotates 3.5 deg, neck/head cancel it (eyes on the target) with a small bob, sword tip lags, breathing at the cycle. Moving joints (>=3 deg) 8 -> 19 of 24; keys 13 -> 21 (one per frame, every original key time kept); length, loop and events unchanged",
+   "moving_joints_old": 8,
+   "moving_joints_new": 19,
+   "still_bones": [
+    "fingers_l",
+    "hand_l",
+    "hips",
+    "toe_l",
+    "toe_r"
+   ]
+  },
+  "strafe_r": {
+   "action": "art_src/chars/hercules/clips/strafe/action_strafe_r.json",
+   "length": 0.8333333333333334,
+   "loop": true,
+   "events": {},
+   "changed": "ak mirror --keys of the re-based strafe_l, strafe_l upper body restored per frame (sword stays right, shield in front). Moving joints (>=3 deg) 8 -> 19 of 24; keys 13 -> 21 (one per frame, every original key time kept); length, loop and events unchanged",
+   "moving_joints_old": 8,
+   "moving_joints_new": 19,
+   "still_bones": [
+    "fingers_l",
+    "hand_l",
+    "hips",
+    "toe_l",
+    "toe_r"
+   ]
+  },
+  "walk_back": {
+   "action": "art_src/chars/hercules/clips/walk_back/action_walk_back.json",
+   "length": 0.5,
+   "loop": true,
+   "events": {},
+   "changed": "legs as keyed; sword arm swings 4 deg against the legs, shield arm 2.5 deg opposite, chest counter-rotates 3 deg, head cancels it and stays level with a step bob, sword tip sways behind the hand. Moving joints (>=3 deg) 8 -> 19 of 24; keys 13 -> 13 (one per frame, every original key time kept); length, loop and events unchanged",
+   "moving_joints_old": 8,
+   "moving_joints_new": 19,
+   "still_bones": [
+    "fingers_l",
+    "hand_l",
+    "hips",
+    "toe_l",
+    "toe_r"
+   ]
+  },
+  "attack_1": {
+   "action": "art_src/chars/hercules/clips/attack/action_attack_1.json",
+   "length": 1.25,
+   "loop": false,
+   "events": {
+    "active_start": 0.458,
+    "active_end": 0.708,
+    "chain": 0.917
+   },
+   "changed": "sword arm and legs as keyed; starts/ends on the natural stance; shield arm tucks in during the swing, shoulders and chest follow through, head tracks the blade, sword fingers closed. Moving joints (>=3 deg) 14 -> 16 of 24; keys 20 -> 31 (one per frame, every original key time kept); length, loop and events unchanged",
+   "moving_joints_old": 14,
+   "moving_joints_new": 16,
+   "still_bones": [
+    "fingers_l",
+    "fingers_r",
+    "hand_l",
+    "hips",
+    "shoulder_r",
+    "spine_02",
+    "toe_l",
+    "toe_r"
+   ]
+  },
+  "attack_2": {
+   "action": "art_src/chars/hercules/clips/attack/action_attack_2.json",
+   "length": 0.8333333333333334,
+   "loop": false,
+   "events": {
+    "active_start": 0.25,
+    "active_end": 0.458
+   },
+   "changed": "acting arm as keyed; head and neck track the chop, shield arm braces, ends on the natural stance; start = attack_1 chain pose. Moving joints (>=3 deg) 12 -> 15 of 24; keys 17 -> 21 (one per frame, every original key time kept); length, loop and events unchanged",
+   "moving_joints_old": 12,
+   "moving_joints_new": 15,
+   "still_bones": [
+    "fingers_l",
+    "fingers_r",
+    "hand_l",
+    "hips",
+    "shoulder_l",
+    "shoulder_r",
+    "spine_02",
+    "toe_l",
+    "toe_r"
+   ]
+  },
+  "hit": {
+   "action": "art_src/chars/hercules/clips/hit/action_hit.json",
+   "length": 0.4583333333333333,
+   "loop": false,
+   "events": {},
+   "changed": "flinch kept (as a delta on the natural stance); knees give and recover, shoulders hunch, head snaps and settles, off-hand pulls in. Moving joints (>=3 deg) 10 -> 16 of 24; keys 7 -> 12 (one per frame, every original key time kept); length, loop and events unchanged",
+   "moving_joints_old": 10,
+   "moving_joints_new": 16,
+   "still_bones": [
+    "fingers_l",
+    "fingers_r",
+    "foot_l",
+    "foot_r",
+    "hand_l",
+    "hips",
+    "toe_l",
+    "toe_r"
+   ]
+  },
+  "roll": {
+   "action": "art_src/chars/hercules/clips/roll/action_roll.json",
+   "length": 0.7083333333333334,
+   "loop": false,
+   "events": {},
+   "changed": "tumble kept; first/last 0.2 s blend from/to the natural stance (was the old lunge). Moving joints (>=3 deg) 16 -> 16 of 24; keys 17 -> 18 (one per frame, every original key time kept); length, loop and events unchanged",
+   "moving_joints_old": 16,
+   "moving_joints_new": 16,
+   "still_bones": [
+    "fingers_l",
+    "fingers_r",
+    "hand_l",
+    "hips",
+    "shoulder_l",
+    "shoulder_r",
+    "toe_l",
+    "toe_r"
+   ]
+  },
+  "ride": {
+   "action": "art_src/chars/ride/clips/ride/action_ride.json",
+   "length": 1.5,
+   "loop": true,
+   "events": {},
+   "changed": "seat, hips and legs as keyed; the torso pitches with every wing beat (lag down the spine), breathing, the head counters the pitch, looks left/right once per beat and nods at the double rate, the free sword arm balances a quarter beat late, the shield arm rides a frame behind, hands closed. Moving joints (>=3 deg) 4 -> 9 of 24; keys 5 -> 37 (one per frame, every original key time kept); length, loop and events unchanged",
+   "moving_joints_old": 4,
+   "moving_joints_new": 9,
+   "still_bones": [
+    "fingers_l",
+    "fingers_r",
+    "foot_l",
+    "foot_r",
+    "forearm_l",
+    "hand_l",
+    "hips",
+    "shin_l",
+    "shin_r",
+    "shoulder_l",
+    "shoulder_r",
+    "thigh_l",
+    "thigh_r",
+    "toe_l",
+    "toe_r"
+   ]
+  }
+ },
+ "kept_as_is": [
+  "death (K: full-body fall, ends in its own pose)"
+ ],
+ "not_mine": [
+  "idle (V: new video idle_n, other animator)",
+  "run (V: new video run_n, other animator)"
+ ],
+ "backups": "every replaced file kept beside it as <name>.rest_v1.json / .rest_v1.jpg",
+ "animfix": {
+  "by": "animfix_hercules 2026-11-23",
+  "natural_pose": "v2 (left arm against the game shield; v1 in backup_animfix_20261123/natural_pose.v1.json)",
+  "tool": "work/animfix_hercules/regen.py (this rebase_bl.py + life.py, unchanged) -> edits.py -> build.py",
+  "clips": "all re-base jobs except ride re-run on natural v2; attack_1/attack_2/block_start/block_end feet re-timed into planted steps, forearm_l slerped in roll 0.125-0.25 and attack_2 0.167-0.333 / 0.542-0.75, hit flinch softened, death 0-0.5 s re-based",
+  "notes": "docs/notes/assemble2_hercules.md (animfix section)"
+ }
+}

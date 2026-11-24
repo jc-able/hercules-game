@@ -1,0 +1,144 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest",
+  "rot": [
+   0,
+   0,
+   5
+  ]
+ },
+ "bones": {
+  "spine_01": {
+   "space": "local_delta",
+   "rz": 2.4,
+   "rx": 46.2,
+   "ry": 32.0
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rz": 2.8,
+   "rx": 14.9,
+   "ry": -16.0
+  },
+  "spine_03": {
+   "space": "local_delta",
+   "rz": 2.8,
+   "rx": -17.1,
+   "ry": -12.0
+  },
+  "thigh_l": {
+   "rx": -26.0,
+   "ry": -14.0
+  },
+  "thigh_r": {
+   "rx": -36.0,
+   "ry": 16.0
+  },
+  "shin_l": {
+   "rx": 28.6,
+   "ry": 16.2
+  },
+  "shin_r": {
+   "rx": 30.6,
+   "ry": 5.8
+  },
+  "foot_l": {
+   "rx": 0
+  },
+  "foot_r": {
+   "rx": 0
+  },
+  "upper_arm_u_l": {
+   "rx": 0.26,
+   "ry": -0.87,
+   "rz": 14.66
+  },
+  "forearm_u_l": {
+   "rx": 29.69,
+   "ry": -25.01,
+   "rz": 4.51
+  },
+  "shoulder_u_r": {
+   "rx": -5.14,
+   "ry": -32.89,
+   "rz": -29.88
+  },
+  "upper_arm_u_r": {
+   "rx": -14.25,
+   "ry": -26.74,
+   "rz": 5.01
+  },
+  "forearm_u_r": {
+   "rx": -14.89,
+   "ry": -42.67,
+   "rz": 11.55
+  },
+  "hand_u_r": {
+   "rx": -130.08,
+   "ry": -40.43,
+   "rz": 161.25
+  },
+  "neck": {
+   "rx": 12.0,
+   "ry": 4.0
+  },
+  "upper_arm_d_l": {
+   "rx": 8.0,
+   "ry": 22.0
+  },
+  "forearm_d_l": {
+   "rx": -20.0,
+   "ry": 30.0
+  },
+  "upper_arm_d_r": {
+   "rx": 6.0,
+   "ry": -6.0
+  },
+  "forearm_d_r": {
+   "rx": 0.0,
+   "ry": -12.0
+  },
+  "head": {
+   "rx": -0.585,
+   "ry": -2.263,
+   "rz": 8.513,
+   "space": "local_delta"
+  },
+  "shoulder_u_l": {
+   "rx": -11.437,
+   "ry": 17.869,
+   "rz": 0.535,
+   "space": "local_delta"
+  },
+  "hand_u_l": {
+   "rx": 25.996,
+   "ry": 9.308,
+   "rz": -104.753,
+   "space": "local_delta"
+  },
+  "hand_d_l": {
+   "rx": 46.004,
+   "ry": 22.153,
+   "rz": 51.838,
+   "space": "local_delta"
+  },
+  "hand_d_r": {
+   "rx": 36.709,
+   "ry": -16.534,
+   "rz": -51.095,
+   "space": "local_delta"
+  }
+ },
+ "view_offset": [
+  0.41,
+  -0.36,
+  -0.04
+ ],
+ "_rebase": "re-base 2026-11-23 (sweep t=1.25): orig; acting cells verbatim, still/gap cells local_delta"
+}

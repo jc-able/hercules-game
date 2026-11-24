@@ -1,0 +1,2 @@
+walk_old_strip.jpg | cyclops walk BEFORE: T-pose arms, club straight up | 13 of 29 bones moving
+walk_n_strip.jpg | cyclops walk AFTER from the natural-stance video: club on the shoulder, all four arms swing, torso dips | 28 of 29 bones moving, key IoU 0.86 front / 0.76 side, planted foot 2.54 m/s

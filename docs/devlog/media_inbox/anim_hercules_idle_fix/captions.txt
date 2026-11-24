@@ -1,0 +1,1 @@
+idle_side_before_after.jpg | Hercules idle, side view at video 3.75 s: reference, old key (spine leaning back 7 deg, head 6 cm behind the pelvis, hand in front of the hip, flat blade), fixed key (spine upright, head over the pelvis, hand at the hip, blade ~31 deg forward-down) | side IoU 0.747 -> 0.719, front 0.825 -> 0.853; strip mean 0.787 -> 0.788

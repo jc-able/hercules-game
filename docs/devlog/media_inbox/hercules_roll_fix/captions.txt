@@ -1,0 +1,1 @@
+roll_fix_before_after.jpg | Hercules dodge roll before/after the review fixes (top: first pass, bottom: fixed; reference video rows above ours) | 17 keys, 0.708 s, lowest_z 0.000..0.009 m every frame, sword min 0.001 m above floor, body centre within -0.16..+0.02 m, strip IoU 0.49 (ends now idle by design)

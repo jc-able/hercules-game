@@ -1,0 +1,15 @@
+hercules_idle_first_try.jpg | Hercules idle, first hand-written pose vs the Seedance frame (before framing fix) | IoU front 0.49 / side 0.29
+hercules_idle_keys_compare.jpg | Hercules idle, 4 final keys vs video frames (target / ours / red-blue diff) | mean IoU 0.786-0.788 per key (front ~0.83, side ~0.745)
+hercules_idle_strip.jpg | Hercules idle loop, reference row above our baked row (8 samples) | 3.5 s loop @24 fps, 4 keys, IoU 0.82-0.83 / 0.74-0.75 on every frame
+hercules_walk_back_first_guess.jpg | walk_back: first hand-written guard pose vs the video frame (shield edge-on, standing too tall) | IoU front 0.63 / side 0.66
+hercules_walk_back_keys_final.jpg | walk_back: final keys (contact, right-foot lift, left-foot lift) over the video frames, shield turned to face the camera | IoU front 0.83 / side 0.75-0.77, 4 keys
+hercules_walk_back_strip.jpg | walk_back loop: video on top, our baked 0.5 s cycle below | mean IoU 0.794 over 9 frames, 12 frames at 24 fps
+hercules_strafe_l_first_guess.jpg | strafe_l: first hand-written wide-stance guess vs the video frame (standing too tall, shield edge-on, sword flat) | IoU front 0.44 / side 0.47
+hercules_strafe_l_keys_vs_video.jpg | strafe_l: 4 final keys (narrow, left foot out, wide, right foot in) over the video, after fit + a small leg IK that pins the feet | IoU 0.79-0.82 front / 0.80-0.82 side
+hercules_strafe_l_strip.jpg | strafe_l loop: video on top, our baked 0.833 s in-place cycle below (last frames drift only because the video body travels sideways) | mean IoU 0.75 over 13 frames, 20 frames at 24 fps
+hercules_roll_strip.jpg | Hercules forward dodge roll: Seedance reference (rows 1,3,5) vs our keyframed rig (rows 2,4,6), front + side | 9 keys (8 poses), 1.0 s at 24 fps, key IoU mean 0.70 (0.62-0.77), strip mean 0.61; ak fit took keys from ~0.30 to ~0.70
+cyclops_idle_strip.jpg | Cyclops idle: Seedance reference (rows 1,3) vs our keyframed rig (rows 2,4), two breaths in a 3.33 s loop | IoU front 0.86 / side 0.94 every frame, 4 keys, 29 bones
+cyclops_idle_fit.jpg | Cyclops idle base pose: target / ours / overlay / red-blue difference after ak fit (red rim = the video's bulkier flexed muscles) | IoU front 0.866 side 0.940 (rest pose 0.86/0.94)
+medusa_stun_start_strip.jpg | Medusa stun_start: video row above the keyframed rig, blinded recoil then collapse to the floor | 5 keys, 1.625 s, strip IoU 0.63
+medusa_rise_strip.jpg | Medusa rise: from slumped on the floor back up to idle, video vs rig | 6 keys, 2.5 s, strip IoU 0.57
+cyclops_walk_strip.jpg | cyclops walk loop: Seedance reference (top rows) vs keyframed rig (bottom rows), front + side | 3.917 s loop, 14 keys (5 traced poses + mirrors), strip IoU mean 0.82, key IoU front 0.88 / side 0.81

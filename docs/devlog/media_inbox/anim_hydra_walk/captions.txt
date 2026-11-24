@@ -1,0 +1,2 @@
+hydra_walk_strip.jpg | Hydra walk: Seedance reference row above the baked rig row, one 2.17 s cycle | 27 keys, mean IoU 0.877 (front 0.898, side 0.857), leg-band side IoU 0.73 vs 0.57 at rest
+hydra_walk_inbetweens.jpg | Hydra walk in-betweens of the IK walk (side view, every 3rd strip frame): an earlier version with keys every 4 frames pushed a toe 0.18 m through the floor between keys; this one is keyed every 2 frames | floor contact -0.009..+0.017 m on every frame

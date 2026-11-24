@@ -1,0 +1,51 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 1.5,
+ "events": {},
+ "keys": [
+  {
+   "t": 0,
+   "pose_file": "poses_stuck/k00_stuck.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_pull_free/k01_strain.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_pull_free/k02_heave.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_pull_free/k03_lift.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_pull_free/k04_across.json"
+  },
+  {
+   "t": 1.125,
+   "pose_file": "poses_pull_free/k05_swing_up.json"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_pull_free/k06_over.json"
+  },
+  {
+   "t": 1.375,
+   "pose_file": "poses_pull_free/k07_shoulder.json"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_pull_free/k08_natural.json"
+  }
+ ],
+ "video": "ref.mp4",
+ "video_window": [
+  6.0,
+  7.75
+ ],
+ "note_fix": "2026-11-22 anim fixer: k01-k03 re-solved from the new centre-line buried stuck pose (club head stays in the crack at strain, then comes out at heave); k05 left arm = read-back at 1.1875 (left hand lets go over 1.0-1.25 instead of a 1-frame snap); head/neck thrown back 18/6 deg at 1.25-1.375 (roar); length trimmed 1.75 -> 1.5 (no held tail)",
+ "note_rebase": "2026-11-23 re-base (work/rebase/cyclops/rebase.py): acting bones 24 kept verbatim; replaced [1.5] with natural_pose; gap-filled ['forearm_d_l', 'forearm_d_r', 'shoulder_u_l', 'upper_arm_d_l', 'upper_arm_d_r']; life on ['hand_d_l', 'hand_d_r']; extra life keys []"
+}

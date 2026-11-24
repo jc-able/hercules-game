@@ -1,0 +1,2 @@
+attack_recovery_ba.jpg | attack_1 recovery before/after: arm dropped in 3 frames at 2.27x, now eases back at 1.3x and finishes standing | peak 58 -> 34 deg/frame, recovery 0.1 -> 0.33 s
+hero_idle_run_circling.jpg | chase camera, new natural clips: idle (6.0 s), run (0.667 s, move_speed 4.59), circling run with the upper twist | sword carry low right, shield edge-on in idle, disc in run/circling

@@ -1,0 +1,60 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 1.75,
+ "events": {
+  "impact": 1.5
+ },
+ "keys": [
+  {
+   "t": 0,
+   "pose_file": "poses_slam/k00_ready.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_slam/k01_lift.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_slam/k02_raise.json"
+  },
+  {
+   "t": 1.0,
+   "pose_file": "poses_slam/k03_overhead.json"
+  },
+  {
+   "t": 1.333,
+   "pose_file": "poses_slam/k04_windup.json"
+  },
+  {
+   "t": 1.375,
+   "pose_file": "poses_slam/k05_chop.json",
+   "interp": "linear"
+  },
+  {
+   "t": 1.417,
+   "pose_file": "poses_slam/k06_swing.json",
+   "interp": "linear"
+  },
+  {
+   "t": 1.458,
+   "pose_file": "poses_slam/k065_fall.json",
+   "interp": "linear"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_slam/k07_impact.json"
+  },
+  {
+   "t": 1.75,
+   "pose_file": "poses_stuck/k00_stuck.json"
+  }
+ ],
+ "video": "ref.mp4",
+ "video_window": [
+  1.0,
+  2.75
+ ],
+ "note_fix": "2026-11-22 anim fixer: k07_impact re-keyed to the new buried centre-line stuck pose; k065_fall = read-back in-between, re-grounded (feet were 0.10 m under the floor at 1.458)",
+ "note_rebase": "2026-11-23 re-base (work/rebase/cyclops/rebase.py): acting bones 24 kept verbatim; replaced [0.0] with natural_pose; gap-filled ['foot_l', 'foot_r', 'forearm_d_l', 'forearm_d_r', 'head', 'hips', 'neck', 'shin_l', 'shin_r', 'shoulder_u_l', 'thigh_l', 'thigh_r', 'upper_arm_d_l', 'upper_arm_d_r']; life on ['hand_d_l', 'hand_d_r']; extra life keys []"
+}

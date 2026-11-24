@@ -1,0 +1,135 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "hips": {
+   "rx": 0
+  },
+  "spine_01": {
+   "rx": 0
+  },
+  "spine_02": {
+   "rx": -2
+  },
+  "spine_03": {
+   "rx": -4
+  },
+  "neck": {
+   "rx": -9
+  },
+  "head": {
+   "rx": -23
+  },
+  "thigh_l": {
+   "rx": -4.34,
+   "ry": -3.14,
+   "rz": -0.49
+  },
+  "shin_l": {
+   "rx": 3.23,
+   "ry": -1.68,
+   "rz": 0.07
+  },
+  "foot_l": {
+   "rx": 0
+  },
+  "thigh_r": {
+   "rx": -4.34,
+   "ry": 3.14,
+   "rz": 0.49
+  },
+  "shin_r": {
+   "rx": 3.23,
+   "ry": 1.68,
+   "rz": -0.07
+  },
+  "foot_r": {
+   "rx": 0
+  },
+  "upper_arm_u_l": {
+   "rx": -0.88,
+   "ry": -22.83,
+   "rz": 0.05
+  },
+  "forearm_u_l": {
+   "rx": -1.38,
+   "ry": -18.46,
+   "rz": -0.04
+  },
+  "hand_u_l": {
+   "rx": 1.05,
+   "ry": -17.65,
+   "rz": 0.05
+  },
+  "shoulder_u_r": {
+   "rx": 4.64,
+   "ry": 18.67,
+   "rz": 18.67
+  },
+  "upper_arm_u_r": {
+   "rx": 25.35,
+   "ry": 41.66,
+   "rz": 72.21
+  },
+  "forearm_u_r": {
+   "rx": 83.01,
+   "ry": 50.56,
+   "rz": 130.31
+  },
+  "hand_u_r": {
+   "rx": 6.02,
+   "ry": 60.21,
+   "rz": -17.63
+  },
+  "shoulder_u_l": {
+   "rx": -4.608,
+   "ry": 3.491,
+   "rz": -6.451,
+   "space": "local_delta"
+  },
+  "upper_arm_d_l": {
+   "rx": -36.414,
+   "ry": 15.882,
+   "rz": -10.547,
+   "space": "local_delta"
+  },
+  "forearm_d_l": {
+   "rx": -18.298,
+   "ry": 12.648,
+   "rz": -17.363,
+   "space": "local_delta"
+  },
+  "hand_d_l": {
+   "rx": 4.002,
+   "ry": 0.139,
+   "rz": 1.995,
+   "space": "local_delta"
+  },
+  "upper_arm_d_r": {
+   "rx": -43.271,
+   "ry": -39.283,
+   "rz": 29.678,
+   "space": "local_delta"
+  },
+  "forearm_d_r": {
+   "rx": -21.787,
+   "ry": -12.133,
+   "rz": 17.901,
+   "space": "local_delta"
+  },
+  "hand_d_r": {
+   "rx": 5.601,
+   "ry": -0.105,
+   "rz": -1.496,
+   "space": "local_delta"
+  }
+ },
+ "_rebase": "re-base 2026-11-23 (pull_free t=1.25): orig; acting cells verbatim, still/gap cells local_delta"
+}

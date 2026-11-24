@@ -1,0 +1,64 @@
+export const meta = {
+  name: 'hercules-qa',
+  description: 'Play-test and review the whole Hercules game with independent testers, fix what they find per module, then verify the full playthrough and the macOS build',
+  phases: [
+    { title: 'Test', detail: 'six independent testers', model: 'opus' },
+    { title: 'Fix', detail: 'one fixer per module with findings', model: 'opus' },
+    { title: 'Verify', detail: 'full playthrough + build check after the fixes', model: 'opus' },
+  ],
+}
+// args: { lead_findings: [{module, severity, problem, fix}] } (optional)
+const R = '~/HerculesGame'   // the repo (your clone)
+const FINDINGS = { type: 'object', properties: {
+  verdict: { type: 'string', enum: ['pass', 'pass_with_fixes', 'fail'] },
+  findings: { type: 'array', items: { type: 'object', properties: {
+    module: { type: 'string', enum: ['core', 'cyclops', 'medusa', 'hydra', 'world', 'audio', 'build'] },
+    severity: { type: 'string', enum: ['blocker', 'major', 'minor'] },
+    where: { type: 'string' }, problem: { type: 'string' }, fix: { type: 'string' },
+    seen_by: { type: 'string' },
+  }, required: ['module', 'severity', 'problem'] } },
+  summary: { type: 'string' },
+}, required: ['verdict', 'findings'] }
+const RESULT = { type: 'object', properties: {
+  status: { type: 'string', enum: ['done', 'partial', 'failed'] }, summary: { type: 'string' },
+  done: { type: 'array', items: { type: 'string' } }, not_done: { type: 'array', items: { type: 'string' } },
+}, required: ['status', 'summary'] }
+const HEAD = `Hercules game build. Repo: ${R} (the owner is away: decide and note it).\nFirst make one trivial tool call (ls ${R}/docs), then read ${R}/docs/AGENT_RULES.md, ${R}/docs/SPEC.md (all), ${R}/docs/notes/core.md, core_followup.md and integrate_player.md (harness flags, bot, debug switches).\n`
+const TESTER_RULES = `You are a TESTER: do not change game files (throw-away probe scripts go in your work/ folder and run with --script or as zz_qa_* files you delete afterwards). Findings found only by a synthetic bot or probe (not something a person would meet) must say so in seen_by ("bot only") — a person's experience ranks first. Every finding names its module (core = player, camera, HUD, menus, shared visuals, harness; cyclops / medusa / hydra = that fight and arena; world = home, sea, flight, ending; audio; build = export, README), severity (blocker = cannot finish the game / crash / data loss; major = clearly wrong, unfair, ugly or against SPEC; minor = polish) and a concrete fix. No git commands.`
+const TESTERS = [
+  { key: 'playthrough', text: `FULL PLAYTHROUGH tester. Prove the whole game can be finished from a cold start, the way the owner will play it: title -> home (walk, mount Pegasus) -> fly to the Cyclops island -> win -> fly to Medusa -> win -> fly to the Hydra -> win -> ending -> free flight. Use the bot for each leg (one continuous run if the harness allows with --after-victory, else leg by leg with --defeated), once with keyboard/mouse events (--keys) and once with joypad events (--pad), at normal speed for at least one full run. Then the NON-harness path with a scratch save folder: run the game binary with HOME=<your work dir>/home CFFIXED_USER_HOME=<same> on the SAME command line and a short scripted session (e.g. --script probe that marks a boss defeated and quits) to prove user://save.json is written, loaded on the next start (Continue on the title screen) and that New game resets it. Check: no SCRIPT ERROR / Parse Error / missing resource in any log; locked islands refuse a landing; a loss restarts the same fight at full health; total time per leg. Work in work/qa_playthrough/.` },
+  { key: 'visual', text: `VISUAL reviewer. The owner's target is the reference video art_src/reference_video/gameplay_reference_480p.mp4 (extract a few frames with ffmpeg) and the keyframes art_src/reference_video/key_*.png: camera RIGHT behind Hercules, hero large in the lower centre, bosses towering, cel-shaded like the sheets in art_src/sheets. Capture windowed --shots runs (1280x720) of the title, home, flight, and each fight (idle, a warning, an attack, the weak-point strike, the death, victory and defeat overlays); read at most 20 images (<= 1024 px, build contact sheets). Judge like an art director and a first-time player: are real models on screen everywhere (no grey stand-ins), is the hero on-model with sword and shield, do the bosses tower, is the camera behind him in every phase, are outlines/toon bands consistent between characters and props, are colours true to the sheets (Hydra black-violet-crimson, not pink), are warnings and the HUD readable on every floor, does anything clip, float, z-fight, stretch or pop, is the sea / lava / sky convincing, are the islands and the flight attractive? List concrete defects with the frame where you saw them. Work in work/qa_visual/.` },
+  { key: 'combat', text: `COMBAT RULES tester. Check SPEC §2 and §3 line by line with probes that force each situation and read the [H] event lines: player speeds, roll length and invulnerable window, two-hit combo timing and active windows, shield arc, guard break by the slam, damage numbers, petrify time and the after-invulnerability, glancing hits outside weak-point windows, weak-point hit limits per opening, each boss's state timings, enrage changes below half health, a loss restarting the fight at full health. Then fairness for a PERSON: with the real animations, can each attack be read in time (windup visible before the decal fills)? Is there any unavoidable hit, any safe spot that makes a fight trivial, any way to leave the arena or to hit a weak point through the body? If the bot framework has a reaction-delay or sloppy mode use it (0.3-0.4 s reaction), else reason from the timings. Work in work/qa_combat/.` },
+  { key: 'controls_ui', text: `CONTROLS + UI tester. Keyboard/mouse and Xbox pad (synthetic joypad events, device -1): every action of SPEC §5 in play and in flight; menus: title (New game, Continue, Controls, Quit), pause (Resume, Controls, Restart fight, Return home, Quit), controls page, overlays; A = accept, B = back, D-pad and stick navigation with repeat, focus always visible, no input leaking from a menu into play (roll on B, attack on A), prompts switch with the last-used device, pause during a fade / during a death / during the victory card, losing window focus, 16:9 and 16:10 window sizes (1280x720, 1728x1117), text never cut. Check the wording is original and clear. Windowed --shots for the menus (read <= 10 images). Work in work/qa_ui/.` },
+  { key: 'bughunt', text: `ADVERSARIAL BUG HUNTER. Read every script under game/scripts (start with the largest and the newest) looking for real defects: null access after a scene change, signals connected twice, timers / tweens / loops that outlive their scene, state machines that can stick, division by zero, wrong layer or mask, save file corruption, anything that breaks after the SECOND run of a scene. Prove each suspicion with a probe before reporting it (headless runs: restart a fight five times, pause-spam, leave an arena mid-attack with goto, die during the boss's death, win while a warning is live, land while a fade runs, 3x and 0.5x --speed). Report only what you reproduced, with the log line. Work in work/qa_bugs/.` },
+  { key: 'build', text: `BUILD + PERFORMANCE tester and README writer (you DO create files: game/export_presets.cfg, builds/, README.md at the repo root, docs/notes/build.md). 1) Performance: windowed runs of each fight and the flight at 1920x1080 with a frame-time probe (average and worst frame, draw calls, primitives via Performance singletons); flag anything under 60 fps on this Mac and its cause. 2) Export: the official 4.7.2 export templates are installed; create a macOS preset (universal or arm64, ad-hoc signed, app name "Hercules", bundle id com.hercules.game, no sandbox) and export a release build to builds/Hercules.app with Godot --headless --path game --export-release; if the template export fails fall back to the pck route the owner used before (copy the Godot 4.7.2 runtime + --main-pack). Run the EXPORTED app's binary with the harness flags (-- --start=cyclops --harness --bot=win and the title) to prove it works outside the editor; report size and start time. 3) README.md: what the game is, how to start it (the .app and the Godot command line), controls for keyboard/mouse and Xbox pad, the flow, known limits, the test flags, where the devlog is. Work in work/qa_build/.` },
+]
+phase('Test')
+const tests = await parallel(TESTERS.map(t => () => agent(`${HEAD}${TESTER_RULES}\nYour role: ${t.text}\nFinal answer: the findings schema.`, { label: `test:${t.key}`, phase: 'Test', schema: FINDINGS, model: 'opus', effort: 'high' })))
+const lead = ((typeof args === 'object' && args && args.lead_findings) || []).map(f => ({ ...f, seen_by: 'lead (looked at the integration screenshots)' }))
+const all = tests.filter(Boolean).flatMap(t => t.findings || []).concat(lead)
+log(`testers returned ${all.length} findings (${all.filter(f => f.severity === 'blocker').length} blockers, ${all.filter(f => f.severity === 'major').length} majors)`)
+phase('Fix')
+const OWN = {
+  core: 'game/project.godot, game/scripts/autoload/*.gd (not sfx.gd), game/scripts/player, visual, combat, ui, test, data, game/shaders',
+  cyclops: 'game/scripts/bosses/cyclops.gd, game/scripts/world/cyclops_arena.gd',
+  medusa: 'game/scripts/bosses/medusa.gd, game/scripts/world/medusa_arena.gd',
+  hydra: 'game/scripts/bosses/hydra.gd, game/scripts/world/hydra_arena.gd',
+  world: 'game/scripts/world/home_base.gd, sea_world.gd, pegasus_flight.gd, island_proxy.gd, ending.gd',
+  audio: 'game/scripts/autoload/sfx.gd, game/assets/audio/**, tools/audio/process.py',
+  build: 'game/export_presets.cfg, builds/**, README.md, docs/notes/build.md',
+}
+const mods = Object.keys(OWN).filter(m => all.some(f => f.module === m))
+const fixes = await parallel(mods.map(m => () => {
+  const mine = all.filter(f => f.module === m)
+  const todo = mine.filter(f => f.severity !== 'minor').concat(mine.filter(f => f.severity === 'minor').slice(0, 12))
+  return agent(`${HEAD}You are the FIXER for the module "${m}" after the play-test. You own: ${OWN[m]} (other fixers edit other modules at the same time: small Edits only, re-read before changing, no whole-file rewrites of files you do not own; a change you need elsewhere goes in docs/notes/qa_requests.md). Read the module's notes in docs/notes/. Fix the findings below: blockers and majors first, then the minors that are quick. A finding marked "bot only" that a person would never meet may be skipped with a note. Re-run the module's proof (bot win two seeds --speed=3, lose once; for core also test + one fight; for world the travel run) and look at one windowed --shots contact sheet (<= 6 images) when you changed anything visible. No git commands.\nFINDINGS (JSON):\n${JSON.stringify(todo).slice(0, 45000)}\nFinal answer: the result schema (not_done = findings you did not fix and why).`, { label: `fix:${m}`, phase: 'Fix', schema: RESULT, model: 'opus', effort: 'high' })
+}))
+phase('Verify')
+const verify = await agent(`${HEAD}${TESTER_RULES}\nYou are the FINAL VERIFIER after the play-test fixes. 1) Full playthrough again (title -> home -> three islands in order -> ending) with the bot, once with --keys and once with --pad; bot lose on each fight; no SCRIPT ERROR / Parse Error / missing resource. 2) Re-check every blocker and major below: fixed, not fixed, or made worse (run the probe that shows it). 3) Rebuild the macOS app if game files changed since builds/Hercules.app was made (same command as docs/notes/build.md) and run the exported binary with the harness on the title and one fight. 4) One windowed --shots contact sheet per scene (read <= 8 images) for a last look. You may fix small mechanical leftovers yourself (say which); report the rest.\nFINDINGS that were sent to the fixers (JSON):\n${JSON.stringify(all.filter(f => f.severity !== 'minor')).slice(0, 30000)}\nFIXERS reported: ${JSON.stringify(mods.map((m, i) => ({ module: m, status: fixes[i] && fixes[i].status, not_done: fixes[i] && fixes[i].not_done }))).slice(0, 8000)}\nFinal answer: the findings schema (findings = what is STILL open).`, { label: 'verify:final', phase: 'Verify', schema: FINDINGS, model: 'opus', effort: 'high' })
+return {
+  counts: { total: all.length, blockers: all.filter(f => f.severity === 'blocker').length, majors: all.filter(f => f.severity === 'major').length },
+  testers: TESTERS.map((t, i) => ({ key: t.key, verdict: tests[i] && tests[i].verdict, summary: tests[i] && (tests[i].summary || '').slice(0, 600) })),
+  fixes: mods.map((m, i) => ({ module: m, status: fixes[i] && fixes[i].status, not_done: fixes[i] && fixes[i].not_done })),
+  final: verify,
+}

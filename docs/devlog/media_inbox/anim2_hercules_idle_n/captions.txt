@@ -1,0 +1,1 @@
+hercules_idle_n_strip.jpg | Hercules new idle (natural stance, 6.0 s loop) above the Seedance idle_n reference | 24 keys, 21/29 joints move >=3 deg (old idle 6/29), strip IoU mean 0.903, feet slide <= 4 mm

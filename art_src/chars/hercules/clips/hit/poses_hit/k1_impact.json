@@ -1,0 +1,81 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "left"
+ },
+ "view_offset": [
+  0.0,
+  0.0,
+  -0.01
+ ],
+ "bones": {
+  "spine_01": {
+   "space": "local_delta",
+   "rx": 10.0
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rx": 7.0
+  },
+  "spine_03": {
+   "space": "local_delta",
+   "rx": 4
+  },
+  "neck": {
+   "space": "local_delta",
+   "rx": 12.0
+  },
+  "head": {
+   "space": "local_delta",
+   "rx": 4.0,
+   "ry": -4.0
+  },
+  "upper_arm_r": {
+   "front": 35,
+   "side": -15
+  },
+  "forearm_r": {
+   "front": 40,
+   "side": -30
+  },
+  "upper_arm_l": {
+   "front": -30,
+   "side": -2
+  },
+  "forearm_l": {
+   "front": -28,
+   "side": -15
+  },
+  "thigh_r": {
+   "rx": 48.34,
+   "ry": 15.27,
+   "rz": 0.73
+  },
+  "shin_r": {
+   "rx": 38.11,
+   "ry": 4.64,
+   "rz": -2.16
+  },
+  "foot_r": {
+   "rx": 6.5
+  },
+  "thigh_l": {
+   "rx": -55.87,
+   "ry": -20.86,
+   "rz": 3.35
+  },
+  "shin_l": {
+   "rx": 2.72,
+   "ry": -1.56,
+   "rz": -1.08
+  },
+  "foot_l": {
+   "rx": 0
+  }
+ }
+}

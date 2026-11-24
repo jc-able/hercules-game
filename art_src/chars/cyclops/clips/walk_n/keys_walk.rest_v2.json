@@ -1,0 +1,51 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 1.4167,
+ "events": {
+  "step": 0.4
+ },
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_walk/k00_R_lift.json"
+  },
+  {
+   "t": 0.1667,
+   "pose_file": "poses_walk/k04_R_high.json"
+  },
+  {
+   "t": 0.4167,
+   "pose_file": "poses_walk/k10_R_contact.json"
+  },
+  {
+   "t": 0.5417,
+   "pose_file": "poses_walk/k13_R_settle.json"
+  },
+  {
+   "t": 0.625,
+   "pose_file": "poses_walk/k15_R_mid.json"
+  },
+  {
+   "t": 0.7083,
+   "pose_file": "poses_walk/k17_L_lift.json"
+  },
+  {
+   "t": 0.875,
+   "pose_file": "poses_walk/k21_L_high.json"
+  },
+  {
+   "t": 1.125,
+   "pose_file": "poses_walk/k27_L_contact.json"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_walk/k30_L_settle.json"
+  },
+  {
+   "t": 1.3333,
+   "pose_file": "poses_walk/k32_L_mid.json"
+  }
+ ],
+ "note": "2026-11-23 walk_n (natural stance): window 2.583-4.083 s of walk_n/ref.mp4 (one 1.5 s cycle, two steps) retimed x0.9444 to the game loop 1.4167 s. Footfalls: right heel 0.4167 (event step 0.40, unchanged name/time), left heel 1.125 (= step + length/2, the game derives it). Left step = right step mirrored for the legs (the video step lengths differ); root.loc y per key = measured surge so the planted foot travels at an even ~2.54 m/s (1.48 m per stance)."
+}

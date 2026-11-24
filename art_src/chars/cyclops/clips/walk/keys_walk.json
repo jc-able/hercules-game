@@ -1,0 +1,59 @@
+{
+ "fps": 24,
+ "loop": true,
+ "length": 1.42971,
+ "events": {
+  "step": 0.4
+ },
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_walk/k0.json"
+  },
+  {
+   "t": 0.09125,
+   "pose_file": "poses_walk/k0b.json"
+  },
+  {
+   "t": 0.19783,
+   "pose_file": "poses_walk/k1.json"
+  },
+  {
+   "t": 0.365,
+   "pose_file": "poses_walk/k2.json"
+  },
+  {
+   "t": 0.57779,
+   "pose_file": "poses_walk/k3.json"
+  },
+  {
+   "t": 0.65408,
+   "pose_file": "poses_walk/k3b.json"
+  },
+  {
+   "t": 0.71467,
+   "pose_file": "poses_walk/m0.json"
+  },
+  {
+   "t": 0.80592,
+   "pose_file": "poses_walk/m0b.json"
+  },
+  {
+   "t": 0.9125,
+   "pose_file": "poses_walk/m1.json"
+  },
+  {
+   "t": 1.07967,
+   "pose_file": "poses_walk/m2.json"
+  },
+  {
+   "t": 1.29283,
+   "pose_file": "poses_walk/m3.json"
+  },
+  {
+   "t": 1.36875,
+   "pose_file": "poses_walk/m3b.json"
+  }
+ ],
+ "note_fix": "2026-11-22 anim fixer: retimed x0.365 (ak retime) from the 3.917 s video-speed cycle: 1.43 s cycle, footfalls every ~0.71 s, planted foot ~2.6 m/s at speed 1 (matches the 2.6 m/s walk; _step_beat = length/2 ~ 0.71 s). step event 0.40 = right heel strike (lowest right-foot vertex 0.16 m at 0.417 s, flat by 0.58 s). Poses unchanged (the mirrored second step is right: see notes.md). The two 0.21 s video holds (k1, m1 repeated) were dropped so the stance foot keeps moving."
+}

@@ -1,0 +1,13 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 0.667,
+ "events": {},
+ "keys": [
+  {"t": 0.0, "pose_file": "../slam/poses_stuck/k00_stuck.json", "interp": "linear"},
+  {"t": 0.083, "pose_file": "poses_hurt/s1_flinch.json"},
+  {"t": 0.333, "pose_file": "poses_hurt/s2_flinch_hold.json"},
+  {"t": 0.667, "pose_file": "../slam/poses_stuck/k00_stuck.json"}
+ ],
+ "note": "2026-11-22 anim fixer: hurt re-keyed as a flinch FROM the stuck pose (it only plays while he is stuck: BossBase.take_weak_hit). Starts and ends on slam/poses_stuck/k00_stuck.json; 2-frame linear snap into the flinch (head thrown back 25, neck 10, spine_03 8, left upper hand lets go of the club, lower arms jerk out 10); right arm re-solved per key so hand_u_r and the club stay put. No reference video for this (the old ref.mp4 shows a standing hurt; its keys are kept in poses_hurt/old_standing/)."
+}

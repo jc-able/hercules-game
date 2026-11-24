@@ -1,0 +1,2 @@
+fly_v2_strip.jpg | Pegasus fly v2 (fixer): reference row above ours, one wing beat; legs now move in graded in-betweens, body bobs from the wings | worst leg step 41 -> 12 deg/frame, wing 58 -> 44 deg/frame, loop seam pop 22 cm -> 0, strip IoU 0.635 (was 0.708 for the held-pose version)
+fly_v2_godot_probe.jpg | Godot probe after the fix: chase camera at the wing top, the downstroke, glide, and a 3/4 view with Hercules seated | fly and glide now seat the rider at the same height (saddle y 2.127 m in both), 0 wing/rider overlaps at 50 samples per beat

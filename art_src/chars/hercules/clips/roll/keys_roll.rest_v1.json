@@ -1,0 +1,76 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 0.708,
+ "events": {},
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_roll/k_idle.json"
+  },
+  {
+   "t": 0.0417,
+   "pose_file": "poses_roll/g_0.0417.json"
+  },
+  {
+   "t": 0.0833,
+   "pose_file": "poses_roll/k1_lean.json"
+  },
+  {
+   "t": 0.125,
+   "pose_file": "poses_roll/k2_dive.json"
+  },
+  {
+   "t": 0.1667,
+   "pose_file": "poses_roll/k3_head_down.json"
+  },
+  {
+   "t": 0.2083,
+   "pose_file": "poses_roll/g_0.2083.json"
+  },
+  {
+   "t": 0.25,
+   "pose_file": "poses_roll/k4_tuck_over.json"
+  },
+  {
+   "t": 0.2917,
+   "pose_file": "poses_roll/k5_ball.json"
+  },
+  {
+   "t": 0.3333,
+   "pose_file": "poses_roll/k5b_back.json"
+  },
+  {
+   "t": 0.375,
+   "pose_file": "poses_roll/g_0.3750.json"
+  },
+  {
+   "t": 0.4167,
+   "pose_file": "poses_roll/k6_rock_back.json"
+  },
+  {
+   "t": 0.5,
+   "pose_file": "poses_roll/g_0.5000.json"
+  },
+  {
+   "t": 0.5417,
+   "pose_file": "poses_roll/k7_sit_up.json"
+  },
+  {
+   "t": 0.5833,
+   "pose_file": "poses_roll/g_0.5833.json"
+  },
+  {
+   "t": 0.625,
+   "pose_file": "poses_roll/k8_recover.json"
+  },
+  {
+   "t": 0.6667,
+   "pose_file": "poses_roll/g_0.6667.json"
+  },
+  {
+   "t": 0.7083,
+   "pose_file": "poses_roll/k_idle.json"
+  }
+ ]
+}

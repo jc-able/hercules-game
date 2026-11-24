@@ -1,0 +1,1 @@
+{"space": "absolute", "root": {"loc": [0, 0, 0], "ground": "lowest"}, "bones": {"neck_03": {"space": "local_delta", "rz": 2}, "head": {"space": "local_delta", "rz": 5, "rx": -8}}}

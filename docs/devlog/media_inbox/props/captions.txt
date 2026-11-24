@@ -1,0 +1,2 @@
+props_contact_sheet.jpg | all 14 cleaned environment props, front + three-quarter, red bar = 1.8 m person | 13 props at 2999-3000 / 6000 / 12000 tris (from ~40,000 each), textures 4096 -> 1024 px (temple 2048); olive tree came out with no canopy (generation fault)
+brazier_before_after.jpg | brazier before/after: the flame was fused to the bowl, so it was cut by texture colour + an above-rim cut (the game adds real fire) | 39,984 -> 2,999 tris, 8,560 raw faces removed; body 0.97 m so body + fire = 1.5 m

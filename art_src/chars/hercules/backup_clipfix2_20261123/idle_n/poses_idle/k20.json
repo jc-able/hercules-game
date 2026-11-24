@@ -1,0 +1,125 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   -0.0198,
+   0.0,
+   0.0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "hips": {
+   "rx": 0.45,
+   "ry": 4.858,
+   "rz": -5.879
+  },
+  "spine_01": {
+   "space": "local_delta",
+   "rx": -2.75,
+   "ry": -6.032,
+   "rz": 5.355
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rx": -6.45,
+   "ry": -2.855,
+   "rz": 2.677
+  },
+  "spine_03": {
+   "space": "local_delta",
+   "rx": -0.65,
+   "rz": 4.0,
+   "ry": 0.677
+  },
+  "neck": {
+   "space": "local_delta",
+   "rx": 5.559,
+   "rz": 10.038,
+   "ry": 0.677
+  },
+  "head": {
+   "space": "local_delta",
+   "rx": -1.167,
+   "ry": -5.054,
+   "rz": 20.053
+  },
+  "upper_arm_r": {
+   "front": 17.787,
+   "side": 4.829
+  },
+  "forearm_r": {
+   "front": 6.684,
+   "side": -13.972
+  },
+  "upper_arm_l": {
+   "front": -23.478,
+   "side": 8.836
+  },
+  "forearm_l": {
+   "front": -21.247,
+   "side": -69.87,
+   "twist": -62.0
+  },
+  "thigh_r": {
+   "rx": -2.56,
+   "ry": -1.715,
+   "rz": -6
+  },
+  "shin_r": {
+   "rx": 3.34,
+   "ry": -1.715,
+   "rz": -6
+  },
+  "foot_r": {
+   "rx": 0.0,
+   "rz": -8
+  },
+  "thigh_l": {
+   "rx": -11.44,
+   "ry": -9.847,
+   "rz": 10
+  },
+  "shin_l": {
+   "rx": 2.78,
+   "ry": -5.847,
+   "rz": 10
+  },
+  "foot_l": {
+   "rx": 4,
+   "rz": 12
+  },
+  "hand_r": {
+   "space": "local_delta",
+   "rx": 29.2,
+   "ry": 12.785,
+   "rz": -5.527
+  },
+  "fingers_r": {
+   "space": "local_delta",
+   "rx": 60.07,
+   "ry": -40.78,
+   "rz": -58.44
+  },
+  "fingers_l": {
+   "space": "local_delta",
+   "rx": 14.708,
+   "ry": 21.03,
+   "rz": -23.91
+  },
+  "shoulder_l": {
+   "space": "local_delta",
+   "ry": -6.945
+  },
+  "shoulder_r": {
+   "space": "local_delta",
+   "ry": 3.051
+  },
+  "hand_l": {
+   "space": "local_delta",
+   "rx": 3.445,
+   "ry": -1.856
+  }
+ },
+ "_note": "animfix_hercules 2026-11-23: left arm re-authored against the GAME shield transform (manifest socket_offsets.forearm_l, +40 deg turn): upper_arm_l front -16 -> -22, forearm_l front -14 -> -20, twist -20 -> -62, fingers_l curl halved. Shield hangs vertical at his side (normal x 0.99, tilt 6 deg), face out and 8 deg back; no body vertex inside the shield, upper arm no longer through the face. v1: natural_pose.v1_before_animfix.json"
+}

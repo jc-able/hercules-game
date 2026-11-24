@@ -1,0 +1,2 @@
+home_idle_before_after.jpg | home island idle from the chase camera, 18 frames 0.5 s apart, top before / bottom after | hero-box pixel change 1 s apart 4.63 -> 6.08 levels, pixels changed 8.1 -> 11.1 %
+home_idle_after_zoom.jpg | new idle from behind at 0.7/2.2/3.6/5.0/5.5/6.6 s: weight shift, sword re-grip, look to his left | pelvis 7.5 cm, look 37 deg, sword tip 24.5 cm in the re-grip

@@ -1,0 +1,3 @@
+rest_vs_natural.jpg | Hercules rig rest A-pose (top) vs the new natural stance (bottom), front / three-quarter / back, same camera | 13 bones posed + 2 finger curls; feet on the floor: left 0.0011 m, right 0.000 m (ak solve); sword tip 0.13 m above the floor beside the right shin; shield vertical at his left side, face outward
+sheet_nat_std.jpg | New FRONT | SIDE split sheet from the natural stance: the first frame of the new idle_n and run_n Seedance reference videos | 1280x720, 191.04 px/m in both panels, identical framing to the old sheet_std (env 1.7,1.4,1.9,3.39)
+sheet_old_vs_new.jpg | Old sheet (rest A-pose, arms out: why every old video kept limbs frozen) above the new natural-stance sheet | same 191 px/m framing; old clips: idle moved 6 of 29 joints

@@ -1,0 +1,1 @@
+hydra_idle_n_strip.jpg | hydra idle re-keyed from the natural-stance video: reference row above ours (video-timed bake, 1 s steps) | 12 keys, 6.0 s loop, strip IoU 0.896 video-timed, stance-only baseline 0.907; heads weave, centre head looks L/R, tail wave, chest weight drift, feet planted <= 8 mm

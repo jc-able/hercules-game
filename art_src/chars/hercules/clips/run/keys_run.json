@@ -1,0 +1,13 @@
+{"fps":24,"loop":true,"length":0.8333,"events":{},
+ "keys":[
+  {"t": 0.0, "pose_file": "poses_run/k0.json"},
+  {"t": 0.0417, "pose_file": "poses_run/k0a.json"},
+  {"t": 0.0833, "pose_file": "poses_run/k0b.json"},
+  {"t": 0.1667, "pose_file": "poses_run/k1.json"},
+  {"t": 0.2917, "pose_file": "poses_run/k2.json"},
+  {"t": 0.4167, "pose_file": "poses_run/k3.json"},
+  {"t": 0.4583, "pose_file": "poses_run/k3a.json"},
+  {"t": 0.5, "pose_file": "poses_run/k3b.json"},
+  {"t": 0.5833, "pose_file": "poses_run/k4.json"},
+  {"t": 0.7083, "pose_file": "poses_run/k5.json"}
+ ]}

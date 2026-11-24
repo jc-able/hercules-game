@@ -1,0 +1,149 @@
+{
+ "space": "absolute",
+ "bones": {
+  "tail_01": {
+   "rx": 99,
+   "rz": -50
+  },
+  "tail_02": {
+   "rx": 99,
+   "rz": -50
+  },
+  "tail_03": {
+   "rx": 66,
+   "rz": -50
+  },
+  "tail_04": {
+   "rx": 10,
+   "rz": -30
+  },
+  "pelvis": {
+   "rx": 90,
+   "rz": -50
+  },
+  "spine_01": {
+   "rx": 90,
+   "rz": -50
+  },
+  "spine_02": {
+   "rx": 90,
+   "rz": -50
+  },
+  "spine_03": {
+   "rx": 88,
+   "rz": -50
+  },
+  "neck": {
+   "rx": 85,
+   "rz": -55
+  },
+  "head": {
+   "rx": 92,
+   "rz": -65,
+   "ry": -24.0
+  },
+  "upper_arm_l": {
+   "rx": -90,
+   "rz": -15
+  },
+  "forearm_l": {
+   "rx": -90,
+   "rz": 0
+  },
+  "upper_arm_r": {
+   "rx": -90,
+   "rz": -90
+  },
+  "forearm_r": {
+   "rx": -90,
+   "rz": -70
+  },
+  "tail_06": {
+   "space": "local_delta",
+   "rz": -4,
+   "rx": 0
+  },
+  "tail_07": {
+   "space": "local_delta",
+   "rz": -6,
+   "rx": 0
+  },
+  "tail_08": {
+   "space": "local_delta",
+   "rz": -6,
+   "rx": 0
+  },
+  "tail_09": {
+   "space": "local_delta",
+   "rz": -4,
+   "rx": 0
+  },
+  "tail_11": {
+   "space": "local_delta",
+   "rz": 4,
+   "rx": 0
+  },
+  "tail_12": {
+   "space": "local_delta",
+   "rz": 6,
+   "rx": 0
+  },
+  "tail_13": {
+   "space": "local_delta",
+   "rz": 8,
+   "rx": 0
+  },
+  "tail_14": {
+   "space": "local_delta",
+   "rz": 6,
+   "rx": 0
+  },
+  "tail_05": {
+   "rx": 0,
+   "rz": -35
+  },
+  "hair_l_01": {
+   "space": "local_delta",
+   "ry": 22,
+   "rx": 18.4
+  },
+  "hair_l_02": {
+   "space": "local_delta",
+   "ry": 30,
+   "rx": 16.0
+  },
+  "hair_l_03": {
+   "space": "local_delta",
+   "ry": 18,
+   "rx": -5.4
+  },
+  "hair_r_01": {
+   "space": "local_delta",
+   "ry": -26,
+   "rx": 17.2
+  },
+  "hair_r_02": {
+   "space": "local_delta",
+   "ry": -20,
+   "rx": 19.0
+  },
+  "hair_r_03": {
+   "space": "local_delta",
+   "ry": -32,
+   "rx": -9.6
+  }
+ },
+ "root": {
+  "loc": [
+   -2.282,
+   -1.3916,
+   -2.6936
+  ]
+ },
+ "view_offset": [
+  0.86,
+  0.89,
+  -0.05
+ ],
+ "view_scale": 1.2
+}

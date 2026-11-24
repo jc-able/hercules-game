@@ -1,0 +1,12 @@
+{"fps": 24, "loop": false, "length": 4.25, "events": {"fire_start": 2.0, "fire_end": 3.25},
+ "keys": [
+  {"t": 0.0,  "pose_file": "poses_gaze/k0.json"},
+  {"t": 0.5,  "pose_file": "poses_gaze/k1.json"},
+  {"t": 1.0,  "pose_file": "poses_gaze/k2.json"},
+  {"t": 1.875, "pose_file": "poses_gaze/k3.json", "interp": "linear"},
+  {"t": 2.0,  "pose_file": "poses_gaze/k4.json"},
+  {"t": 2.5,  "pose_file": "poses_gaze/k5.json"},
+  {"t": 3.25, "pose_file": "poses_gaze/k6.json"},
+  {"t": 3.75, "pose_file": "poses_gaze/k7.json"},
+  {"t": 4.25, "pose_file": "poses_gaze/k0.json"}
+ ]}

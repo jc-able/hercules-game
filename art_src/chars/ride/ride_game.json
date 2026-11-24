@@ -1,0 +1,94 @@
+{
+ "rider_offset": {
+  "socket": "saddle",
+  "bone_frame": {
+   "loc": [
+    0.0041,
+    -0.8365,
+    -0.1701
+   ],
+   "rot_deg_xyz": [
+    -90.0,
+    0.0,
+    -0.0
+   ],
+   "quat_wxyz": [
+    0.707108,
+    -0.707106,
+    0.0,
+    0.0
+   ],
+   "matrix": [
+    [
+     1.0,
+     -0.0,
+     0.0,
+     0.004099
+    ],
+    [
+     -0.0,
+     3e-06,
+     0.999978,
+     -0.836508
+    ],
+    [
+     -0.0,
+     -1.0,
+     3e-06,
+     -0.170068
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "frame": "pegasus 'saddle' bone frame, origin at the bone head (Blender bone axes; +Y along the bone = up at rest). Transform of the HERCULES ARMATURE origin (between his feet, Blender Z-up / faces -Y). Source: art_src/chars/ride/ride.json."
+  },
+  "armature_axes": {
+   "loc": [
+    0.0041,
+    0.1701,
+    -0.8365
+   ],
+   "rot_deg": [
+    0.0,
+    -0.0,
+    0.0
+   ],
+   "frame": "same transform, origin at the saddle bone head but in PEGASUS ARMATURE axes (Z up, faces -Y), like pegasus rig.json socket_offsets. With pegasus at rest the rider root sits at saddle_head + loc."
+  },
+  "godot": {
+   "attach": "BoneAttachment3D(bone_name='saddle') under Pegasus Skeleton3D; the hercules glb scene root as its child with this local transform",
+   "transform": "Transform3D(Basis.IDENTITY, Vector3(0.0041, -0.8365, -0.1701))",
+   "position": [
+    0.0041,
+    -0.8365,
+    -0.1701
+   ],
+   "rotation_degrees": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "derivation": "Godot bone rest frame = glTF joint frame = Blender bone frame (the glTF exporter puts the Z-up -> Y-up change on the root, not on joint-local axes). The hercules glb scene root is the Y-up converted frame: Blender armature = scene_root @ Rx(+90) (glTF x,y,z = Blender x,z,-y). So scene_root offset = T(loc) @ Rx(-90) @ Rx(+90) = T(loc) with an identity basis: bone +Y = his up (+Y), bone +Z = his forward (+Z, Blender -Y). Position is in metres in the saddle bone frame: x 0.0041 (centred), y -0.8365 (his feet 0.84 m below the saddle head along the bone, i.e. down), z -0.1701 (0.17 m behind the saddle head).",
+   "if_skeleton_root_is_used_instead": "If the rider is placed by his Skeleton3D node instead of the glb scene root, and that node carries the Rx(-90) of an un-converted armature, use rotation_degrees (-90, 0, 0) (= the Blender bone-frame numbers). Not verified in Godot: check once that his hips land 0.247 m above and 0.20 m behind the saddle head and that he faces Pegasus's forward.",
+   "verified_in_godot": false
+  }
+ },
+ "beat_period_s": 1.48,
+ "beat_measurement": "ride ref.mp4 (24 fps): front-panel wing height per frame, 7 wing-top and 6 wing-bottom extremes, line fit 1.485 / 1.471 s, autocorrelation peak 35-36 frames (double 70-72); first 3 s repeat exactly every 36 frames (1.500 s). ak cycle (silhouette IoU) was ambiguous (2.79 s from t0 1.0, 1.375 s from t0 3.0) because the body dominates the silhouette.",
+ "rider_clip": "ride",
+ "rider_clip_length_s": 1.5,
+ "rider_clip_phase": "clip t=0 = wings at the TOP of the stroke (Pegasus body lowest); t=0.75 = wings at the bottom (body highest).",
+ "pegasus_clip": "fly",
+ "notes": [
+  "Same period: rider.speed_scale = rider_clip_length_s / pegasus_fly_beat_s, where pegasus_fly_beat_s = pegasus fly clip length / number of wing beats in it (read the length from pegasus_clips.json). With a 1-beat fly clip that is 1.5 / fly_length.",
+  "Same phase: start (and re-sync on every fly loop restart) the rider at clip time 1.5 * frac, where frac = (pegasus fly time - time of the fly clip's wing top) / beat length. If the fly clip also starts at the wing top, start both at 0 together.",
+  "Re-sync rather than free-run: in _process set the rider's playback position from the Pegasus AnimationPlayer position (rider_pos = fmod((peg_pos - peg_top) / peg_beat, 1.0) * 1.5) so drift from different loop lengths never builds up.",
+  "Glide / idle: the rider loop is small (<= 1.5 deg spine, 3 deg sword arm); when Pegasus glides, keep playing ride at 0.3-0.5x speed or pause it at t=0.375 (neutral) - the seated pose is valid for any Pegasus clip because rider_offset rides the saddle bone.",
+  "The rider's root never moves; all body bob comes from Pegasus (video: 8.3 cm peak to peak, highest at the end of the downstroke).",
+  "Wing clearance for the Pegasus fly clip (rider on board): the downstroke as in pegasus_wing_extremes.json drives the wing's inner feathers through his thighs/shins/feet (522-944 triangle pairs); sweeping both wings 10 deg forward (left wing: world Rz(-10) applied after the raise; right mirrored) gave 0 rider/sword/shield hits at all 8 checked phases. See docs/notes/ride_anim.md."
+ ]
+}

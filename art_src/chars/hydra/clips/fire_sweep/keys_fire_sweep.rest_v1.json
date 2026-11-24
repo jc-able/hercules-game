@@ -1,0 +1,77 @@
+{
+ "fps": 30,
+ "loop": false,
+ "length": 4.6,
+ "events": {
+  "fire_start": 1.5,
+  "fire_end": 4.05
+ },
+ "note": "animfix_hydra 2026-11-22: retimed so fire_start = 1.5 s (= the module's inhale, speed 1.0); the head crosses right (-X) -> left (+X) over the 2.2 s rake (stream enters at fire_start + 0.35 s); video window 1.0-6.0 s | kik_* = read-back in-betweens with front-leg IK (forefeet stay on their rest spot)",
+ "keys": [
+  {
+   "t": 0,
+   "pose_file": "poses_fire_sweep/k0_rest.json"
+  },
+  {
+   "t": 0.45,
+   "pose_file": "poses_fire_sweep/k1_rear.json"
+  },
+  {
+   "t": 0.75,
+   "pose_file": "poses_fire_sweep/kik_0.7500.json"
+  },
+  {
+   "t": 0.7917,
+   "pose_file": "poses_fire_sweep/kik_0.7917.json"
+  },
+  {
+   "t": 1.05,
+   "pose_file": "poses_fire_sweep/k2_rear2.json"
+  },
+  {
+   "t": 1.2083,
+   "pose_file": "poses_fire_sweep/kik_1.2083.json"
+  },
+  {
+   "t": 1.25,
+   "pose_file": "poses_fire_sweep/kik_1.2500.json"
+  },
+  {
+   "t": 1.3,
+   "pose_file": "poses_fire_sweep/k3_lunge.json"
+  },
+  {
+   "t": 1.375,
+   "pose_file": "poses_fire_sweep/kik_1.3750.json"
+  },
+  {
+   "t": 1.4167,
+   "pose_file": "poses_fire_sweep/kik_1.4167.json"
+  },
+  {
+   "t": 1.7,
+   "pose_file": "poses_fire_sweep/k4_low_r.json"
+  },
+  {
+   "t": 2.85,
+   "pose_file": "poses_fire_sweep/k5_sweep_c.json",
+   "interp": "linear"
+  },
+  {
+   "t": 3.95,
+   "pose_file": "poses_fire_sweep/k6_sweep_l.json"
+  },
+  {
+   "t": 4.2083,
+   "pose_file": "poses_fire_sweep/kik_4.2083.json"
+  },
+  {
+   "t": 4.25,
+   "pose_file": "poses_fire_sweep/kik_4.2500.json"
+  },
+  {
+   "t": 4.6,
+   "pose_file": "poses_fire_sweep/k7_down.json"
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+cyclops_first_try_vs_video.jpg | first hand-typed poses vs the Seedance video (ready, overhead, stuck): the club points the wrong way when stuck | IoU ready 0.91/0.92, overhead 0.67/0.54, stuck 0.50/0.48
+cyclops_slam_strip.jpg | finished slam clip (bottom rows) under the reference video (top rows): lift, overhead wind-up, smash, club stuck | 9 keys, 1.75 s, impact at 1.5 s, mean key IoU 0.73
+cyclops_pull_free_strip.jpg | pull_free: heave the club out of the ground, swing it over to the right shoulder, back to ready | 9 keys, 1.75 s, mean key IoU 0.70

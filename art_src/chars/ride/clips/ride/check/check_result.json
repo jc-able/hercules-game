@@ -1,0 +1,252 @@
+{
+ "keys": [
+  {
+   "frame": 0,
+   "u": 0,
+   "dz": -0.0446,
+   "wing_l_01": {
+    "rx": 51.63,
+    "ry": -10.56,
+    "rz": 0.78
+   },
+   "hits": {
+    "hercules-skin": {
+     "n": 801,
+     "bones": {
+      "skirt_f": 237,
+      "skirt_b": 172,
+      "thigh_r": 159,
+      "thigh_l": 150,
+      "shin_l": 42,
+      "skirt_r": 26
+     }
+    },
+    "prop_shield-hair": {
+     "n": 296
+    }
+   },
+   "hips_minus_saddle": [
+    0.0,
+    0.2,
+    0.2471
+   ]
+  },
+  {
+   "frame": 5,
+   "u": 0.075,
+   "dz": -0.0373,
+   "wing_l_01": {
+    "rx": 53.07,
+    "ry": -2.99,
+    "rz": 0.61
+   },
+   "hits": {
+    "hercules-skin": {
+     "n": 762,
+     "bones": {
+      "skirt_f": 230,
+      "skirt_b": 172,
+      "thigh_r": 167,
+      "thigh_l": 150,
+      "skirt_r": 35,
+      "skirt_l": 8
+     }
+    },
+    "prop_shield-hair": {
+     "n": 288
+    }
+   },
+   "hips_minus_saddle": [
+    0.0,
+    0.2,
+    0.2471
+   ]
+  },
+  {
+   "frame": 9,
+   "u": 0.285,
+   "dz": -0.0052,
+   "wing_l_01": {
+    "rx": 57.16,
+    "ry": 18.21,
+    "rz": 1.16
+   },
+   "hits": {
+    "hercules-skin": {
+     "n": 744,
+     "bones": {
+      "skirt_f": 182,
+      "skirt_b": 172,
+      "thigh_r": 169,
+      "thigh_l": 157,
+      "skirt_r": 42,
+      "skirt_l": 22
+     }
+    },
+    "prop_shield-hair": {
+     "n": 284
+    }
+   },
+   "hips_minus_saddle": [
+    0.0,
+    0.2,
+    0.2471
+   ]
+  },
+  {
+   "frame": 14,
+   "u": 0.728,
+   "dz": 0.0373,
+   "wing_l_01": {
+    "rx": 74.33,
+    "ry": 62.11,
+    "rz": 13.15
+   },
+   "hits": {
+    "hercules-skin": {
+     "n": 721,
+     "bones": {
+      "thigh_r": 194,
+      "skirt_b": 172,
+      "skirt_f": 164,
+      "thigh_l": 160,
+      "skirt_r": 26,
+      "skirt_l": 5
+     }
+    },
+    "prop_shield-hair": {
+     "n": 283
+    }
+   },
+   "hips_minus_saddle": [
+    0.0,
+    0.2,
+    0.2471
+   ]
+  },
+  {
+   "frame": 18,
+   "u": 1,
+   "dz": 0.0415,
+   "wing_l_01": {
+    "rx": 42.94,
+    "ry": 135.25,
+    "rz": -45.0
+   },
+   "hits": {
+    "hercules-skin": {
+     "n": 644,
+     "bones": {
+      "skirt_b": 172,
+      "thigh_r": 167,
+      "skirt_f": 161,
+      "thigh_l": 142,
+      "skirt_r": 2
+     }
+    },
+    "prop_shield-hair": {
+     "n": 281
+    }
+   },
+   "hips_minus_saddle": [
+    0.0,
+    0.2,
+    0.2471
+   ]
+  },
+  {
+   "frame": 23,
+   "u": 0.687,
+   "dz": 0.0342,
+   "wing_l_01": {
+    "rx": 71.19,
+    "ry": 58.2,
+    "rz": 10.42
+   },
+   "hits": {
+    "hercules-skin": {
+     "n": 774,
+     "bones": {
+      "thigh_r": 199,
+      "skirt_b": 172,
+      "skirt_f": 161,
+      "thigh_l": 160,
+      "shin_l": 29,
+      "skirt_r": 29
+     }
+    },
+    "prop_shield-hair": {
+     "n": 286
+    }
+   },
+   "hips_minus_saddle": [
+    0.0,
+    0.2,
+    0.2471
+   ]
+  },
+  {
+   "frame": 27,
+   "u": 0.439,
+   "dz": 0.0114,
+   "wing_l_01": {
+    "rx": 60.79,
+    "ry": 33.69,
+    "rz": 2.77
+   },
+   "hits": {
+    "hercules-skin": {
+     "n": 811,
+     "bones": {
+      "thigh_r": 187,
+      "skirt_b": 172,
+      "skirt_f": 166,
+      "thigh_l": 162,
+      "skirt_r": 47,
+      "shin_l": 42
+     }
+    },
+    "prop_shield-hair": {
+     "n": 274
+    }
+   },
+   "hips_minus_saddle": [
+    0.0,
+    0.2,
+    0.2471
+   ]
+  },
+  {
+   "frame": 32,
+   "u": 0.02,
+   "dz": -0.0383,
+   "wing_l_01": {
+    "rx": 52.02,
+    "ry": -8.54,
+    "rz": 0.72
+   },
+   "hits": {
+    "hercules-skin": {
+     "n": 810,
+     "bones": {
+      "skirt_f": 240,
+      "skirt_b": 172,
+      "thigh_r": 162,
+      "thigh_l": 152,
+      "shin_l": 42,
+      "skirt_r": 27
+     }
+    },
+    "prop_shield-hair": {
+     "n": 286
+    }
+   },
+   "hips_minus_saddle": [
+    0.0,
+    0.2,
+    0.2471
+   ]
+  }
+ ],
+ "u_mid": 0.73
+}

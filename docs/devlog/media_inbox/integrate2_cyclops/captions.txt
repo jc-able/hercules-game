@@ -1,0 +1,1 @@
+01_cyclops_natural_fight.jpg | Cyclops with today's natural clips in the real fight, chase camera (gdwin, 30 fps): idle stance, walk, sweep, turn-in-place step, slam landing, death | walk 1.02x at 2.6 m/s (move_speed 2.54), turn 0.58x at 70 deg/s, slam_land err 0.04-0.14 m, footfalls step_r 0.4167 / step_l 1.125 s

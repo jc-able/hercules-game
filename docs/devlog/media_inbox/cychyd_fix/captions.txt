@@ -1,0 +1,1 @@
+cyclops_death_club_before_after.jpg | Cyclops death under LABOR COMPLETE: before, the released club sweeps the right third for ~0.6 s; after, it is let go at death start, lands >= 7.5 m from the camera along the camera->boss line and is invisible closer than 6 m while it topples | cam_dist 7.49 m, near fade 6.0-8.5 m during the 0.7 s topple

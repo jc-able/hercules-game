@@ -1,0 +1,35 @@
+{
+ "width": 1280,
+ "height": 720,
+ "ppm": 175.34246575342465,
+ "front_w": 614,
+ "side_w": 666,
+ "centre_x": 0.0,
+ "centre_y": 0.0,
+ "ground_z": 0.0,
+ "ground_frac": 0.08,
+ "bg": [
+  0.35,
+  0.72,
+  0.47
+ ],
+ "rest_size": [
+  1.7995250225067139,
+  2.668253779411316,
+  2.9203860820271075
+ ],
+ "note": "left panel = front view (camera at -Y looking +Y), right panel = side view (camera at -X looking +X, character faces screen-right)",
+ "bg_srgb8": [
+  160,
+  221,
+  182
+ ],
+ "env": {
+  "half_width": 1.75,
+  "back": 1.9,
+  "front": 1.9,
+  "top": 3.4,
+  "why": "idle_n: natural stance (span 1.80 m, top 2.92 m) + room for a wing lift/resettle to ~3.4 m span, tail swish and a head toss; green bg like every pegasus sheet (white horse on white cannot be keyed)"
+ },
+ "pose": "art_src/chars/pegasus/natural_pose.json"
+}

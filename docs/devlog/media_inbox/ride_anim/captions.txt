@@ -1,0 +1,2 @@
+ride_proof_close.jpg | Hercules ride loop vs the Seedance ride video, rider close-ups (top = video, bottom = our Blender render, FRONT|SIDE) at 4 phases of one wing beat | beat 1.48 s; rider IoU front 0.78 / side 0.84 mean; 0 wing hits with the rider after a 10 deg forward wing sweep (was up to 944 tri pairs at the downstroke)
+ride_proof_strip.jpg | 8 phases of one wing beat, video row over our render row (same framing) | rider head vs horse head constant within +-6 mm in the video; pair bobs 8.3 cm

@@ -1,0 +1,1 @@
+walk_back_before_after.jpg | Hercules walk_back before/after the fix: in-place march vs real backpedal (side panel shows the stride) | step 0.30 m, 0.60 m per 0.5 s cycle = 1.2 m/s; foot lifts 5.9/5.5 cm; strip IoU 0.776 (was 0.794, the video marches in place); 12 IK keys

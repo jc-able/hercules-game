@@ -1,0 +1,2 @@
+verify_contact_sheet.jpg | independent re-import of the 14 cleaned props (front + 3/4, flat textured) | 14/14 grounded, centred, 1 material, triangles within budget (3000/6000/12000), sizes match the brief
+olive_tree_vs_concept.jpg | concept vs model for column, column_broken, cypress, gate, olive_tree: the olive tree has no canopy, only leaf tufts on branch tips | olive_tree 6000 tris, 4 loose parts (3 floating leaf tufts at y ~3.4 m)

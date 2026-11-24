@@ -1,0 +1,1 @@
+medusa_idle_strip.jpg | Medusa idle loop: Seedance reference row above our keyframed rig row (3.0 s breathing cycle) | 6 keys, 13 cm rise, upper-body IoU 0.90-0.93 per key (full-frame 0.76-0.81, capped by the video's tail drawn past the side panel)

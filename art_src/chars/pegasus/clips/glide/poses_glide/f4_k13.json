@@ -1,0 +1,193 @@
+{
+ "space": "absolute",
+ "bones": {
+  "root": {
+   "rx": 0.0,
+   "ry": -0.0,
+   "rz": 0.0
+  },
+  "spine_03": {
+   "rx": 1.1747,
+   "ry": -0.3882,
+   "rz": -0.839
+  },
+  "neck_01": {
+   "rx": 17.402,
+   "ry": -4.3668,
+   "rz": -2.6463
+  },
+  "neck_02": {
+   "rx": 14.248,
+   "ry": -4.4183,
+   "rz": -3.925
+  },
+  "neck_03": {
+   "rx": 10.756,
+   "ry": -4.5198,
+   "rz": -4.9956
+  },
+  "head": {
+   "rx": 11.8778,
+   "ry": 0.3646,
+   "rz": -6.9275
+  },
+  "leg_fl_01": {
+   "side": 10.1
+  },
+  "leg_fl_02": {
+   "side": -64.426
+  },
+  "leg_fl_03": {
+   "side": 50.391
+  },
+  "hoof_fl": {
+   "side": 94.778
+  },
+  "leg_fr_01": {
+   "side": 9.087
+  },
+  "leg_fr_02": {
+   "side": -65.624
+  },
+  "leg_fr_03": {
+   "side": 50.002
+  },
+  "hoof_fr": {
+   "side": 95.0
+  },
+  "wing_l_01": {
+   "rx": -32.7754,
+   "ry": 31.7549,
+   "rz": -29.5009
+  },
+  "wing_l_02": {
+   "rx": 0.0,
+   "ry": 31.5623,
+   "rz": 0.0
+  },
+  "wing_l_03": {
+   "rx": 24.841,
+   "ry": 12.331,
+   "rz": -0.2795
+  },
+  "wing_l_feather_03": {
+   "rx": 25.8484,
+   "ry": 12.3379,
+   "rz": -0.5788
+  },
+  "wing_l_feather_01": {
+   "rx": 1.8696,
+   "ry": 32.4492,
+   "rz": 0.15
+  },
+  "wing_l_feather_02": {
+   "rx": 2.2406,
+   "ry": 33.0412,
+   "rz": 0.1841
+  },
+  "wing_r_01": {
+   "rx": -19.7727,
+   "ry": -29.1145,
+   "rz": 28.0038
+  },
+  "wing_r_02": {
+   "rx": 4.0,
+   "ry": -23.3319,
+   "rz": -0.0
+  },
+  "wing_r_03": {
+   "rx": -3.0936,
+   "ry": 0.9956,
+   "rz": 0.4482
+  },
+  "wing_r_feather_03": {
+   "rx": -5.1863,
+   "ry": 0.9993,
+   "rz": -0.2549
+  },
+  "wing_r_feather_01": {
+   "rx": 3.3537,
+   "ry": -24.0349,
+   "rz": 0.0599
+  },
+  "wing_r_feather_02": {
+   "rx": 3.1383,
+   "ry": -24.4739,
+   "rz": 0.0742
+  },
+  "tail_01": {
+   "side": 121.181
+  },
+  "tail_02": {
+   "side": 106.272
+  },
+  "tail_03": {
+   "side": 94.033
+  },
+  "tail_04": {
+   "side": 88.805
+  },
+  "tail_05": {
+   "side": 90.414
+  },
+  "leg_bl_01": {
+   "side": 12.569
+  },
+  "leg_bl_02": {
+   "side": 63.801
+  },
+  "leg_bl_03": {
+   "side": 40.69
+  },
+  "hoof_bl": {
+   "side": 68.401
+  },
+  "leg_br_01": {
+   "side": 13.561
+  },
+  "leg_br_02": {
+   "side": 64.816
+  },
+  "leg_br_03": {
+   "side": 41.274
+  },
+  "hoof_br": {
+   "side": 68.597
+  },
+  "hips": {
+   "rx": 0.0,
+   "ry": -0.0,
+   "rz": -0.0
+  },
+  "spine_01": {
+   "rx": -0.0,
+   "ry": -0.0,
+   "rz": -0.0
+  },
+  "spine_02": {
+   "rx": -0.0,
+   "ry": -0.0,
+   "rz": -0.0
+  }
+ },
+ "root": {
+  "loc": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot": [
+   0,
+   0,
+   0
+  ]
+ },
+ "rebase": {
+  "clip": "glide",
+  "base": "art_src/chars/pegasus/clips/glide/action_glide.rest_v1.json",
+  "frame": 39,
+  "t": 1.625
+ },
+ "fix": "glide v3 (fixer 2026-11-23): right wing chain 1 key(s) late, spine_03 bank 1.5 deg",
+ "fix4": "v4 (feedback2 pegasus fixer 2026-11-23): wing stroke curve, tucked legs, streaming tail, neck stretch"
+}

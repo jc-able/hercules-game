@@ -1,0 +1,2 @@
+hydra_turn_walk_strip.jpg | the Hydra steps round 120 deg to face the hero, then inhales (chase camera, 3 fps) | turn walk 35 deg/s, attack now starts in the walk stop window (clip 1.54 s), foot slide peaks 4.4-5.5 -> 2.2-3.3 m/s
+hydra_fire_chain_strip.jpg | inhale, fire sweep leaving the centre mouth, head lands, head_up, stomp warning (2 fps) | flame +-76.5 deg = 1.65 x mouth angle; jaw 0.48-0.74 m high, 6.9-7.6 m ahead

@@ -1,0 +1,46 @@
+{
+ "width": 1920,
+ "height": 1080,
+ "ppm": 69.06474820143885,
+ "front_w": 828,
+ "side_w": 1092,
+ "centre_x": 0.0,
+ "centre_y": 1.6999999999999997,
+ "ground_z": 0.0,
+ "ground_frac": 0.08,
+ "bg": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "rest_size": [
+  3.7338151931762695,
+  9.890024900436401,
+  6.49999902830776
+ ],
+ "note": "left panel = front view (camera at -Y looking +Y), right panel = side view (camera at -X looking +X, character faces screen-right)",
+ "clips": [
+  "idle",
+  "slither",
+  "gaze",
+  "stun_start",
+  "stunned",
+  "rise",
+  "hurt",
+  "death"
+ ],
+ "sheet": "split_sheet.png",
+ "other_framing": "cam_tail_swipe.json",
+ "coverage_m": {
+  "front_x": [
+   -5.99,
+   5.99
+  ],
+  "side_y": [
+   -6.21,
+   9.61
+  ],
+  "z_top": 14.39
+ },
+ "framing_note": "medusa uses two framings: this file covers idle, slither, gaze, stun_start, stunned, rise, hurt, death; the other clips use cam_tail_swipe.json. Character height 6.5 m = 449 px."
+}

@@ -1,0 +1,137 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "hips": {
+   "rx": -9.0,
+   "ry": 0.0
+  },
+  "spine_01": {
+   "rx": 55.0,
+   "ry": -6.0
+  },
+  "spine_02": {
+   "rx": 71.0,
+   "ry": 8.0
+  },
+  "spine_03": {
+   "rx": 75.0,
+   "ry": -8.0
+  },
+  "neck": {
+   "rx": 54.0,
+   "ry": -6.0
+  },
+  "head": {
+   "rx": 78.0,
+   "ry": -8.0
+  },
+  "thigh_l": {
+   "rx": -68.0,
+   "ry": -6.0
+  },
+  "shin_l": {
+   "rx": 22.0,
+   "ry": -2.0
+  },
+  "foot_l": {
+   "rx": 0
+  },
+  "thigh_r": {
+   "rx": -70.0,
+   "ry": 6.0
+  },
+  "shin_r": {
+   "rx": 18.0,
+   "ry": 2.0
+  },
+  "foot_r": {
+   "rx": 0
+  },
+  "upper_arm_d_r": {
+   "rx": -24.25,
+   "ry": -29.96,
+   "rz": 27.73
+  },
+  "forearm_d_r": {
+   "rx": -35.04,
+   "ry": -20.66,
+   "rz": 38.26
+  },
+  "upper_arm_d_l": {
+   "rx": -24.25,
+   "ry": 29.96,
+   "rz": -27.73
+  },
+  "forearm_d_l": {
+   "rx": -35.04,
+   "ry": 20.66,
+   "rz": -38.26
+  },
+  "shoulder_u_r": {
+   "rx": -45.28,
+   "ry": -94.03,
+   "rz": 56.62
+  },
+  "upper_arm_u_r": {
+   "rx": -169.26,
+   "ry": -115.62,
+   "rz": 167.93
+  },
+  "forearm_u_r": {
+   "rx": -154.95,
+   "ry": -35.81,
+   "rz": 236.42
+  },
+  "hand_u_r": {
+   "rx": -176.36,
+   "ry": -72.1,
+   "rz": -92.99
+  },
+  "shoulder_u_l": {
+   "rx": -9.55,
+   "ry": 70.92,
+   "rz": -7.07
+  },
+  "upper_arm_u_l": {
+   "rx": -31.05,
+   "ry": 111.31,
+   "rz": -44.43
+  },
+  "forearm_u_l": {
+   "rx": -52.19,
+   "ry": 108.63,
+   "rz": -68.35
+  },
+  "hand_u_l": {
+   "rx": 154.25,
+   "ry": 66.18,
+   "rz": 143.4
+  },
+  "hand_d_l": {
+   "rx": 15.226,
+   "ry": -8.655,
+   "rz": 2.93,
+   "space": "local_delta"
+  },
+  "hand_d_r": {
+   "rx": 10.137,
+   "ry": 6.796,
+   "rz": -5.734,
+   "space": "local_delta"
+  }
+ },
+ "view_offset": [
+  0.17,
+  0.06,
+  -0.16
+ ],
+ "_rebase": "re-base 2026-11-23 (slam t=1.5): orig; acting cells verbatim, still/gap cells local_delta"
+}

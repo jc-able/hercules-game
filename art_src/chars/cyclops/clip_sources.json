@@ -1,0 +1,13 @@
+{
+ "note": "2026-11-23 assembler2 (cyclops): game clip -> action JSON merged (newest source per clip: idle/walk from the new natural videos idle_n/walk_n; slam, stuck, pull_free, sweep, hurt, death from rebase_done.json). Never merge a glob: *.rest_v1.json and *.rest_v2.json backups carry the same clip names. 2026-11-23 animfix2: same paths, re-baked (docs/notes/assemble2_cyclops.md, section animation fix).",
+ "clips": {
+  "idle": "art_src/chars/cyclops/clips/idle_n/action_idle.json",
+  "walk": "art_src/chars/cyclops/clips/walk_n/action_walk.json",
+  "sweep": "art_src/chars/cyclops/clips/sweep/action_sweep.json",
+  "slam": "art_src/chars/cyclops/clips/slam/action_slam.json",
+  "stuck": "art_src/chars/cyclops/clips/slam/action_stuck.json",
+  "pull_free": "art_src/chars/cyclops/clips/slam/action_pull_free.json",
+  "hurt": "art_src/chars/cyclops/clips/hurt/action_hurt.json",
+  "death": "art_src/chars/cyclops/clips/death/action_death.json"
+ }
+}

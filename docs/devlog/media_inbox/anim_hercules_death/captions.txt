@@ -1,0 +1,2 @@
+hercules_death_strip.jpg | death clip: video row above, our baked rig below (12 samples over 3.75 s) | 15 keys, strip IoU mean 0.55 (front/side), key IoU 0.79 at the struck pose, 0.62 lying; feet/body within +-2 cm of the floor
+hercules_death_fall_first_try.jpg | first try at the fall: whole-body rotation about the hips lifted the folded knees, body hovered 0.6 m up | IoU 0.05-0.35; fixed by turning only the hips bone with the legs posed in world angles (0.50-0.54)

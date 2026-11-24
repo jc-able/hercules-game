@@ -1,0 +1,27 @@
+#!/bin/zsh
+# gdwin: run Godot 4.7.2 WITH rendering (screenshots, movies) without disturbing the person working at this Mac.
+# The window is placed off-screen, never takes the keyboard focus, shows no Dock icon and plays no sound.
+# usage: tools/godot_bg/gdwin <godot args...>     same arguments as the Godot binary (give your own --resolution)
+#   GDWIN_BIN=<binary>   run another Godot binary (refused when it cannot be injected, like the exported Hercules.app)
+#   GDWIN_AUDIO=1        keep real sound output (only when the owner asked for a sound check)
+#   GDWIN_VISIBLE=1      leave the window on screen (still without focus); default is off-screen at 6000,6000
+here=${0:A:h}
+lib=$here/nofocus.dylib
+if [[ ! -f $lib || $here/nofocus.m -nt $lib ]]; then
+  clang -dynamiclib -fobjc-arc -framework AppKit -arch arm64 -o $lib $here/nofocus.m || exit 97
+fi
+bin=${GDWIN_BIN:-/Applications/Godot_4.7.2.app/Contents/MacOS/Godot}
+# The helper library is injected with DYLD_INSERT_LIBRARIES. A binary signed with the hardened runtime and without the
+# allow-dyld-environment-variables entitlement ignores it (the exported Hercules.app does): its window WOULD take the
+# keyboard focus. Refuse instead (the lead learned this at 11:45 on 2026-11-23: 14 s of stolen focus).
+if codesign -dv "$bin" 2>&1 | grep -q "flags=.*runtime"; then
+  if ! codesign -d --entitlements - "$bin" 2>/dev/null | grep -q "allow-dyld-environment-variables"; then
+    echo "gdwin: $bin has the hardened runtime without the dyld entitlement: it would take the keyboard focus." >&2
+    echo "gdwin: run it with --headless, or run its pck with the editor binary: gdwin --main-pack <pck> ..." >&2
+    exit 96
+  fi
+fi
+extra=()
+[[ -n $GDWIN_VISIBLE ]] || extra+=(--position 6000,6000)
+[[ -n $GDWIN_AUDIO ]] || extra+=(--audio-driver Dummy)
+DYLD_INSERT_LIBRARIES=$lib exec $bin $extra "$@"

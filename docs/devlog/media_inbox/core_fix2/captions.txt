@@ -1,0 +1,2 @@
+death_presentation_before_after.jpg | hero death: before, DEFEATED and the boss bar covered the fallen hero; after, bar hidden, DEFEATED fades in 1.4 s after the blow in the upper third, camera rises 0.6 m | overlay delay 1.4 s, camera raise 0.6 m, hold 4.5 s
+hero_props_chase_before_after.jpg | sword and shield from the chase camera: shield turned 40 deg about the forearm (reads as a disc), blade turned 25 deg outward (shows beside the leg) | shield facing to camera 0.24 -> 0.71 in the run, block forward 0.94 -> 0.77

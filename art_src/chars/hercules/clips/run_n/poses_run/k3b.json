@@ -1,0 +1,138 @@
+{
+ "space": "absolute",
+ "root": {
+  "loc": [
+   0,
+   0,
+   0
+  ],
+  "ground": "lowest"
+ },
+ "bones": {
+  "hips": {
+   "rx": 5.0,
+   "ry": 0.0,
+   "rz": 0.0
+  },
+  "spine_01": {
+   "rx": 5.0,
+   "ry": 0.0,
+   "rz": -0.97
+  },
+  "spine_02": {
+   "space": "local_delta",
+   "rx": 2.91,
+   "ry": -0.27,
+   "rz": -3.79
+  },
+  "spine_03": {
+   "space": "local_delta",
+   "rx": 1.88,
+   "rz": -2.0
+  },
+  "neck": {
+   "space": "local_delta",
+   "rx": 0.12,
+   "rz": 3.57
+  },
+  "head": {
+   "space": "local_delta",
+   "rx": -1.55,
+   "ry": -0.11,
+   "rz": 4.69
+  },
+  "upper_arm_r": {
+   "rx": 21.5,
+   "rz": 11.49,
+   "ry": -18.62
+  },
+  "forearm_r": {
+   "rx": 3.34,
+   "rz": 33.78,
+   "ry": -25.74
+  },
+  "upper_arm_l": {
+   "rx": -20.3459,
+   "ry": 7.7733,
+   "rz": 9.1802
+  },
+  "forearm_l": {
+   "rx": -101.1276,
+   "ry": 33.5659,
+   "rz": -13.6987
+  },
+  "thigh_r": {
+   "rx": -16,
+   "ry": 0.39,
+   "rz": 0.96
+  },
+  "shin_r": {
+   "rx": 16,
+   "ry": -8.65,
+   "rz": -2.2
+  },
+  "foot_r": {
+   "rx": 0,
+   "ry": 0.15,
+   "rz": -2.83
+  },
+  "thigh_l": {
+   "rx": -30,
+   "ry": -6,
+   "rz": -5
+  },
+  "shin_l": {
+   "rx": 88,
+   "ry": 9,
+   "rz": 1.5
+  },
+  "foot_l": {
+   "rx": 55,
+   "ry": 2,
+   "rz": 8
+  },
+  "hand_r": {
+   "rx": 18.51,
+   "rz": 30.92,
+   "ry": -4.36
+  },
+  "hand_l": {
+   "space": "local_delta",
+   "rx": 2.23
+  },
+  "shoulder_r": {
+   "space": "local_delta",
+   "rx": 2.75,
+   "rz": -2.75
+  },
+  "shoulder_l": {
+   "space": "local_delta",
+   "rx": -2.88,
+   "rz": 2.88,
+   "ry": -1.09
+  },
+  "toe_r": {
+   "space": "local_delta",
+   "rx": -8
+  },
+  "fingers_r": {
+   "space": "local_delta",
+   "rx": 69.52,
+   "ry": -14.93,
+   "rz": -43.68
+  },
+  "fingers_l": {
+   "space": "local_delta",
+   "rx": 7.64,
+   "ry": 21.05,
+   "rz": -24.46
+  }
+ },
+ "view_offset": [
+  0,
+  0.005,
+  -0.045
+ ],
+ "view_scale": 1.02,
+ "_animfix": "left arm re-keyed for the game shield (animfix_hercules): upper_arm_l -22 deg out, forearm_l twist -68 deg, fingers_l x0.5"
+}

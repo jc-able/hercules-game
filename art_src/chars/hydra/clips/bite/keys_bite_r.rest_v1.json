@@ -1,0 +1,40 @@
+{
+ "fps": 24,
+ "loop": false,
+ "length": 3.5,
+ "events": {
+  "impact": 1.5
+ },
+ "note": "animfix_hydra 2026-11-22: authored side-head bite with neck_3 (creature's right, -X); timing of the traced centre-head bite (coil 1.333, strike 1.333-1.5 linear, impact 1.5, hold to 2.25, rest at 3.5); bite_l = ak mirror --keys of this file (neck_6)",
+ "keys": [
+  {
+   "t": 0.0,
+   "pose_file": "poses_bite/k0.json"
+  },
+  {
+   "t": 1.3333,
+   "pose_file": "poses_bite_r/coil.json",
+   "interp": "linear"
+  },
+  {
+   "t": 1.4167,
+   "pose_file": "poses_bite_r/kr_1.4167.json"
+  },
+  {
+   "t": 1.5,
+   "pose_file": "poses_bite_r/strike.json"
+  },
+  {
+   "t": 2.25,
+   "pose_file": "poses_bite_r/hold.json"
+  },
+  {
+   "t": 2.9167,
+   "pose_file": "poses_bite_r/recover.json"
+  },
+  {
+   "t": 3.5,
+   "pose_file": "poses_bite/k0.json"
+  }
+ ]
+}

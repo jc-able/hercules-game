@@ -1,0 +1,2 @@
+app_icon.jpg | the new Hercules app icon (shield + sword in a gold Greek-key frame), drawn in code with Pillow, replaces Godot's default Dock icon | 1024x1024 master, icns 736 KB, 10 sizes 16-1024 px
+exported_app_cyclops_and_icon.jpg | 5 windowed shots from the exported release app (bot vs the Cyclops) + the icon | cyclops bot wins seeds 11/4242 in 35.5/31.6 s game time from the app binary
