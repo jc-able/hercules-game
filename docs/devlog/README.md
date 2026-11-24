@@ -5,7 +5,7 @@ nine-headed Hydra and Pegasus) is being built by JC talking to Claude Code and i
 every question Claude asked back, every decision, a timeline, the Higgsfield credits, before/after screenshots, clips and a
 plan for the devlog videos.
 
-**Covers:** Sun Nov 22 2026, 4:31 PM EST (the trailer prompt, P01) to Mon Nov 23, about 2:35 PM EST. The first night
+**Covers:** Sun Nov 22 2026, 4:31 PM EST (the trailer prompt, P01) to Mon Nov 23, about 8:45 PM EST (the public release, chapter 14). The first night
 (chapters 1-10): characters, rigs, 41 animation clips, three boss fights, the world and sound (1-8), integration, the AI
 play-test, the macOS app and the hand-over state (9), and the lead's last fix before the 1:45 AM hand-over (10). Monday
 morning (chapters 11-12): JC came back, clicked "Polish them now" (P05) and, six minutes later, asked for natural
@@ -13,16 +13,19 @@ animations (P06); the nine open items were polished with independent reviews, an
 nine new reference videos and 50 re-keyed or re-based clips; the app was rebuilt at 11:42 AM. Monday afternoon
 (chapter 13): JC played it himself for 18 minutes, recording his screen and voice, wrote "Everything looks good" with six
 small points (P08), and one workflow of 15 agents fixed them (the backwards sword hand, the mount, flight, creatures on
-the islands, hit effects and damage, clipping). The app rebuild with those fixes comes after this devlog pass.
+the islands, hit effects and damage, clipping); the app was rebuilt with them at 2:50 PM. Monday evening (chapter 14):
+JC played that build and wrote "Game looks good" (P12); a 3-minute explainer video narrated by Claude; the push to a
+private repo; and the public release at 8:32 PM: <https://github.com/jc-able/hercules-game> (MIT for the code, CC BY 4.0
+for the art) with the Mac app as a download.
 
 ## What's in here
 
 | File | What it is | Use it for |
 |---|---|---|
 | [VIDEO_OUTLINE.md](VIDEO_OUTLINE.md) | Seven episodes (hooks, beats, media files, numbers on screen, clips to record yourself; episode 7 is built on your own recorded play-test), a single-video cut and 15 Shorts ideas. | Planning and editing. Start here. |
-| [DEVLOG.md](DEVLOG.md) | The story in thirteen chapters: what was asked (quotes), decisions, what was built, numbers, time and tokens, problems and fixes, talking points, media. Also the project-at-a-glance totals and the Higgsfield credits table (by model and by purpose). | The script source. |
-| [PROMPTS.md](PROMPTS.md) | Every message JC sent (P01-P08), word for word with typos: the pasted trailer prompt, the feedback on the first trailer, the game request, the reply button "Polish them now", the stiffness message typed while Claude worked, "launch the game" and his play-test feedback; the 28 lines he spoke in his play-test recording (S01-S28); the interrupt (X01); Claude's questions and offers (Q01-Q03). No multiple-choice questions were asked. | Exact quotes for on-screen text. |
-| [DECISIONS.md](DECISIONS.md) | 124 decisions (D01-D124): time, options, choice, who decided (JC, the lead, or a named agent), why, chapter. | "Why did you do it that way?" moments. |
+| [DEVLOG.md](DEVLOG.md) | The story in fourteen chapters: what was asked (quotes), decisions, what was built, numbers, time and tokens, problems and fixes, talking points, media. Also the project-at-a-glance totals and the Higgsfield credits table (by model and by purpose). | The script source. |
+| [PROMPTS.md](PROMPTS.md) | Every message JC sent (P01-P13; the Monday-evening ones P09-P13 are in Part 5), word for word with typos: the pasted trailer prompt, the feedback on the first trailer, the game request, the reply button "Polish them now", the stiffness message typed while Claude worked, "launch the game" and his play-test feedback; the 28 lines he spoke in his play-test recording (S01-S28); the interrupt (X01); Claude's questions and offers (Q01-Q04) and the one multiple-choice card (AQ1: licence and how to publish). | Exact quotes for on-screen text. |
+| [DECISIONS.md](DECISIONS.md) | 136 decisions (D01-D136): time, options, choice, who decided (JC, the lead, or a named agent), why, chapter. | "Why did you do it that way?" moments. |
 | [TIMELINE.md](TIMELINE.md) | One line per event with its time, and time/agents/tokens per phase and for the whole session. | Timestamps and "how long did it take". |
 | [MEDIA_INDEX.md](MEDIA_INDEX.md) | Captioned list of every image and clip in `media/`, by chapter, before/after pairs marked (kept by the media agent). | Finding the right picture fast. |
 | `media/` | JPEGs (≤ 1600 px) and MP4 clips (≤ 1080p) with posters, one folder per chapter (`01_trailer` ... `13_owner_feedback`; chapter 13 also has clips from your own play-test recording, with your voice). | B-roll, before/after wipes. |
@@ -62,6 +65,14 @@ the islands, hit effects and damage, clipping). The app rebuild with those fixes
   glide remade, unbeaten bosses walking on their islands, hit effects with cut marks that stay, and capsules that keep
   Hercules out of the bosses. The reviewers wrote 25 findings (6 major), among them the rider still hidden behind the wing
   getting off: JC's exact complaint. No Higgsfield credits.
+- Monday evening (chapter 14): JC plays the rebuilt app and writes "Game looks good. Go ahead, come in and push." A
+  3-minute explainer video narrated by Claude (9 agents, review cut 2:59.5, 10 QA findings fixed). The push to a private
+  repo one minute after he asked, then the public release 64 minutes after "make a public repo available": a scrubbed
+  copy by one agent, audited by a second, fixed by a third (362 home paths, 545 result links with an account id and 10
+  Blender files cleaned), downloaded back and compared byte for byte before the switch. 4,150 files, 913 MB, 3 commits
+  with no e-mail address in them, and a 132 MB Mac app on the release page. No Higgsfield credits.
+- Whole project at 8:37 PM Nov 23: 13 messages from JC, 225 agents, 59.63 agent-hours, 2,931.34 M tokens (14.73 M
+  output), 28.11 h wall clock (15.55 h active).
 
 ## Words used throughout
 - **JC:** the owner. **The lead:** the main Claude Code session (Fable 5.2). **Agents:** extra Claude sessions (Opus 5.5)

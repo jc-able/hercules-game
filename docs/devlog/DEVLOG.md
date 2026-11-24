@@ -6,7 +6,9 @@
 > final pass (12:55 AM), when the game was finished and waiting for JC to test it. The lead added Chapter 10 at the
 > hand-over (1:40 AM). Chapters 11 and 12 cover Monday morning, when JC came back (written at about 11:30 AM, before the
 > app was rebuilt). Chapter 13 covers Monday afternoon: JC's own 18-minute play-test and his feedback, written at about
-> 2:35 PM, before the app was rebuilt with it; the totals below were refreshed then. Every chapter keeps the numbers of
+> 2:35 PM, before the app was rebuilt with it; the totals below were refreshed then. Chapter 14 covers Monday evening (an
+> explainer video, the push and the public release), written by the lead at about 8:45 PM; its numbers and the
+> whole-project count at 8:37 PM are in the chapter. Every chapter keeps the numbers of
 > the moment it was written.
 
 ## Project at a glance
@@ -17,9 +19,10 @@
 | First hand-over | Mon Nov 23 2026, 1:45 AM EST: the lead's last fix (Chapter 10) passed every bot, the Mac app was rebuilt, and the hand-over message asked JC Q02 |
 | Second day | Mon Nov 23, 8:40 AM: JC answers "Polish them now" (P05), then at 8:46 AM asks for natural animations (P06). Chapters 11-12. At 11:26 AM the last fixes were running; the app rebuild and the lead's last look come after this devlog pass |
 | JC plays it | Mon Nov 23, 12:51 PM: "Go ahead and launch the game for me to play test" (P07); he plays the rebuilt app for 18 minutes, recording his screen and voice, and at 1:12 PM writes "Everything looks good" with six small points (P08). Chapter 13. At 2:23 PM the fixes had passed the final check; the app rebuild comes after this devlog pass |
-| Last updated | Mon Nov 23 2026, about 2:35 PM EST (Chapter 13) |
+| Approved and public | Mon Nov 23, 7:20 PM: JC plays the build rebuilt at 2:50 PM and writes "Game looks good. Go ahead, come in and push." (P12). 7:21 PM: pushed to a private repo. 8:32 PM: the public repo <https://github.com/jc-able/hercules-game> (MIT for the code, CC BY 4.0 for the art) with release v0.1.0, the Mac app as a 132 MB download. Chapter 14 |
+| Last updated | Mon Nov 23 2026, about 8:45 PM EST (Chapter 14). The time, agent and token rows below stop at 2:38 PM; Chapter 14 has the evening and the whole-project count at 8:37 PM |
 | Engine / tools | Godot 4.7.2 (GDScript), Blender 5.2.2 headless, Higgsfield (Meshy 7, Hunyuan3D v3, Seedance 2.5, Nano Banana Pro, Mirelo, ElevenLabs Music), Python |
-| What was made | 5 characters generated and rigged (Hercules, Four-Armed Cyclops, Medusa, nine-headed Hydra, Pegasus), 42 Seedance reference videos (33 on Nov 22, 9 from natural stances on Nov 23), 53 clips in the game files, 18 props, 72 sound generations (62 sounds in the game), 3 boss fights, a world with flight on Pegasus, a macOS app (232 MB, rebuilt 11:42 AM Nov 23 with the morning's work, the build JC played; not yet rebuilt with the Chapter 13 fixes) |
+| What was made | 5 characters generated and rigged (Hercules, Four-Armed Cyclops, Medusa, nine-headed Hydra, Pegasus), 42 Seedance reference videos (33 on Nov 22, 9 from natural stances on Nov 23), 53 clips in the game files, 18 props, 72 sound generations (62 sounds in the game), 3 boss fights, a world with flight on Pegasus, a macOS app (232 MB, rebuilt 11:42 AM Nov 23 with the morning's work, the build JC played; rebuilt again at 2:50 PM with the Chapter 13 fixes: the build he approved at 7:20 PM and the one in the public release) |
 | Time, Nov 22 (first night) | wall clock 9.16 h (4:31 PM -> 1:40 AM), active 8.89 h (trailer included); the game alone 8.14 h |
 | Time, Nov 23 (up to 2:38 PM) | 5.98 h wall (8:40 AM -> 2:38 PM), 4.67 h active: the session was idle 0.97 h after the 11:52 AM report and 0.33 h while JC played (12:52-1:12 PM) |
 | Time, whole project (up to 2:38 PM) | 22.12 h wall clock including a 6.9 h quiet night (1:45 -> 8:40 AM); 13.64 h active |
@@ -30,7 +33,7 @@
 | Higgsfield credits | game: 2,018.29 (ledger 1,928.29 quoted over 163 jobs + 90 for three Meshy multi-image jobs the ledger did not price, at the catalogue price of 30 each). Of that, Nov 22: 1,748.29; Nov 23: 270 (nine Seedance videos, no retakes). Trailer before the game: 835 (Claude's reports). Total about 2,853 |
 | Workflows | Nov 22: 16 (props, foundation, rigs, modules, ride sheet, 3 animation waves, ride clip, integration 1, finalize, devlog 1, integration 2, QA, polish 1, devlog 2). Nov 23: polish 2, natural stance, natural re-base, natural animate (2 runs), natural integrate (2 runs, the second with final check 2), natural clip fix, last fixes, devlog 3; afternoon: feedback 2 (intake, 4 fixers, 4 reviewers, 4 re-fixers, final check 3, devlog 13) |
 | Weekly usage | all models 25 % before the build -> 35 % at 7:01 PM -> 40 % at 7:36 PM -> 45 % at 8:09 PM -> 58 % at 11:01 PM (before the play-test) -> 63 % at 1:33 AM (after the last fix); no reading recorded on Nov 23 |
-| JC's messages | 8 (P01-P08): 4 on Nov 22 (the last at 5:33 PM), 4 on Nov 23 (a reply button at 8:40 AM, a message typed while Claude worked at 8:46 AM, "launch the game" at 12:51 PM, his play-test feedback at 1:12 PM), plus 28 lines he spoke in his play-test recording (S01-S28). Claude asked 3 questions or offers (Q01 unanswered, Q02 answered by P05, Q03 never answered) |
+| JC's messages | 8 (P01-P08): 4 on Nov 22 (the last at 5:33 PM), 4 on Nov 23 (a reply button at 8:40 AM, a message typed while Claude worked at 8:46 AM, "launch the game" at 12:51 PM, his play-test feedback at 1:12 PM), plus 28 lines he spoke in his play-test recording (S01-S28). Claude asked 3 questions or offers (Q01 unanswered, Q02 answered by P05, Q03 never answered). Monday evening added five messages (P09-P13), one question (Q04, answered by P13) and the first multiple-choice card (AQ1) |
 
 Time and tokens: `session_stats.py` over the session transcript. "Nov 22" runs up to 1:40 AM (the hand-over; final count).
 "Nov 23" runs from 8:40 AM (P05) to 2:38 PM, while the Chapter 13 devlog agent was still writing (it is counted only up to
@@ -104,6 +107,7 @@ final at 420) and 280 for round 2 (six 480p drafts at 45, five opening frames at
 - [Chapter 11 · "Polish them now"](#chapter-11) — Monday morning: the nine open items fixed, reviewed and re-fixed, the first-use freeze and its real cause, and working beside the owner without taking his keyboard
 - [Chapter 12 · "They seem a little stiff"](#chapter-12) — frozen limbs measured, the cause found in the method's first frame, natural stances, nine new videos, 50 clips re-keyed or re-based
 - [Chapter 13 · "Everything looks good": JC plays it himself](#chapter-13) — his 18-minute recorded play-test, six small points (the backwards sword hand, the mount, flight, creatures on the islands, hit effects, clipping), 25 review findings, final check 3
+- [Chapter 14 · "Game looks good": an explainer video, a push and a public repo](#chapter-14) — JC approves the build; Claude narrates a 3-minute explainer; the push to a private repo; his two choices (licence, a clean repo); a scrubbed copy audited by a second agent; a byte-for-byte check and the switch to public with a downloadable Mac app
 
 ---
 
@@ -2712,3 +2716,180 @@ His own recording first: the first flight with his voice (`51`), the Pegasus-off
 `43`), the mount (`07` -> `44`, clips `50` -> `59`), the flight (`21`, `46`, clip `58`), Pegasus v4 -> v5 (`39`), the Quarry
 Isle approach (`24`, clip `61`), the Cyclops hit (`27`, clips `62`, `63`), the stuck club (`30`). End on the open list and
 JC's next play-test of the rebuilt app (to record).
+
+---
+
+<a id="chapter-14"></a>
+## Chapter 14 · "Game looks good": an explainer video, a push and a public repo
+
+### In one minute
+Monday evening JC came back with three things. First a 3-minute explainer video of how the game was built, with an AI
+voice; four minutes later he corrected the lead's first reading: the video is told by Claude, in the first person, and
+not in his clone voice. Second, "launch the game": he played the build with his play-test fixes and wrote "Game looks
+good. Go ahead, come in and push." The project had never left his Mac, so the lead created a private GitHub repo, pushed
+the 43 commits one minute later and asked whether he wanted it public. Third: he did, "so that we can point viewers to
+it and they can download the game and continue to iterate on it." A public copy is not the private repo with a switch
+flipped: the history held his commit e-mail, his user name in 362 paths and an account id in 545 result links. He chose
+a new clean repo and a licence (MIT for the code, CC BY 4.0 for the art); one agent built a scrubbed copy, a second
+audited it without the first one's verdict, a third fixed what the audit found; the lead checked the result itself,
+pushed it to a repo that was still private, downloaded it back, compared it byte for byte with the audited folder, and
+only then switched it to public at 8:32 PM, 64 minutes after he asked. The Mac app is a download on the release page.
+The explainer's review cut (2:59.5) was ready four minutes later.
+
+### What JC asked
+Mon Nov 23, 6:57 PM:
+> I need you to make a 3 minute explainer video with an ai generated voice over explaining the devlog process and how you used Higgsfield to build this and why you took each step that you took. For example explain how you used the video references to help build gameplay and animations etc. and explain the step by step on how you did that showing the example of the media files and how you used it. You can use stick figure skill to help explain concepts along with the media. Use devlog skill to help you with the video edit for this explainer video so that a game developer who is developing games with AI can understand the process and — P09 (it ends there)
+
+7:02 PM:
+> No do it as first person as yourself as what you did and use a different clone voice. This is an explainer video from your point of view — P10
+
+7:04 PM:
+> And in the meantime also launch the game so I can test it while you do that — P11
+
+7:20 PM:
+> Game looks good. Go ahead, come in and push. — P12
+
+7:28 PM:
+> Yes, go ahead and make a public repo available so that we can point viewers to it and they can download the game and continue to iterate on it. — P13
+
+### What Claude asked back
+- **Q04** (7:23 PM, in the push report): the repo is private, "Say so if you wanted it public or somewhere else."
+  Answered by P13.
+- **AQ1** (7:30 PM, the first multiple-choice card of the build, asked while the copy was already being prepared): which
+  licence, and a new clean repo or the private one flipped to public. His answers at 7:32 PM: "MIT + CC BY
+  (Recommended)" and "New clean repo (Recommended)". The four and two options are in PROMPTS.md.
+
+### Decisions
+- D125 · **JC:** Claude narrates the explainer in the first person, not his clone voice. The voice agent chose the stock
+  voice his channel already uses for Claude.
+- D126 · **The lead:** "push" with no remote = a new private repo, and say so.
+- D127, D128 · **JC:** MIT for the code and CC BY 4.0 for the art; a new clean repo with a fresh history, the private
+  one stays private.
+- D129 · **The lead:** a preparer, an independent auditor and a fixer in a staging folder; agents publish nothing.
+- D130, D131 · **`prepare`:** the Blender files patched byte for byte instead of saved again; the explainer's workflow
+  script left out.
+- D132 · **The lead:** two devlog lines reworded to say only what this build measured.
+- D133 · **The lead:** the last check alone (weekly usage at 86 %), by comparing a fresh download with the audited folder.
+- D134 · **The lead:** private first, public only after the checks.
+- D135, D136 · **The lead:** the app stays ad-hoc signed, with honest opening instructions; plain MIT text so GitHub
+  shows "MIT".
+
+### What was built
+
+#### 1. The explainer video (6:59-8:36 PM, 9 agents + 1 in the stopped first run)
+A separate video about this build, made outside the repo from the devlog and its media. The lead's first plan (6:59 PM)
+had JC's clone voice speaking as JC; P10 turned it round, the first run was stopped after 4 minutes and the workflow
+started again at 7:03 PM:
+
+| Stage | What it did |
+|---|---|
+| script, review, fix | a script of 580 words (586 after the QA fix) in seven steps (trailer, characters, rigs, JC's method, the lesson of the stiff clips, checking, the devlog), every claim tied to a devlog file and section; an independent reviewer checked every number against the devlog |
+| voiceover | ElevenLabs "Charlie", a stock library voice: "the voice the channel already gives Claude". 2:57.3 for 580 words, all words present and in order, longest pause 0.143 s, -16.0 LUFS. About 4,000 characters of ElevenLabs credit with the audition and one re-voiced line |
+| stick figures, media shots | white-on-black stick-figure explainers for the concepts; shots built from the real media (the split sheets, the Seedance videos beside the rig, the frozen-joint table, his play-test) |
+| assemble, QA, fix | a 1080p review cut; an independent QA wrote 10 findings (5 major: an unreadable before/after, a character named while its row was out of frame, the clip count jumping from 41 to 51 unexplained, an unexplained close-up, the devlog shown only as a drawing); all 10 fixed, one line re-voiced and spliced in (1:58.5-2:04.7) |
+
+Result: 2:59.53 at 1920x1080 and 30 fps (84.6 MB) and a 1280x720 copy for the phone (26.4 MB), 113 captions, -15.5 LUFS,
+longest still picture 1.9 s, 0 black frames, 0 privacy hits in an OCR of 359 frames. Not done: the 4K master (waits for
+JC's go), and the spliced line was checked by transcript and level, not by ear.
+
+#### 2. "Launch the game" and the push (7:04-7:23 PM)
+The lead started the app rebuilt at 2:50 PM. Sixteen minutes later: "Game looks good." The repo had no remote. At
+7:21 PM the lead created a private GitHub repo and pushed the 43 commits; before pushing it checked that the largest
+file was 44 MB and that a pattern scan of the tracked files found no keys or tokens.
+
+#### 3. The scrubbed copy (7:29-8:15 PM, `hercules-public-prep`, 3 agents in a row)
+The copy starts from the files of the last commit, not from the history. What `prepare` took out or changed:
+
+| What | How much | What it became |
+|---|---|---|
+| Home paths with the user name | 362 in 156 text files | `~/HerculesGame`, or paths relative to the file (116 pose JSON files now resolve in any clone) |
+| Generation result links (they carry an account id) | 545 fields in the 163-job ledger; 112 upload ids; an upload cache of 56 entries | dropped; upload ids replaced by the repo file that was uploaded; the ledger still totals 1,928.29 quoted credits |
+| The AI tool's own paths and ids | 95 replacements in 7 files; 82 workflow run ids; 8 task ids | placeholders, or removed |
+| The recording app, project and screen details | 7 automatic + 11 manual edits | "[my recording app, project name removed]" inside P08; the owner's frames were already cropped to the game window |
+| Other projects | 5 places | "another project" |
+| Blender files | 10 (5 of them compressed) | the stored folder and the absolute links patched in place at the same length (D130) |
+| Pictures and videos | 1,238 images, 135 videos | only checked: metadata read, every image through OCR, 3 frames of every video (397 frames); nothing to strip |
+| The explainer's workflow script | 1 file | removed (D131) |
+
+It also wrote the "Start here (if you came from the video)" section of the README. Then `audit`, which got the folder
+and not the preparer's verdict, wrote 2 major and 6 minor findings: the README never told a newcomer to run the one-time
+import (a fresh clone fails with parse errors until then), a leftover paragraph about the explainer, usage percentages,
+recording details, printable tails of old paths after the patched Blender strings, art scripts with a fixed path. `fix`
+closed them. Both agents ran the game from the copy: import with 0 errors, the Cyclops bot wins in 13 s, the whole game
+in 89 s. Final sweep of all 4,148 files, also in UTF-16: 0 for the user name, home paths, e-mail addresses, keys, signed
+links, session and run ids and the 17 words of the private list.
+
+#### 4. The lead's own checks (8:15-8:27 PM)
+| Check | Result |
+|---|---|
+| The 10 patched .blend files opened in Blender 5.2, headless | 10 open, 0 problems |
+| One file still contains `/Users/` | the privacy checker's own search pattern |
+| E-mail-like strings in 45 videos and 3 pictures | two provenance signatures that the generators embed in their files (135 and 15 times); nobody's address |
+| The Mac app: two strings match the scan | both are in the stock Godot binary as well: engine strings, not this project's |
+| The zip of the app (131.9 MB), unzipped again | signature valid, identical to the build; a bot wins the Cyclops fight from it, headless, with a throwaway home folder; the real save file untouched |
+| Wording | two devlog lines reworded (D132); the README told that JC had approved this build, not "the version before these fixes" |
+
+#### 5. Private first, then public (8:26-8:32 PM)
+| Time | Step |
+|---|---|
+| 8:26 PM | one commit of 4,150 files with a GitHub no-reply author (the private history is never used) |
+| 8:27 PM | the repo `hercules-game` is created PRIVATE; 913 MB upload at about 8 MiB/s |
+| 8:29 PM | upload done; second commit (README: the owner played and approved this build) |
+| 8:30 PM | a fresh download (29 s): 2 commits, 1 author identity, 4,150 files; `diff` against the audited folder: no difference; user name in 0 files, private words 0 of 17; `--import` exit 0 with 0 errors; the Cyclops bot wins with 0 script errors |
+| 8:31 PM | release v0.1.0: `Hercules-0.1.0-macOS-universal.zip` with notes (how to open an app that is not notarized, controls, known limits) |
+| 8:32 PM | **switched to public**; checked signed out: the page answers, the README is served, the zip downloads with the same checksum; the private repo is still private |
+| 8:32 PM | third commit: plain MIT text in `LICENSE`; GitHub's label goes from "Other" to "MIT" (D136) |
+
+Public repo: <https://github.com/jc-able/hercules-game>. In it: the Godot project, the source art and rigs, the 42
+reference videos, the tools, the notes of every agent and this devlog. Not in it: the built app (it is the release
+download), the scratch folders, the raw 3D downloads and Godot's import cache.
+
+### Numbers
+- From "Yes, go ahead" (7:28 PM) to public (8:32 PM): 64 minutes. From "push" (7:20 PM) to the private repo: 1 minute.
+- The public repo: 4,150 files, 913 MB packed, 3 commits, none with an e-mail address of his; largest file 44.4 MB.
+- Scrubbed: 362 home paths, 545 result links, 112 upload ids, 82 run ids, 10 Blender files; 1,238 images and 397 video
+  frames through OCR.
+- The Mac app: 232 MB, 131.9 MB zipped, universal (Apple Silicon and Intel), ad-hoc signed, not notarized.
+- The explainer: 2:59.53, 586 words, 113 captions, 10 QA findings fixed, 1 line re-voiced.
+- Higgsfield credits: 0. ElevenLabs: about 4,000 characters for the voiceover.
+
+### Time and tokens (6:57-8:37 PM, `session_stats.py`)
+| | Agents | Wall | Agent-hours | Tokens (output) |
+|---|---|---|---|---|
+| Explainer video (first run stopped + the workflow) | 10 | 1.54 h | 1.93 | 97.91 M (572.0 k) |
+| `hercules-public-prep` | 3 | 0.76 h | 0.76 | 39.18 M (135.9 k) |
+| The lead | — | — | — | 34.18 M (114.0 k) |
+| **The evening** | **13** | **1.67 h** | **2.69** | **171.26 M (821.9 k)** |
+
+Whole project at 8:37 PM (one run from 4:31 PM Nov 22): 28.11 h wall clock, 15.55 h active, 225 agents, 59.63
+agent-hours, 2,931.34 M tokens in total, 14.73 M output (lead 336.24 M with 938.0 k output; agents 2,595.10 M with
+13.79 M output). Weekly usage (all models) stood at 86 % at 8:20 PM.
+
+### Problems and fixes
+- **The lead's first reading of the video was wrong.** It planned JC's clone voice speaking as JC. He corrected it in
+  four minutes (P10); one agent's work (4.61 M tokens) was thrown away.
+- **"Right-click, Open" is out of date.** The lead told JC at 7:32 PM that viewers would open the app that way. On macOS
+  15 and newer an app that is not notarized has to be allowed under System Settings > Privacy & Security. The README
+  and the release notes give both ways and the Terminal command.
+- **The README in the copy was stale by one sentence:** it still said JC had played "the version before these fixes".
+  He had approved the fixed build at 7:20 PM. Second commit.
+- **Scan "hits" that were not private:** the checker's own pattern, provenance signatures in generated media, engine
+  strings in the app. Each was traced before publishing, not waved through.
+- **GitHub showed the licence as "Other"** because the lead had added a scope note under the MIT text. Third commit.
+- **The prompt extractor picked the wrong transcript:** with two sessions open in the same folder, "latest" was the
+  other one. The lead passed this session's transcript by name.
+
+### Talking points
+- "I said 'push'. It made the repo private and asked. Good call: every commit had my e-mail in it."
+- "A public copy is not a switch. 362 paths with my user name, 545 links with my account id, ten Blender files that
+  remembered my home folder."
+- "One AI cleaned the copy. A second one, which was not told what the first had concluded, went looking for what it
+  missed, and found that a newcomer could not even start the game from the README."
+- "Before the switch it downloaded its own upload and compared it byte for byte with the folder the auditor had passed."
+- "The explainer video is Claude telling it in the first person. My first version of that plan had my own voice saying
+  'I'. He fixed that in one message."
+- "It's yours now: the game, the rigs, the reference videos, the tools, every prompt. Link in the description."
+
+### Show
+The public repo page and its release (to record, signed out); `git clone`, the one-time import and a bot fight in a
+terminal (to record); the explainer video itself. No new pictures in `media/` for this chapter.

@@ -223,6 +223,23 @@ rigged and animated every character from my own videos-as-reference method, whil
   dismount, flying past the Cyclops on his island, a few cuts on each boss, and the sword from behind.
 - **Closing line:** my verdict on the second build.
 
+### Ending for the last episode · "It's yours now" (Chapter 14) · 1-2 min
+**Hook:** "I said push. It asked me one question first."
+
+**Beats:** "Game looks good" (P12) -> the private push and Claude's question (Q04) -> "make a public repo available"
+(P13) -> his two choices on screen (AQ1) -> what had to come out of the copy (362 paths with his user name, 545 result
+links with an account id, 10 Blender files patched byte by byte) -> a second agent audits the copy without the first
+one's verdict -> private first, a fresh download compared byte for byte, then public at 8:32 PM.
+
+**Numbers on screen:** 64 minutes from "yes" to public; 4,150 files, 913 MB; 3 commits, no e-mail address in any of
+them; 0 private strings in the download; a 132 MB Mac app.
+
+**To record:** the public repo page and its release (signed out), then `git clone`, the one-time import and a bot fight
+in a terminal.
+
+**Call to action:** the repo link in the description: download it, play it, keep building it. The 3-minute explainer
+video (narrated by Claude, Chapter 14) can be the pinned companion.
+
 ## Single long video (35-40 min, chapter markers)
 0:00 Hook: trailer -> "wrong game" -> the reference cut · 1:30 The game request (P03) · 3:00 3D candidates and picks ·
 6:00 Rigs and the reviewer who broke them · 10:00 My animation method and the two tests · 13:00 33 videos, 41 clips, where
@@ -283,6 +300,9 @@ Use the episode beats above, one or two media items per beat.
 - "Everything looks good." (P08)
 - "Hercules' sword is he has his hands like backwards, so we gotta adjust that and fix it." (P08)
 - "Pay attention and just adjust the small details, and everything else will be done already." (P08)
+- "No do it as first person as yourself as what you did [...] This is an explainer video from your point of view" (P10)
+- "Game looks good. Go ahead, come in and push." (P12)
+- "make a public repo available so that we can point viewers to it and they can download the game and continue to iterate on it." (P13)
 
 ## Privacy check before publishing
 The game is never named in prompts, code or files; JC names it himself in P02, so blur or skip that word if the video

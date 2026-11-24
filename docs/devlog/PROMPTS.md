@@ -243,6 +243,69 @@ parallel; an independent review of each fix against his recording, then a re-fix
 devlog gets a chapter for his play-test), an estimate of about 2 hours, and that the app must be closed for the rebuild
 ("it is closed now"). Claude asked him nothing. The work is DEVLOG Chapter 13.
 
+## Part 5 · Monday evening: an explainer video, a push and a public repo
+
+At 2:52 PM the lead told JC the app was rebuilt with his play-test fixes (2:50 PM) and ready for his next test. His next
+messages came four hours later.
+
+### P09 · Mon Nov 23 2026, 6:57 PM EST
+> I need you to make a 3 minute explainer video with an ai generated voice over explaining the devlog process and how you used Higgsfield to build this and why you took each step that you took. For example explain how you used the video references to help build gameplay and animations etc. and explain the step by step on how you did that showing the example of the media files and how you used it. You can use stick figure skill to help explain concepts along with the media. Use devlog skill to help you with the video edit for this explainer video so that a game developer who is developing games with AI can understand the process and
+
+(The message ends mid-sentence.)
+
+**What happened next:** at 6:59 PM the lead started a workflow for the video and told JC what it had chosen where he had
+not said: 16:9, about 3 minutes, no music, "Voice: your clone voice, first person as you", the look of his devlog videos
+(the real media files, white-on-black stick figures for the concepts), a 1080p review cut before any 4K render. It also
+told him his message had ended mid-sentence.
+
+### P10 · Mon Nov 23 2026, 7:02 PM EST
+> No do it as first person as yourself as what you did and use a different clone voice. This is an explainer video from your point of view
+
+**What happened next:** the lead stopped the first run "a few minutes in" and started the workflow again at 7:03 PM with
+Claude as the narrator, in the first person, in a voice that is not JC's clone (D125). The review cut (2:59.5) was ready
+at 8:36 PM. DEVLOG Chapter 14.
+
+### P11 · Mon Nov 23 2026, 7:04 PM EST
+> And in the meantime also launch the game so I can test it while you do that
+
+**What happened next:** at 7:04 PM the lead started the app rebuilt at 2:50 PM (the build with the fixes from his
+play-test) and told him two things: in flight only the left stick steers now, and the game might stutter for a minute
+while the video workflow recorded gameplay shots off-screen on the same machine.
+
+### P12 · Mon Nov 23 2026, 7:20 PM EST
+> Game looks good. Go ahead, come in and push.
+
+JC dictates his messages. The lead read "come in and push" as "commit and push" and said so in its answer.
+
+**What happened next:** the repo had no remote. At 7:21 PM the lead created a private GitHub repo under JC's account and
+pushed the whole history, 43 commits (D126). Its report at 7:23 PM ended with Q04.
+
+### Q04 · Mon Nov 23 2026, 7:23 PM EST · in the push report
+> "The repo had no remote, so I created a **private** GitHub repository under your account and pushed the whole history to it [...]. Say so if you wanted it public or somewhere else."
+
+**Answer:** P13, five minutes later.
+
+### P13 · Mon Nov 23 2026, 7:28 PM EST
+> Yes, go ahead and make a public repo available so that we can point viewers to it and they can download the game and continue to iterate on it.
+
+**What happened next:** at 7:29 PM the lead started the workflow `hercules-public-prep` (a scrubbed copy, an independent
+privacy audit, a fix pass) and at 7:30 PM, while it ran, asked JC two multiple-choice questions (AQ1). The copy went
+public at 8:32 PM as <https://github.com/jc-able/hercules-game>, with the Mac app as a download. DEVLOG Chapter 14.
+
 ## Multiple-choice questions (AQ)
-None. Claude did not use a multiple-choice question tool in the whole build (checked again at 2:30 PM Mon Nov 23: no
-AskUserQuestion call in the transcript). Q02 is the only question that came with buttons.
+One. Until Monday evening Claude had not used a multiple-choice question tool in the build (checked at 2:30 PM Mon
+Nov 23: no such call in the transcript); Q02 was the only question that came with buttons.
+
+### AQ1 · Mon Nov 23 2026, 7:30 PM EST · two questions on one card, asked while the public copy was being prepared
+
+**Which licence should the public Hercules repo carry, so viewers know what they may do with the code and the art?**
+- MIT + CC BY (Recommended) — MIT for the code and tools, CC BY 4.0 for the art, animations and sound: anyone may use and change everything, including commercially, as long as they credit you.
+- MIT for everything — One simple permissive licence for code and assets: use, change and sell with the copyright notice kept.
+- Non-commercial — MIT for the code, CC BY-NC 4.0 for art and sound: viewers can learn from it and build on it, but not sell the assets.
+- No licence yet — Publish without a licence: people can read and run it, but legally they may not reuse or redistribute it. You can add one later.
+
+**The private repo's history contains your commit email, local paths and service ids. How should the public version be made?**
+- New clean repo (Recommended) — A separate public repo, jc-able/hercules-game, made from a scrubbed copy with a fresh history and a GitHub no-reply author, plus a Release with the Mac app to download. The private repo stays private.
+- Flip existing repo — Make [the private repo] public as it is. The full history becomes visible, including your commit email address and local paths in older commits.
+
+**Answer (7:32 PM):** "MIT + CC BY (Recommended)" and "New clean repo (Recommended)" (D127, D128).

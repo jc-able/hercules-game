@@ -166,6 +166,32 @@ workflow journals, the lead's raw log and git. P = prompt, D = decision (see PRO
 | 2:23 PM | Final check 3 done, no code edits (D124): whole game won with keys and pad, every fight wins and loses, 0 errors; his six points recorded beside his frames (sword fixed, mount mostly, flight fixed, creatures fixed for the Cyclops, effects mostly, clipping mostly); cold Cyclops 0 frames over 50 ms. Devlog agent starts |
 | after this pass | The lead applies the README lines, re-runs the bots, rebuilds the app (if it is not running), runs the app's binary, commits and reports to JC (*to be filled in by the lead*) |
 
+### Mon Nov 23 evening: the explainer video, the push and the public repo (Chapter 14)
+
+| Time | Event |
+|---|---|
+| 2:50 PM | The lead rebuilds the Mac app with the Chapter 13 fixes (232 MB); bots win the whole game on it; report to JC at 2:52 PM |
+| 6:57 PM | **P09**: JC asks for a 3-minute explainer video about the build; workflow started at 6:59 PM (narrator: his clone voice) |
+| 7:02 PM | **P10**: the narrator must be Claude, in the first person, in another voice (D125); first run stopped, workflow restarted at 7:03 PM |
+| 7:04 PM | **P11**: "launch the game"; the 2:50 PM build is started for him |
+| 7:20 PM | **P12**: "Game looks good. Go ahead, come in and push." |
+| 7:21 PM | A private GitHub repo is created and the 43 commits are pushed (D126); report at 7:23 PM with Q04 |
+| 7:28 PM | **P13**: "make a public repo available" |
+| 7:29 PM | `hercules-public-prep` starts (D129): `prepare` builds the scrubbed copy |
+| 7:30-7:32 PM | **AQ1**: MIT + CC BY 4.0 (D127), a new clean repo (D128) |
+| ~7:47 PM | `prepare` done (4,148 files, 1,170.8 MB; 362 home paths, 545 result links, 10 .blend files patched); `audit` starts |
+| ~8:06 PM | `audit` done: 2 major and 6 minor findings; `fix` starts |
+| 8:15 PM | Workflow done: every private pattern at 0, the game imports and a bot wins the whole game in the copy |
+| 8:16 PM | The lead adds `LICENSE` (MIT) and `LICENSE-ASSETS.md` (CC BY 4.0), rewords two devlog lines (D132), opens the 10 blends headless (0 problems) and scans again |
+| 8:19-8:25 PM | Two leftover scan results and two in the app are traced: the checker's own pattern, provenance signatures in generated media, two strings of the stock engine |
+| 8:26 PM | The first public commit, with a GitHub no-reply author. The app is zipped (131.9 MB); a bot wins from the unzipped copy |
+| 8:27 PM | `hercules-game` is created as a PRIVATE repo (D134); the 913 MB upload starts |
+| 8:29 PM | Upload done; second commit (README: the owner played and approved this build) |
+| 8:30 PM | A fresh download of the repo (29 s): identical to the audited folder, 0 private strings, imports with 0 errors, the Cyclops bot wins |
+| 8:31 PM | Release v0.1.0 with the Mac app |
+| 8:32 PM | **The repo is switched to public.** Checked signed out: the page, the README, the release download (checksum equal). Third commit: GitHub now shows the licence as MIT (D136) |
+| 8:36 PM | The explainer workflow is done: review cut 2:59.5 at 1080p, 10 QA findings fixed, sent to JC |
+
 ## Per phase: time, agents, tokens
 
 From `session_stats.py`. Phases overlap (workflows ran in parallel), so the rows do not add up to the session total; the
@@ -239,3 +265,25 @@ Nov 22 + the hand-over + Nov 23 = 1,762.63 + 4.42 + 709.11 = 2,476.16 M, the one
 | **`hercules-feedback-2` total** | | 1:15 PM- | **15** | 1.23 h | **3.03** | **165.02 M (785.3 k)** |
 | Lead (main loop) | — | 1:12-2:29 PM | — | — | — | 7.09 M (19.3 k) |
 | **Chapter 13 window** | | 1:12-2:29 PM | **15** | **1.29 h** | **3.03** | **172.11 M (804.6 k)** |
+
+### Mon Nov 23 evening (Chapter 14, counted at 8:37 PM)
+
+| Phase | Window | Agents | Wall | Agent-hours | Tokens (output) |
+|---|---|---|---|---|---|
+| Explainer video, first run (stopped at P10) | 6:59-7:03 PM | 1 | 0.07 h | 0.07 | 4.61 M (19.2 k) |
+| Explainer video: script, script review, script fix | from 7:03 PM | 3 | | 0.39 | 21.57 M (133.1 k) |
+| voiceover | | 1 | 0.26 h | 0.26 | 9.45 M (41.1 k) |
+| stick figures | | 1 | 0.40 h | 0.40 | 15.01 M (135.9 k) |
+| media shots | | 1 | 0.32 h | 0.32 | 14.10 M (99.9 k) |
+| assemble, QA, fix | to 8:36 PM | 3 | | 0.50 | 33.15 M (142.8 k) |
+| **Explainer workflow total** | 7:03-8:36 PM | **9** | 1.54 h | **1.86** | **93.30 M (552.8 k)** |
+| `hercules-public-prep`: prepare | 7:29-7:47 PM | 1 | 0.29 h | 0.29 | 22.95 M (75.1 k) |
+| audit | 7:47-8:06 PM | 1 | 0.32 h | 0.32 | 11.37 M (36.1 k) |
+| fix | 8:06-8:15 PM | 1 | 0.15 h | 0.15 | 4.86 M (24.7 k) |
+| **`hercules-public-prep` total** | 7:29-8:15 PM | **3** | 0.76 h | **0.76** | **39.18 M (135.9 k)** |
+| Lead (main loop: both workflows, the push, the checks, publishing) | 6:57-8:37 PM | — | — | — | 34.18 M (114.0 k) |
+| **Chapter 14 window** | 6:57-8:37 PM | **13** | **1.67 h** | **2.69** | **171.26 M (821.9 k)** |
+
+The stage windows of `hercules-public-prep` are worked out from each agent's duration; the durations and tokens are from
+`session_stats.py`. Whole project at 8:37 PM (one run from 4:31 PM Nov 22): 28.11 h wall clock, 15.55 h active, 225
+agents, 59.63 agent-hours, 2,931.34 M tokens in total, 14.73 M output (lead 336.24 M, 938.0 k output).
