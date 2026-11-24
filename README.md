@@ -230,9 +230,9 @@ Combat basics:
 The pause menu has Resume, Controls, Restart fight (in a fight), Return home and Quit to title.
 
 ## Known limits
-- JC, the owner, played the version before these fixes (Nov 23, 1 PM). The fixes since (sword grip, mount and dismount,
-  flight camera and Pegasus's flight clips, creatures on the islands, strike effects and wounds, clipping) were checked
-  by bots, probes and recorded frames only. Feel, difficulty, mouse camera and sound are yours to judge.
+- JC, the owner, played this build on the evening of Nov 23, after the fixes from his first play-test (sword grip,
+  mount and dismount, flight camera and Pegasus's flight clips, creatures on the islands, strike effects and wounds,
+  clipping), and said "Game looks good." Feel, difficulty, mouse camera and sound are still yours to judge.
 - No settings menu: you cannot change mouse sensitivity, volume or invert-Y, or rebind keys.
 - Animations. On Nov 23 every idle and every walk (and the hero's run) was keyframed again from a new reference video
   that starts from a natural stance, and every other clip had its frozen limbs moved off the rest pose and given life
